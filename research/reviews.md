@@ -79,8 +79,9 @@ free plan.
 
 **Known-weak claims, before any recommendation:**
 
-1. The 366 battleships cards are treated as one source, not re-verified
-   individually. 12 were re-checked; the other 354 are `index`-grade.
+1. The 366 battleships cards are treated as one source. 20 were re-read and
+   reconciled against their own pages across two sweeps; 2 are blocked from this
+   host (Oracle, Lightning AI); the other 344 are `index`-grade.
 2. `priceCard` strictness plus no `required`-feature pass means the ranking is
    a shape ranking, not a fit ranking (see pass 1).
 3. netcup's number is a lower bound, resolved in revision 3: the row is VPS
@@ -107,9 +108,28 @@ free plan.
    reached"; the 1 h column is the same number. That is deliberate for a VPS,
    but it means the 1 h and 10 h cells are the *monthly* price, not an hourly
    tariff. Rows that do this carry the caveat in `data/derived.json`.
+9. **Two free grants are applied to a different meter than they belong to.**
+   Azure Container Apps' $5.40 is the Consumption plan's 180,000 vCPU-s +
+   360,000 GiB-s; the row prices Dynamic Sessions. Google's $5.22 is the Cloud
+   Run Services free tier; the row prices the separate Instances (Preview)
+   meter. With those credits removed the rows are $9.00 and $9.58 for 10 h/day.
+10. **The #1 row is region-gated and unverifiable from this host.** Every
+    `lightning.ai` URL 403s ("hasn't expanded to your area yet") from a
+    Venezuela egress, so the card is carried from the corpus render; the
+    non-zero figure in that row is Drive storage, not compute.
 
-**The next pass should attack:** whether the Lizard pricing page or its docs is
-current (this needs a changelog or an API call, not another read of the same two
-pages), whether Hyperbeam's participant-minute model is the right one for a
-headless sandbox, and whether the two identical-rate cards (PPIO/UCloud) are one
-vendor. **Assume more claims remain wrong.**
+**The second sweep (2026-10-02) attacked all three, and the answers are in
+`research/verification/2026-10-02.md`:** Lizard's changelog is empty and no
+route from here dates either page, so it stays disputed; Hyperbeam is an
+embeddable *multiplayer* virtual computer, so its participant-minute model is
+the wrong one for a headless sandbox; and PPIO/UCloud still share a rate card,
+differing only in the free quota, with nothing establishing common ownership.
+That sweep also found two new defects the first pass missed: the Azure and
+Google free grants are applied to a different meter than the one they belong to,
+and the #1 row (Lightning AI) is region-gated and unverifiable from this host.
+
+**The next pass should attack:** whether the Lizard runtime now honours the
+Small size (this needs an authenticated API call, not another read), and a
+second tier of providers below the top 20 (Kamatera, Civo, Vultr, Together,
+Alibaba, Together) that has never been re-read. **Assume more claims remain
+wrong.**

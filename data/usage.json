@@ -1076,7 +1076,7 @@
     "machine size per session not published",
     "disk beyond 4 GiB: price unknown"
    ],
-   "notes": "no machine size published, not shape-comparable; disk beyond 4 GiB: price unknown; $5.4/mo free credit"
+   "notes": "free grant ($5.40) is Consumption vCPU/GiB, not the Dynamic Sessions mode priced; no machine size published, not shape-comparable; disk beyond 4 GiB: price unknown"
   },
   {
    "id": "azure-dev-box",
@@ -4527,7 +4527,7 @@
    "unpriced": false,
    "reasons": [],
    "caveats": [],
-   "notes": "$5.22/mo free credit"
+   "notes": "free tier is the Services grant; row is the Instances (Preview) meter; $5.22/mo free credit"
   },
   {
    "id": "google-colab",
@@ -6028,7 +6028,7 @@
    "caveats": [
     "flat pool: the tier is billed whether used or not"
    ],
-   "notes": "free CPU Studio stack: 4 h/session then it converts to paid; one at a time; egress unpublished; flat pool, billed whether used or not"
+   "notes": "free CPU Studio: 4 h/session then paid, one at a time; rest is Drive storage; 403 here; egress unpublished; flat pool, billed whether used or not"
   },
   {
    "id": "lightpanda",

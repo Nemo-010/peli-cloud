@@ -29,23 +29,29 @@ Full tables: [`data/usage.md`](data/usage.md) (human) and
   what the price is for.
 - **It uses the engine's strict `priceCard`, not the site's `priceSoft`.** It is
   not the battleships ranking and must not be compared row for row.
-- **354 of 366 providers were not re-verified by hand.** 12 provider pages were
-  re-fetched and reconciled (`research/verification/2026-10-02.md`); the rest
-  carry the corpus figure at its captured commit.
+- **20 of 366 providers' own pages have been read and reconciled** across two
+  passes (`research/verification/2026-10-02.md`); **2 more are blocked from
+  this host** (Oracle and Lightning AI: the whole domain 403 for each) and the
+  other **344 carry the corpus figure** at its captured commit.
 - **A `$0` row is only a genuine free tier/credit.** A zero with no published
   compute rate is `unpriced` and kept out of the ranking (Bright Data,
   Unikraft). Free tiers are shown with the credit that produces them, and a
   free-tier product leads the list (Lightning AI) because the engine prices it
-  honestly; its 4 h session cap is in the note.
+  honestly; its 4 h session cap is in the note, and the $0.411 it does show is
+  Drive storage above the free 10 GB, not compute.
 - **Recurring free *allowances* are not modelled, only dollar credits.** The
   engine applies `monthly_credit` and `one_time_credit`; a resource allowance
   (so many OCPU-hours or GB-hours a month) is carried as a note and prices at
   list. This matters most for **Oracle**, whose Always Free Ampere A1 allowance
   (1,500 OCPU-h + 9,000 GB-h/month) covers this whole shape **including 24/7**,
-  so a qualifying account pays **$0** against the $7.41 shown. GCP, AWS and
-  Azure free tiers are too small for a 4 GiB shape and do not change a row.
-  Details in `research/verification/2026-10-02.md`.
-- **Assume more claims are wrong than the eleven listed at the end.**
+  so a qualifying account pays **$0** against the $7.41 shown. Where the corpus
+  did convert an allowance into a dollar credit, the engine applies it to
+  whichever mode is cheapest — and for **Azure Container Apps** ($5.40) and
+  **Google Cloud Run** ($5.22) that mode is a different SKU than the grant
+  belongs to. Removing those credits prices Azure at $9.00 and Google at $9.58
+  for 10 h/day, so the top five is softer than it looks. Details in
+  `research/verification/2026-10-02.md`.
+- **Assume more claims are wrong than the thirteen listed at the end.**
 
 ## Conditions
 
@@ -115,13 +121,13 @@ Top 16 of 179 priceable. **All 366 rows** — every provider surveyed, including
 
 | # | Provider | Type | 1 h | 10 h | 1 day | 1 week | 10 h/d x30 | 24/7 x30 | Notes |
 |---|---|---|---|---|---|---|---|---|---|
-| 1 | [Lightning AI](https://lightning.ai/pricing) | dev-env/vm | $0.0014 | $0.014 | $0.033 | $0.230 | **$0.411** | $0.986 | free CPU Studio stack: 4 h/session then it converts to paid; one at a time; egress unpublished; flat pool, billed whether used or not |
+| 1 | [Lightning AI](https://lightning.ai/pricing) | dev-env/vm | $0.0014 | $0.014 | $0.033 | $0.230 | **$0.411** | $0.986 | free CPU Studio: 4 h/session then paid, one at a time; rest is Drive storage; 403 here; egress unpublished; flat pool, billed whether used or not |
 | 2 | [Agent 37](https://www.agent37.com/pricing) | agent-sandbox/gvisor | $0.0085 | $0.085 | $0.204 | $1.43 | **$2.55** | $6.12 | egress unpublished |
 | 3 | [Oracle Cloud Infrastructure](https://www.oracle.com/cloud/compute/pricing/) | hyperscaler/vm | $0.010 | $0.103 | $0.247 | $1.73 | **$3.09** | $7.41 | unverified: all oracle.com returns 403; Always Free A1 covers this shape ($0) |
 | 4 | [Hetzner Cloud](https://docs.hetzner.com/general/infrastructure-and-availability/price-adjustment/) | hyperscaler/vm | $0.010 | $0.104 | $0.250 | $1.75 | **$3.12** | $6.49 |  |
-| 5 | [Azure Container Apps (Consumption, Dedicated, Dynamic Sessions)](https://azure.microsoft.com/en-us/pricing/details/container-apps/) | hyperscaler/vm | $0 | $0 | $0 | $0 | **$3.60** | $16.20 | no machine size published, not shape-comparable; disk beyond 4 GiB: price unknown; $5.4/mo free credit |
+| 5 | [Azure Container Apps (Consumption, Dedicated, Dynamic Sessions)](https://azure.microsoft.com/en-us/pricing/details/container-apps/) | hyperscaler/vm | $0 | $0 | $0 | $0 | **$3.60** | $16.20 | free grant ($5.40) is Consumption vCPU/GiB, not the Dynamic Sessions mode priced; no machine size published, not shape-comparable; disk beyond 4 GiB: price unknown |
 | 6 | [zipbox](https://zipbox.ai/pricing) | agent-sandbox/firecracker | $0.014 | $0.137 | $0.329 | $2.30 | **$4.11** | $9.86 | egress unpublished |
-| 7 | [Google Cloud Run](https://cloud.google.com/run/pricing) | hyperscaler/gvisor | $0 | $0 | $0 | $0.144 | **$4.36** | $17.77 | $5.22/mo free credit |
+| 7 | [Google Cloud Run](https://cloud.google.com/run/pricing) | hyperscaler/gvisor | $0 | $0 | $0 | $0.144 | **$4.36** | $17.77 | free tier is the Services grant; row is the Instances (Preview) meter; $5.22/mo free credit |
 | 8 | [IONOS Cloud](https://docs.ionos.com/cloud/support/general-information/price-list/ionos-cloud-eur-en) | hyperscaler/vm | $0.015 | $0.148 | $0.355 | $2.48 | **$4.44** | $10.65 |  |
 | 9 | [netcup VPS](https://www.netcup.com/en/server/vps) | hyperscaler/vm | $5.03 | $5.03 | $5.03 | $5.03 | **$5.03** | $5.03 | entry row is VPS Lite 1 (6-month min); VPS 500 is $8.51/mo; price is one month's rent at every horizon |
 | 10 | [Kedge](https://kedge.dev/docs/billing) | agent-sandbox/vm | $0 | $0 | $0 | $0.984 | **$5.68** | $20.64 | $5/mo free credit |
@@ -192,7 +198,10 @@ Standouts where the horizon changes the winner — see
    memory, ￥0.0005/GB/h of storage — with the same 512 MiB memory steps and the
    same limits. They are separate cards in the corpus with separate domains
    (`ppio.com`, `astraflow.ucloud.cn`), so both are ranked, as two adjacent rows
-   at $19.31 each. Recorded as a duplicate candidate, not silently merged.
+   at $19.31 each. Recorded as a duplicate candidate, not silently merged. The
+   pages differ only in the free quota: UCloud gives a one-time 480 core-h +
+   960 GiB-h (30 days, one per account) and a 10 GB local disk; PPIO gives a
+   20 GB local disk and no headline CPU/RAM grant.
 7. **Hyperbeam's weekly $0.56 is not a rate.** Its `HD participant-hour` size
    is $0.42/h with **10,000 free participant-minutes a month** ($70 of the base
    rate), so every horizon shorter than a week prices at $0 and the week shows
@@ -224,6 +233,27 @@ Standouts where the horizon changes the winner — see
    the row is **$2.70**, second only to Agent 37. Revision 1 called this row
    "confirmed" while quoting the Small line in the same breath — that was a
    lazy confirmation, and it is corrected in `research/verification/2026-10-02.md`.
+   Re-fetched 2026-10-02: both pages still disagree, and `lizard.build/changelog`
+   renders `Nothing here yet.`, so nothing from here dates either page.
+12. **The #1 row is a free tier on a provider this host cannot reach.** Every
+   `lightning.ai` URL returns the same 403 page ("Lightning hasn't expanded to
+   your area yet") from the errand host, which egresses from Venezuela, so the
+   card is carried from the corpus's 2026-09-28 render and could not be
+   re-checked here. Its non-zero figure is not compute: the engine breakdown
+   for 10 h/day x30 is `compute: 0, storage: 0.411`, i.e. **10 GiB of Drive
+   storage above the free 10 GB**. The free CPU Studio itself is $0, one at a
+   time and capped at 4 h per session. So the cheapest row in the sheet rests
+   on a free tier, on an unverified card, for a product not sold in every
+   region.
+13. **Two free grants are applied to the wrong meter.** Azure Container Apps'
+   $5.40 is the Consumption plan's 180,000 vCPU-seconds + 360,000 GiB-seconds
+   per month; the row prices Dynamic Sessions at $0.03/session-hour, a separate
+   SKU with no published grant. Google Cloud Run's $5.22 is the Services free
+   tier; the row prices the separate "Instances" (Preview) meter, which the
+   page lists without a free tier. With the credit removed those rows are
+   **$9.00** and **$9.58** at 10 h/day (against $3.60 and $4.36 shown), which
+   moves Azure out of the top five. The rows are kept as the corpus prices
+   them; the notes name the mismatch now.
 
 ## Negative results
 
@@ -234,6 +264,10 @@ Standouts where the horizon changes the winner — see
   1,339-byte **export-control 403** from this host. Its row is unverified, and
   its Always Free A1 allowance (which would price this shape at $0) is not
   modelled.
+- **Lightning AI is blocked at the domain, by region.** Every `lightning.ai`
+  URL returns the same 739-byte 403 ("hasn't expanded to your area yet") from
+  this host, whose egress is Venezuela (AS61461) — so the catalogue's #1 row
+  cannot be re-verified here at all.
 - **netcup's number is a lower bound, with the mechanism now known**: the
   comparison shape is $8.51/mo on a 1-month term. `research/reviews.md` pass 4.
 

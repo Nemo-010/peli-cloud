@@ -95,7 +95,9 @@ CORRECTIONS = {
     "lizard": "disputed: pricing page sells Small 2 vCPU/4 GiB at $0.009/h; docs fix 4 vCPU",
     "bright-data-browser": "browser product, bandwidth-metered",
     "unikraft-cloud": "flat pool, no per-shape rate",
-    "lightning-ai": "free CPU Studio stack: 4 h/session then it converts to paid; one at a time",
+    "lightning-ai": "free CPU Studio: 4 h/session then paid, one at a time; rest is Drive storage; 403 here",
+    "azure-container-apps": "free grant ($5.40) is Consumption vCPU/GiB, not the Dynamic Sessions mode priced",
+    "google-cloud-run": "free tier is the Services grant; row is the Instances (Preview) meter",
 }
 
 
