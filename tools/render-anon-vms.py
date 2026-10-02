@@ -11,7 +11,9 @@ import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, "data", "anonymous-vms.json")
-OUT = os.path.join(ROOT, "docs", "ANONYMOUS-VMS.md")
+# The output path is overridable so a check can render into a scratch directory
+# and compare bytes, without rewriting the committed page.
+OUT = os.environ.get("ANON_VMS_OUT") or os.path.join(ROOT, "docs", "ANONYMOUS-VMS.md")
 
 d = json.load(open(DATA))
 rows = d["rows"]
@@ -177,12 +179,30 @@ commands, is in
 - The one row that could not be re-fetched (`oracle.com` returns a 1,339-byte
   export-control 403 to this host) is marked `blocked-from-host` and carries the
   carried figure and the reason rather than a silent guess.
+- **A page that renders its own words inside a JSON-LD block is not unreadable.**
+  A sibling implementation found that stripping every `<script>` threw away a
+  schema.org pricing block and made 4 readable pages read as "client-rendered
+  shells". [`tools/check-strip-selftest.py`](../tools/check-strip-selftest.py)
+  is the reader here, with 8 known-answer cases; `--naive` runs the same cases
+  through the pre-fix one-liner and must fail 3 of them.
+  [`tools/crosscheck-jsonld.py`](../tools/crosscheck-jsonld.py) then asked what
+  that means for this page: of 62 published URLs, 31 carry a JSON-LD block and
+  **0 verdicts changed**, so it is a guard rather than a correction. The result
+  is in [`data/jsonld-crosscheck.json`](../data/jsonld-crosscheck.json).
 - `tools/check-anon-vms.py` gates the list. Run it with:
 
 ```sh
-python3 tools/check-anon-vms.py     # rows, ssh-capable count, missing fields
-python3 tools/render-anon-vms.py    # rewrite this page from the JSON
+python3 tools/check-anon-vms.py       # rows, ssh-capable count, missing fields
+python3 tools/render-anon-vms.py      # rewrite this page from the JSON
+python3 tools/check-strip-selftest.py # the reader's known-answer cases
+python3 tools/crosscheck-jsonld.py    # does the JSON-LD fix change anything
+sh tests/regressions-anon-vms.sh      # 14 clauses; --stash proves they can fail
 ```
+
+The reviews of both passes are in
+[`research/deep-reviews-anon-vms.md`](../research/deep-reviews-anon-vms.md),
+including what the JSON-LD crosscheck did **not** establish: 31 of 62 published
+URLs carry a JSON-LD block, and none of them changed verdict.
 
 *We aim to provide the software that shapes the world of tomorrow.*
 """

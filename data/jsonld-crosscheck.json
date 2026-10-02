@@ -1,0 +1,567 @@
+{
+ "generated": "2026-10-02",
+ "question": "does the sibling's JSON-LD stripper fix change anything this repository published, and did the old reader misclassify any of its own rows?",
+ "rows_checked": 62,
+ "rows_with_jsonld": 31,
+ "unreadable_by_old_reader": [],
+ "unreadable_by_new_reader": [
+  "killercoda"
+ ],
+ "misclassified": [],
+ "rows": [
+  {
+   "id": "railway-free-vm",
+   "url": "https://railway.com/free-vm",
+   "error": null,
+   "bytes": 162782,
+   "jsonld_blocks": 3,
+   "readable_naive": true,
+   "readable_jsonld_aware": true
+  },
+  {
+   "id": "github-codespaces",
+   "url": "https://docs.github.com/en/billing/concepts/product-billing/github-codespaces",
+   "error": null,
+   "bytes": 196281,
+   "jsonld_blocks": 0,
+   "readable_naive": true,
+   "readable_jsonld_aware": true
+  },
+  {
+   "id": "google-cloud-shell",
+   "url": "https://cloud.google.com/shell/docs/limitations",
+   "error": null,
+   "bytes": 139335,
+   "jsonld_blocks": 2,
+   "readable_naive": true,
+   "readable_jsonld_aware": true
+  },
+  {
+   "id": "aws-cloudshell",
+   "url": "https://aws.amazon.com/cloudshell/",
+   "error": null,
+   "bytes": 340528,
+   "jsonld_blocks": 3,
+   "readable_naive": true,
+   "readable_jsonld_aware": true
+  },
+  {
+   "id": "microsoft-azure-cloud-shell",
+   "url": "https://learn.microsoft.com/en-us/azure/cloud-shell/overview",
+   "error": null,
+   "bytes": 49177,
+   "jsonld_blocks": 0,
+   "readable_naive": true,
+   "readable_jsonld_aware": true
+  },
+  {
+   "id": "sdf-public-access-unix",
+   "url": "https://sdf.org/?signup",
+   "error": null,
+   "bytes": 3467,
+   "jsonld_blocks": 0,
+   "readable_naive": true,
+   "readable_jsonld_aware": true
+  },
+  {
+   "id": "hashbang",
+   "url": "https://hashbang.sh/",
+   "error": null,
+   "bytes": 15211,
+   "jsonld_blocks": 0,
+   "readable_naive": true,
+   "readable_jsonld_aware": true
+  },
+  {
+   "id": "tilde-club",
+   "url": "https://tilde.club/wiki/",
+   "error": null,
+   "bytes": 5396,
+   "jsonld_blocks": 0,
+   "readable_naive": true,
+   "readable_jsonld_aware": true
+  },
+  {
+   "id": "tilde-town",
+   "url": "https://tilde.town/",
+   "error": null,
+   "bytes": 216651,
+   "jsonld_blocks": 0,
+   "readable_naive": true,
+   "readable_jsonld_aware": true
+  },
+  {
+   "id": "alwaysdata-free",
+   "url": "https://www.alwaysdata.com/en/pricing/",
+   "error": null,
+   "bytes": 147039,
+   "jsonld_blocks": 0,
+   "readable_naive": true,
+   "readable_jsonld_aware": true
+  },
+  {
+   "id": "oracle-always-free",
+   "url": "https://www.oracle.com/cloud/free/",
+   "error": "HTTPError: HTTP Error 403: Forbidden",
+   "jsonld_blocks": 0,
+   "readable_naive": null,
+   "readable_jsonld_aware": null
+  },
+  {
+   "id": "google-cloud-free-e2-micro",
+   "url": "https://cloud.google.com/free/docs/free-cloud-features",
+   "error": null,
+   "bytes": 181247,
+   "jsonld_blocks": 2,
+   "readable_naive": true,
+   "readable_jsonld_aware": true
+  },
+  {
+   "id": "aws-free-tier",
+   "url": "https://aws.amazon.com/free/",
+   "error": null,
+   "bytes": 433185,
+   "jsonld_blocks": 3,
+   "readable_naive": true,
+   "readable_jsonld_aware": true
+  },
+  {
+   "id": "azure-free-account",
+   "url": "https://azure.microsoft.com/en-us/free/",
+   "error": null,
+   "bytes": 498316,
+   "jsonld_blocks": 0,
+   "readable_naive": true,
+   "readable_jsonld_aware": true
+  },
+  {
+   "id": "modal-starter",
+   "url": "https://modal.com/pricing",
+   "error": null,
+   "bytes": 273911,
+   "jsonld_blocks": 3,
+   "readable_naive": true,
+   "readable_jsonld_aware": true
+  },
+  {
+   "id": "huggingface-spaces",
+   "url": "https://huggingface.co/pricing",
+   "error": null,
+   "bytes": 217996,
+   "jsonld_blocks": 0,
+   "readable_naive": true,
+   "readable_jsonld_aware": true
+  },
+  {
+   "id": "northflank-sandbox",
+   "url": "https://northflank.com/pricing",
+   "error": null,
+   "bytes": 193604,
+   "jsonld_blocks": 0,
+   "readable_naive": true,
+   "readable_jsonld_aware": true
+  },
+  {
+   "id": "render-free",
+   "url": "https://render.com/pricing",
+   "error": null,
+   "bytes": 699843,
+   "jsonld_blocks": 3,
+   "readable_naive": true,
+   "readable_jsonld_aware": true
+  },
+  {
+   "id": "koyeb",
+   "url": "https://www.koyeb.com/pricing",
+   "error": null,
+   "bytes": 274187,
+   "jsonld_blocks": 0,
+   "readable_naive": true,
+   "readable_jsonld_aware": true
+  },
+  {
+   "id": "fly-io",
+   "url": "https://fly.io/docs/about/pricing/",
+   "error": null,
+   "bytes": 561443,
+   "jsonld_blocks": 1,
+   "readable_naive": true,
+   "readable_jsonld_aware": true
+  },
+  {
+   "id": "play-with-docker",
+   "url": "https://labs.play-with-docker.com/",
+   "error": null,
+   "bytes": 4415,
+   "jsonld_blocks": 0,
+   "readable_naive": true,
+   "readable_jsonld_aware": true
+  },
+  {
+   "id": "killercoda",
+   "url": "https://killercoda.com/",
+   "error": null,
+   "bytes": 54270,
+   "jsonld_blocks": 0,
+   "readable_naive": false,
+   "readable_jsonld_aware": false
+  },
+  {
+   "id": "lightning-ai",
+   "url": "https://lightning.ai/pricing",
+   "error": "HTTPError: HTTP Error 403: Forbidden",
+   "jsonld_blocks": 0,
+   "readable_naive": null,
+   "readable_jsonld_aware": null
+  },
+  {
+   "id": "bright-data-browser",
+   "url": "https://brightdata.com/pricing/scraping-browser",
+   "error": null,
+   "bytes": 228369,
+   "jsonld_blocks": 2,
+   "readable_naive": true,
+   "readable_jsonld_aware": true
+  },
+  {
+   "id": "unikraft-cloud",
+   "url": "https://unikraft.com/pricing",
+   "error": null,
+   "bytes": 87542,
+   "jsonld_blocks": 1,
+   "readable_naive": true,
+   "readable_jsonld_aware": true
+  },
+  {
+   "id": "agent-37",
+   "url": "https://www.agent37.com/pricing",
+   "error": null,
+   "bytes": 83188,
+   "jsonld_blocks": 1,
+   "readable_naive": true,
+   "readable_jsonld_aware": true
+  },
+  {
+   "id": "oracle-cloud",
+   "url": "https://www.oracle.com/cloud/compute/pricing/",
+   "error": "HTTPError: HTTP Error 403: Forbidden",
+   "jsonld_blocks": 0,
+   "readable_naive": null,
+   "readable_jsonld_aware": null
+  },
+  {
+   "id": "hetzner-cloud",
+   "url": "https://docs.hetzner.com/general/infrastructure-and-availability/price-adjustment/",
+   "error": null,
+   "bytes": 361256,
+   "jsonld_blocks": 0,
+   "readable_naive": true,
+   "readable_jsonld_aware": true
+  },
+  {
+   "id": "azure-container-apps",
+   "url": "https://azure.microsoft.com/en-us/pricing/details/container-apps/",
+   "error": null,
+   "bytes": 547649,
+   "jsonld_blocks": 0,
+   "readable_naive": true,
+   "readable_jsonld_aware": true
+  },
+  {
+   "id": "zipbox",
+   "url": "https://zipbox.ai/pricing",
+   "error": null,
+   "bytes": 40232,
+   "jsonld_blocks": 1,
+   "readable_naive": true,
+   "readable_jsonld_aware": true
+  },
+  {
+   "id": "google-cloud-run",
+   "url": "https://cloud.google.com/run/pricing",
+   "error": null,
+   "bytes": 3120721,
+   "jsonld_blocks": 0,
+   "readable_naive": true,
+   "readable_jsonld_aware": true
+  },
+  {
+   "id": "ionos",
+   "url": "https://docs.ionos.com/cloud/support/general-information/price-list/ionos-cloud-eur-en",
+   "error": null,
+   "bytes": 4312598,
+   "jsonld_blocks": 0,
+   "readable_naive": true,
+   "readable_jsonld_aware": true
+  },
+  {
+   "id": "netcup",
+   "url": "https://www.netcup.com/en/server/vps",
+   "error": null,
+   "bytes": 729678,
+   "jsonld_blocks": 2,
+   "readable_naive": true,
+   "readable_jsonld_aware": true
+  },
+  {
+   "id": "kedge",
+   "url": "https://kedge.dev/docs/billing",
+   "error": null,
+   "bytes": 55195,
+   "jsonld_blocks": 0,
+   "readable_naive": true,
+   "readable_jsonld_aware": true
+  },
+  {
+   "id": "gcore",
+   "url": "https://gcore.com/cloud/virtual-machines",
+   "error": null,
+   "bytes": 484423,
+   "jsonld_blocks": 1,
+   "readable_naive": true,
+   "readable_jsonld_aware": true
+  },
+  {
+   "id": "browser-use",
+   "url": "https://browser-use.com/pricing",
+   "error": null,
+   "bytes": 159157,
+   "jsonld_blocks": 0,
+   "readable_naive": true,
+   "readable_jsonld_aware": true
+  },
+  {
+   "id": "shellbox",
+   "url": "https://shellbox.dev/",
+   "error": null,
+   "bytes": 111672,
+   "jsonld_blocks": 0,
+   "readable_naive": true,
+   "readable_jsonld_aware": true
+  },
+  {
+   "id": "upcloud",
+   "url": "https://upcloud.com/pricing/",
+   "error": null,
+   "bytes": 540347,
+   "jsonld_blocks": 1,
+   "readable_naive": true,
+   "readable_jsonld_aware": true
+  },
+  {
+   "id": "lizard",
+   "url": "https://lizard.build/pricing",
+   "error": null,
+   "bytes": 302836,
+   "jsonld_blocks": 3,
+   "readable_naive": true,
+   "readable_jsonld_aware": true
+  },
+  {
+   "id": "contabo",
+   "url": "https://contabo.com/en-us/pricing/",
+   "error": null,
+   "bytes": 1433579,
+   "jsonld_blocks": 28,
+   "readable_naive": true,
+   "readable_jsonld_aware": true
+  },
+  {
+   "id": "fly-machines",
+   "url": "https://fly.io/pricing",
+   "error": null,
+   "bytes": 96694,
+   "jsonld_blocks": 7,
+   "readable_naive": true,
+   "readable_jsonld_aware": true
+  },
+  {
+   "id": "ovhcloud",
+   "url": "https://us.ovhcloud.com/public-cloud/prices/",
+   "error": null,
+   "bytes": 1443643,
+   "jsonld_blocks": 1,
+   "readable_naive": true,
+   "readable_jsonld_aware": true
+  },
+  {
+   "id": "scaleway",
+   "url": "https://www.scaleway.com/en/pricing/virtual-instances/",
+   "error": null,
+   "bytes": 6781154,
+   "jsonld_blocks": 0,
+   "readable_naive": true,
+   "readable_jsonld_aware": true
+  },
+  {
+   "id": "insforge-instacloud",
+   "url": "https://www.instacloud.com/pricing",
+   "error": null,
+   "bytes": 92670,
+   "jsonld_blocks": 1,
+   "readable_naive": true,
+   "readable_jsonld_aware": true
+  },
+  {
+   "id": "kamatera",
+   "url": "https://www.kamatera.com/pricing/",
+   "error": null,
+   "bytes": 346058,
+   "jsonld_blocks": 1,
+   "readable_naive": true,
+   "readable_jsonld_aware": true
+  },
+  {
+   "id": "upstash-box",
+   "url": "https://upstash.com/pricing/box",
+   "error": null,
+   "bytes": 145125,
+   "jsonld_blocks": 2,
+   "readable_naive": true,
+   "readable_jsonld_aware": true
+  },
+  {
+   "id": "civo",
+   "url": "https://www.civo.com/pricing",
+   "error": null,
+   "bytes": 196542,
+   "jsonld_blocks": 2,
+   "readable_naive": true,
+   "readable_jsonld_aware": true
+  },
+  {
+   "id": "vultr",
+   "url": "https://www.vultr.com/pricing/",
+   "error": null,
+   "bytes": 1393037,
+   "jsonld_blocks": 1,
+   "readable_naive": true,
+   "readable_jsonld_aware": true
+  },
+  {
+   "id": "together-code-sandbox",
+   "url": "https://www.together.ai/pricing",
+   "error": null,
+   "bytes": 575540,
+   "jsonld_blocks": 1,
+   "readable_naive": true,
+   "readable_jsonld_aware": true
+  },
+  {
+   "id": "alibaba-ecs",
+   "url": "https://www.alibabacloud.com/en/product/ecs/pricing",
+   "error": null,
+   "bytes": 206005,
+   "jsonld_blocks": 0,
+   "readable_naive": true,
+   "readable_jsonld_aware": true
+  },
+  {
+   "id": "ubicloud",
+   "url": "https://www.ubicloud.com/docs/about/pricing",
+   "error": null,
+   "bytes": 342546,
+   "jsonld_blocks": 2,
+   "readable_naive": true,
+   "readable_jsonld_aware": true
+  },
+  {
+   "id": "anchor-browser",
+   "url": "https://anchorbrowser.io/pricing",
+   "error": null,
+   "bytes": 234199,
+   "jsonld_blocks": 1,
+   "readable_naive": true,
+   "readable_jsonld_aware": true
+  },
+  {
+   "id": "prized",
+   "url": "https://prized.dev/docs/billing",
+   "error": null,
+   "bytes": 134885,
+   "jsonld_blocks": 0,
+   "readable_naive": true,
+   "readable_jsonld_aware": true
+  },
+  {
+   "id": "kakao-cloud",
+   "url": "https://www.kakaocloud.com/services/virtual-machine/pricing",
+   "error": null,
+   "bytes": 241683,
+   "jsonld_blocks": 0,
+   "readable_naive": true,
+   "readable_jsonld_aware": true
+  },
+  {
+   "id": "ibm-cloud-vpc",
+   "url": "https://www.ibm.com/products/virtual-servers/pricing",
+   "error": null,
+   "bytes": 237523,
+   "jsonld_blocks": 1,
+   "readable_naive": true,
+   "readable_jsonld_aware": true
+  },
+  {
+   "id": "digitalocean",
+   "url": "https://www.digitalocean.com/pricing/droplets",
+   "error": null,
+   "bytes": 490855,
+   "jsonld_blocks": 0,
+   "readable_naive": true,
+   "readable_jsonld_aware": true
+  },
+  {
+   "id": "linode",
+   "url": "https://www.akamai.com/cloud/pricing",
+   "error": "HTTPError: HTTP Error 403: Forbidden",
+   "jsonld_blocks": 0,
+   "readable_naive": null,
+   "readable_jsonld_aware": null
+  },
+  {
+   "id": "tencent-cloud-studio",
+   "url": "https://cloud.tencent.cn/document/product/1039/131894",
+   "error": null,
+   "bytes": 51095,
+   "jsonld_blocks": 0,
+   "readable_naive": true,
+   "readable_jsonld_aware": true
+  },
+  {
+   "id": "azure-vm",
+   "url": "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/",
+   "error": null,
+   "bytes": 470893,
+   "jsonld_blocks": 0,
+   "readable_naive": true,
+   "readable_jsonld_aware": true
+  },
+  {
+   "id": "paperspace",
+   "url": "https://docs.digitalocean.com/products/paperspace/pricing/",
+   "error": null,
+   "bytes": 57533,
+   "jsonld_blocks": 1,
+   "readable_naive": true,
+   "readable_jsonld_aware": true
+  },
+  {
+   "id": "kernel",
+   "url": "https://www.onkernel.com/pricing",
+   "error": null,
+   "bytes": 74675,
+   "jsonld_blocks": 3,
+   "readable_naive": true,
+   "readable_jsonld_aware": true
+  },
+  {
+   "id": "sail",
+   "url": "https://docs.sailresearch.com/pricing",
+   "error": null,
+   "bytes": 798841,
+   "jsonld_blocks": 1,
+   "readable_naive": true,
+   "readable_jsonld_aware": true
+  }
+ ]
+}

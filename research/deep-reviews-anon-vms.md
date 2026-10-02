@@ -177,3 +177,163 @@ whether the section applies to them.
   the provider's own words are quoted.
 - **That the "free-account" rows are anonymous.** They are not, and the class
   names say so; 14 of the 15 SSH-capable rows ask for an account.
+
+---
+
+# Second pass, 2026-10-02: consuming the sibling's next commit (f6401a0)
+
+`talaria0101/peli-cloud` moved again while this work was in progress. Its new
+commit is a defect report against its own instrument, not new pricing:
+
+> **The stripper was calling 4 readable pages "client-rendered shells"** —
+> aptible's 713 KB pricing page carries a JSON-LD block *inside a `<script>`
+> tag* holding the very billing sentences the probe looks for, including
+> "Starting at $499/month". Stripping every script discarded it, the page looked
+> empty, and the verdict became "no price rendered in the HTML (client-side)".
+> Re-checking all 26 shell verdicts: **4 were mislabelled, 22 are genuinely
+> client-rendered.**
+
+The reviews below are this pass's response: what was ported, what was not, and
+what the port turned out to mean for this repository.
+
+## R11 — The lesson, not the fix, is what transfers
+
+**Attacked:** the assumption that the sibling's change is a patch to copy.
+
+**Finding:** this repository has no billing-posture probe. It has never fetched
+183 pages looking for idle-billing sentences, so it had no `strip_markup()` and
+no verdict to correct. Its `data/usage.json` carries no `shell` verdicts, and 0
+of its 62 checked published URLs would have been flipped by the fix (measured,
+not assumed — R14). Copying the diff would have added a function nothing calls.
+
+**What changed:** the *class* of defect was ported instead of the code: a
+reader that turns HTML into text, and a known-answer self-test that fails if the
+reader drops published data. `tools/check-strip-selftest.py` — 8 cases, 3 of
+which fail against the naive one-liner the sibling shipped.
+
+## R12 — A self-test that passes either way is not a self-test
+
+**Attacked:** the ported self-test itself.
+
+**Finding:** the sibling's commit records that reverting the stripper makes its
+self-test fail on the JSON-LD case, and its mutation harness counts "17 of 17
+caught". That is the right shape, and a port that only shipped the passing half
+would be strictly weaker than the thing it came from — a checker whose failure
+has never been observed.
+
+**What changed:** `--naive` mode runs the *same* cases through the pre-fix
+one-liner and exits non-zero. A regression clause asserts both halves
+(`stripper_selftest` and `stripper_selftest_fails_naive`), so the passing half
+cannot outlive the failing half. The mutation is checked into the test file
+rather than being a claim in a commit message.
+
+## R13 — An existing clause was passing for the wrong reason
+
+**Attacked:** `credit_mover_kedge`, added in the first pass of this work. It
+read `data/usage.json` through a shell-quoted `python3 -c`.
+
+**Finding:** the clause worked on the fixed tree and failed against the
+pre-fix tree, which is exactly what was claimed of it — so nothing here is
+wrong. The defect is in the *mechanism*: the check was never observed failing
+against a tree that merely had bad **data**, only against a tree where the field
+was absent. A copy of the credited numbers into the no-credit column would have
+passed it. That is the same "it was never a re-sort" failure the clause exists
+to catch.
+
+**What changed:** the clause is now `tools/check-credit-mover.py`, which checks
+three providers (Kedge, Google Cloud Run, Azure Container Apps) rather than one
+and has a `--mutate` mode that writes the credited numbers into the no-credit
+column. Against the mutation the check fails, naming all six violated
+assertions. The regression suite asserts both directions
+(`credit_mover_kedge` and `credit_mover_guard_can_fail`).
+
+## R14 — Did the old reader misclassify anything here? (measured)
+
+**Attacked:** the possibility that this repository is carrying the same false
+"unreadable page" verdict, which is the whole reason the sibling's commit
+matters.
+
+**Finding:** `tools/crosscheck-jsonld.py` fetched **62 URLs this repository
+publishes** (every census row plus the 40 cheapest ranked rows) and ran both
+readers over each. **31 of the 62 contain a JSON-LD block** — the format is
+pervasive, so the class of defect was live here even though the symptom was not.
+**0 verdicts changed**: every one of those pages is also readable without the
+JSON-LD. One page, `killercoda`, is unreadable by both readers and stays
+recorded as such, which is the honest answer.
+
+So the port is a **guard against a future probe, not a correction to a published
+row**, and that is stated rather than implied. The result is committed as
+`data/jsonld-crosscheck.json` with the per-URL evidence.
+
+## R15 — The stash mode was not doing what its own comment claimed
+
+**Attacked:** `tests/regressions-anon-vms.sh --stash`, the mode that has to
+demonstrate the clauses can fail.
+
+**Finding:** after the first pass was committed, the mode stashed nothing —
+`git stash push` without `--include-untracked` leaves untracked files, and a
+dirty tree leaves nothing to stash — so `--stash` reported a full pass while
+printing "(a low pass count is the expected result)", which was false. A mode
+that reports success when it tested nothing is worse than no mode: it would have
+been the artefact someone trusted.
+
+**What changed:** the mode now stashes tracked *and* untracked files, warns and
+degrades explicitly when there is nothing to stash, and separates clauses whose
+subject is a file this work created (`new-file`, which can never fail against
+the pre-change tree) from clauses over pre-existing files (which must fail
+there). The run above shows **3 failed, 2 new-file** against the pre-change
+tree, and names which are which — so a reader can tell that the failing clauses
+bind.
+
+## R16 — The upstream commit message is evidence, and its numbers are close to constants
+
+**Attacked:** the choice to quote the sibling's defects instead of measuring
+them here.
+
+**Finding:** the sibling's commit is a first-party defect report about its own
+instrument, dated the same day, with the mechanism and the corrected count
+("4 were mislabelled this way and 22 are genuinely client-rendered"). It is
+reproducible by its own self-test. What it is **not** is verifiable from here:
+this host cannot re-run 183 fetches through their probe in one pass, and the 4
+pages are not named individually in the diff.
+
+**What changed:** nothing, deliberately. The sibling's commit is cited as a
+*different repository's measurement*, the same treatment this catalogue already
+gives a corpus card. The claim this repository makes is only about its own 62
+measured URLs, which is why R14 exists.
+
+## What this second pass did not establish
+
+- **That 31 JSON-LD-bearing pages is a property of the market** rather than of
+  the 62 URLs sampled. The sample is every census URL plus the 40 cheapest
+  ranked rows, which is what this repository publishes first, not a random draw.
+- **That a future probe would have hit the defect.** 0 of 62 would have been
+  flipped; the port is insurance, and calling it a correction would overstate it.
+- **That the sibling's 4 mislabelled pages are the only ones it has.** Its own
+  message says the check was re-run over 26 shell verdicts; the unreadable set
+  beyond that is not re-derived here.
+- **That the stripper's JSON-LD handling is complete.** A page that renders its
+  prices only inside a framework payload (for example a Next.js flight
+  script) is still unreadable by this reader, and `killercoda` is left recorded
+  that way rather than papered over.
+
+## R17 — The "page is in step" clause was checking the wrong thing
+
+**Attacked:** `page_in_step_with_json`, which exists so the generated page cannot
+drift from the JSON.
+
+**Finding:** it ran `render` and then `git diff --quiet -- docs/ANONYMOUS-VMS.md`.
+That is red whenever the *source JSON* is dirty, even though the page is
+correct, and it says nothing about whether the page matches a fresh render — it
+compares the page to its last commit, not to its generator. It passed in the
+first pass by accident of ordering: the page had been rendered immediately
+before, so there was nothing to differ from. Rendered after a JSON edit without
+a re-render, it would have reported the page as out of step for the wrong
+reason, and after a re-render it would have reported *in step* even if the
+renderer was invoked with the wrong output path.
+
+**What changed:** `tools/page-in-step.sh` renders into a scratch directory (the
+renderer now honours `ANON_VMS_OUT`) and compares bytes with the committed page.
+Both mutations are demonstrated: a stray line appended to the page fails it, and
+an edited `cost_usd` in the JSON fails it with the exact `diff -u`. Nothing here
+changed a published number; the check that guards the page is what improved.
