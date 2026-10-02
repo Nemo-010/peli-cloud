@@ -40,5 +40,7 @@ looks like a credential to secret scanners. The full id is in `tools/fetch-corpu
 - The **pricing engine is third-party**; this repository does not reimplement it
   and does not re-derive `priceCard`'s arithmetic. `tools/rank.py` sorts and
   classifies; it does not price.
-- **218–226 of 366 providers fit no workload** because their shape or metering
-  is not published; they are listed with the engine's reason, not hidden.
+- **185 of 366 providers fit no sized mode** and 2 more have only bandwidth or
+  flat-pool meters (`unpriced`); all 187 are listed with the engine's reason,
+  not hidden. 179 are priceable at the realistic agent month; 181 at the short
+  horizons (the extra two are the unpriced meters).

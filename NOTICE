@@ -5,7 +5,7 @@ The **code** in this repository (the scripts under `tools/` and
 
 ## Data and third-party material
 
-- `data/rankings/*.json` and `data/rankings/*.md` contain **facts** measured
+- `data/usage.json` and `data/usage.md` contain **facts** measured
   from public provider pricing pages and derived from the
   `ariana-dot-dev/battleships` corpus. Facts (names, URLs, prices, feature
   booleans) are not copyrightable and are published here as measurement.

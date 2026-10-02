@@ -25,8 +25,8 @@ function arg(name, dflt) {
 const CORPUS = arg('--corpus', 'research/corpus');
 const OUT = arg('--out', 'data/derived.json');
 
-const ENGINE = path.join(CORPUS, 'site', 'engine.js');
-const CARDS = path.join(CORPUS, 'research', 'cards');
+const ENGINE = path.resolve(CORPUS, 'site', 'engine.js');
+const CARDS = path.resolve(CORPUS, 'research', 'cards');
 if (!fs.existsSync(ENGINE) || !fs.existsSync(CARDS)) {
   console.error(`corpus not found at ${CORPUS}. Run tools/fetch-corpus.sh first.`);
   process.exit(2);
@@ -41,30 +41,30 @@ const cardFiles = [
 ];
 const cards = cardFiles.map(f => JSON.parse(fs.readFileSync(f, 'utf8')));
 
-// Workloads. All fixed; see README for why these three.
+// One fixed shape, billed over six durations. Sandboxes are bursty: they do
+// not usually live 24/7 for a month, so the catalogue leads with the short
+// horizons and treats the always-on month as the last column, not the default.
 const BASE = {
   os: 'linux', arch: 'any', gpu: 'none', gpuCount: 1, ipv4: 0, seats: 1,
   persistentDisk: false, snapshotGiB: 0, egress: 0, alwaysOn: 0,
-  sessions: 0, sessionMin: 0, concurrency: 0, cpuUtil: 0.1, ramUtil: 0.5,
+  concurrency: 1, cpuUtil: 0.5, ramUtil: 0.5,
 };
+const SHAPE = { vcpu: 2, ram: 4, disk: 20 };
+// Each horizon is a number of real sessions, not one uninterrupted run: a
+// sandbox is stopped between calls, so a month of 10 h/day is 30 ten-hour
+// sessions and a 24/7 month is 30 day-long sessions. Providers whose session
+// cap is shorter than one session are ineligible at that horizon and say so.
 const WORKLOADS = {
-  'nano-box': {
-    description: 'One tiny always-on box: 1 vCPU / 1 GiB / 10 GiB, 24/7, 20 GiB egress out. The floor of the market.',
-    w: { vcpu: 1, ram: 1, disk: 10, alwaysOn: 1, egress: 20, persistentDisk: true },
-  },
-  'agent-box': {
-    description: 'One always-on agent box: 2 vCPU / 4 GiB / 20 GiB, 24/7, 100 GiB egress out.',
-    w: { vcpu: 2, ram: 4, disk: 20, alwaysOn: 1, egress: 100, persistentDisk: true },
-  },
-  'interp': {
-    description: 'Code-interpreter bursts: 1 vCPU / 2 GiB / 5 GiB, 200,000 sessions of 1 minute, 100 at once.',
-    w: { vcpu: 1, ram: 2, disk: 5, sessions: 200000, sessionMin: 1, concurrency: 100, egress: 20 },
-  },
-  'devbox': {
-    description: 'A 24/7 developer box: 4 vCPU / 8 GiB / 50 GiB, 50 GiB egress out.',
-    w: { vcpu: 4, ram: 8, disk: 50, alwaysOn: 1, egress: 50, persistentDisk: true },
-  },
+  r1h:  { sessions: 1,  minutes: 60,    description: '1 hour' },
+  r10h: { sessions: 1,  minutes: 600,   description: '10 hours (one agent workday)' },
+  d1:   { sessions: 1,  minutes: 1440,  description: '24 hours (one day-long session)' },
+  w1:   { sessions: 7,  minutes: 1440,  description: '7 days, one day-long session per day' },
+  m10h: { sessions: 30, minutes: 600,   description: '10 h/day for 30 days (30 x 10 h sessions, 300 h)' },
+  m30:  { sessions: 30, minutes: 1440,  description: '24/7 for 30 days (30 x 24 h sessions, 720 h)' },
 };
+for (const def of Object.values(WORKLOADS)) {
+  def.total_minutes = def.sessions * def.minutes;
+}
 
 function price(card, W, credits) {
   try {
@@ -118,15 +118,47 @@ function facts(card) {
   };
 }
 
+// A horizon can be delivered as one long session or split into shorter ones.
+// A provider whose session cap is 8 h can still serve a 10 h day as two 5 h
+// sessions; a user would do that. Every whole-minute session length of at least
+// 30 minutes is tried and the cheapest eligible plan wins; on a tie the plan
+// with fewest sessions (fewest restarts) is kept. The 30-minute floor keeps a
+// 1-hour horizon from being gamed as sixty one-minute sessions.
+const MIN_SESSION_MIN = 30;
+function sessionPlans(totalHours) {
+  const plans = [];
+  const totalMin = Math.round(totalHours * 60);
+  for (let n = 1; n <= Math.min(totalMin, 720); n++) {
+    const sessionMin = totalMin / n;
+    if (sessionMin < MIN_SESSION_MIN) break;
+    if (Math.abs(sessionMin - Math.round(sessionMin)) > 1e-6) continue;
+    plans.push({ sessions: n, sessionMin });
+  }
+  return plans;
+}
+
 const providers = cards.map(card => {
   const cost = {};
   for (const [id, def] of Object.entries(WORKLOADS)) {
-    const withCredits = price(card, def.w, true);
-    const noCredits = price(card, def.w, false);
-    cost[id] = Object.assign({}, withCredits, {
-      total_no_credit: noCredits.total,
-      plan_limit: noCredits.plan === withCredits.plan ? null : noCredits.plan,
-    });
+    let best = null;
+    let firstReasons = [];
+    let firstMode = null;
+    for (const pl of sessionPlans(def.total_minutes / 60)) {
+      const w = Object.assign({}, SHAPE, { sessions: pl.sessions, sessionMin: pl.sessionMin });
+      const r = price(card, w, true);
+      if (!firstReasons.length) firstReasons = r.reasons;
+      if (!firstMode) firstMode = r.mode;
+      if (!r.eligible || r.total === null) continue;
+      const nc = price(card, w, false);
+      if (!best || r.total < best.total) {
+        best = Object.assign({}, r, {
+          sessions: pl.sessions, session_min: +pl.sessionMin.toFixed(2), mode: r.mode || firstMode,
+          total_no_credit: nc.total,
+          plan_limit: nc.plan === r.plan ? null : nc.plan,
+        });
+      }
+    }
+    cost[id] = best || { eligible: false, total: null, reasons: firstReasons, caveats: [], mode: firstMode };
   }
   return {
     id: card.id,
@@ -148,7 +180,9 @@ const out = {
     cards: cards.length,
     extra_cards: fs.existsSync(EXTRA) ? fs.readdirSync(EXTRA).filter(f => f.endsWith('.json')).map(f => f.replace(/\.json$/, '')) : [],
   },
-  workloads: Object.fromEntries(Object.entries(WORKLOADS).map(([k, v]) => [k, v])),
+  shape: SHAPE,
+  method: 'each horizon is delivered as the cheapest eligible split into sessions (a 10 h day may be one 10 h session or two 5 h sessions); providers are ranked on that cheapest price',
+  workloads: Object.fromEntries(Object.entries(WORKLOADS).map(([k, v]) => [k, { description: v.description, sessions: v.sessions, minutes: v.minutes, total_minutes: v.total_minutes }])),
   providers,
 };
 fs.mkdirSync(path.dirname(OUT), { recursive: true });
