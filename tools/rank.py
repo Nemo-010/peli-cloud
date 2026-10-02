@@ -230,10 +230,17 @@ def direct(cost):
     return None
 
 
+def direct_no_credit(cost):
+    if cost.get("eligible") and isinstance(cost.get("total_no_credit"), (int, float)):
+        return cost["total_no_credit"]
+    return None
+
+
 def build_rows():
     rows = []
     for p in PROVIDERS:
         costs = {h: direct(p["cost"][h]) for h in HORIZONS}
+        costs_no_credit = {h: direct_no_credit(p["cost"][h]) for h in HORIZONS}
         any_eligible = any(v is not None for v in costs.values())
         zero_all = any_eligible and all((v or 0) == 0 for v in costs.values())
         unpriced = zero_all and not compute_rate_published(p)
@@ -251,6 +258,7 @@ def build_rows():
             "id": p["id"], "name": p["name"], "url": p["url"],
             "category": p["category"], "isolation": p["isolation"],
             "costs": costs, "eligible": any_eligible, "unpriced": unpriced,
+            "costs_no_credit": costs_no_credit,
             "free": p.get("free") or {},
             "burst": burst_penalty(p)[0], "burst_x": burst_penalty(p)[1],
             "min_bill": min_bill_label(p), "burst_bill": burst_bill_label(p),
@@ -296,6 +304,12 @@ def sort_by(rows, h):
     return good
 
 
+def sort_by_nc(rows, h):
+    good = [r for r in rows if r["costs_no_credit"].get(h) is not None and not r["unpriced"]]
+    good.sort(key=lambda r: (r["costs_no_credit"][h], r["name"].lower()))
+    return good
+
+
 rows = build_rows()
 priced = [r for r in rows if any(v is not None for v in r["costs"].values()) and not r["unpriced"]]
 unpriced = [r for r in rows if r["unpriced"]]
@@ -305,11 +319,19 @@ nofit = [r for r in rows if not r["eligible"]]
 primary = sort_by(rows, PRIMARY)
 for i, r in enumerate(primary, 1):
     r["rank"] = i
+    r["rank_primary"] = i
 primary_ids = {r["id"] for r in primary}
 nofit_primary = [r for r in rows if r["id"] not in primary_ids and not r["unpriced"]]
 
+# the same ranking with the free monthly credit removed, which is what a
+# provider with no credit at all pays
+primary_nc = sort_by_nc(rows, PRIMARY)
+for i, r in enumerate(primary_nc, 1):
+    r["rank_nc"] = i
+
 # JSON: every provider, costs for every horizon, plus ranks
 rank_maps = {h: {r["id"]: i for i, r in enumerate(sort_by(rows, h), 1)} for h in HORIZONS}
+rank_maps_nc = {h: {r["id"]: i for i, r in enumerate(sort_by_nc(rows, h), 1)} for h in HORIZONS}
 out = {
     "generated": datetime.date.today().isoformat(),
     "shape": SHAPE,
@@ -327,8 +349,10 @@ for r in rows:
         "id": r["id"], "name": r["name"], "url": r["url"],
         "category": r["category"], "isolation": r["isolation"],
         "costs": r["costs"],
+        "costs_no_credit": r["costs_no_credit"],
         "burst": r.get("burst"), "burst_x": r.get("burst_x"), "min_bill": r.get("min_bill"), "burst_bill": r.get("burst_bill"),
         "ranks": {h: rank_maps[h].get(r["id"]) for h in HORIZONS},
+        "ranks_no_credit": {h: rank_maps_nc[h].get(r["id"]) for h in HORIZONS},
         "mode": r["mode"], "plan": r["plan"],
         "eligible": r["eligible"], "unpriced": r["unpriced"],
         "reasons": r["reasons"], "caveats": r["caveats"], "notes": r["notes"],
@@ -401,6 +425,26 @@ for i, r in enumerate(burst_rows, 1):
                  f"{money(r['costs'][PRIMARY])} | {money(r['burst'])} | **{r['burst_x']:.2f}x** | "
                  f"{r.get('burst_bill') or r.get('min_bill') or '-'} | {r['notes'].replace('|', r'\|')} |")
 md.append("\n".join(lines) + "\n")
+
+md.append("## Cheapest without credits, 10 h/d x30\n")
+nc = sort_by_nc(rows, PRIMARY)
+md.append(f"The tables above apply free *monthly* credits, which is what a new account pays "
+          f"first. This is the same sort with the credits removed, so a row that moves is a row "
+          f"whose price is a grant rather than a rate. **{len(nc)} providers** are priceable "
+          f"without credits; `costs_no_credit` and `ranks_no_credit` are per provider in "
+          f"`data/usage.json`.\n")
+lines = ["| # | Provider | With credit | No credit | Rank w/ credit | Rank no credit | Notes |",
+         "|---|---|---|---|---|---|---|"]
+for i, r in enumerate(nc[:15], 1):
+    lines.append(f"| {i} | [{r['name']}]({r['url']}) | {money(r['costs'][PRIMARY])} | "
+                 f"**{money(r['costs_no_credit'][PRIMARY])}** | {r.get('rank_primary', '-')} | "
+                 f"{r.get('rank_nc', '-')} | {r['notes'].replace('|', r'\\|')} |")
+md.append("\n".join(lines) + "\n")
+movers = sorted([r for r in rows if r.get("rank_primary") and r.get("rank_nc")],
+                key=lambda r: (r["rank_nc"] - r["rank_primary"]), reverse=True)[:5]
+md.append("The credits bite below the top of the table. The five rows the credit "
+          "moves most at this horizon (rank without it -> rank with it): " +
+          ", ".join(f"{r['name']} {r['rank_nc']}->{r['rank_primary']}" for r in movers) + ".\n")
 
 md.append("## Free-tier census: recurring, one-time, and unknown\n")
 rec = [p for p in PROVIDERS if (p.get("free") or {}).get("monthly_credit")]

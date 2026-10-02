@@ -10,6 +10,11 @@ month — instead of pretending every sandbox lives forever.
 Full tables: [`data/usage.md`](data/usage.md) (human) and
 [`data/usage.json`](data/usage.json) (machine). Every provider is in both.
 
+A second question is answered separately: which providers hand out a **free or
+anonymous VM that answers SSH**, and how to reach a machine that cannot listen
+at all. That census is [`docs/ANONYMOUS-VMS.md`](docs/ANONYMOUS-VMS.md),
+generated from [`data/anonymous-vms.json`](data/anonymous-vms.json).
+
 ---
 
 ## What this does NOT establish, read this before the rankings
@@ -289,6 +294,16 @@ The bursty row is the same 300 h delivered as 600 x 30-minute starts. Hetzner ($
    unknown, not free. A trial-only $0 plan is never a ranked row: the engine
    skips `trial_only` plans, so boat, vercel, codesandbox and rivet rank on
    their paid plans.
+16. **Anonymous really means "the SSH key is the account", and almost nothing
+    else qualifies.** Of 23 free or anonymous offers checked on 2026-10-02,
+    exactly **one** needs no account and no card: Railway's free VM, whose own
+    FAQ says "Railway identifies you by your SSH key". **15 are reachable over
+    SSH**, but 14 of those want at least a free account and 4 want a card.
+    Play with Docker, the canonical no-signup VM that older lists still cite,
+    is dead ("unavailable starting March 1, 2026"), and Fly.io's free Machine
+    allowance has left its pricing page. Per-row quotes and the dropssh/relay
+    method for a host that can neither listen nor hold `/etc/passwd` are in
+    [`docs/ANONYMOUS-VMS.md`](docs/ANONYMOUS-VMS.md).
 
 ## Negative results
 
@@ -313,6 +328,11 @@ sh tools/fetch-corpus.sh                 # pin the third-party corpus locally
 sh tools/fetch-sources.sh                # re-fetch the 13 first-party pages
 node research/tools/derive.mjs --corpus research/corpus --out data/derived.json
 python3 tools/rank.py                    # writes data/usage.md and data/usage.json
+
+sh tools/fetch-anon-sources.sh           # re-fetch the pages the anon census cites
+python3 tools/check-anon-vms.py          # guard: >= 10 SSH-capable free/anon rows
+python3 tools/render-anon-vms.py         # writes docs/ANONYMOUS-VMS.md
+sh tools/ssh-relay-check.sh              # prove SSH over an outbound-only relay
 ```
 
 `derive.mjs` needs Node ≥ 18. `rank.py` is pure Python 3 and does no network.
@@ -334,6 +354,7 @@ python3 tools/rank.py                    # writes data/usage.md and data/usage.j
 | two minutes | this page's sandbox table and the horizon key |
 | ten minutes | "What this does NOT establish", then the findings |
 | to implement from it | `data/usage.json` (costs + ranks + features), then `tools/rank.py` |
+| a no-signup or free shell, or to reach a box that cannot listen | `docs/ANONYMOUS-VMS.md`, then `tools/ssh-relay-check.sh` |
 | a reason to distrust it | `research/verification/2026-10-02.md`, then `research/reviews.md`, then `research/deep-reviews.md` |
 
 *We aim to provide the software that shapes the world of tomorrow.*

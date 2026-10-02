@@ -676,6 +676,30 @@ Same 300 h of demand as the **10 h/d x30** column, delivered the way an agent th
 | 20 | [Azure Virtual Machines (Linux)](https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/) | hyperscaler/vm | $11.90 | $12.19 | **1.02x** | - |  |
 | 21 | [Namespace](https://namespace.so/pricing) | dev-env/vm | $77.33 | $78.55 | **1.02x** | - | egress unpublished |
 
+## Cheapest without credits, 10 h/d x30
+
+The tables above apply free *monthly* credits, which is what a new account pays first. This is the same sort with the credits removed, so a row that moves is a row whose price is a grant rather than a rate. **179 providers** are priceable without credits; `costs_no_credit` and `ranks_no_credit` are per provider in `data/usage.json`.
+
+| # | Provider | With credit | No credit | Rank w/ credit | Rank no credit | Notes |
+|---|---|---|---|---|---|---|
+| 1 | [Lightning AI](https://lightning.ai/pricing) | $0.411 | **$0.411** | 1 | 1 | free CPU Studio: 4 h/session then paid, one at a time; rest is Drive storage; 403 here; egress unpublished; flat pool, billed whether used or not |
+| 2 | [Agent 37](https://www.agent37.com/pricing) | $2.55 | **$2.55** | 2 | 2 | egress unpublished |
+| 3 | [Oracle Cloud Infrastructure](https://www.oracle.com/cloud/compute/pricing/) | $3.09 | **$3.09** | 3 | 3 | unverified: all oracle.com returns 403; Always Free A1 covers this shape ($0) |
+| 4 | [Hetzner Cloud](https://docs.hetzner.com/general/infrastructure-and-availability/price-adjustment/) | $3.12 | **$3.12** | 4 | 4 | bursty 30-min starts bill 2.0x here (min 1 h) |
+| 5 | [zipbox](https://zipbox.ai/pricing) | $4.11 | **$4.11** | 6 | 5 | egress unpublished |
+| 6 | [IONOS Cloud](https://docs.ionos.com/cloud/support/general-information/price-list/ionos-cloud-eur-en) | $4.44 | **$4.44** | 8 | 6 |  |
+| 7 | [netcup VPS](https://www.netcup.com/en/server/vps) | $5.03 | **$5.03** | 9 | 7 | entry row is VPS Lite 1 (6-month min); VPS 500 is $8.51/mo; price is one month's rent at every horizon |
+| 8 | [Gcore Cloud / Functions / GPU](https://gcore.com/cloud/virtual-machines) | $5.80 | **$5.80** | 11 | 8 | disk beyond 0 GiB: price unknown |
+| 9 | [Browser Use Cloud](https://browser-use.com/pricing) | $6.00 | **$6.00** | 12 | 9 | no machine size published, not shape-comparable; disk beyond 0 GiB: price unknown; session cap 4 h, needs restarts |
+| 10 | [shellbox](https://shellbox.dev/) | $6.00 | **$6.00** | 13 | 10 | egress unpublished |
+| 11 | [UpCloud](https://upcloud.com/pricing/) | $6.25 | **$6.25** | 14 | 11 | bursty 30-min starts bill 2.0x here (min 1 h) |
+| 12 | [Lizard](https://lizard.build/pricing) | $6.55 | **$6.55** | 15 | 12 | disputed: pricing page sells Small 2 vCPU/4 GiB at $0.009/h; docs fix 4 vCPU |
+| 13 | [Contabo](https://contabo.com/en-us/pricing/) | $6.60 | **$6.60** | 16 | 13 | visible $4.40 is a 24-month intro, list is $6.60; price is one month's rent at every horizon |
+| 14 | [Fly.io Machines](https://fly.io/pricing) | $7.58 | **$7.58** | 17 | 14 |  |
+| 15 | [OVHcloud Public Cloud](https://us.ovhcloud.com/public-cloud/prices/) | $7.68 | **$7.68** | 18 | 15 |  |
+
+The credits bite below the top of the table. The five rows the credit moves most at this horizon (rank without it -> rank with it): Freestyle 96->71, Kedge 31->10, Google Cloud Run 26->7, Azure Container Apps (Consumption, Dedicated, Dynamic Sessions) 22->5, Blacksmith (GitHub Actions runners) 102->90.
+
 ## Free-tier census: recurring, one-time, and unknown
 
 - **13 providers publish a credit that recurs every month.** The largest is Modal at $30/month.

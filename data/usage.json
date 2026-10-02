@@ -52,11 +52,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -88,6 +104,14 @@
     "m10h": 2.5479,
     "m30": 6.1151
    },
+   "costs_no_credit": {
+    "r1h": 0.0085,
+    "r10h": 0.0849,
+    "d1": 0.2038,
+    "w1": 1.4268,
+    "m10h": 2.5479,
+    "m30": 6.1151
+   },
    "burst": 2.5479,
    "burst_x": 1.0,
    "min_bill": null,
@@ -97,6 +121,14 @@
     "r10h": 21,
     "d1": 18,
     "w1": 7,
+    "m10h": 2,
+    "m30": 3
+   },
+   "ranks_no_credit": {
+    "r1h": 20,
+    "r10h": 16,
+    "d1": 13,
+    "w1": 4,
     "m10h": 2,
     "m30": 3
    },
@@ -122,11 +154,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -158,11 +206,27 @@
     "m10h": 77.598,
     "m30": 186.2352
    },
+   "costs_no_credit": {
+    "r1h": 0.2587,
+    "r10h": 2.5866,
+    "d1": 6.2078,
+    "w1": 43.4549,
+    "m10h": 77.598,
+    "m30": 186.2352
+   },
    "burst": 77.598,
    "burst_x": 1.0,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": 124,
+    "r10h": 122,
+    "d1": 123,
+    "w1": 138,
+    "m10h": 141,
+    "m30": 141
+   },
+   "ranks_no_credit": {
     "r1h": 124,
     "r10h": 122,
     "d1": 123,
@@ -192,11 +256,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -229,11 +309,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -265,11 +361,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -302,6 +414,14 @@
     "m10h": 29.76,
     "m30": 71.424
    },
+   "costs_no_credit": {
+    "r1h": 0.0992,
+    "r10h": 0.992,
+    "d1": 2.3808,
+    "w1": 16.6656,
+    "m10h": 29.76,
+    "m30": 71.424
+   },
    "burst": 29.76,
    "burst_x": 1.0,
    "min_bill": null,
@@ -312,6 +432,14 @@
     "d1": 78,
     "w1": 81,
     "m10h": 85,
+    "m30": 88
+   },
+   "ranks_no_credit": {
+    "r1h": 81,
+    "r10h": 78,
+    "d1": 76,
+    "w1": 79,
+    "m10h": 84,
     "m30": 88
    },
    "mode": "CodeSpace (international), CPU/RAM per second while running",
@@ -339,6 +467,14 @@
     "m10h": 16.8603,
     "m30": 40.4648
    },
+   "costs_no_credit": {
+    "r1h": 0.0562,
+    "r10h": 0.562,
+    "d1": 1.3488,
+    "w1": 9.4418,
+    "m10h": 16.8603,
+    "m30": 40.4648
+   },
    "burst": 16.8603,
    "burst_x": 1.0,
    "min_bill": null,
@@ -348,6 +484,14 @@
     "r10h": 59,
     "d1": 57,
     "w1": 54,
+    "m10h": 54,
+    "m30": 59
+   },
+   "ranks_no_credit": {
+    "r1h": 61,
+    "r10h": 57,
+    "d1": 55,
+    "w1": 53,
     "m10h": 54,
     "m30": 59
    },
@@ -373,6 +517,14 @@
     "m10h": 9.063,
     "m30": 14.4792
    },
+   "costs_no_credit": {
+    "r1h": 0.0302,
+    "r10h": 0.3021,
+    "d1": 0.725,
+    "w1": 5.0753,
+    "m10h": 9.063,
+    "m30": 14.4792
+   },
    "burst": 9.063,
    "burst_x": 1.0,
    "min_bill": "min 2 min",
@@ -383,6 +535,14 @@
     "d1": 36,
     "w1": 28,
     "m10h": 26,
+    "m30": 14
+   },
+   "ranks_no_credit": {
+    "r1h": 38,
+    "r10h": 34,
+    "d1": 32,
+    "w1": 25,
+    "m10h": 24,
     "m30": 14
    },
    "mode": "economy",
@@ -407,11 +567,27 @@
     "m10h": 107.32,
     "m30": 264.568
    },
+   "costs_no_credit": {
+    "r1h": 0,
+    "r10h": 0,
+    "d1": 3.9856,
+    "w1": 57.8992,
+    "m10h": 107.32,
+    "m30": 264.568
+   },
    "burst": 107.32,
    "burst_x": 1.0,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": 1,
+    "r10h": 1,
+    "d1": 101,
+    "w1": 146,
+    "m10h": 151,
+    "m30": 159
+   },
+   "ranks_no_credit": {
     "r1h": 1,
     "r10h": 1,
     "d1": 101,
@@ -441,11 +617,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -477,6 +669,14 @@
     "m10h": 10.01,
     "m30": 31.01
    },
+   "costs_no_credit": {
+    "r1h": 0,
+    "r10h": 0,
+    "d1": 0,
+    "w1": 3.41,
+    "m10h": 10.01,
+    "m30": 31.01
+   },
    "burst": 16,
    "burst_x": 1.5984015984015985,
    "min_bill": "$0.01 per start",
@@ -487,6 +687,14 @@
     "d1": 1,
     "w1": 16,
     "m10h": 28,
+    "m30": 41
+   },
+   "ranks_no_credit": {
+    "r1h": 2,
+    "r10h": 2,
+    "d1": 1,
+    "w1": 13,
+    "m10h": 27,
     "m30": 41
    },
    "mode": "Cloud browser session (Infrastructure plan: $0.05/browser-hour + $0.01/browser)",
@@ -514,11 +722,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -551,11 +775,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -587,11 +827,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -625,11 +881,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -661,11 +933,27 @@
     "m10h": 552.6438,
     "m30": 630.5452
    },
+   "costs_no_credit": {
+    "r1h": 500,
+    "r10h": 500,
+    "d1": 501.4515,
+    "w1": 528.1605,
+    "m10h": 552.6438,
+    "m30": 630.5452
+   },
    "burst": 552.6438,
    "burst_x": 1.0,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": 177,
+    "r10h": 177,
+    "d1": 178,
+    "w1": 178,
+    "m10h": 177,
+    "m30": 174
+   },
+   "ranks_no_credit": {
     "r1h": 177,
     "r10h": 177,
     "d1": 178,
@@ -695,11 +983,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -731,11 +1035,27 @@
     "m10h": 56.3208,
     "m30": 135.1699
    },
+   "costs_no_credit": {
+    "r1h": 0.1877,
+    "r10h": 1.8774,
+    "d1": 4.5057,
+    "w1": 31.5396,
+    "m10h": 56.3208,
+    "m30": 135.1699
+   },
    "burst": 56.3208,
    "burst_x": 1.0,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": 115,
+    "r10h": 111,
+    "d1": 111,
+    "w1": 124,
+    "m10h": 125,
+    "m30": 128
+   },
+   "ranks_no_credit": {
     "r1h": 115,
     "r10h": 111,
     "d1": 111,
@@ -765,11 +1085,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -801,11 +1137,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -837,6 +1189,14 @@
     "m10h": 38.19,
     "m30": 91.656
    },
+   "costs_no_credit": {
+    "r1h": 0.1273,
+    "r10h": 1.273,
+    "d1": 3.0552,
+    "w1": 21.3864,
+    "m10h": 38.19,
+    "m30": 91.656
+   },
    "burst": 38.19,
    "burst_x": 1.0,
    "min_bill": null,
@@ -848,6 +1208,14 @@
     "w1": 96,
     "m10h": 95,
     "m30": 96
+   },
+   "ranks_no_credit": {
+    "r1h": 90,
+    "r10h": 86,
+    "d1": 84,
+    "w1": 94,
+    "m10h": 93,
+    "m30": 95
    },
    "mode": "Code Interpreter session (container; active CPU + peak memory)",
    "plan": "Pay-as-you-go",
@@ -873,6 +1241,14 @@
     "m10h": 21.6,
     "m30": 51.84
    },
+   "costs_no_credit": {
+    "r1h": 0.072,
+    "r10h": 0.72,
+    "d1": 1.728,
+    "w1": 12.096,
+    "m10h": 21.6,
+    "m30": 51.84
+   },
    "burst": 21.6,
    "burst_x": 1.0,
    "min_bill": null,
@@ -882,6 +1258,14 @@
     "r10h": 69,
     "d1": 67,
     "w1": 66,
+    "m10h": 70,
+    "m30": 71
+   },
+   "ranks_no_credit": {
+    "r1h": 71,
+    "r10h": 67,
+    "d1": 65,
+    "w1": 65,
     "m10h": 70,
     "m30": 71
    },
@@ -907,11 +1291,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -944,11 +1344,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -981,6 +1397,14 @@
     "m10h": 15.3875,
     "m30": 36.9301
    },
+   "costs_no_credit": {
+    "r1h": 0.0513,
+    "r10h": 0.5129,
+    "d1": 1.231,
+    "w1": 8.617,
+    "m10h": 15.3875,
+    "m30": 36.9301
+   },
    "burst": 15.3875,
    "burst_x": 1.0,
    "min_bill": null,
@@ -990,6 +1414,14 @@
     "r10h": 52,
     "d1": 50,
     "w1": 46,
+    "m10h": 46,
+    "m30": 48
+   },
+   "ranks_no_credit": {
+    "r1h": 54,
+    "r10h": 50,
+    "d1": 48,
+    "w1": 45,
     "m10h": 46,
     "m30": 48
    },
@@ -1015,6 +1447,14 @@
     "m10h": 17.43,
     "m30": 41.832
    },
+   "costs_no_credit": {
+    "r1h": 0.0581,
+    "r10h": 0.581,
+    "d1": 1.3944,
+    "w1": 9.7608,
+    "m10h": 17.43,
+    "m30": 41.832
+   },
    "burst": 17.43,
    "burst_x": 1.0,
    "min_bill": null,
@@ -1024,6 +1464,14 @@
     "r10h": 60,
     "d1": 58,
     "w1": 55,
+    "m10h": 55,
+    "m30": 60
+   },
+   "ranks_no_credit": {
+    "r1h": 62,
+    "r10h": 58,
+    "d1": 56,
+    "w1": 54,
     "m10h": 55,
     "m30": 60
    },
@@ -1049,11 +1497,27 @@
     "m10h": 75.66,
     "m30": 181.584
    },
+   "costs_no_credit": {
+    "r1h": 0.2522,
+    "r10h": 2.522,
+    "d1": 6.0528,
+    "w1": 42.3696,
+    "m10h": 75.66,
+    "m30": 181.584
+   },
    "burst": 75.66,
    "burst_x": 1.0,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": 122,
+    "r10h": 120,
+    "d1": 121,
+    "w1": 135,
+    "m10h": 139,
+    "m30": 139
+   },
+   "ranks_no_credit": {
     "r1h": 122,
     "r10h": 120,
     "d1": 121,
@@ -1083,11 +1547,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -1119,11 +1599,27 @@
     "m10h": 84.007,
     "m30": 201.607
    },
+   "costs_no_credit": {
+    "r1h": 0.287,
+    "r10h": 2.807,
+    "d1": 6.727,
+    "w1": 47.047,
+    "m10h": 84.007,
+    "m30": 201.607
+   },
    "burst": 172.2,
    "burst_x": 2.0498291809015914,
    "min_bill": "min 1 h",
    "burst_bill": "min 1 h",
    "ranks": {
+    "r1h": 125,
+    "r10h": 123,
+    "d1": 126,
+    "w1": 140,
+    "m10h": 142,
+    "m30": 144
+   },
+   "ranks_no_credit": {
     "r1h": 125,
     "r10h": 123,
     "d1": 126,
@@ -1153,11 +1649,27 @@
     "m10h": 64.8,
     "m30": 155.52
    },
+   "costs_no_credit": {
+    "r1h": 0.216,
+    "r10h": 2.16,
+    "d1": 5.184,
+    "w1": 36.288,
+    "m10h": 64.8,
+    "m30": 155.52
+   },
    "burst": 64.8,
    "burst_x": 1.0,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": 118,
+    "r10h": 115,
+    "d1": 117,
+    "w1": 128,
+    "m10h": 130,
+    "m30": 132
+   },
+   "ranks_no_credit": {
     "r1h": 118,
     "r10h": 115,
     "d1": 117,
@@ -1187,6 +1699,14 @@
     "m10h": 3.6,
     "m30": 16.2
    },
+   "costs_no_credit": {
+    "r1h": 0.03,
+    "r10h": 0.3,
+    "d1": 0.72,
+    "w1": 5.04,
+    "m10h": 9,
+    "m30": 21.6
+   },
    "burst": 12.6,
    "burst_x": 3.5,
    "min_bill": "min 1 h",
@@ -1198,6 +1718,14 @@
     "w1": 1,
     "m10h": 5,
     "m30": 18
+   },
+   "ranks_no_credit": {
+    "r1h": 36,
+    "r10h": 32,
+    "d1": 30,
+    "w1": 23,
+    "m10h": 22,
+    "m30": 27
    },
    "mode": "Dynamic Sessions, built-in code interpreter ($0.03/session-hour)",
    "plan": "Pay-as-you-go",
@@ -1224,11 +1752,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -1260,11 +1804,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -1297,11 +1857,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -1337,11 +1913,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -1376,6 +1968,14 @@
     "m10h": 11.8969,
     "m30": 28.5519
    },
+   "costs_no_credit": {
+    "r1h": 0.0402,
+    "r10h": 0.397,
+    "d1": 0.9522,
+    "w1": 6.6625,
+    "m10h": 11.8969,
+    "m30": 28.5519
+   },
    "burst": 12.1938,
    "burst_x": 1.0249560809958895,
    "min_bill": null,
@@ -1385,6 +1985,14 @@
     "r10h": 45,
     "d1": 43,
     "w1": 38,
+    "m10h": 35,
+    "m30": 38
+   },
+   "ranks_no_credit": {
+    "r1h": 47,
+    "r10h": 43,
+    "d1": 41,
+    "w1": 37,
     "m10h": 35,
     "m30": 38
    },
@@ -1410,11 +2018,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -1447,11 +2071,27 @@
     "m10h": 159.8219,
     "m30": 261.7726
    },
+   "costs_no_credit": {
+    "r1h": 97,
+    "r10h": 97,
+    "d1": 97,
+    "w1": 127.7803,
+    "m10h": 159.8219,
+    "m30": 261.7726
+   },
    "burst": 159.8219,
    "burst_x": 1.0,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": 161,
+    "r10h": 161,
+    "d1": 161,
+    "w1": 161,
+    "m10h": 161,
+    "m30": 158
+   },
+   "ranks_no_credit": {
     "r1h": 161,
     "r10h": 161,
     "d1": 161,
@@ -1481,11 +2121,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -1526,11 +2182,27 @@
     "m10h": 68.148,
     "m30": 163.5552
    },
+   "costs_no_credit": {
+    "r1h": 0.2272,
+    "r10h": 2.2716,
+    "d1": 5.4518,
+    "w1": 38.1629,
+    "m10h": 68.148,
+    "m30": 163.5552
+   },
    "burst": 68.148,
    "burst_x": 1.0,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": 119,
+    "r10h": 117,
+    "d1": 118,
+    "w1": 130,
+    "m10h": 131,
+    "m30": 133
+   },
+   "ranks_no_credit": {
     "r1h": 119,
     "r10h": 117,
     "d1": 118,
@@ -1562,12 +2234,28 @@
     "m10h": 173.25,
     "m30": 425.25
    },
+   "costs_no_credit": {
+    "r1h": 0.1,
+    "r10h": 5.5,
+    "d1": 13.9,
+    "w1": 94.05,
+    "m10h": 173.25,
+    "m30": 425.25
+   },
    "burst": 173.25,
    "burst_x": 1.0,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
     "r1h": 84,
+    "r10h": 133,
+    "d1": 138,
+    "w1": 155,
+    "m10h": 162,
+    "m30": 171
+   },
+   "ranks_no_credit": {
+    "r1h": 82,
     "r10h": 133,
     "d1": 138,
     "w1": 155,
@@ -1596,11 +2284,27 @@
     "m10h": 59,
     "m30": 59
    },
+   "costs_no_credit": {
+    "r1h": 218.132,
+    "r10h": 219.32,
+    "d1": 221.168,
+    "w1": 240.176,
+    "m10h": 59,
+    "m30": 59
+   },
    "burst": 59,
    "burst_x": 1.0,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": 170,
+    "r10h": 170,
+    "d1": 170,
+    "w1": 168,
+    "m10h": 126,
+    "m30": 73
+   },
+   "ranks_no_credit": {
     "r1h": 170,
     "r10h": 170,
     "d1": 170,
@@ -1632,6 +2336,14 @@
     "m10h": 33,
     "m30": 96
    },
+   "costs_no_credit": {
+    "r1h": 0.15,
+    "r10h": 1.5,
+    "d1": 3.6,
+    "w1": 25.2,
+    "m10h": 45,
+    "m30": 108
+   },
    "burst": 33,
    "burst_x": 1.0,
    "min_bill": null,
@@ -1643,6 +2355,14 @@
     "w1": 67,
     "m10h": 90,
     "m30": 100
+   },
+   "ranks_no_credit": {
+    "r1h": 98,
+    "r10h": 94,
+    "d1": 93,
+    "w1": 103,
+    "m10h": 102,
+    "m30": 108
    },
    "mode": "Ubuntu ARM runners, per minute",
    "plan": "Pay-as-you-go",
@@ -1666,11 +2386,27 @@
     "m10h": 50.6663,
     "m30": 121.5991
    },
+   "costs_no_credit": {
+    "r1h": 0.1689,
+    "r10h": 1.6889,
+    "d1": 4.0533,
+    "w1": 28.3731,
+    "m10h": 50.6663,
+    "m30": 121.5991
+   },
    "burst": 50.6663,
    "burst_x": 1.0,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": 112,
+    "r10h": 108,
+    "d1": 108,
+    "w1": 118,
+    "m10h": 120,
+    "m30": 124
+   },
+   "ranks_no_credit": {
     "r1h": 112,
     "r10h": 108,
     "d1": 108,
@@ -1700,6 +2436,14 @@
     "m10h": 20,
     "m30": 20
    },
+   "costs_no_credit": {
+    "r1h": 20,
+    "r10h": 20,
+    "d1": 20,
+    "w1": 20,
+    "m10h": 20,
+    "m30": 20
+   },
    "burst": 20,
    "burst_x": 1.0,
    "min_bill": null,
@@ -1711,6 +2455,14 @@
     "w1": 89,
     "m10h": 63,
     "m30": 24
+   },
+   "ranks_no_credit": {
+    "r1h": 148,
+    "r10h": 146,
+    "d1": 145,
+    "w1": 87,
+    "m10h": 63,
+    "m30": 22
    },
    "mode": "On-demand (flat per size, per second while running)",
    "plan": "$20/mo",
@@ -1736,11 +2488,27 @@
     "m10h": 46.92,
     "m30": 112.608
    },
+   "costs_no_credit": {
+    "r1h": 0.1564,
+    "r10h": 1.564,
+    "d1": 3.7536,
+    "w1": 26.2752,
+    "m10h": 46.92,
+    "m30": 112.608
+   },
    "burst": 46.92,
    "burst_x": 1.0,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": 101,
+    "r10h": 97,
+    "d1": 96,
+    "w1": 106,
+    "m10h": 106,
+    "m30": 112
+   },
+   "ranks_no_credit": {
     "r1h": 101,
     "r10h": 97,
     "d1": 96,
@@ -1770,11 +2538,27 @@
     "m10h": 129,
     "m30": 381
    },
+   "costs_no_credit": {
+    "r1h": 99,
+    "r10h": 99,
+    "d1": 99,
+    "w1": 99,
+    "m10h": 129,
+    "m30": 381
+   },
    "burst": 129,
    "burst_x": 1.0,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": 162,
+    "r10h": 162,
+    "d1": 162,
+    "w1": 156,
+    "m10h": 156,
+    "m30": 168
+   },
+   "ranks_no_credit": {
     "r1h": 162,
     "r10h": 162,
     "d1": 162,
@@ -1804,11 +2588,27 @@
     "m10h": 0,
     "m30": 0
    },
+   "costs_no_credit": {
+    "r1h": 0,
+    "r10h": 0,
+    "d1": 0,
+    "w1": 0,
+    "m10h": 0,
+    "m30": 0
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -1841,11 +2641,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -1877,6 +2693,14 @@
     "m10h": 6,
     "m30": 14.4
    },
+   "costs_no_credit": {
+    "r1h": 0.02,
+    "r10h": 0.2,
+    "d1": 0.48,
+    "w1": 3.36,
+    "m10h": 6,
+    "m30": 14.4
+   },
    "burst": 6,
    "burst_x": 1.0,
    "min_bill": null,
@@ -1887,6 +2711,14 @@
     "d1": 24,
     "w1": 14,
     "m10h": 12,
+    "m30": 12
+   },
+   "ranks_no_credit": {
+    "r1h": 26,
+    "r10h": 22,
+    "d1": 19,
+    "w1": 11,
+    "m10h": 9,
     "m30": 12
    },
    "mode": "Browser runtime",
@@ -1914,11 +2746,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -1950,11 +2798,27 @@
     "m10h": 99,
     "m30": 121
    },
+   "costs_no_credit": {
+    "r1h": 99,
+    "r10h": 99,
+    "d1": 99,
+    "w1": 99,
+    "m10h": 99,
+    "m30": 121
+   },
    "burst": 99,
    "burst_x": 1.0,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": 163,
+    "r10h": 163,
+    "d1": 163,
+    "w1": 157,
+    "m10h": 148,
+    "m30": 122
+   },
+   "ranks_no_credit": {
     "r1h": 163,
     "r10h": 163,
     "d1": 163,
@@ -1987,11 +2851,27 @@
     "m10h": 249,
     "m30": 249
    },
+   "costs_no_credit": {
+    "r1h": 249,
+    "r10h": 249,
+    "d1": 249,
+    "w1": 249,
+    "m10h": 249,
+    "m30": 249
+   },
    "burst": 249,
    "burst_x": 1.0,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": 171,
+    "r10h": 171,
+    "d1": 171,
+    "w1": 169,
+    "m10h": 168,
+    "m30": 152
+   },
+   "ranks_no_credit": {
     "r1h": 171,
     "r10h": 171,
     "d1": 171,
@@ -2024,11 +2904,27 @@
     "m10h": 350,
     "m30": 350
    },
+   "costs_no_credit": {
+    "r1h": 350,
+    "r10h": 350,
+    "d1": 350,
+    "w1": 350,
+    "m10h": 350,
+    "m30": 350
+   },
    "burst": 350,
    "burst_x": 1.0,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": 175,
+    "r10h": 175,
+    "d1": 175,
+    "w1": 174,
+    "m10h": 173,
+    "m30": 166
+   },
+   "ranks_no_credit": {
     "r1h": 175,
     "r10h": 175,
     "d1": 175,
@@ -2061,6 +2957,14 @@
     "m10h": 26.43,
     "m30": 63.642
    },
+   "costs_no_credit": {
+    "r1h": 0,
+    "r10h": 0.736,
+    "d1": 1.9764,
+    "w1": 14.7348,
+    "m10h": 26.43,
+    "m30": 63.642
+   },
    "burst": 26.43,
    "burst_x": 1.0,
    "min_bill": null,
@@ -2071,6 +2975,14 @@
     "d1": 69,
     "w1": 74,
     "m10h": 77,
+    "m30": 80
+   },
+   "ranks_no_credit": {
+    "r1h": 3,
+    "r10h": 68,
+    "d1": 67,
+    "w1": 72,
+    "m10h": 76,
     "m30": 80
    },
    "mode": "On-demand",
@@ -2095,11 +3007,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -2131,6 +3059,14 @@
     "m10h": 136,
     "m30": 337.6
    },
+   "costs_no_credit": {
+    "r1h": 0,
+    "r10h": 0,
+    "d1": 3.52,
+    "w1": 72.64,
+    "m10h": 136,
+    "m30": 337.6
+   },
    "burst": 136,
    "burst_x": 1.0,
    "min_bill": null,
@@ -2139,6 +3075,14 @@
     "r1h": 6,
     "r10h": 5,
     "d1": 93,
+    "w1": 152,
+    "m10h": 157,
+    "m30": 165
+   },
+   "ranks_no_credit": {
+    "r1h": 4,
+    "r10h": 3,
+    "d1": 92,
     "w1": 152,
     "m10h": 157,
     "m30": 165
@@ -2165,11 +3109,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -2201,11 +3161,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -2237,11 +3213,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -2273,11 +3265,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -2311,11 +3319,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -2347,6 +3371,14 @@
     "m10h": 18,
     "m30": 43.2
    },
+   "costs_no_credit": {
+    "r1h": 0.06,
+    "r10h": 0.6,
+    "d1": 1.44,
+    "w1": 10.08,
+    "m10h": 18,
+    "m30": 43.2
+   },
    "burst": 18,
    "burst_x": 1.0,
    "min_bill": null,
@@ -2356,6 +3388,14 @@
     "r10h": 61,
     "d1": 59,
     "w1": 57,
+    "m10h": 56,
+    "m30": 61
+   },
+   "ranks_no_credit": {
+    "r1h": 63,
+    "r10h": 59,
+    "d1": 57,
+    "w1": 56,
     "m10h": 56,
     "m30": 61
    },
@@ -2381,11 +3421,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -2429,11 +3485,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -2465,6 +3537,14 @@
     "m10h": 90,
     "m30": 241.2
    },
+   "costs_no_credit": {
+    "r1h": 0,
+    "r10h": 0,
+    "d1": 0,
+    "w1": 42.48,
+    "m10h": 90,
+    "m30": 241.2
+   },
    "burst": 90,
    "burst_x": 1.0,
    "min_bill": null,
@@ -2473,6 +3553,14 @@
     "r1h": 7,
     "r10h": 6,
     "d1": 4,
+    "w1": 136,
+    "m10h": 144,
+    "m30": 150
+   },
+   "ranks_no_credit": {
+    "r1h": 5,
+    "r10h": 4,
+    "d1": 2,
     "w1": 136,
     "m10h": 144,
     "m30": 150
@@ -2499,11 +3587,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -2535,6 +3639,14 @@
     "m10h": 8.9286,
     "m30": 21.4286
    },
+   "costs_no_credit": {
+    "r1h": 0.0298,
+    "r10h": 0.2976,
+    "d1": 0.7143,
+    "w1": 5,
+    "m10h": 8.9286,
+    "m30": 21.4286
+   },
    "burst": 17.8572,
    "burst_x": 2.0,
    "min_bill": "min 1 h",
@@ -2546,6 +3658,14 @@
     "w1": 24,
     "m10h": 23,
     "m30": 29
+   },
+   "ranks_no_credit": {
+    "r1h": 34,
+    "r10h": 30,
+    "d1": 28,
+    "w1": 20,
+    "m10h": 20,
+    "m30": 26
    },
    "mode": "Standard Compute",
    "plan": "Usage account",
@@ -2569,11 +3689,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -2607,11 +3743,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -2643,6 +3795,14 @@
     "m10h": 27.55,
     "m30": 66.12
    },
+   "costs_no_credit": {
+    "r1h": 0.0918,
+    "r10h": 0.9183,
+    "d1": 2.204,
+    "w1": 15.428,
+    "m10h": 27.55,
+    "m30": 66.12
+   },
    "burst": 27.55,
    "burst_x": 1.0,
    "min_bill": null,
@@ -2653,6 +3813,14 @@
     "d1": 75,
     "w1": 78,
     "m10h": 80,
+    "m30": 82
+   },
+   "ranks_no_credit": {
+    "r1h": 78,
+    "r10h": 75,
+    "d1": 73,
+    "w1": 76,
+    "m10h": 79,
     "m30": 82
    },
    "mode": "Docker application, Paris",
@@ -2679,11 +3847,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -2715,11 +3899,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -2751,12 +3951,28 @@
     "m10h": 894,
     "m30": 2154
    },
+   "costs_no_credit": {
+    "r1h": 0,
+    "r10h": 24,
+    "d1": 66,
+    "w1": 498,
+    "m10h": 894,
+    "m30": 2154
+   },
    "burst": 894,
    "burst_x": 1.0,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
     "r1h": 8,
+    "r10h": 153,
+    "d1": 158,
+    "w1": 176,
+    "m10h": 179,
+    "m30": 177
+   },
+   "ranks_no_credit": {
+    "r1h": 6,
     "r10h": 153,
     "d1": 158,
     "w1": 176,
@@ -2788,6 +4004,14 @@
     "m10h": 31.1,
     "m30": 68.9
    },
+   "costs_no_credit": {
+    "r1h": 5,
+    "r10h": 5,
+    "d1": 6.26,
+    "w1": 19.22,
+    "m10h": 31.1,
+    "m30": 68.9
+   },
    "burst": 31.1,
    "burst_x": 1.0,
    "min_bill": null,
@@ -2798,6 +4022,14 @@
     "d1": 124,
     "w1": 87,
     "m10h": 88,
+    "m30": 86
+   },
+   "ranks_no_credit": {
+    "r1h": 135,
+    "r10h": 130,
+    "d1": 124,
+    "w1": 85,
+    "m10h": 87,
     "m30": 86
    },
    "mode": "Chromium Browser Sessions",
@@ -2825,6 +4057,14 @@
     "m10h": 43.5867,
     "m30": 98.6235
    },
+   "costs_no_credit": {
+    "r1h": 5,
+    "r10h": 5.5851,
+    "d1": 7.4196,
+    "w1": 26.2894,
+    "m10h": 43.5867,
+    "m30": 98.6235
+   },
    "burst": 43.6303,
    "burst_x": 1.0010003051389529,
    "min_bill": null,
@@ -2836,6 +4076,14 @@
     "w1": 107,
     "m10h": 101,
     "m30": 101
+   },
+   "ranks_no_credit": {
+    "r1h": 136,
+    "r10h": 134,
+    "d1": 127,
+    "w1": 107,
+    "m10h": 100,
+    "m30": 100
    },
    "mode": "Pay-as-you-go (active CPU, provisioned RAM/disk)",
    "plan": "Workers Paid",
@@ -2859,11 +4107,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -2896,11 +4160,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -2932,11 +4212,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -2968,6 +4264,14 @@
     "m10h": 15,
     "m30": 30
    },
+   "costs_no_credit": {
+    "r1h": 0.05,
+    "r10h": 0.5,
+    "d1": 1.2,
+    "w1": 8.4,
+    "m10h": 15,
+    "m30": 30
+   },
    "burst": 15,
    "burst_x": 1.0,
    "min_bill": null,
@@ -2977,6 +4281,14 @@
     "r10h": 50,
     "d1": 48,
     "w1": 43,
+    "m10h": 43,
+    "m30": 39
+   },
+   "ranks_no_credit": {
+    "r1h": 52,
+    "r10h": 48,
+    "d1": 46,
+    "w1": 42,
     "m10h": 43,
     "m30": 39
    },
@@ -3005,11 +4317,27 @@
     "m10h": 332.5,
     "m30": 332.5
    },
+   "costs_no_credit": {
+    "r1h": 2.7,
+    "r10h": 27,
+    "d1": 64.8,
+    "w1": 332.5,
+    "m10h": 332.5,
+    "m30": 332.5
+   },
    "burst": 332.5,
    "burst_x": 1.0,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": 134,
+    "r10h": 154,
+    "d1": 157,
+    "w1": 172,
+    "m10h": 172,
+    "m30": 163
+   },
+   "ranks_no_credit": {
     "r1h": 134,
     "r10h": 154,
     "d1": 157,
@@ -3042,11 +4370,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -3078,11 +4422,27 @@
     "m10h": 190.8,
     "m30": 253.212
    },
+   "costs_no_credit": {
+    "r1h": 170,
+    "r10h": 170,
+    "d1": 170,
+    "w1": 171.1848,
+    "m10h": 190.8,
+    "m30": 253.212
+   },
    "burst": 190.8,
    "burst_x": 1.0,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": 167,
+    "r10h": 167,
+    "d1": 167,
+    "w1": 165,
+    "m10h": 163,
+    "m30": 157
+   },
+   "ranks_no_credit": {
     "r1h": 167,
     "r10h": 167,
     "d1": 167,
@@ -3112,6 +4472,14 @@
     "m10h": 38.4,
     "m30": 92.16
    },
+   "costs_no_credit": {
+    "r1h": 0.128,
+    "r10h": 1.28,
+    "d1": 3.072,
+    "w1": 21.504,
+    "m10h": 38.4,
+    "m30": 92.16
+   },
    "burst": 38.4,
    "burst_x": 1.0,
    "min_bill": null,
@@ -3123,6 +4491,14 @@
     "w1": 97,
     "m10h": 96,
     "m30": 97
+   },
+   "ranks_no_credit": {
+    "r1h": 91,
+    "r10h": 87,
+    "d1": 85,
+    "w1": 95,
+    "m10h": 94,
+    "m30": 96
    },
    "mode": "On-demand",
    "plan": "Pro",
@@ -3148,11 +4524,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -3184,11 +4576,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -3220,11 +4628,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -3256,6 +4680,14 @@
     "m10h": 6.6,
     "m30": 6.6
    },
+   "costs_no_credit": {
+    "r1h": 6.6,
+    "r10h": 6.6,
+    "d1": 6.6,
+    "w1": 6.6,
+    "m10h": 6.6,
+    "m30": 6.6
+   },
    "burst": 6.6,
    "burst_x": 1.0,
    "min_bill": "min 1 h",
@@ -3266,6 +4698,14 @@
     "d1": 125,
     "w1": 37,
     "m10h": 16,
+    "m30": 5
+   },
+   "ranks_no_credit": {
+    "r1h": 139,
+    "r10h": 135,
+    "d1": 125,
+    "w1": 36,
+    "m10h": 13,
     "m30": 5
    },
    "mode": "Core monthly list",
@@ -3292,11 +4732,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -3343,6 +4799,14 @@
     "m10h": 36.5568,
     "m30": 87.7363
    },
+   "costs_no_credit": {
+    "r1h": 10,
+    "r10h": 10,
+    "d1": 10,
+    "w1": 20.4718,
+    "m10h": 36.5568,
+    "m30": 87.7363
+   },
    "burst": 36.5568,
    "burst_x": 1.0,
    "min_bill": null,
@@ -3354,6 +4818,14 @@
     "w1": 92,
     "m10h": 93,
     "m30": 94
+   },
+   "ranks_no_credit": {
+    "r1h": 141,
+    "r10h": 139,
+    "d1": 134,
+    "w1": 90,
+    "m10h": 91,
+    "m30": 93
    },
    "mode": "Sandbox shapes, per-second at list rates (paid from plan credits / top-ups)",
    "plan": "Beginner",
@@ -3377,6 +4849,14 @@
     "m10h": 24.6575,
     "m30": 59.1781
    },
+   "costs_no_credit": {
+    "r1h": 0.0822,
+    "r10h": 0.8219,
+    "d1": 1.9726,
+    "w1": 13.8082,
+    "m10h": 24.6575,
+    "m30": 59.1781
+   },
    "burst": 24.6575,
    "burst_x": 1.0,
    "min_bill": null,
@@ -3387,6 +4867,14 @@
     "d1": 68,
     "w1": 68,
     "m10h": 72,
+    "m30": 74
+   },
+   "ranks_no_credit": {
+    "r1h": 72,
+    "r10h": 69,
+    "d1": 66,
+    "w1": 66,
+    "m10h": 71,
     "m30": 74
    },
    "mode": "General-purpose CPU VM (c1a/c2a), on-demand",
@@ -3411,11 +4899,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -3448,11 +4952,27 @@
     "m10h": 53.55,
     "m30": 128.52
    },
+   "costs_no_credit": {
+    "r1h": 0.1785,
+    "r10h": 1.785,
+    "d1": 4.284,
+    "w1": 29.988,
+    "m10h": 53.55,
+    "m30": 128.52
+   },
    "burst": 53.55,
    "burst_x": 1.0,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": 113,
+    "r10h": 109,
+    "d1": 109,
+    "w1": 122,
+    "m10h": 121,
+    "m30": 126
+   },
+   "ranks_no_credit": {
     "r1h": 113,
     "r10h": 109,
     "d1": 109,
@@ -3484,11 +5004,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -3520,11 +5056,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -3556,11 +5108,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -3593,11 +5161,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -3629,11 +5213,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -3665,11 +5265,27 @@
     "m10h": 50.166,
     "m30": 120.3984
    },
+   "costs_no_credit": {
+    "r1h": 0.1672,
+    "r10h": 1.6722,
+    "d1": 4.0133,
+    "w1": 28.093,
+    "m10h": 50.166,
+    "m30": 120.3984
+   },
    "burst": 50.166,
    "burst_x": 1.0,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": 106,
+    "r10h": 102,
+    "d1": 102,
+    "w1": 112,
+    "m10h": 114,
+    "m30": 117
+   },
+   "ranks_no_credit": {
     "r1h": 106,
     "r10h": 102,
     "d1": 102,
@@ -3701,11 +5317,27 @@
     "m10h": 50.5841,
     "m30": 121.4019
    },
+   "costs_no_credit": {
+    "r1h": 0.1686,
+    "r10h": 1.6861,
+    "d1": 4.0467,
+    "w1": 28.3271,
+    "m10h": 50.5841,
+    "m30": 121.4019
+   },
    "burst": 50.5841,
    "burst_x": 1.0,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": 111,
+    "r10h": 107,
+    "d1": 107,
+    "w1": 117,
+    "m10h": 119,
+    "m30": 123
+   },
+   "ranks_no_credit": {
     "r1h": 111,
     "r10h": 107,
     "d1": 107,
@@ -3735,11 +5367,27 @@
     "m10h": 45.312,
     "m30": 108.7488
    },
+   "costs_no_credit": {
+    "r1h": 0.151,
+    "r10h": 1.5104,
+    "d1": 3.625,
+    "w1": 25.3747,
+    "m10h": 45.312,
+    "m30": 108.7488
+   },
    "burst": 45.312,
    "burst_x": 1.0,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": 99,
+    "r10h": 95,
+    "d1": 94,
+    "w1": 104,
+    "m10h": 103,
+    "m30": 109
+   },
+   "ranks_no_credit": {
     "r1h": 99,
     "r10h": 95,
     "d1": 94,
@@ -3769,6 +5417,14 @@
     "m10h": 44.25,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": 20,
+    "r10h": 20,
+    "d1": 20,
+    "w1": 23.13,
+    "m10h": 44.25,
+    "m30": null
+   },
    "burst": 44.25,
    "burst_x": 1.0,
    "min_bill": null,
@@ -3779,6 +5435,14 @@
     "d1": 146,
     "w1": 99,
     "m10h": 102,
+    "m30": null
+   },
+   "ranks_no_credit": {
+    "r1h": 149,
+    "r10h": 147,
+    "d1": 146,
+    "w1": 98,
+    "m10h": 101,
     "m30": null
    },
    "mode": "Sandbox microVM (2 vCPU fixed), active CPU + allocated memory",
@@ -3805,11 +5469,27 @@
     "m10h": 116,
     "m30": 267.2
    },
+   "costs_no_credit": {
+    "r1h": 20,
+    "r10h": 20,
+    "d1": 20,
+    "w1": 68.48,
+    "m10h": 116,
+    "m30": 267.2
+   },
    "burst": 116,
    "burst_x": 1.0,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": 150,
+    "r10h": 148,
+    "d1": 147,
+    "w1": 150,
+    "m10h": 153,
+    "m30": 160
+   },
+   "ranks_no_credit": {
     "r1h": 150,
     "r10h": 148,
     "d1": 147,
@@ -3839,11 +5519,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -3875,11 +5571,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -3919,6 +5631,14 @@
     "m10h": 10.713,
     "m30": 24
    },
+   "costs_no_credit": {
+    "r1h": 0.0357,
+    "r10h": 0.3571,
+    "d1": 0.857,
+    "w1": 5.9993,
+    "m10h": 10.713,
+    "m30": 24
+   },
    "burst": 10.713,
    "burst_x": 1.0,
    "min_bill": null,
@@ -3930,6 +5650,14 @@
     "w1": 34,
     "m10h": 32,
     "m30": 33
+   },
+   "ranks_no_credit": {
+    "r1h": 44,
+    "r10h": 40,
+    "d1": 38,
+    "w1": 33,
+    "m10h": 32,
+    "m30": 32
    },
    "mode": "Basic Droplet, Regular CPU (shared vCPU), per-second with 672 h monthly cap",
    "plan": "Pay as you go",
@@ -3953,6 +5681,14 @@
     "m10h": 42,
     "m30": 100.8
    },
+   "costs_no_credit": {
+    "r1h": 0.14,
+    "r10h": 1.4,
+    "d1": 3.36,
+    "w1": 23.52,
+    "m10h": 42,
+    "m30": 100.8
+   },
    "burst": 42,
    "burst_x": 1.0,
    "min_bill": null,
@@ -3964,6 +5700,14 @@
     "w1": 101,
     "m10h": 98,
     "m30": 103
+   },
+   "ranks_no_credit": {
+    "r1h": 95,
+    "r10h": 91,
+    "d1": 89,
+    "w1": 100,
+    "m10h": 97,
+    "m30": 102
    },
    "mode": "Pay-as-you-go fixed sizes (micro..xl), per second",
    "plan": "Docker Agentic Platform (pay-as-you-go)",
@@ -3987,11 +5731,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -4023,11 +5783,27 @@
     "m10h": 49.68,
     "m30": 119.232
    },
+   "costs_no_credit": {
+    "r1h": 0.1656,
+    "r10h": 1.656,
+    "d1": 3.9744,
+    "w1": 27.8208,
+    "m10h": 49.68,
+    "m30": 119.232
+   },
    "burst": 49.68,
    "burst_x": 1.0,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": 102,
+    "r10h": 98,
+    "d1": 97,
+    "w1": 108,
+    "m10h": 110,
+    "m30": 113
+   },
+   "ranks_no_credit": {
     "r1h": 102,
     "r10h": 98,
     "d1": 97,
@@ -4057,6 +5833,14 @@
     "m10h": 14.0219,
     "m30": 33.6526
    },
+   "costs_no_credit": {
+    "r1h": 0.0467,
+    "r10h": 0.4674,
+    "d1": 1.1218,
+    "w1": 7.8523,
+    "m10h": 14.0219,
+    "m30": 33.6526
+   },
    "burst": 14.7,
    "burst_x": 1.0483600653263823,
    "min_bill": "rounds to 1 h",
@@ -4066,6 +5850,14 @@
     "r10h": 48,
     "d1": 46,
     "w1": 41,
+    "m10h": 40,
+    "m30": 45
+   },
+   "ranks_no_credit": {
+    "r1h": 50,
+    "r10h": 46,
+    "d1": 44,
+    "w1": 40,
     "m10h": 40,
     "m30": 45
    },
@@ -4091,11 +5883,27 @@
     "m10h": 137.0131,
     "m30": 328.8315
    },
+   "costs_no_credit": {
+    "r1h": 0.4567,
+    "r10h": 4.5671,
+    "d1": 10.961,
+    "w1": 76.7273,
+    "m10h": 137.0131,
+    "m30": 328.8315
+   },
    "burst": 137.0131,
    "burst_x": 1.0,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": 131,
+    "r10h": 129,
+    "d1": 137,
+    "w1": 154,
+    "m10h": 158,
+    "m30": 162
+   },
+   "ranks_no_credit": {
     "r1h": 131,
     "r10h": 129,
     "d1": 137,
@@ -4127,11 +5935,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -4164,6 +5988,14 @@
     "m10h": 15,
     "m30": 15
    },
+   "costs_no_credit": {
+    "r1h": 15,
+    "r10h": 15,
+    "d1": 15,
+    "w1": 15,
+    "m10h": 15,
+    "m30": 15
+   },
    "burst": 15,
    "burst_x": 1.0,
    "min_bill": null,
@@ -4173,6 +6005,14 @@
     "r10h": 143,
     "d1": 141,
     "w1": 76,
+    "m10h": 44,
+    "m30": 16
+   },
+   "ranks_no_credit": {
+    "r1h": 145,
+    "r10h": 143,
+    "d1": 141,
+    "w1": 74,
     "m10h": 44,
     "m30": 16
    },
@@ -4200,6 +6040,14 @@
     "m10h": 14.838,
     "m30": 35.6112
    },
+   "costs_no_credit": {
+    "r1h": 0.0495,
+    "r10h": 0.4946,
+    "d1": 1.187,
+    "w1": 8.3093,
+    "m10h": 14.838,
+    "m30": 35.6112
+   },
    "burst": 14.838,
    "burst_x": 1.0,
    "min_bill": null,
@@ -4209,6 +6057,14 @@
     "r10h": 49,
     "d1": 47,
     "w1": 42,
+    "m10h": 41,
+    "m30": 46
+   },
+   "ranks_no_credit": {
+    "r1h": 51,
+    "r10h": 47,
+    "d1": 45,
+    "w1": 41,
     "m10h": 41,
     "m30": 46
    },
@@ -4234,11 +6090,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -4270,11 +6142,27 @@
     "m10h": 124,
     "m30": 334
    },
+   "costs_no_credit": {
+    "r1h": 19,
+    "r10h": 19,
+    "d1": 19,
+    "w1": 58,
+    "m10h": 124,
+    "m30": 334
+   },
    "burst": 298,
    "burst_x": 2.403225806451613,
    "min_bill": "$1 per start",
    "burst_bill": null,
    "ranks": {
+    "r1h": 146,
+    "r10h": 144,
+    "d1": 143,
+    "w1": 147,
+    "m10h": 155,
+    "m30": 164
+   },
+   "ranks_no_credit": {
     "r1h": 146,
     "r10h": 144,
     "d1": 143,
@@ -4306,11 +6194,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -4348,11 +6252,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -4384,11 +6304,27 @@
     "m10h": 749,
     "m30": 749
    },
+   "costs_no_credit": {
+    "r1h": 749,
+    "r10h": 749,
+    "d1": 749,
+    "w1": 749,
+    "m10h": 749,
+    "m30": 749
+   },
    "burst": 749,
    "burst_x": 1.0,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": 179,
+    "r10h": 179,
+    "d1": 179,
+    "w1": 179,
+    "m10h": 178,
+    "m30": 176
+   },
+   "ranks_no_credit": {
     "r1h": 179,
     "r10h": 179,
     "d1": 179,
@@ -4421,11 +6357,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -4459,11 +6411,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -4495,11 +6463,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -4534,6 +6518,14 @@
     "m10h": 7.5826,
     "m30": 18.1983
    },
+   "costs_no_credit": {
+    "r1h": 0.0253,
+    "r10h": 0.2528,
+    "d1": 0.6066,
+    "w1": 4.2463,
+    "m10h": 7.5826,
+    "m30": 18.1983
+   },
    "burst": 7.5826,
    "burst_x": 1.0,
    "min_bill": null,
@@ -4545,6 +6537,14 @@
     "w1": 20,
     "m10h": 17,
     "m30": 20
+   },
+   "ranks_no_credit": {
+    "r1h": 30,
+    "r10h": 26,
+    "d1": 23,
+    "w1": 16,
+    "m10h": 14,
+    "m30": 18
    },
    "mode": "Shared CPU with 1-year reservation blocks (40% off), iad/ewr",
    "plan": "Pay As You Go",
@@ -4568,6 +6568,14 @@
     "m10h": 21.808,
     "m30": 78.0712
    },
+   "costs_no_credit": {
+    "r1h": 0.134,
+    "r10h": 1.3396,
+    "d1": 3.215,
+    "w1": 22.5053,
+    "m10h": 40.188,
+    "m30": 96.4512
+   },
    "burst": 21.808,
    "burst_x": 1.0,
    "min_bill": null,
@@ -4579,6 +6587,14 @@
     "w1": 19,
     "m10h": 71,
     "m30": 91
+   },
+   "ranks_no_credit": {
+    "r1h": 93,
+    "r10h": 89,
+    "d1": 87,
+    "w1": 97,
+    "m10h": 96,
+    "m30": 99
    },
    "mode": "On-demand (allocated, per second)",
    "plan": "Free",
@@ -4602,6 +6618,14 @@
     "m10h": 5.802,
     "m30": 13.9248
    },
+   "costs_no_credit": {
+    "r1h": 0.0193,
+    "r10h": 0.1934,
+    "d1": 0.4642,
+    "w1": 3.2491,
+    "m10h": 5.802,
+    "m30": 13.9248
+   },
    "burst": 5.802,
    "burst_x": 1.0,
    "min_bill": null,
@@ -4612,6 +6636,14 @@
     "d1": 23,
     "w1": 13,
     "m10h": 11,
+    "m30": 10
+   },
+   "ranks_no_credit": {
+    "r1h": 25,
+    "r10h": 21,
+    "d1": 18,
+    "w1": 10,
+    "m10h": 8,
     "m30": 10
    },
    "mode": "Virtual machine",
@@ -4638,11 +6670,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -4680,6 +6728,14 @@
     "m10h": 20.9253,
     "m30": 50.2208
    },
+   "costs_no_credit": {
+    "r1h": 0.0698,
+    "r10h": 0.6975,
+    "d1": 1.674,
+    "w1": 11.7182,
+    "m10h": 20.9253,
+    "m30": 50.2208
+   },
    "burst": 20.9253,
    "burst_x": 1.0,
    "min_bill": null,
@@ -4689,6 +6745,14 @@
     "r10h": 67,
     "d1": 65,
     "w1": 63,
+    "m10h": 66,
+    "m30": 68
+   },
+   "ranks_no_credit": {
+    "r1h": 69,
+    "r10h": 65,
+    "d1": 63,
+    "w1": 62,
     "m10h": 66,
     "m30": 68
    },
@@ -4714,11 +6778,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -4750,11 +6830,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -4786,6 +6882,14 @@
     "m10h": 21,
     "m30": 21
    },
+   "costs_no_credit": {
+    "r1h": 0,
+    "r10h": 0,
+    "d1": 0,
+    "w1": 21,
+    "m10h": 21,
+    "m30": 21
+   },
    "burst": 21,
    "burst_x": 1.0,
    "min_bill": null,
@@ -4797,6 +6901,14 @@
     "w1": 94,
     "m10h": 67,
     "m30": 28
+   },
+   "ranks_no_credit": {
+    "r1h": 7,
+    "r10h": 5,
+    "d1": 3,
+    "w1": 92,
+    "m10h": 67,
+    "m30": 25
    },
    "mode": "Linux arm64 standard runner (2-core), per minute",
    "plan": "Enterprise Cloud",
@@ -4822,6 +6934,14 @@
     "m10h": 46.575,
     "m30": 126.9
    },
+   "costs_no_credit": {
+    "r1h": 0,
+    "r10h": 0,
+    "d1": 0,
+    "w1": 21.33,
+    "m10h": 46.575,
+    "m30": 126.9
+   },
    "burst": 46.59,
    "burst_x": 1.0003220611916264,
    "min_bill": null,
@@ -4831,6 +6951,14 @@
     "r10h": 9,
     "d1": 7,
     "w1": 95,
+    "m10h": 105,
+    "m30": 125
+   },
+   "ranks_no_credit": {
+    "r1h": 8,
+    "r10h": 6,
+    "d1": 4,
+    "w1": 93,
     "m10h": 105,
     "m30": 125
    },
@@ -4856,11 +6984,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -4892,12 +7036,28 @@
     "m10h": 109,
     "m30": 361
    },
+   "costs_no_credit": {
+    "r1h": 0,
+    "r10h": 2,
+    "d1": 10.4,
+    "w1": 29.8,
+    "m10h": 109,
+    "m30": 361
+   },
    "burst": 109,
    "burst_x": 1.0,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
     "r1h": 12,
+    "r10h": 113,
+    "d1": 136,
+    "w1": 121,
+    "m10h": 152,
+    "m30": 167
+   },
+   "ranks_no_credit": {
+    "r1h": 9,
     "r10h": 113,
     "d1": 136,
     "w1": 121,
@@ -4926,11 +7086,27 @@
     "m10h": 73,
     "m30": 73
    },
+   "costs_no_credit": {
+    "r1h": 73,
+    "r10h": 73,
+    "d1": 73,
+    "w1": 73,
+    "m10h": 73,
+    "m30": 73
+   },
    "burst": 73,
    "burst_x": 1.0,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": 160,
+    "r10h": 160,
+    "d1": 160,
+    "w1": 153,
+    "m10h": 137,
+    "m30": 90
+   },
+   "ranks_no_credit": {
     "r1h": 160,
     "r10h": 160,
     "d1": 160,
@@ -4962,6 +7138,14 @@
     "m10h": 21,
     "m30": 50.4
    },
+   "costs_no_credit": {
+    "r1h": 14,
+    "r10h": 14,
+    "d1": 14,
+    "w1": 14,
+    "m10h": 21,
+    "m30": 50.4
+   },
    "burst": 21,
    "burst_x": 1.0,
    "min_bill": null,
@@ -4971,6 +7155,14 @@
     "r10h": 141,
     "d1": 139,
     "w1": 70,
+    "m10h": 68,
+    "m30": 69
+   },
+   "ranks_no_credit": {
+    "r1h": 143,
+    "r10h": 141,
+    "d1": 139,
+    "w1": 68,
     "m10h": 68,
     "m30": 69
    },
@@ -4999,11 +7191,27 @@
     "m10h": 61.8,
     "m30": 148.32
    },
+   "costs_no_credit": {
+    "r1h": 0.206,
+    "r10h": 2.06,
+    "d1": 4.944,
+    "w1": 34.608,
+    "m10h": 61.8,
+    "m30": 148.32
+   },
    "burst": 61.8,
    "burst_x": 1.0,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": 117,
+    "r10h": 114,
+    "d1": 114,
+    "w1": 126,
+    "m10h": 128,
+    "m30": 130
+   },
+   "ranks_no_credit": {
     "r1h": 117,
     "r10h": 114,
     "d1": 114,
@@ -5035,6 +7243,14 @@
     "m10h": 93,
     "m30": 244.2
    },
+   "costs_no_credit": {
+    "r1h": 0,
+    "r10h": 0,
+    "d1": 0,
+    "w1": 45.48,
+    "m10h": 93,
+    "m30": 244.2
+   },
    "burst": 93,
    "burst_x": 1.0,
    "min_bill": null,
@@ -5043,6 +7259,14 @@
     "r1h": 13,
     "r10h": 10,
     "d1": 8,
+    "w1": 139,
+    "m10h": 145,
+    "m30": 151
+   },
+   "ranks_no_credit": {
+    "r1h": 10,
+    "r10h": 7,
+    "d1": 5,
     "w1": 139,
     "m10h": 145,
     "m30": 151
@@ -5069,6 +7293,14 @@
     "m10h": 4.3583,
     "m30": 17.768
    },
+   "costs_no_credit": {
+    "r1h": 0.0319,
+    "r10h": 0.3193,
+    "d1": 0.7663,
+    "w1": 5.3639,
+    "m10h": 9.5783,
+    "m30": 22.988
+   },
    "burst": 4.3583,
    "burst_x": 1.0,
    "min_bill": null,
@@ -5080,6 +7312,14 @@
     "w1": 3,
     "m10h": 7,
     "m30": 19
+   },
+   "ranks_no_credit": {
+    "r1h": 40,
+    "r10h": 36,
+    "d1": 34,
+    "w1": 29,
+    "m10h": 26,
+    "m30": 30
    },
    "mode": "Cloud Run instances (Preview): long-lived singleton, shared burstable CPU, Tier 1",
    "plan": "Pay-as-you-go",
@@ -5103,11 +7343,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -5140,11 +7396,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -5176,11 +7448,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -5212,11 +7500,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -5248,11 +7552,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -5284,11 +7604,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -5320,11 +7656,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -5360,6 +7712,14 @@
     "m10h": 3.12,
     "m30": 6.49
    },
+   "costs_no_credit": {
+    "r1h": 0.0104,
+    "r10h": 0.104,
+    "d1": 0.2496,
+    "w1": 1.7472,
+    "m10h": 3.12,
+    "m30": 6.49
+   },
    "burst": 6.24,
    "burst_x": 2.0,
    "min_bill": "min 1 h",
@@ -5369,6 +7729,14 @@
     "r10h": 23,
     "d1": 20,
     "w1": 9,
+    "m10h": 4,
+    "m30": 4
+   },
+   "ranks_no_credit": {
+    "r1h": 22,
+    "r10h": 18,
+    "d1": 15,
+    "w1": 6,
     "m10h": 4,
     "m30": 4
    },
@@ -5394,6 +7762,14 @@
     "m10h": 32.25,
     "m30": 67.1
    },
+   "costs_no_credit": {
+    "r1h": 0.1075,
+    "r10h": 1.075,
+    "d1": 2.58,
+    "w1": 18.06,
+    "m10h": 32.25,
+    "m30": 67.1
+   },
    "burst": 64.5,
    "burst_x": 2.0,
    "min_bill": "min 1 h",
@@ -5404,6 +7780,14 @@
     "d1": 82,
     "w1": 84,
     "m10h": 89,
+    "m30": 84
+   },
+   "ranks_no_credit": {
+    "r1h": 86,
+    "r10h": 82,
+    "d1": 80,
+    "w1": 82,
+    "m10h": 88,
     "m30": 84
    },
    "mode": "AX physical server hourly with monthly cap",
@@ -5428,11 +7812,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -5466,11 +7866,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -5502,11 +7918,27 @@
     "m10h": 50.3277,
     "m30": 120.7864
    },
+   "costs_no_credit": {
+    "r1h": 0.1678,
+    "r10h": 1.6776,
+    "d1": 4.0262,
+    "w1": 28.1835,
+    "m10h": 50.3277,
+    "m30": 120.7864
+   },
    "burst": 50.3277,
    "burst_x": 1.0,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": 108,
+    "r10h": 104,
+    "d1": 104,
+    "w1": 114,
+    "m10h": 116,
+    "m30": 119
+   },
+   "ranks_no_credit": {
     "r1h": 108,
     "r10h": 104,
     "d1": 104,
@@ -5536,6 +7968,14 @@
     "m10h": 14.99,
     "m30": 14.99
    },
+   "costs_no_credit": {
+    "r1h": 14.99,
+    "r10h": 14.99,
+    "d1": 14.99,
+    "w1": 14.99,
+    "m10h": 14.99,
+    "m30": 14.99
+   },
    "burst": 14.99,
    "burst_x": 1.0,
    "min_bill": "min 1 h",
@@ -5545,6 +7985,14 @@
     "r10h": 142,
     "d1": 140,
     "w1": 75,
+    "m10h": 42,
+    "m30": 15
+   },
+   "ranks_no_credit": {
+    "r1h": 144,
+    "r10h": 142,
+    "d1": 140,
+    "w1": 73,
     "m10h": 42,
     "m30": 15
    },
@@ -5572,11 +8020,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -5608,11 +8072,27 @@
     "m10h": 119.1829,
     "m30": 286.0389
    },
+   "costs_no_credit": {
+    "r1h": 0.3973,
+    "r10h": 3.9728,
+    "d1": 9.5346,
+    "w1": 66.7424,
+    "m10h": 119.1829,
+    "m30": 286.0389
+   },
    "burst": 119.1829,
    "burst_x": 1.0,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": 130,
+    "r10h": 128,
+    "d1": 133,
+    "w1": 149,
+    "m10h": 154,
+    "m30": 161
+   },
+   "ranks_no_credit": {
     "r1h": 130,
     "r10h": 128,
     "d1": 133,
@@ -5642,11 +8122,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -5679,11 +8175,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -5722,11 +8234,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -5758,6 +8286,14 @@
     "m10h": 56,
     "m30": 232.4
    },
+   "costs_no_credit": {
+    "r1h": 0,
+    "r10h": 0,
+    "d1": 0,
+    "w1": 0.56,
+    "m10h": 56,
+    "m30": 232.4
+   },
    "burst": 56,
    "burst_x": 1.0,
    "min_bill": null,
@@ -5767,6 +8303,14 @@
     "r10h": 12,
     "d1": 10,
     "w1": 5,
+    "m10h": 124,
+    "m30": 148
+   },
+   "ranks_no_credit": {
+    "r1h": 11,
+    "r10h": 8,
+    "d1": 6,
+    "w1": 3,
     "m10h": 124,
     "m30": 148
    },
@@ -5795,11 +8339,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -5831,6 +8391,14 @@
     "m10h": 30,
     "m30": 72
    },
+   "costs_no_credit": {
+    "r1h": 0.1,
+    "r10h": 1,
+    "d1": 2.4,
+    "w1": 16.8,
+    "m10h": 30,
+    "m30": 72
+   },
    "burst": 30,
    "burst_x": 1.0,
    "min_bill": null,
@@ -5841,6 +8409,14 @@
     "d1": 79,
     "w1": 82,
     "m10h": 86,
+    "m30": 89
+   },
+   "ranks_no_credit": {
+    "r1h": 83,
+    "r10h": 79,
+    "d1": 77,
+    "w1": 80,
+    "m10h": 85,
     "m30": 89
    },
    "mode": "Cloud browser session ($0.10 per browser-hour, credits)",
@@ -5868,11 +8444,27 @@
     "m10h": 105,
     "m30": 252
    },
+   "costs_no_credit": {
+    "r1h": 0.35,
+    "r10h": 3.5,
+    "d1": 8.4,
+    "w1": 58.8,
+    "m10h": 105,
+    "m30": 252
+   },
    "burst": 105,
    "burst_x": 1.0,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": 128,
+    "r10h": 126,
+    "d1": 130,
+    "w1": 148,
+    "m10h": 150,
+    "m30": 156
+   },
+   "ranks_no_credit": {
     "r1h": 128,
     "r10h": 126,
     "d1": 130,
@@ -5902,11 +8494,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -5938,6 +8546,14 @@
     "m10h": 10.5525,
     "m30": 25.326
    },
+   "costs_no_credit": {
+    "r1h": 0.0352,
+    "r10h": 0.3518,
+    "d1": 0.8442,
+    "w1": 5.9094,
+    "m10h": 10.5525,
+    "m30": 25.326
+   },
    "burst": 10.5525,
    "burst_x": 1.0,
    "min_bill": null,
@@ -5949,6 +8565,14 @@
     "w1": 33,
     "m10h": 31,
     "m30": 36
+   },
+   "ranks_no_credit": {
+    "r1h": 42,
+    "r10h": 38,
+    "d1": 36,
+    "w1": 31,
+    "m10h": 30,
+    "m30": 35
    },
    "mode": "Flex 25% baseline (burst to 2x baseline = 50%)",
    "plan": "Usage account",
@@ -5972,6 +8596,14 @@
     "m10h": 7.9245,
     "m30": 33.0188
    },
+   "costs_no_credit": {
+    "r1h": 0,
+    "r10h": 0,
+    "d1": 0,
+    "w1": 0.0377,
+    "m10h": 7.9245,
+    "m30": 33.0188
+   },
    "burst": 7.9245,
    "burst_x": 1.0,
    "min_bill": null,
@@ -5982,6 +8614,14 @@
     "d1": 11,
     "w1": 2,
     "m10h": 20,
+    "m30": 44
+   },
+   "ranks_no_credit": {
+    "r1h": 12,
+    "r10h": 9,
+    "d1": 7,
+    "w1": 1,
+    "m10h": 17,
     "m30": 44
    },
    "mode": "InstaCloud compute (microVM service, usage-billed)",
@@ -6006,11 +8646,27 @@
     "m10h": 150.28,
     "m30": 220.672
    },
+   "costs_no_credit": {
+    "r1h": 100.1676,
+    "r10h": 101.676,
+    "d1": 104.0224,
+    "w1": 128.1568,
+    "m10h": 150.28,
+    "m30": 220.672
+   },
    "burst": 150.28,
    "burst_x": 1.0,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": 165,
+    "r10h": 165,
+    "d1": 165,
+    "w1": 162,
+    "m10h": 160,
+    "m30": 146
+   },
+   "ranks_no_credit": {
     "r1h": 165,
     "r10h": 165,
     "d1": 165,
@@ -6042,11 +8698,27 @@
     "m10h": 145,
     "m30": 250
    },
+   "costs_no_credit": {
+    "r1h": 120,
+    "r10h": 120,
+    "d1": 120,
+    "w1": 120,
+    "m10h": 145,
+    "m30": 250
+   },
    "burst": 145,
    "burst_x": 1.0,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": 166,
+    "r10h": 166,
+    "d1": 166,
+    "w1": 159,
+    "m10h": 159,
+    "m30": 153
+   },
+   "ranks_no_credit": {
     "r1h": 166,
     "r10h": 166,
     "d1": 166,
@@ -6078,6 +8750,14 @@
     "m10h": 4.4374,
     "m30": 10.6498
    },
+   "costs_no_credit": {
+    "r1h": 0.0148,
+    "r10h": 0.1479,
+    "d1": 0.355,
+    "w1": 2.485,
+    "m10h": 4.4374,
+    "m30": 10.6498
+   },
    "burst": 4.4374,
    "burst_x": 1.0,
    "min_bill": null,
@@ -6088,6 +8768,14 @@
     "d1": 22,
     "w1": 12,
     "m10h": 8,
+    "m30": 9
+   },
+   "ranks_no_credit": {
+    "r1h": 24,
+    "r10h": 20,
+    "d1": 17,
+    "w1": 9,
+    "m10h": 6,
     "m30": 9
    },
    "mode": "Basic Cloud Cubes",
@@ -6112,11 +8800,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -6148,11 +8852,27 @@
     "m10h": 94.2,
     "m30": 226.08
    },
+   "costs_no_credit": {
+    "r1h": 0.314,
+    "r10h": 3.14,
+    "d1": 7.536,
+    "w1": 52.752,
+    "m10h": 94.2,
+    "m30": 226.08
+   },
    "burst": 94.2,
    "burst_x": 1.0,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": 126,
+    "r10h": 124,
+    "d1": 128,
+    "w1": 144,
+    "m10h": 146,
+    "m30": 147
+   },
+   "ranks_no_credit": {
     "r1h": 126,
     "r10h": 124,
     "d1": 128,
@@ -6182,6 +8902,14 @@
     "m10h": 33.1315,
     "m30": 79.5156
    },
+   "costs_no_credit": {
+    "r1h": 0.1104,
+    "r10h": 1.1044,
+    "d1": 2.6505,
+    "w1": 18.5536,
+    "m10h": 33.1315,
+    "m30": 79.5156
+   },
    "burst": 33.1315,
    "burst_x": 1.0,
    "min_bill": null,
@@ -6193,6 +8921,14 @@
     "w1": 85,
     "m10h": 91,
     "m30": 92
+   },
+   "ranks_no_credit": {
+    "r1h": 87,
+    "r10h": 83,
+    "d1": 81,
+    "w1": 83,
+    "m10h": 89,
+    "m30": 91
    },
    "mode": "MicroVM sandbox, per-second (public beta)",
    "plan": "Pay as you go (public beta)",
@@ -6216,11 +8952,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -6252,6 +9004,14 @@
     "m10h": 15.8219,
     "m30": 37.9726
    },
+   "costs_no_credit": {
+    "r1h": 0.0527,
+    "r10h": 0.5274,
+    "d1": 1.2658,
+    "w1": 8.8603,
+    "m10h": 15.8219,
+    "m30": 37.9726
+   },
    "burst": 15.8219,
    "burst_x": 1.0,
    "min_bill": null,
@@ -6261,6 +9021,14 @@
     "r10h": 56,
     "d1": 54,
     "w1": 50,
+    "m10h": 50,
+    "m30": 52
+   },
+   "ranks_no_credit": {
+    "r1h": 58,
+    "r10h": 54,
+    "d1": 52,
+    "w1": 49,
     "m10h": 50,
     "m30": 52
    },
@@ -6286,11 +9054,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -6322,6 +9106,14 @@
     "m10h": 10.472,
     "m30": 25.1327
    },
+   "costs_no_credit": {
+    "r1h": 0.0349,
+    "r10h": 0.3491,
+    "d1": 0.8378,
+    "w1": 5.8643,
+    "m10h": 10.472,
+    "m30": 25.1327
+   },
    "burst": 10.472,
    "burst_x": 1.0,
    "min_bill": null,
@@ -6333,6 +9125,14 @@
     "w1": 32,
     "m10h": 30,
     "m30": 35
+   },
+   "ranks_no_credit": {
+    "r1h": 41,
+    "r10h": 37,
+    "d1": 35,
+    "w1": 30,
+    "m10h": 29,
+    "m30": 34
    },
    "mode": "t1i burstable",
    "plan": "Pay as you go",
@@ -6356,6 +9156,14 @@
     "m10h": 8.2196,
     "m30": 19.7265
    },
+   "costs_no_credit": {
+    "r1h": 0.0279,
+    "r10h": 0.2744,
+    "d1": 0.658,
+    "w1": 4.6032,
+    "m10h": 8.2196,
+    "m30": 19.7265
+   },
    "burst": 8.4932,
    "burst_x": 1.033286291303713,
    "min_bill": null,
@@ -6367,6 +9175,14 @@
     "w1": 23,
     "m10h": 21,
     "m30": 23
+   },
+   "ranks_no_credit": {
+    "r1h": 33,
+    "r10h": 29,
+    "d1": 27,
+    "w1": 19,
+    "m10h": 18,
+    "m30": 21
    },
    "mode": "Availability shared hourly",
    "plan": "Usage account",
@@ -6390,11 +9206,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -6428,6 +9260,14 @@
     "m10h": 5.6849,
     "m30": 20.6438
    },
+   "costs_no_credit": {
+    "r1h": 0.0356,
+    "r10h": 0.3562,
+    "d1": 0.8548,
+    "w1": 5.9836,
+    "m10h": 10.6849,
+    "m30": 25.6438
+   },
    "burst": 5.6849,
    "burst_x": 1.0,
    "min_bill": null,
@@ -6439,6 +9279,14 @@
     "w1": 6,
     "m10h": 10,
     "m30": 27
+   },
+   "ranks_no_credit": {
+    "r1h": 43,
+    "r10h": 39,
+    "d1": 37,
+    "w1": 32,
+    "m10h": 31,
+    "m30": 36
    },
    "mode": "Disposable and held sandbox API (public preview)",
    "plan": "Public preview",
@@ -6462,6 +9310,14 @@
     "m10h": 13,
     "m30": 38.2001
    },
+   "costs_no_credit": {
+    "r1h": 0,
+    "r10h": 0,
+    "d1": 0,
+    "w1": 5.08,
+    "m10h": 13,
+    "m30": 38.2001
+   },
    "burst": 13,
    "burst_x": 1.0,
    "min_bill": null,
@@ -6471,6 +9327,14 @@
     "r10h": 15,
     "d1": 13,
     "w1": 29,
+    "m10h": 37,
+    "m30": 53
+   },
+   "ranks_no_credit": {
+    "r1h": 13,
+    "r10h": 10,
+    "d1": 8,
+    "w1": 26,
     "m10h": 37,
     "m30": 53
    },
@@ -6499,6 +9363,14 @@
     "m10h": 29,
     "m30": 39.736
    },
+   "costs_no_credit": {
+    "r1h": 29,
+    "r10h": 29,
+    "d1": 29,
+    "w1": 29,
+    "m10h": 29,
+    "m30": 39.736
+   },
    "burst": 29,
    "burst_x": 1.0,
    "min_bill": null,
@@ -6509,6 +9381,14 @@
     "d1": 153,
     "w1": 120,
     "m10h": 84,
+    "m30": 57
+   },
+   "ranks_no_credit": {
+    "r1h": 155,
+    "r10h": 155,
+    "d1": 153,
+    "w1": 120,
+    "m10h": 83,
     "m30": 57
    },
    "mode": "Eco instances (2 GB/vCPU, older Milan CPUs, was/fra/sin)",
@@ -6533,11 +9413,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -6569,11 +9465,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -6610,11 +9522,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -6648,11 +9576,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -6684,11 +9628,27 @@
     "m10h": 48.33,
     "m30": 48.33
    },
+   "costs_no_credit": {
+    "r1h": 0.19,
+    "r10h": 1.9,
+    "d1": 4.56,
+    "w1": 31.92,
+    "m10h": 48.33,
+    "m30": 48.33
+   },
    "burst": 48.33,
    "burst_x": 1.0,
    "min_bill": "min 1 h",
    "burst_bill": "min 1 h",
    "ranks": {
+    "r1h": 116,
+    "r10h": 112,
+    "d1": 112,
+    "w1": 125,
+    "m10h": 107,
+    "m30": 67
+   },
+   "ranks_no_credit": {
     "r1h": 116,
     "r10h": 112,
     "d1": 112,
@@ -6720,11 +9680,27 @@
     "m10h": 49.68,
     "m30": 119.232
    },
+   "costs_no_credit": {
+    "r1h": 0.1656,
+    "r10h": 1.656,
+    "d1": 3.9744,
+    "w1": 27.8208,
+    "m10h": 49.68,
+    "m30": 119.232
+   },
    "burst": 49.68,
    "burst_x": 1.0,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": 103,
+    "r10h": 99,
+    "d1": 98,
+    "w1": 109,
+    "m10h": 111,
+    "m30": 114
+   },
+   "ranks_no_credit": {
     "r1h": 103,
     "r10h": 99,
     "d1": 98,
@@ -6756,6 +9732,14 @@
     "m10h": 0.411,
     "m30": 0.9863
    },
+   "costs_no_credit": {
+    "r1h": 0.0014,
+    "r10h": 0.0137,
+    "d1": 0.0329,
+    "w1": 0.2301,
+    "m10h": 0.411,
+    "m30": 0.9863
+   },
    "burst": 0.411,
    "burst_x": 1.0,
    "min_bill": null,
@@ -6765,6 +9749,14 @@
     "r10h": 20,
     "d1": 17,
     "w1": 4,
+    "m10h": 1,
+    "m30": 1
+   },
+   "ranks_no_credit": {
+    "r1h": 19,
+    "r10h": 15,
+    "d1": 12,
+    "w1": 2,
     "m10h": 1,
     "m30": 1
    },
@@ -6792,6 +9784,14 @@
     "m10h": 19,
     "m30": 52.6
    },
+   "costs_no_credit": {
+    "r1h": 19,
+    "r10h": 19,
+    "d1": 19,
+    "w1": 19,
+    "m10h": 19,
+    "m30": 52.6
+   },
    "burst": 19,
    "burst_x": 1.0,
    "min_bill": null,
@@ -6801,6 +9801,14 @@
     "r10h": 145,
     "d1": 144,
     "w1": 86,
+    "m10h": 59,
+    "m30": 72
+   },
+   "ranks_no_credit": {
+    "r1h": 147,
+    "r10h": 145,
+    "d1": 144,
+    "w1": 84,
     "m10h": 59,
     "m30": 72
    },
@@ -6829,11 +9837,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -6865,6 +9889,14 @@
     "m10h": 10.8,
     "m30": 24
    },
+   "costs_no_credit": {
+    "r1h": 0.036,
+    "r10h": 0.36,
+    "d1": 0.864,
+    "w1": 6.048,
+    "m10h": 10.8,
+    "m30": 24
+   },
    "burst": 21.6,
    "burst_x": 2.0,
    "min_bill": "min 1 h",
@@ -6876,6 +9908,14 @@
     "w1": 35,
     "m10h": 33,
     "m30": 32
+   },
+   "ranks_no_credit": {
+    "r1h": 45,
+    "r10h": 41,
+    "d1": 39,
+    "w1": 34,
+    "m10h": 33,
+    "m30": 31
    },
    "mode": "Shared CPU",
    "plan": "Usage account",
@@ -6899,6 +9939,14 @@
     "m10h": 6.5507,
     "m30": 15.7216
    },
+   "costs_no_credit": {
+    "r1h": 0.0218,
+    "r10h": 0.2184,
+    "d1": 0.5241,
+    "w1": 3.6684,
+    "m10h": 6.5507,
+    "m30": 15.7216
+   },
    "burst": 6.5507,
    "burst_x": 1.0,
    "min_bill": null,
@@ -6909,6 +9957,14 @@
     "d1": 27,
     "w1": 18,
     "m10h": 15,
+    "m30": 17
+   },
+   "ranks_no_credit": {
+    "r1h": 29,
+    "r10h": 25,
+    "d1": 22,
+    "w1": 15,
+    "m10h": 12,
     "m30": 17
    },
    "mode": "Sandbox (4 vCPU / 4 GiB, flat per second while it runs)",
@@ -6933,6 +9989,14 @@
     "m10h": 15.6,
     "m30": 37.44
    },
+   "costs_no_credit": {
+    "r1h": 0.052,
+    "r10h": 0.52,
+    "d1": 1.248,
+    "w1": 8.736,
+    "m10h": 15.6,
+    "m30": 37.44
+   },
    "burst": 15.6,
    "burst_x": 1.0,
    "min_bill": null,
@@ -6942,6 +10006,14 @@
     "r10h": 55,
     "d1": 53,
     "w1": 49,
+    "m10h": 49,
+    "m30": 51
+   },
+   "ranks_no_credit": {
+    "r1h": 57,
+    "r10h": 53,
+    "d1": 51,
+    "w1": 48,
     "m10h": 49,
     "m30": 51
    },
@@ -6967,11 +10039,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -7005,11 +10093,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -7043,11 +10147,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -7079,11 +10199,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -7115,11 +10251,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -7151,11 +10303,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -7187,11 +10355,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -7226,11 +10410,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -7262,11 +10462,27 @@
     "m10h": 49,
     "m30": 111.696
    },
+   "costs_no_credit": {
+    "r1h": 49,
+    "r10h": 49,
+    "d1": 49,
+    "w1": 49,
+    "m10h": 49,
+    "m30": 111.696
+   },
    "burst": 49,
    "burst_x": 1.0,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": 157,
+    "r10h": 157,
+    "d1": 155,
+    "w1": 143,
+    "m10h": 108,
+    "m30": 110
+   },
+   "ranks_no_credit": {
     "r1h": 157,
     "r10h": 157,
     "d1": 155,
@@ -7296,11 +10512,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -7332,11 +10564,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -7368,11 +10616,27 @@
     "m10h": 46.5561,
     "m30": 111.7346
    },
+   "costs_no_credit": {
+    "r1h": 0.1552,
+    "r10h": 1.5519,
+    "d1": 3.7245,
+    "w1": 26.0714,
+    "m10h": 46.5561,
+    "m30": 111.7346
+   },
    "burst": 46.5561,
    "burst_x": 1.0,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": 100,
+    "r10h": 96,
+    "d1": 95,
+    "w1": 105,
+    "m10h": 104,
+    "m30": 111
+   },
+   "ranks_no_credit": {
     "r1h": 100,
     "r10h": 96,
     "d1": 95,
@@ -7404,11 +10668,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -7440,6 +10720,14 @@
     "m10h": 26.9808,
     "m30": 106.7539
    },
+   "costs_no_credit": {
+    "r1h": 0,
+    "r10h": 0,
+    "d1": 0,
+    "w1": 1.9092,
+    "m10h": 26.9808,
+    "m30": 106.7539
+   },
    "burst": 26.9808,
    "burst_x": 1.0,
    "min_bill": null,
@@ -7451,6 +10739,14 @@
     "w1": 10,
     "m10h": 78,
     "m30": 107
+   },
+   "ranks_no_credit": {
+    "r1h": 14,
+    "r10h": 11,
+    "d1": 9,
+    "w1": 7,
+    "m10h": 77,
+    "m30": 106
    },
    "mode": "Sandbox, minimal request + burst (billed ~ on usage; burst capacity not guaranteed)",
    "plan": "Starter",
@@ -7474,11 +10770,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -7510,11 +10822,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -7546,6 +10874,14 @@
     "m10h": 30,
     "m30": 62
    },
+   "costs_no_credit": {
+    "r1h": 0.1,
+    "r10h": 1,
+    "d1": 2.4,
+    "w1": 16.8,
+    "m10h": 30,
+    "m30": 62
+   },
    "burst": 30,
    "burst_x": 1.0,
    "min_bill": null,
@@ -7556,6 +10892,14 @@
     "d1": 80,
     "w1": 83,
     "m10h": 87,
+    "m30": 79
+   },
+   "ranks_no_credit": {
+    "r1h": 84,
+    "r10h": 80,
+    "d1": 78,
+    "w1": 81,
+    "m10h": 86,
     "m30": 79
    },
    "mode": "MorphVM instance / Devbox, pay-as-you-go MCU ($0.05)",
@@ -7582,6 +10926,14 @@
     "m10h": 15,
     "m30": 36
    },
+   "costs_no_credit": {
+    "r1h": 0.05,
+    "r10h": 0.5,
+    "d1": 1.2,
+    "w1": 8.4,
+    "m10h": 15,
+    "m30": 36
+   },
    "burst": 15,
    "burst_x": 1.0,
    "min_bill": null,
@@ -7591,6 +10943,14 @@
     "r10h": 51,
     "d1": 49,
     "w1": 44,
+    "m10h": 45,
+    "m30": 47
+   },
+   "ranks_no_credit": {
+    "r1h": 53,
+    "r10h": 49,
+    "d1": 47,
+    "w1": 43,
     "m10h": 45,
     "m30": 47
    },
@@ -7616,11 +10976,27 @@
     "m10h": 77.326,
     "m30": 185.5825
    },
+   "costs_no_credit": {
+    "r1h": 0.2578,
+    "r10h": 2.5775,
+    "d1": 6.1861,
+    "w1": 43.3026,
+    "m10h": 77.326,
+    "m30": 185.5825
+   },
    "burst": 78.5534,
    "burst_x": 1.0158730569278123,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": 123,
+    "r10h": 121,
+    "d1": 122,
+    "w1": 137,
+    "m10h": 140,
+    "m30": 140
+   },
+   "ranks_no_credit": {
     "r1h": 123,
     "r10h": 121,
     "d1": 122,
@@ -7650,6 +11026,14 @@
     "m10h": 42.4176,
     "m30": 101.8022
    },
+   "costs_no_credit": {
+    "r1h": 0.1414,
+    "r10h": 1.4139,
+    "d1": 3.3934,
+    "w1": 23.7538,
+    "m10h": 42.4176,
+    "m30": 101.8022
+   },
    "burst": 84.8352,
    "burst_x": 2.0,
    "min_bill": "rounds to 1 h",
@@ -7661,6 +11045,14 @@
     "w1": 102,
     "m10h": 99,
     "m30": 104
+   },
+   "ranks_no_credit": {
+    "r1h": 96,
+    "r10h": 92,
+    "d1": 90,
+    "w1": 101,
+    "m10h": 98,
+    "m30": 103
    },
    "mode": "Korea VPC g3 High CPU",
    "plan": "Pay as you go",
@@ -7686,11 +11078,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -7722,6 +11130,14 @@
     "m10h": 15.4636,
     "m30": 37.1125
    },
+   "costs_no_credit": {
+    "r1h": 0.0515,
+    "r10h": 0.5155,
+    "d1": 1.2371,
+    "w1": 8.6596,
+    "m10h": 15.4636,
+    "m30": 37.1125
+   },
    "burst": 15.4636,
    "burst_x": 1.0,
    "min_bill": null,
@@ -7731,6 +11147,14 @@
     "r10h": 54,
     "d1": 52,
     "w1": 48,
+    "m10h": 48,
+    "m30": 50
+   },
+   "ranks_no_credit": {
+    "r1h": 56,
+    "r10h": 52,
+    "d1": 50,
+    "w1": 47,
     "m10h": 48,
     "m30": 50
    },
@@ -7756,6 +11180,14 @@
     "m10h": 5.0291,
     "m30": 5.0291
    },
+   "costs_no_credit": {
+    "r1h": 5.0291,
+    "r10h": 5.0291,
+    "d1": 5.0291,
+    "w1": 5.0291,
+    "m10h": 5.0291,
+    "m30": 5.0291
+   },
    "burst": 5.0291,
    "burst_x": 1.0,
    "min_bill": "min 1 h",
@@ -7766,6 +11198,14 @@
     "d1": 116,
     "w1": 26,
     "m10h": 9,
+    "m30": 2
+   },
+   "ranks_no_credit": {
+    "r1h": 138,
+    "r10h": 132,
+    "d1": 116,
+    "w1": 22,
+    "m10h": 7,
     "m30": 2
    },
    "mode": "VPS Lite / pico / nano, 2-12 month terms (net EUR converted)",
@@ -7792,11 +11232,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -7828,11 +11284,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -7864,6 +11336,14 @@
     "m10h": 21.1812,
     "m30": 50.835
    },
+   "costs_no_credit": {
+    "r1h": 0.0706,
+    "r10h": 0.706,
+    "d1": 1.6945,
+    "w1": 11.8615,
+    "m10h": 21.1812,
+    "m30": 50.835
+   },
    "burst": 21.1812,
    "burst_x": 1.0,
    "min_bill": null,
@@ -7873,6 +11353,14 @@
     "r10h": 68,
     "d1": 66,
     "w1": 64,
+    "m10h": 69,
+    "m30": 70
+   },
+   "ranks_no_credit": {
+    "r1h": 70,
+    "r10h": 66,
+    "d1": 64,
+    "w1": 63,
     "m10h": 69,
     "m30": 70
    },
@@ -7898,6 +11386,14 @@
     "m10h": 20,
     "m30": 20
    },
+   "costs_no_credit": {
+    "r1h": 20,
+    "r10h": 20,
+    "d1": 20,
+    "w1": 20,
+    "m10h": 20,
+    "m30": 20
+   },
    "burst": 20,
    "burst_x": 1.0,
    "min_bill": null,
@@ -7909,6 +11405,14 @@
     "w1": 90,
     "m10h": 64,
     "m30": 25
+   },
+   "ranks_no_credit": {
+    "r1h": 151,
+    "r10h": 149,
+    "d1": 148,
+    "w1": 88,
+    "m10h": 64,
+    "m30": 23
    },
    "mode": "Browser session",
    "plan": "Developer",
@@ -7935,6 +11439,14 @@
     "m10h": 34.992,
     "m30": 83.9808
    },
+   "costs_no_credit": {
+    "r1h": 0.1166,
+    "r10h": 1.1664,
+    "d1": 2.7994,
+    "w1": 19.5955,
+    "m10h": 34.992,
+    "m30": 83.9808
+   },
    "burst": 34.992,
    "burst_x": 1.0,
    "min_bill": null,
@@ -7946,6 +11458,14 @@
     "w1": 88,
     "m10h": 92,
     "m30": 93
+   },
+   "ranks_no_credit": {
+    "r1h": 88,
+    "r10h": 84,
+    "d1": 82,
+    "w1": 86,
+    "m10h": 90,
+    "m30": 92
    },
    "mode": "Pay-as-you-go (prepaid balance)",
    "plan": "Paid (pay-as-you-go)",
@@ -7969,11 +11489,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -8006,11 +11542,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -8042,11 +11594,27 @@
     "m10h": 49.68,
     "m30": 119.232
    },
+   "costs_no_credit": {
+    "r1h": 0.1656,
+    "r10h": 1.656,
+    "d1": 3.9744,
+    "w1": 27.8208,
+    "m10h": 49.68,
+    "m30": 119.232
+   },
    "burst": 49.68,
    "burst_x": 1.0,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": 104,
+    "r10h": 100,
+    "d1": 99,
+    "w1": 110,
+    "m10h": 112,
+    "m30": 115
+   },
+   "ranks_no_credit": {
     "r1h": 104,
     "r10h": 100,
     "d1": 99,
@@ -8078,11 +11646,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -8114,11 +11698,27 @@
     "m10h": 75,
     "m30": 180
    },
+   "costs_no_credit": {
+    "r1h": 20,
+    "r10h": 20,
+    "d1": 20,
+    "w1": 42,
+    "m10h": 75,
+    "m30": 180
+   },
    "burst": 75,
    "burst_x": 1.0,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": 152,
+    "r10h": 150,
+    "d1": 149,
+    "w1": 134,
+    "m10h": 138,
+    "m30": 138
+   },
+   "ranks_no_credit": {
     "r1h": 152,
     "r10h": 150,
     "d1": 149,
@@ -8150,11 +11750,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -8186,6 +11802,14 @@
     "m10h": 39.7505,
     "m30": 95.4012
    },
+   "costs_no_credit": {
+    "r1h": 0.1325,
+    "r10h": 1.325,
+    "d1": 3.18,
+    "w1": 22.2603,
+    "m10h": 39.7505,
+    "m30": 95.4012
+   },
    "burst": 39.7505,
    "burst_x": 1.0,
    "min_bill": null,
@@ -8197,6 +11821,14 @@
     "w1": 98,
     "m10h": 97,
     "m30": 99
+   },
+   "ranks_no_credit": {
+    "r1h": 92,
+    "r10h": 88,
+    "d1": 86,
+    "w1": 96,
+    "m10h": 95,
+    "m30": 98
    },
    "mode": "Flexible purpose x1e.xlarge.2 EU-DE",
    "plan": "Pay as you go",
@@ -8220,11 +11852,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -8256,11 +11904,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -8296,6 +11960,14 @@
     "m10h": 20,
     "m30": 92.16
    },
+   "costs_no_credit": {
+    "r1h": 0.378,
+    "r10h": 3.78,
+    "d1": 9.072,
+    "w1": 20,
+    "m10h": 20,
+    "m30": 92.16
+   },
    "burst": 20,
    "burst_x": 1.0,
    "min_bill": null,
@@ -8307,6 +11979,14 @@
     "w1": 91,
     "m10h": 65,
     "m30": 98
+   },
+   "ranks_no_credit": {
+    "r1h": 129,
+    "r10h": 127,
+    "d1": 132,
+    "w1": 89,
+    "m10h": 65,
+    "m30": 97
    },
    "mode": "Machine time per second (2 GB/1 vCPU default, auto-burst to 4/2 or 8/4)",
    "plan": "Pro",
@@ -8332,11 +12012,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -8369,11 +12065,27 @@
     "m10h": 71.28,
     "m30": 171.072
    },
+   "costs_no_credit": {
+    "r1h": 0.2376,
+    "r10h": 2.376,
+    "d1": 5.7024,
+    "w1": 39.9168,
+    "m10h": 71.28,
+    "m30": 171.072
+   },
    "burst": 71.28,
    "burst_x": 1.0,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": 120,
+    "r10h": 118,
+    "d1": 119,
+    "w1": 132,
+    "m10h": 135,
+    "m30": 134
+   },
+   "ranks_no_credit": {
     "r1h": 120,
     "r10h": 118,
     "d1": 119,
@@ -8405,11 +12117,27 @@
     "m10h": 49.68,
     "m30": 119.232
    },
+   "costs_no_credit": {
+    "r1h": 0.1656,
+    "r10h": 1.656,
+    "d1": 3.9744,
+    "w1": 27.8208,
+    "m10h": 49.68,
+    "m30": 119.232
+   },
    "burst": 49.68,
    "burst_x": 1.0,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": 105,
+    "r10h": 101,
+    "d1": 100,
+    "w1": 111,
+    "m10h": 113,
+    "m30": 116
+   },
+   "ranks_no_credit": {
     "r1h": 105,
     "r10h": 101,
     "d1": 100,
@@ -8441,6 +12169,14 @@
     "m10h": 25.65,
     "m30": 61.56
    },
+   "costs_no_credit": {
+    "r1h": 0.0855,
+    "r10h": 0.855,
+    "d1": 2.052,
+    "w1": 14.364,
+    "m10h": 25.65,
+    "m30": 61.56
+   },
    "burst": 25.65,
    "burst_x": 1.0,
    "min_bill": null,
@@ -8451,6 +12187,14 @@
     "d1": 73,
     "w1": 73,
     "m10h": 76,
+    "m30": 78
+   },
+   "ranks_no_credit": {
+    "r1h": 76,
+    "r10h": 73,
+    "d1": 71,
+    "w1": 71,
+    "m10h": 75,
     "m30": 78
    },
    "mode": "OpenShift Dedicated worker subscription component",
@@ -8477,6 +12221,14 @@
     "m10h": 55,
     "m30": 139
    },
+   "costs_no_credit": {
+    "r1h": 0,
+    "r10h": 0,
+    "d1": 0,
+    "w1": 28.6,
+    "m10h": 55,
+    "m30": 139
+   },
    "burst": 55,
    "burst_x": 1.0,
    "min_bill": null,
@@ -8485,6 +12237,14 @@
     "r1h": 20,
     "r10h": 17,
     "d1": 15,
+    "w1": 119,
+    "m10h": 123,
+    "m30": 129
+   },
+   "ranks_no_credit": {
+    "r1h": 15,
+    "r10h": 12,
+    "d1": 10,
     "w1": 119,
     "m10h": 123,
     "m30": 129
@@ -8514,6 +12274,14 @@
     "m10h": 3.0868,
     "m30": 7.4084
    },
+   "costs_no_credit": {
+    "r1h": 0.0103,
+    "r10h": 0.1029,
+    "d1": 0.2469,
+    "w1": 1.7286,
+    "m10h": 3.0868,
+    "m30": 7.4084
+   },
    "burst": 3.0868,
    "burst_x": 1.0,
    "min_bill": null,
@@ -8523,6 +12291,14 @@
     "r10h": 22,
     "d1": 19,
     "w1": 8,
+    "m10h": 3,
+    "m30": 6
+   },
+   "ranks_no_credit": {
+    "r1h": 21,
+    "r10h": 17,
+    "d1": 14,
+    "w1": 5,
     "m10h": 3,
     "m30": 6
    },
@@ -8548,6 +12324,14 @@
     "m10h": 99,
     "m30": 99
    },
+   "costs_no_credit": {
+    "r1h": 99,
+    "r10h": 99,
+    "d1": 99,
+    "w1": 99,
+    "m10h": 99,
+    "m30": 99
+   },
    "burst": 99,
    "burst_x": 1.0,
    "min_bill": null,
@@ -8559,6 +12343,14 @@
     "w1": 158,
     "m10h": 149,
     "m30": 102
+   },
+   "ranks_no_credit": {
+    "r1h": 164,
+    "r10h": 164,
+    "d1": 164,
+    "w1": 158,
+    "m10h": 149,
+    "m30": 101
    },
    "mode": "Monthly plan pool (Linux)",
    "plan": "Self-serve (fee carried in pool tiers)",
@@ -8585,6 +12377,14 @@
     "m10h": 25.6005,
     "m30": 61.4412
    },
+   "costs_no_credit": {
+    "r1h": 0.0853,
+    "r10h": 0.8534,
+    "d1": 2.048,
+    "w1": 14.3363,
+    "m10h": 25.6005,
+    "m30": 61.4412
+   },
    "burst": 25.6005,
    "burst_x": 1.0,
    "min_bill": null,
@@ -8595,6 +12395,14 @@
     "d1": 72,
     "w1": 72,
     "m10h": 75,
+    "m30": 77
+   },
+   "ranks_no_credit": {
+    "r1h": 75,
+    "r10h": 72,
+    "d1": 70,
+    "w1": 70,
+    "m10h": 74,
     "m30": 77
    },
    "mode": "Pay-as-you-go sandbox (metered on actual use)",
@@ -8622,11 +12430,27 @@
     "m10h": 264,
     "m30": 633.6
    },
+   "costs_no_credit": {
+    "r1h": 0.88,
+    "r10h": 8.8,
+    "d1": 21.12,
+    "w1": 147.84,
+    "m10h": 264,
+    "m30": 633.6
+   },
    "burst": 264,
    "burst_x": 1.0,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": 133,
+    "r10h": 137,
+    "d1": 152,
+    "w1": 164,
+    "m10h": 171,
+    "m30": 175
+   },
+   "ranks_no_credit": {
     "r1h": 133,
     "r10h": 137,
     "d1": 152,
@@ -8658,6 +12482,14 @@
     "m10h": 7.68,
     "m30": 18.432
    },
+   "costs_no_credit": {
+    "r1h": 0.0256,
+    "r10h": 0.256,
+    "d1": 0.6144,
+    "w1": 4.3008,
+    "m10h": 7.68,
+    "m30": 18.432
+   },
    "burst": 7.68,
    "burst_x": 1.0,
    "min_bill": null,
@@ -8669,6 +12501,14 @@
     "w1": 21,
     "m10h": 18,
     "m30": 21
+   },
+   "ranks_no_credit": {
+    "r1h": 31,
+    "r10h": 27,
+    "d1": 24,
+    "w1": 17,
+    "m10h": 15,
+    "m30": 19
    },
    "mode": "D2 Discovery (shared) hourly",
    "plan": "Usage account",
@@ -8692,6 +12532,14 @@
     "m10h": 70.2296,
     "m30": 176.111
    },
+   "costs_no_credit": {
+    "r1h": 0,
+    "r10h": 0,
+    "d1": 0.6504,
+    "w1": 36.9526,
+    "m10h": 70.2296,
+    "m30": 176.111
+   },
    "burst": 70.2296,
    "burst_x": 1.0,
    "min_bill": null,
@@ -8700,6 +12548,14 @@
     "r1h": 21,
     "r10h": 18,
     "d1": 31,
+    "w1": 129,
+    "m10h": 133,
+    "m30": 137
+   },
+   "ranks_no_credit": {
+    "r1h": 16,
+    "r10h": 13,
+    "d1": 26,
     "w1": 129,
     "m10h": 133,
     "m30": 137
@@ -8726,11 +12582,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -8762,6 +12634,14 @@
     "m10h": 12.8219,
     "m30": 30.7726
    },
+   "costs_no_credit": {
+    "r1h": 0.0427,
+    "r10h": 0.4274,
+    "d1": 1.0258,
+    "w1": 7.1803,
+    "m10h": 12.8219,
+    "m30": 30.7726
+   },
    "burst": 25.6438,
    "burst_x": 2.0,
    "min_bill": "rounds to 1 h",
@@ -8771,6 +12651,14 @@
     "r10h": 46,
     "d1": 44,
     "w1": 39,
+    "m10h": 36,
+    "m30": 40
+   },
+   "ranks_no_credit": {
+    "r1h": 48,
+    "r10h": 44,
+    "d1": 42,
+    "w1": 38,
     "m10h": 36,
     "m30": 40
    },
@@ -8796,11 +12684,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -8832,11 +12736,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -8868,11 +12788,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -8904,11 +12840,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -8940,11 +12892,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -8976,11 +12944,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -9012,11 +12996,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -9049,6 +13049,14 @@
     "m10h": 19.313,
     "m30": 46.3513
    },
+   "costs_no_credit": {
+    "r1h": 0.0644,
+    "r10h": 0.6438,
+    "d1": 1.545,
+    "w1": 10.8153,
+    "m10h": 19.313,
+    "m30": 46.3513
+   },
    "burst": 19.313,
    "burst_x": 1.0,
    "min_bill": null,
@@ -9058,6 +13066,14 @@
     "r10h": 64,
     "d1": 62,
     "w1": 61,
+    "m10h": 61,
+    "m30": 65
+   },
+   "ranks_no_credit": {
+    "r1h": 66,
+    "r10h": 62,
+    "d1": 60,
+    "w1": 60,
     "m10h": 61,
     "m30": 65
    },
@@ -9083,6 +13099,14 @@
     "m10h": 28.2,
     "m30": 67.68
    },
+   "costs_no_credit": {
+    "r1h": 0.094,
+    "r10h": 0.94,
+    "d1": 2.256,
+    "w1": 15.792,
+    "m10h": 28.2,
+    "m30": 67.68
+   },
    "burst": 28.2,
    "burst_x": 1.0,
    "min_bill": null,
@@ -9093,6 +13117,14 @@
     "d1": 77,
     "w1": 80,
     "m10h": 82,
+    "m30": 85
+   },
+   "ranks_no_credit": {
+    "r1h": 80,
+    "r10h": 77,
+    "d1": 75,
+    "w1": 78,
+    "m10h": 81,
     "m30": 85
    },
    "mode": "VM sandbox, launch pricing (valid through 2026-12-22)",
@@ -9117,6 +13149,14 @@
     "m10h": 10.274,
     "m30": 24.6575
    },
+   "costs_no_credit": {
+    "r1h": 10,
+    "r10h": 10,
+    "d1": 10,
+    "w1": 10,
+    "m10h": 10.274,
+    "m30": 24.6575
+   },
    "burst": 10.274,
    "burst_x": 1.0,
    "min_bill": null,
@@ -9128,6 +13168,14 @@
     "w1": 56,
     "m10h": 29,
     "m30": 34
+   },
+   "ranks_no_credit": {
+    "r1h": 142,
+    "r10h": 140,
+    "d1": 135,
+    "w1": 55,
+    "m10h": 28,
+    "m30": 33
    },
    "mode": "On-demand",
    "plan": "Paid credit plan",
@@ -9151,6 +13199,14 @@
     "m10h": 16.6752,
     "m30": 40.0205
    },
+   "costs_no_credit": {
+    "r1h": 5,
+    "r10h": 5,
+    "d1": 5,
+    "w1": 9.3381,
+    "m10h": 16.6752,
+    "m30": 40.0205
+   },
    "burst": 16.6752,
    "burst_x": 1.0,
    "min_bill": null,
@@ -9160,6 +13216,14 @@
     "r10h": 131,
     "d1": 115,
     "w1": 53,
+    "m10h": 53,
+    "m30": 58
+   },
+   "ranks_no_credit": {
+    "r1h": 137,
+    "r10h": 131,
+    "d1": 115,
+    "w1": 52,
     "m10h": 53,
     "m30": 58
    },
@@ -9187,11 +13251,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -9223,11 +13303,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -9259,11 +13355,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -9295,12 +13407,28 @@
     "m10h": 71.05,
     "m30": 173.95
    },
+   "costs_no_credit": {
+    "r1h": 0,
+    "r10h": 2.205,
+    "d1": 4.9,
+    "w1": 38.71,
+    "m10h": 71.05,
+    "m30": 173.95
+   },
    "burst": 71.05,
    "burst_x": 1.0,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
     "r1h": 22,
+    "r10h": 116,
+    "d1": 113,
+    "w1": 131,
+    "m10h": 134,
+    "m30": 136
+   },
+   "ranks_no_credit": {
+    "r1h": 17,
     "r10h": 116,
     "d1": 113,
     "w1": 131,
@@ -9332,6 +13460,14 @@
     "m10h": 36.9862,
     "m30": 88.7669
    },
+   "costs_no_credit": {
+    "r1h": 0.1233,
+    "r10h": 1.2329,
+    "d1": 2.9589,
+    "w1": 20.7123,
+    "m10h": 36.9862,
+    "m30": 88.7669
+   },
    "burst": 36.9862,
    "burst_x": 1.0,
    "min_bill": null,
@@ -9343,6 +13479,14 @@
     "w1": 93,
     "m10h": 94,
     "m30": 95
+   },
+   "ranks_no_credit": {
+    "r1h": 89,
+    "r10h": 85,
+    "d1": 83,
+    "w1": 91,
+    "m10h": 92,
+    "m30": 94
    },
    "mode": "Web / private service or background worker (fixed compute plan, prorated per second)",
    "plan": "Hobby",
@@ -9366,11 +13510,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -9402,11 +13562,27 @@
     "m10h": 194,
     "m30": 395.6
    },
+   "costs_no_credit": {
+    "r1h": 50.48,
+    "r10h": 54.8,
+    "d1": 61.52,
+    "w1": 130.64,
+    "m10h": 194,
+    "m30": 395.6
+   },
    "burst": 194,
    "burst_x": 1.0,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": 158,
+    "r10h": 158,
+    "d1": 156,
+    "w1": 163,
+    "m10h": 164,
+    "m30": 169
+   },
+   "ranks_no_credit": {
     "r1h": 158,
     "r10h": 158,
     "d1": 156,
@@ -9436,11 +13612,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -9479,11 +13671,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -9516,11 +13724,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -9553,11 +13777,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -9589,11 +13829,27 @@
     "m10h": 86.2888,
     "m30": 207.093
    },
+   "costs_no_credit": {
+    "r1h": 20,
+    "r10h": 20,
+    "d1": 20,
+    "w1": 48.3217,
+    "m10h": 86.2888,
+    "m30": 207.093
+   },
    "burst": 86.2888,
    "burst_x": 1.0,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": 153,
+    "r10h": 151,
+    "d1": 150,
+    "w1": 142,
+    "m10h": 143,
+    "m30": 145
+   },
+   "ranks_no_credit": {
     "r1h": 153,
     "r10h": 151,
     "d1": 150,
@@ -9623,11 +13879,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -9659,11 +13931,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -9695,11 +13983,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -9731,11 +14035,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -9767,11 +14087,27 @@
     "m10h": 97.094,
     "m30": 233.0255
    },
+   "costs_no_credit": {
+    "r1h": 0.3236,
+    "r10h": 3.2365,
+    "d1": 7.7675,
+    "w1": 54.3726,
+    "m10h": 97.094,
+    "m30": 233.0255
+   },
    "burst": 97.094,
    "burst_x": 1.0,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": 127,
+    "r10h": 125,
+    "d1": 129,
+    "w1": 145,
+    "m10h": 147,
+    "m30": 149
+   },
+   "ranks_no_credit": {
     "r1h": 127,
     "r10h": 125,
     "d1": 129,
@@ -9801,6 +14137,14 @@
     "m10h": 18.8219,
     "m30": 45.1726
    },
+   "costs_no_credit": {
+    "r1h": 0.0627,
+    "r10h": 0.6274,
+    "d1": 1.5058,
+    "w1": 10.5403,
+    "m10h": 18.8219,
+    "m30": 45.1726
+   },
    "burst": 18.8219,
    "burst_x": 1.0,
    "min_bill": null,
@@ -9810,6 +14154,14 @@
     "r10h": 63,
     "d1": 61,
     "w1": 59,
+    "m10h": 58,
+    "m30": 63
+   },
+   "ranks_no_credit": {
+    "r1h": 65,
+    "r10h": 61,
+    "d1": 59,
+    "w1": 58,
     "m10h": 58,
     "m30": 63
    },
@@ -9835,6 +14187,14 @@
     "m10h": 61.57,
     "m30": 106.93
    },
+   "costs_no_credit": {
+    "r1h": 29.278,
+    "r10h": 30.25,
+    "d1": 31.762,
+    "w1": 47.314,
+    "m10h": 61.57,
+    "m30": 106.93
+   },
    "burst": 61.57,
    "burst_x": 1.0,
    "min_bill": null,
@@ -9846,6 +14206,14 @@
     "w1": 141,
     "m10h": 127,
     "m30": 108
+   },
+   "ranks_no_credit": {
+    "r1h": 156,
+    "r10h": 156,
+    "d1": 154,
+    "w1": 141,
+    "m10h": 127,
+    "m30": 107
    },
    "mode": "On-demand EC2 runner, arm64 (Graviton)",
    "plan": "Starter",
@@ -9869,11 +14237,27 @@
     "m10h": 50.328,
     "m30": 120.7872
    },
+   "costs_no_credit": {
+    "r1h": 0.1678,
+    "r10h": 1.6776,
+    "d1": 4.0262,
+    "w1": 28.1837,
+    "m10h": 50.328,
+    "m30": 120.7872
+   },
    "burst": 50.328,
    "burst_x": 1.0,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": 109,
+    "r10h": 105,
+    "d1": 105,
+    "w1": 115,
+    "m10h": 117,
+    "m30": 120
+   },
+   "ranks_no_credit": {
     "r1h": 109,
     "r10h": 105,
     "d1": 105,
@@ -9903,6 +14287,14 @@
     "m10h": 13.01,
     "m30": 38.21
    },
+   "costs_no_credit": {
+    "r1h": 0,
+    "r10h": 0,
+    "d1": 0,
+    "w1": 5.09,
+    "m10h": 13.01,
+    "m30": 38.21
+   },
    "burst": 19,
    "burst_x": 1.4604150653343582,
    "min_bill": "$0.01 per start",
@@ -9912,6 +14304,14 @@
     "r10h": 19,
     "d1": 16,
     "w1": 30,
+    "m10h": 38,
+    "m30": 54
+   },
+   "ranks_no_credit": {
+    "r1h": 18,
+    "r10h": 14,
+    "d1": 11,
+    "w1": 27,
     "m10h": 38,
     "m30": 54
    },
@@ -9937,6 +14337,14 @@
     "m10h": 28.6055,
     "m30": 31.1727
    },
+   "costs_no_credit": {
+    "r1h": 0.1394,
+    "r10h": 1.3939,
+    "d1": 3.3454,
+    "w1": 23.4177,
+    "m10h": 28.6055,
+    "m30": 31.1727
+   },
    "burst": 30.4392,
    "burst_x": 1.064103057104403,
    "min_bill": "min 1 h",
@@ -9947,6 +14355,14 @@
     "d1": 89,
     "w1": 100,
     "m10h": 83,
+    "m30": 42
+   },
+   "ranks_no_credit": {
+    "r1h": 94,
+    "r10h": 90,
+    "d1": 88,
+    "w1": 99,
+    "m10h": 82,
     "m30": 42
    },
    "mode": "Normal VM, displayed Ishikari zone",
@@ -9974,6 +14390,14 @@
     "m10h": 27.7373,
     "m30": 66.5694
    },
+   "costs_no_credit": {
+    "r1h": 0.0925,
+    "r10h": 0.9246,
+    "d1": 2.219,
+    "w1": 15.5329,
+    "m10h": 27.7373,
+    "m30": 66.5694
+   },
    "burst": 27.7373,
    "burst_x": 1.0,
    "min_bill": null,
@@ -9984,6 +14408,14 @@
     "d1": 76,
     "w1": 79,
     "m10h": 81,
+    "m30": 83
+   },
+   "ranks_no_credit": {
+    "r1h": 79,
+    "r10h": 76,
+    "d1": 74,
+    "w1": 77,
+    "m10h": 80,
     "m30": 83
    },
    "mode": "Virtual Server, no contract (hourly, open-source OS)",
@@ -10008,6 +14440,14 @@
     "m10h": 27,
     "m30": 64.8
    },
+   "costs_no_credit": {
+    "r1h": 0.09,
+    "r10h": 0.9,
+    "d1": 2.16,
+    "w1": 15.12,
+    "m10h": 27,
+    "m30": 64.8
+   },
    "burst": 27,
    "burst_x": 1.0,
    "min_bill": null,
@@ -10018,6 +14458,14 @@
     "d1": 74,
     "w1": 77,
     "m10h": 79,
+    "m30": 81
+   },
+   "ranks_no_credit": {
+    "r1h": 77,
+    "r10h": 74,
+    "d1": 72,
+    "w1": 75,
+    "m10h": 78,
     "m30": 81
    },
    "mode": "On-demand",
@@ -10042,6 +14490,14 @@
     "m10h": 18.1644,
     "m30": 43.5945
    },
+   "costs_no_credit": {
+    "r1h": 0.0605,
+    "r10h": 0.6055,
+    "d1": 1.4532,
+    "w1": 10.1721,
+    "m10h": 18.1644,
+    "m30": 43.5945
+   },
    "burst": 18.1644,
    "burst_x": 1.0,
    "min_bill": null,
@@ -10051,6 +14507,14 @@
     "r10h": 62,
     "d1": 60,
     "w1": 58,
+    "m10h": 57,
+    "m30": 62
+   },
+   "ranks_no_credit": {
+    "r1h": 64,
+    "r10h": 60,
+    "d1": 58,
+    "w1": 57,
     "m10h": 57,
     "m30": 62
    },
@@ -10076,11 +14540,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -10112,11 +14592,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -10148,6 +14644,14 @@
     "m10h": 7.7812,
     "m30": 18.6748
    },
+   "costs_no_credit": {
+    "r1h": 0.0259,
+    "r10h": 0.2594,
+    "d1": 0.6225,
+    "w1": 4.3575,
+    "m10h": 7.7812,
+    "m30": 18.6748
+   },
    "burst": 15.5624,
    "burst_x": 2.0,
    "min_bill": "min 1 h",
@@ -10159,6 +14663,14 @@
     "w1": 22,
     "m10h": 19,
     "m30": 22
+   },
+   "ranks_no_credit": {
+    "r1h": 32,
+    "r10h": 28,
+    "d1": 25,
+    "w1": 18,
+    "m10h": 16,
+    "m30": 20
    },
    "mode": "shared-development",
    "plan": "Usage account",
@@ -10182,11 +14694,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -10221,11 +14749,27 @@
     "m10h": 398.91,
     "m30": 398.91
    },
+   "costs_no_credit": {
+    "r1h": 399,
+    "r10h": 399,
+    "d1": 399,
+    "w1": 399,
+    "m10h": 399,
+    "m30": 399
+   },
    "burst": 398.91,
    "burst_x": 1.0,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": 176,
+    "r10h": 176,
+    "d1": 176,
+    "w1": 175,
+    "m10h": 175,
+    "m30": 170
+   },
+   "ranks_no_credit": {
     "r1h": 176,
     "r10h": 176,
     "d1": 176,
@@ -10258,11 +14802,27 @@
     "m10h": 500,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": 500,
+    "r10h": 500,
+    "d1": 500,
+    "w1": 500,
+    "m10h": 500,
+    "m30": null
+   },
    "burst": 500,
    "burst_x": 1.0,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": 178,
+    "r10h": 178,
+    "d1": 177,
+    "w1": 177,
+    "m10h": 176,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": 178,
     "r10h": 178,
     "d1": 177,
@@ -10295,11 +14855,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -10331,11 +14907,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -10367,11 +14959,27 @@
     "m10h": 70,
     "m30": 70
    },
+   "costs_no_credit": {
+    "r1h": 70,
+    "r10h": 70,
+    "d1": 70,
+    "w1": 70,
+    "m10h": 70,
+    "m30": 70
+   },
    "burst": 70,
    "burst_x": 1.0,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": 159,
+    "r10h": 159,
+    "d1": 159,
+    "w1": 151,
+    "m10h": 132,
+    "m30": 87
+   },
+   "ranks_no_credit": {
     "r1h": 159,
     "r10h": 159,
     "d1": 159,
@@ -10404,11 +15012,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -10457,11 +15081,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -10493,11 +15133,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -10529,11 +15185,27 @@
     "m10h": 219.456,
     "m30": 526.6944
    },
+   "costs_no_credit": {
+    "r1h": 0.7315,
+    "r10h": 7.3152,
+    "d1": 17.5565,
+    "w1": 122.8954,
+    "m10h": 219.456,
+    "m30": 526.6944
+   },
    "burst": 219.456,
    "burst_x": 1.0,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": 132,
+    "r10h": 136,
+    "d1": 142,
+    "w1": 160,
+    "m10h": 167,
+    "m30": 173
+   },
+   "ranks_no_credit": {
     "r1h": 132,
     "r10h": 136,
     "d1": 142,
@@ -10565,11 +15237,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -10602,6 +15290,14 @@
     "m10h": 49,
     "m30": 104.6
    },
+   "costs_no_credit": {
+    "r1h": 9,
+    "r10h": 9,
+    "d1": 9,
+    "w1": 12.04,
+    "m10h": 49,
+    "m30": 104.6
+   },
    "burst": 49,
    "burst_x": 1.0,
    "min_bill": null,
@@ -10613,6 +15309,14 @@
     "w1": 65,
     "m10h": 109,
     "m30": 106
+   },
+   "ranks_no_credit": {
+    "r1h": 140,
+    "r10h": 138,
+    "d1": 131,
+    "w1": 64,
+    "m10h": 109,
+    "m30": 105
    },
    "mode": "Workspace",
    "plan": "Developer",
@@ -10636,6 +15340,14 @@
     "m10h": 6,
     "m30": 14.4
    },
+   "costs_no_credit": {
+    "r1h": 0.02,
+    "r10h": 0.2,
+    "d1": 0.48,
+    "w1": 3.36,
+    "m10h": 6,
+    "m30": 14.4
+   },
    "burst": 6,
    "burst_x": 1.0,
    "min_bill": null,
@@ -10646,6 +15358,14 @@
     "d1": 25,
     "w1": 15,
     "m10h": 13,
+    "m30": 13
+   },
+   "ranks_no_credit": {
+    "r1h": 27,
+    "r10h": 23,
+    "d1": 20,
+    "w1": 12,
+    "m10h": 10,
     "m30": 13
    },
    "mode": "On-demand (Firecracker VM, default)",
@@ -10670,11 +15390,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -10706,11 +15442,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -10742,11 +15494,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -10778,11 +15546,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -10814,11 +15598,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -10850,6 +15650,14 @@
     "m10h": 25.32,
     "m30": 60.768
    },
+   "costs_no_credit": {
+    "r1h": 0.0844,
+    "r10h": 0.844,
+    "d1": 2.0256,
+    "w1": 14.1792,
+    "m10h": 25.32,
+    "m30": 60.768
+   },
    "burst": 25.32,
    "burst_x": 1.0,
    "min_bill": null,
@@ -10860,6 +15668,14 @@
     "d1": 71,
     "w1": 71,
     "m10h": 74,
+    "m30": 76
+   },
+   "ranks_no_credit": {
+    "r1h": 74,
+    "r10h": 71,
+    "d1": 69,
+    "w1": 69,
+    "m10h": 73,
     "m30": 76
    },
    "mode": "Active usage plus running-instance fee",
@@ -10884,11 +15700,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -10920,11 +15752,27 @@
     "m10h": 200,
     "m30": 200
    },
+   "costs_no_credit": {
+    "r1h": 200,
+    "r10h": 200,
+    "d1": 200,
+    "w1": 200,
+    "m10h": 200,
+    "m30": 200
+   },
    "burst": 200,
    "burst_x": 1.0,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": 169,
+    "r10h": 169,
+    "d1": 169,
+    "w1": 167,
+    "m10h": 166,
+    "m30": 143
+   },
+   "ranks_no_credit": {
     "r1h": 169,
     "r10h": 169,
     "d1": 169,
@@ -10956,11 +15804,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -10992,6 +15856,14 @@
     "m10h": 24.7644,
     "m30": 59.4345
    },
+   "costs_no_credit": {
+    "r1h": 0.0825,
+    "r10h": 0.8255,
+    "d1": 1.9812,
+    "w1": 13.8681,
+    "m10h": 24.7644,
+    "m30": 59.4345
+   },
    "burst": 24.7644,
    "burst_x": 1.0,
    "min_bill": null,
@@ -11002,6 +15874,14 @@
     "d1": 70,
     "w1": 69,
     "m10h": 73,
+    "m30": 75
+   },
+   "ranks_no_credit": {
+    "r1h": 73,
+    "r10h": 70,
+    "d1": 68,
+    "w1": 67,
+    "m10h": 72,
     "m30": 75
    },
    "mode": "Sprite, billed on actual CPU time + actual memory while awake",
@@ -11026,6 +15906,14 @@
     "m10h": 15.3961,
     "m30": 36.9507
    },
+   "costs_no_credit": {
+    "r1h": 0.0513,
+    "r10h": 0.5132,
+    "d1": 1.2317,
+    "w1": 8.6218,
+    "m10h": 15.3961,
+    "m30": 36.9507
+   },
    "burst": 30.7923,
    "burst_x": 2.0000064951513696,
    "min_bill": "min 1 h",
@@ -11035,6 +15923,14 @@
     "r10h": 53,
     "d1": 51,
     "w1": 47,
+    "m10h": 47,
+    "m30": 49
+   },
+   "ranks_no_credit": {
+    "r1h": 55,
+    "r10h": 51,
+    "d1": 49,
+    "w1": 46,
     "m10h": 47,
     "m30": 49
    },
@@ -11060,11 +15956,27 @@
     "m10h": 72,
     "m30": 172.8
    },
+   "costs_no_credit": {
+    "r1h": 0.24,
+    "r10h": 2.4,
+    "d1": 5.76,
+    "w1": 40.32,
+    "m10h": 72,
+    "m30": 172.8
+   },
    "burst": 72,
    "burst_x": 1.0,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": 121,
+    "r10h": 119,
+    "d1": 120,
+    "w1": 133,
+    "m10h": 136,
+    "m30": 135
+   },
+   "ranks_no_credit": {
     "r1h": 121,
     "r10h": 119,
     "d1": 120,
@@ -11096,11 +16008,27 @@
     "m10h": 368.6,
     "m30": 466.0401
    },
+   "costs_no_credit": {
+    "r1h": 299.232,
+    "r10h": 301.32,
+    "d1": 304.568,
+    "w1": 337.976,
+    "m10h": 368.6,
+    "m30": 466.0401
+   },
    "burst": 368.6003,
    "burst_x": 1.000000813890396,
    "min_bill": "$5e-07 per start",
    "burst_bill": "$5e-07 per start",
    "ranks": {
+    "r1h": 174,
+    "r10h": 174,
+    "d1": 174,
+    "w1": 173,
+    "m10h": 174,
+    "m30": 172
+   },
+   "ranks_no_credit": {
     "r1h": 174,
     "r10h": 174,
     "d1": 174,
@@ -11132,11 +16060,27 @@
     "m10h": 250,
     "m30": 250
    },
+   "costs_no_credit": {
+    "r1h": 250,
+    "r10h": 250,
+    "d1": 250,
+    "w1": 250,
+    "m10h": 250,
+    "m30": 250
+   },
    "burst": 250,
    "burst_x": 1.0,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": 172,
+    "r10h": 172,
+    "d1": 172,
+    "w1": 170,
+    "m10h": 169,
+    "m30": 154
+   },
+   "ranks_no_credit": {
     "r1h": 172,
     "r10h": 172,
     "d1": 172,
@@ -11169,11 +16113,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -11205,11 +16165,27 @@
     "m10h": 50.328,
     "m30": 120.7872
    },
+   "costs_no_credit": {
+    "r1h": 0.1678,
+    "r10h": 1.6776,
+    "d1": 4.0262,
+    "w1": 28.1837,
+    "m10h": 50.328,
+    "m30": 120.7872
+   },
    "burst": 50.328,
    "burst_x": 1.0,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": 110,
+    "r10h": 106,
+    "d1": 106,
+    "w1": 116,
+    "m10h": 118,
+    "m30": 121
+   },
+   "ranks_no_credit": {
     "r1h": 110,
     "r10h": 106,
     "d1": 106,
@@ -11239,11 +16215,27 @@
     "m10h": 199,
     "m30": 199
    },
+   "costs_no_credit": {
+    "r1h": 199,
+    "r10h": 199,
+    "d1": 199,
+    "w1": 199,
+    "m10h": 199,
+    "m30": 199
+   },
    "burst": 199,
    "burst_x": 1.0,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": 168,
+    "r10h": 168,
+    "d1": 168,
+    "w1": 166,
+    "m10h": 165,
+    "m30": 142
+   },
+   "ranks_no_credit": {
     "r1h": 168,
     "r10h": 168,
     "d1": 168,
@@ -11276,11 +16268,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -11312,6 +16320,14 @@
     "m10h": 13.6236,
     "m30": 32.6966
    },
+   "costs_no_credit": {
+    "r1h": 0.0454,
+    "r10h": 0.4541,
+    "d1": 1.0899,
+    "w1": 7.6292,
+    "m10h": 13.6236,
+    "m30": 32.6966
+   },
    "burst": 13.6236,
    "burst_x": 1.0,
    "min_bill": null,
@@ -11321,6 +16337,14 @@
     "r10h": 47,
     "d1": 45,
     "w1": 40,
+    "m10h": 39,
+    "m30": 43
+   },
+   "ranks_no_credit": {
+    "r1h": 49,
+    "r10h": 45,
+    "d1": 43,
+    "w1": 39,
     "m10h": 39,
     "m30": 43
    },
@@ -11346,11 +16370,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -11382,11 +16422,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -11418,6 +16474,14 @@
     "m10h": 42.6362,
     "m30": 102.3269
    },
+   "costs_no_credit": {
+    "r1h": 0.1421,
+    "r10h": 1.4212,
+    "d1": 3.4109,
+    "w1": 23.8763,
+    "m10h": 42.6362,
+    "m30": 102.3269
+   },
    "burst": 42.6362,
    "burst_x": 1.0,
    "min_bill": null,
@@ -11429,6 +16493,14 @@
     "w1": 103,
     "m10h": 100,
     "m30": 105
+   },
+   "ranks_no_credit": {
+    "r1h": 97,
+    "r10h": 93,
+    "d1": 91,
+    "w1": 102,
+    "m10h": 99,
+    "m30": 104
    },
    "mode": "Agent Sandbox allocated runtime",
    "plan": "Pay as you go",
@@ -11452,6 +16524,14 @@
     "m10h": 11.1765,
     "m30": 26.8237
    },
+   "costs_no_credit": {
+    "r1h": 0.0373,
+    "r10h": 0.3726,
+    "d1": 0.8941,
+    "w1": 6.2589,
+    "m10h": 11.1765,
+    "m30": 26.8237
+   },
    "burst": 11.1765,
    "burst_x": 1.0,
    "min_bill": null,
@@ -11461,6 +16541,14 @@
     "r10h": 44,
     "d1": 42,
     "w1": 36,
+    "m10h": 34,
+    "m30": 37
+   },
+   "ranks_no_credit": {
+    "r1h": 46,
+    "r10h": 42,
+    "d1": 40,
+    "w1": 35,
     "m10h": 34,
     "m30": 37
    },
@@ -11488,11 +16576,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -11525,11 +16629,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -11563,11 +16683,27 @@
     "m10h": 50.166,
     "m30": 120.3984
    },
+   "costs_no_credit": {
+    "r1h": 0.1672,
+    "r10h": 1.6722,
+    "d1": 4.0133,
+    "w1": 28.093,
+    "m10h": 50.166,
+    "m30": 120.3984
+   },
    "burst": 50.166,
    "burst_x": 1.0,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": 107,
+    "r10h": 103,
+    "d1": 103,
+    "w1": 113,
+    "m10h": 115,
+    "m30": 118
+   },
+   "ranks_no_credit": {
     "r1h": 107,
     "r10h": 103,
     "d1": 103,
@@ -11597,11 +16733,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -11636,11 +16788,27 @@
     "m10h": 250,
     "m30": 250
    },
+   "costs_no_credit": {
+    "r1h": 250,
+    "r10h": 250,
+    "d1": 250,
+    "w1": 250,
+    "m10h": 250,
+    "m30": 250
+   },
    "burst": 250,
    "burst_x": 1.0,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": 173,
+    "r10h": 173,
+    "d1": 173,
+    "w1": 171,
+    "m10h": 170,
+    "m30": 155
+   },
+   "ranks_no_credit": {
     "r1h": 173,
     "r10h": 173,
     "d1": 173,
@@ -11670,11 +16838,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -11706,11 +16890,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -11742,11 +16942,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -11778,11 +16994,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -11814,11 +17046,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -11850,11 +17098,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -11887,11 +17151,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -11924,6 +17204,14 @@
     "m10h": 9,
     "m30": 21.6
    },
+   "costs_no_credit": {
+    "r1h": 0.03,
+    "r10h": 0.3,
+    "d1": 0.72,
+    "w1": 5.04,
+    "m10h": 9,
+    "m30": 21.6
+   },
    "burst": 18,
    "burst_x": 2.0,
    "min_bill": "min 1 h",
@@ -11935,6 +17223,14 @@
     "w1": 27,
     "m10h": 25,
     "m30": 30
+   },
+   "ranks_no_credit": {
+    "r1h": 37,
+    "r10h": 33,
+    "d1": 31,
+    "w1": 24,
+    "m10h": 23,
+    "m30": 28
    },
    "mode": "Together Code Interpreter ($0.03 per 60-minute session)",
    "plan": "Together pay-as-you-go (prepaid credits; Code Interpreter only)",
@@ -11960,11 +17256,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -12001,11 +17313,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -12037,11 +17365,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -12073,6 +17417,14 @@
     "m10h": 9.36,
     "m30": 22.464
    },
+   "costs_no_credit": {
+    "r1h": 0.0312,
+    "r10h": 0.312,
+    "d1": 0.7488,
+    "w1": 5.2416,
+    "m10h": 9.36,
+    "m30": 22.464
+   },
    "burst": 9.36,
    "burst_x": 1.0,
    "min_bill": null,
@@ -12084,6 +17436,14 @@
     "w1": 31,
     "m10h": 27,
     "m30": 31
+   },
+   "ranks_no_credit": {
+    "r1h": 39,
+    "r10h": 35,
+    "d1": 33,
+    "w1": 28,
+    "m10h": 25,
+    "m30": 29
    },
    "mode": "Shared burstable VMs",
    "plan": "Usage",
@@ -12107,6 +17467,14 @@
     "m10h": 19.3128,
     "m30": 46.3507
    },
+   "costs_no_credit": {
+    "r1h": 0.0644,
+    "r10h": 0.6438,
+    "d1": 1.545,
+    "w1": 10.8152,
+    "m10h": 19.3128,
+    "m30": 46.3507
+   },
    "burst": 19.3128,
    "burst_x": 1.0,
    "min_bill": null,
@@ -12116,6 +17484,14 @@
     "r10h": 65,
     "d1": 63,
     "w1": 60,
+    "m10h": 60,
+    "m30": 64
+   },
+   "ranks_no_credit": {
+    "r1h": 67,
+    "r10h": 63,
+    "d1": 61,
+    "w1": 59,
     "m10h": 60,
     "m30": 64
    },
@@ -12144,11 +17520,27 @@
     "m10h": 0,
     "m30": 0
    },
+   "costs_no_credit": {
+    "r1h": 0,
+    "r10h": 0,
+    "d1": 0,
+    "w1": 0,
+    "m10h": 0,
+    "m30": 0
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -12181,6 +17573,14 @@
     "m10h": 6.2503,
     "m30": 14
    },
+   "costs_no_credit": {
+    "r1h": 0.0211,
+    "r10h": 0.2086,
+    "d1": 0.5003,
+    "w1": 3.5003,
+    "m10h": 6.2503,
+    "m30": 14
+   },
    "burst": 12.6563,
    "burst_x": 2.0249108042813946,
    "min_bill": "min 1 h",
@@ -12191,6 +17591,14 @@
     "d1": 26,
     "w1": 17,
     "m10h": 14,
+    "m30": 11
+   },
+   "ranks_no_credit": {
+    "r1h": 28,
+    "r10h": 24,
+    "d1": 21,
+    "w1": 14,
+    "m10h": 11,
     "m30": 11
    },
    "mode": "Starter",
@@ -12215,6 +17623,14 @@
     "m10h": 8.8219,
     "m30": 9.9726
    },
+   "costs_no_credit": {
+    "r1h": 0.1027,
+    "r10h": 1.0274,
+    "d1": 2.4658,
+    "w1": 8.4603,
+    "m10h": 8.8219,
+    "m30": 9.9726
+   },
    "burst": 8.8219,
    "burst_x": 1.0,
    "min_bill": null,
@@ -12225,6 +17641,14 @@
     "d1": 81,
     "w1": 45,
     "m10h": 22,
+    "m30": 8
+   },
+   "ranks_no_credit": {
+    "r1h": 85,
+    "r10h": 81,
+    "d1": 79,
+    "w1": 44,
+    "m10h": 19,
     "m30": 8
    },
    "mode": "Keep-Alive Small fleet sized to peak concurrency (part-time use)",
@@ -12251,11 +17675,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -12287,11 +17727,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -12350,11 +17806,27 @@
     "m10h": 63.84,
     "m30": 153.216
    },
+   "costs_no_credit": {
+    "r1h": 20,
+    "r10h": 20,
+    "d1": 20,
+    "w1": 35.7504,
+    "m10h": 63.84,
+    "m30": 153.216
+   },
    "burst": 63.8404,
    "burst_x": 1.0000062656641604,
    "min_bill": "$6e-07 per start",
    "burst_bill": "$6e-07 per start",
    "ranks": {
+    "r1h": 154,
+    "r10h": 152,
+    "d1": 151,
+    "w1": 127,
+    "m10h": 129,
+    "m30": 131
+   },
+   "ranks_no_credit": {
     "r1h": 154,
     "r10h": 152,
     "d1": 151,
@@ -12384,6 +17856,14 @@
     "m10h": 16.0438,
     "m30": 38.5052
    },
+   "costs_no_credit": {
+    "r1h": 0.0535,
+    "r10h": 0.5348,
+    "d1": 1.2835,
+    "w1": 8.9845,
+    "m10h": 16.0438,
+    "m30": 38.5052
+   },
    "burst": 16.0438,
    "burst_x": 1.0,
    "min_bill": null,
@@ -12393,6 +17873,14 @@
     "r10h": 57,
     "d1": 55,
     "w1": 51,
+    "m10h": 51,
+    "m30": 55
+   },
+   "ranks_no_credit": {
+    "r1h": 59,
+    "r10h": 55,
+    "d1": 53,
+    "w1": 50,
     "m10h": 51,
     "m30": 55
    },
@@ -12418,11 +17906,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -12454,11 +17958,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -12490,6 +18010,14 @@
     "m10h": 19.6027,
     "m30": 47.0466
    },
+   "costs_no_credit": {
+    "r1h": 0.0653,
+    "r10h": 0.6534,
+    "d1": 1.5682,
+    "w1": 10.9775,
+    "m10h": 19.6027,
+    "m30": 47.0466
+   },
    "burst": 19.6027,
    "burst_x": 1.0,
    "min_bill": null,
@@ -12499,6 +18027,14 @@
     "r10h": 66,
     "d1": 64,
     "w1": 62,
+    "m10h": 62,
+    "m30": 66
+   },
+   "ranks_no_credit": {
+    "r1h": 68,
+    "r10h": 64,
+    "d1": 62,
+    "w1": 61,
     "m10h": 62,
     "m30": 66
    },
@@ -12524,11 +18060,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -12560,11 +18112,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -12617,11 +18185,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -12653,6 +18237,14 @@
     "m10h": 8.94,
     "m30": 20
    },
+   "costs_no_credit": {
+    "r1h": 0.0298,
+    "r10h": 0.298,
+    "d1": 0.7152,
+    "w1": 5.0064,
+    "m10h": 8.94,
+    "m30": 20
+   },
    "burst": 17.88,
    "burst_x": 2.0,
    "min_bill": "min 1 h",
@@ -12664,6 +18256,14 @@
     "w1": 25,
     "m10h": 24,
     "m30": 26
+   },
+   "ranks_no_credit": {
+    "r1h": 35,
+    "r10h": 31,
+    "d1": 29,
+    "w1": 21,
+    "m10h": 21,
+    "m30": 24
    },
    "mode": "Cloud Compute Regular (vc2, shared vCPU), hourly with 672 h monthly cap",
    "plan": "Usage account",
@@ -12687,11 +18287,27 @@
     "m10h": 54,
     "m30": 129.6
    },
+   "costs_no_credit": {
+    "r1h": 0.18,
+    "r10h": 1.8,
+    "d1": 4.32,
+    "w1": 30.24,
+    "m10h": 54,
+    "m30": 129.6
+   },
    "burst": 54,
    "burst_x": 1.0,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": 114,
+    "r10h": 110,
+    "d1": 110,
+    "w1": 123,
+    "m10h": 122,
+    "m30": 127
+   },
+   "ranks_no_credit": {
     "r1h": 114,
     "r10h": 110,
     "d1": 110,
@@ -12721,11 +18337,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -12757,11 +18389,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -12793,11 +18441,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -12829,11 +18493,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -12867,11 +18547,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -12903,11 +18599,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -12942,6 +18654,14 @@
     "m10h": 16.5,
     "m30": 39.6
    },
+   "costs_no_credit": {
+    "r1h": 0.055,
+    "r10h": 0.55,
+    "d1": 1.32,
+    "w1": 9.24,
+    "m10h": 16.5,
+    "m30": 39.6
+   },
    "burst": 16.5,
    "burst_x": 1.0,
    "min_bill": null,
@@ -12951,6 +18671,14 @@
     "r10h": 58,
     "d1": 56,
     "w1": 52,
+    "m10h": 52,
+    "m30": 56
+   },
+   "ranks_no_credit": {
+    "r1h": 60,
+    "r10h": 56,
+    "d1": 54,
+    "w1": 51,
     "m10h": 52,
     "m30": 56
    },
@@ -12976,11 +18704,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -13012,11 +18756,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -13049,11 +18809,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -13085,11 +18861,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -13146,11 +18938,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -13182,11 +18990,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
@@ -13218,6 +19042,14 @@
     "m10h": 4.11,
     "m30": 9.864
    },
+   "costs_no_credit": {
+    "r1h": 0.0137,
+    "r10h": 0.137,
+    "d1": 0.3288,
+    "w1": 2.3016,
+    "m10h": 4.11,
+    "m30": 9.864
+   },
    "burst": 4.11,
    "burst_x": 1.0,
    "min_bill": null,
@@ -13228,6 +19060,14 @@
     "d1": 21,
     "w1": 11,
     "m10h": 6,
+    "m30": 7
+   },
+   "ranks_no_credit": {
+    "r1h": 23,
+    "r10h": 19,
+    "d1": 16,
+    "w1": 8,
+    "m10h": 5,
     "m30": 7
    },
    "mode": "Per-second fixed VM sizes",
@@ -13252,11 +19092,27 @@
     "m10h": null,
     "m30": null
    },
+   "costs_no_credit": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
    "burst": null,
    "burst_x": null,
    "min_bill": null,
    "burst_bill": null,
    "ranks": {
+    "r1h": null,
+    "r10h": null,
+    "d1": null,
+    "w1": null,
+    "m10h": null,
+    "m30": null
+   },
+   "ranks_no_credit": {
     "r1h": null,
     "r10h": null,
     "d1": null,
