@@ -26,7 +26,7 @@ Main table is ranked by **10 h/d x30** (the realistic agent month). A dash means
 | 12 | [Browser Use Cloud](https://browser-use.com/pricing) | browser/- | $0.020 | $0.200 | $0.480 | $3.36 | $6.00 | $14.40 | no machine size published, not shape-comparable; disk beyond 0 GiB: price unknown; session cap 4 h, needs restarts |
 | 13 | [shellbox](https://shellbox.dev/) | agent-sandbox/firecracker | $0.020 | $0.200 | $0.480 | $3.36 | $6.00 | $14.40 | egress unpublished |
 | 14 | [UpCloud](https://upcloud.com/pricing/) | hyperscaler/vm | $0.021 | $0.209 | $0.500 | $3.50 | $6.25 | $14.00 |  |
-| 15 | [Lizard](https://lizard.build/pricing) | agent-sandbox/container | $0.022 | $0.218 | $0.524 | $3.67 | $6.55 | $15.72 | Medium only: runtime fixes 4 vCPU / 4 GiB |
+| 15 | [Lizard](https://lizard.build/pricing) | agent-sandbox/container | $0.022 | $0.218 | $0.524 | $3.67 | $6.55 | $15.72 | disputed: pricing page sells Small 2 vCPU/4 GiB at $0.009/h; docs fix 4 vCPU |
 | 16 | [Contabo](https://contabo.com/en-us/pricing/) | hyperscaler/vm | $6.60 | $6.60 | $6.60 | $6.60 | $6.60 | $6.60 | visible $4.40 is a 24-month intro, list is $6.60; price is one month's rent at every horizon |
 | 17 | [Fly.io Machines](https://fly.io/pricing) | paas/firecracker | $0.025 | $0.253 | $0.607 | $4.25 | $7.58 | $18.20 |  |
 | 18 | [OVHcloud Public Cloud](https://us.ovhcloud.com/public-cloud/prices/) | hyperscaler/vm | $0.026 | $0.256 | $0.614 | $4.30 | $7.68 | $18.43 |  |
@@ -389,7 +389,7 @@ Main table is ranked by **10 h/d x30** (the realistic agent month). A dash means
 | 2 | [zipbox](https://zipbox.ai/pricing) | agent-sandbox/firecracker | $0.014 | $0.137 | $0.329 | $2.30 | $4.11 | $9.86 | egress unpublished |
 | 3 | [Kedge](https://kedge.dev/docs/billing) | agent-sandbox/vm | $0 | $0 | $0 | $0.984 | $5.68 | $20.64 | $5/mo free credit |
 | 4 | [shellbox](https://shellbox.dev/) | agent-sandbox/firecracker | $0.020 | $0.200 | $0.480 | $3.36 | $6.00 | $14.40 | egress unpublished |
-| 5 | [Lizard](https://lizard.build/pricing) | agent-sandbox/container | $0.022 | $0.218 | $0.524 | $3.67 | $6.55 | $15.72 | Medium only: runtime fixes 4 vCPU / 4 GiB |
+| 5 | [Lizard](https://lizard.build/pricing) | agent-sandbox/container | $0.022 | $0.218 | $0.524 | $3.67 | $6.55 | $15.72 | disputed: pricing page sells Small 2 vCPU/4 GiB at $0.009/h; docs fix 4 vCPU |
 | 6 | [Upstash Box](https://upstash.com/pricing/box) | agent-sandbox/container | $0.103 | $1.03 | $2.47 | $8.46 | $8.82 | $9.97 | egress unpublished; flat pool, billed whether used or not |
 | 7 | [Together Code Sandbox](https://www.together.ai/pricing) | agent-sandbox/firecracker | $0.030 | $0.300 | $0.720 | $5.04 | $9.00 | $21.60 | no machine size published, not shape-comparable; egress unpublished |
 | 8 | [Sail Research (Sailboxes)](https://docs.sailresearch.com/pricing) | agent-sandbox/firecracker | $0 | $0 | $0 | $5.09 | $13.01 | $38.21 | $5/mo free credit; egress unpublished |
@@ -579,7 +579,7 @@ Main table is ranked by **10 h/d x30** (the realistic agent month). A dash means
 | 15 | [shellbox](https://shellbox.dev/) | agent-sandbox/firecracker | $3.36 | egress unpublished |
 | 16 | [Anchor Browser](https://anchorbrowser.io/pricing) | browser/dedicated-vm | $3.41 | no machine size published, not shape-comparable; disk beyond 0 GiB: price unknown |
 | 17 | [UpCloud](https://upcloud.com/pricing/) | hyperscaler/vm | $3.50 |  |
-| 18 | [Lizard](https://lizard.build/pricing) | agent-sandbox/container | $3.67 | Medium only: runtime fixes 4 vCPU / 4 GiB |
+| 18 | [Lizard](https://lizard.build/pricing) | agent-sandbox/container | $3.67 | disputed: pricing page sells Small 2 vCPU/4 GiB at $0.009/h; docs fix 4 vCPU |
 | 19 | [Freestyle](https://www.freestyle.sh/pricing) | agent-sandbox/bare-metal-vm | $4.13 | $18.38/mo free credit |
 | 20 | [Fly.io Machines](https://fly.io/pricing) | paas/firecracker | $4.25 |  |
 | 21 | [OVHcloud Public Cloud](https://us.ovhcloud.com/public-cloud/prices/) | hyperscaler/vm | $4.30 |  |
@@ -606,7 +606,7 @@ Main table is ranked by **10 h/d x30** (the realistic agent month). A dash means
 | 12 | [Browser Use Cloud](https://browser-use.com/pricing) | browser/- | $6.00 | no machine size published, not shape-comparable; disk beyond 0 GiB: price unknown; session cap 4 h, needs restarts |
 | 13 | [shellbox](https://shellbox.dev/) | agent-sandbox/firecracker | $6.00 | egress unpublished |
 | 14 | [UpCloud](https://upcloud.com/pricing/) | hyperscaler/vm | $6.25 |  |
-| 15 | [Lizard](https://lizard.build/pricing) | agent-sandbox/container | $6.55 | Medium only: runtime fixes 4 vCPU / 4 GiB |
+| 15 | [Lizard](https://lizard.build/pricing) | agent-sandbox/container | $6.55 | disputed: pricing page sells Small 2 vCPU/4 GiB at $0.009/h; docs fix 4 vCPU |
 | 16 | [Contabo](https://contabo.com/en-us/pricing/) | hyperscaler/vm | $6.60 | visible $4.40 is a 24-month intro, list is $6.60; price is one month's rent at every horizon |
 | 17 | [Fly.io Machines](https://fly.io/pricing) | paas/firecracker | $7.58 |  |
 | 18 | [OVHcloud Public Cloud](https://us.ovhcloud.com/public-cloud/prices/) | hyperscaler/vm | $7.68 |  |
@@ -638,7 +638,7 @@ Main table is ranked by **10 h/d x30** (the realistic agent month). A dash means
 | 14 | [Alibaba Cloud ECS International](https://www.alibabacloud.com/en/product/ecs/pricing) | hyperscaler/vm | $14.48 |  |
 | 15 | [Hostinger VPS](https://www.hostinger.com/vps-hosting) | hyperscaler/vm | $14.99 | price is one month's rent at every horizon |
 | 16 | [exe.dev](https://exe.dev/pricing) | dev-env/vm | $15.00 | $15/mo minimum, fee is a usage credit; flat pool, billed whether used or not |
-| 17 | [Lizard](https://lizard.build/pricing) | agent-sandbox/container | $15.72 | Medium only: runtime fixes 4 vCPU / 4 GiB |
+| 17 | [Lizard](https://lizard.build/pricing) | agent-sandbox/container | $15.72 | disputed: pricing page sells Small 2 vCPU/4 GiB at $0.009/h; docs fix 4 vCPU |
 | 18 | [Azure Container Apps (Consumption, Dedicated, Dynamic Sessions)](https://azure.microsoft.com/en-us/pricing/details/container-apps/) | hyperscaler/vm | $16.20 | no machine size published, not shape-comparable; disk beyond 4 GiB: price unknown; $5.4/mo free credit |
 | 19 | [Google Cloud Run](https://cloud.google.com/run/pricing) | hyperscaler/gvisor | $17.77 | $5.22/mo free credit |
 | 20 | [Fly.io Machines](https://fly.io/pricing) | paas/firecracker | $18.20 |  |

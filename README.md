@@ -45,7 +45,7 @@ Full tables: [`data/usage.md`](data/usage.md) (human) and
   so a qualifying account pays **$0** against the $7.41 shown. GCP, AWS and
   Azure free tiers are too small for a 4 GiB shape and do not change a row.
   Details in `research/verification/2026-10-02.md`.
-- **Assume more claims are wrong than the ten listed at the end.**
+- **Assume more claims are wrong than the eleven listed at the end.**
 
 ## Conditions
 
@@ -83,7 +83,7 @@ hyperscaler VMs are out. Ranked by **10 h/d x30**. Full list in
 | 2 | [zipbox](https://zipbox.ai/pricing) | agent-sandbox/firecracker | $0.014 | $0.137 | $0.329 | $2.30 | **$4.11** | $9.86 | egress unpublished |
 | 3 | [Kedge](https://kedge.dev/docs/billing) | agent-sandbox/vm | $0 | $0 | $0 | $0.984 | **$5.68** | $20.64 | $5/mo free credit |
 | 4 | [shellbox](https://shellbox.dev/) | agent-sandbox/firecracker | $0.020 | $0.200 | $0.480 | $3.36 | **$6.00** | $14.40 | egress unpublished |
-| 5 | [Lizard](https://lizard.build/pricing) | agent-sandbox/container | $0.022 | $0.218 | $0.524 | $3.67 | **$6.55** | $15.72 | Medium only: runtime fixes 4 vCPU / 4 GiB |
+| 5 | [Lizard](https://lizard.build/pricing) | agent-sandbox/container | $0.022 | $0.218 | $0.524 | $3.67 | **$6.55** | $15.72 | disputed: pricing page sells Small 2 vCPU/4 GiB at $0.009/h; docs fix 4 vCPU |
 | 6 | [Upstash Box](https://upstash.com/pricing/box) | agent-sandbox/container | $0.103 | $1.03 | $2.47 | $8.46 | **$8.82** | $9.97 | egress unpublished; flat pool, billed whether used or not |
 | 7 | [Together Code Sandbox](https://www.together.ai/pricing) | agent-sandbox/firecracker | $0.030 | $0.300 | $0.720 | $5.04 | **$9.00** | $21.60 | no machine size published, not shape-comparable; egress unpublished |
 | 8 | [Sail Research (Sailboxes)](https://docs.sailresearch.com/pricing) | agent-sandbox/firecracker | $0 | $0 | $0 | $5.09 | **$13.01** | $38.21 | $5/mo free credit; egress unpublished |
@@ -129,7 +129,7 @@ Top 16 of 179 priceable. **All 366 rows** — every provider surveyed, including
 | 12 | [Browser Use Cloud](https://browser-use.com/pricing) | browser/- | $0.020 | $0.200 | $0.480 | $3.36 | **$6.00** | $14.40 | no machine size published, not shape-comparable; disk beyond 0 GiB: price unknown; session cap 4 h, needs restarts |
 | 13 | [shellbox](https://shellbox.dev/) | agent-sandbox/firecracker | $0.020 | $0.200 | $0.480 | $3.36 | **$6.00** | $14.40 | egress unpublished |
 | 14 | [UpCloud](https://upcloud.com/pricing/) | hyperscaler/vm | $0.021 | $0.209 | $0.500 | $3.50 | **$6.25** | $14.00 |  |
-| 15 | [Lizard](https://lizard.build/pricing) | agent-sandbox/container | $0.022 | $0.218 | $0.524 | $3.67 | **$6.55** | $15.72 | Medium only: runtime fixes 4 vCPU / 4 GiB |
+| 15 | [Lizard](https://lizard.build/pricing) | agent-sandbox/container | $0.022 | $0.218 | $0.524 | $3.67 | **$6.55** | $15.72 | disputed: pricing page sells Small 2 vCPU/4 GiB at $0.009/h; docs fix 4 vCPU |
 | 16 | [Contabo](https://contabo.com/en-us/pricing/) | hyperscaler/vm | $6.60 | $6.60 | $6.60 | $6.60 | **$6.60** | $6.60 | visible $4.40 is a 24-month intro, list is $6.60; price is one month's rent at every horizon |
 
 ## Cheapest at each horizon (all providers)
@@ -187,11 +187,12 @@ Standouts where the horizon changes the winner — see
    low and closes as the term shortens. If you want the VPS 500 the page shows
    first, the honest 24/7 column is **$8.51**, which drops netcup below Hetzner.
    See `research/verification/2026-10-02.md`.
-6. **A second company may have changed its name.** PPIO and UCloud quote the
-   same CNY rates to six significant figures ($0.016094/vCPU-h) with the same
-   published limits, but they are separate cards in the corpus, so both are
-   ranked. They appear as two adjacent rows at $19.31 each. Recorded as a
-   duplicate candidate, not silently merged.
+6. **Two cards sell an identical rate card.** PPIO and UCloud Agent Sandbox quote
+   the same figures line-for-line — ￥0.00003/s per vCPU, ￥0.000015/GiB/s of
+   memory, ￥0.0005/GB/h of storage — with the same 512 MiB memory steps and the
+   same limits. They are separate cards in the corpus with separate domains
+   (`ppio.com`, `astraflow.ucloud.cn`), so both are ranked, as two adjacent rows
+   at $19.31 each. Recorded as a duplicate candidate, not silently merged.
 7. **Hyperbeam's weekly $0.56 is not a rate.** Its `HD participant-hour` size
    is $0.42/h with **10,000 free participant-minutes a month** ($70 of the base
    rate), so every horizon shorter than a week prices at $0 and the week shows
@@ -214,6 +215,15 @@ Standouts where the horizon changes the winner — see
    scoped to A1 only, capacity can be reclaimed, and the engine prices resource
    allowances as list, so the table keeps the paid number and says so. This is
    the largest single understatement in the catalogue.
+11. **Lizard is probably the one row that is too high.** Its pricing page sells
+   *Small (2 vCPU / 4 GB) at $0.009/h* — this comparison shape exactly — while
+   its sandbox docs say `Create options do not change these limits` (4 vCPU /
+   4096 MiB). Both pages are live first-party pages fetched today, and they also
+   disagree on Medium's RAM (pricing says 8 GB, docs say 4096 MiB). The table
+   keeps the conservative docs reading at $6.55 for 10 h/day; if Small is real
+   the row is **$2.70**, second only to Agent 37. Revision 1 called this row
+   "confirmed" while quoting the Small line in the same breath — that was a
+   lazy confirmation, and it is corrected in `research/verification/2026-10-02.md`.
 
 ## Negative results
 

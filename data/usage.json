@@ -6153,7 +6153,7 @@
    "unpriced": false,
    "reasons": [],
    "caveats": [],
-   "notes": "Medium only: runtime fixes 4 vCPU / 4 GiB"
+   "notes": "disputed: pricing page sells Small 2 vCPU/4 GiB at $0.009/h; docs fix 4 vCPU"
   },
   {
    "id": "machine0",

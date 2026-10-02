@@ -92,7 +92,7 @@ CORRECTIONS = {
     "oracle-cloud": "unverified: all oracle.com returns 403; Always Free A1 covers this shape ($0)",
     "scaleway": "Stardust disk is billed on top of the instance rate",
     "contabo": "visible $4.40 is a 24-month intro, list is $6.60",
-    "lizard": "Medium only: runtime fixes 4 vCPU / 4 GiB",
+    "lizard": "disputed: pricing page sells Small 2 vCPU/4 GiB at $0.009/h; docs fix 4 vCPU",
     "bright-data-browser": "browser product, bandwidth-metered",
     "unikraft-cloud": "flat pool, no per-shape rate",
     "lightning-ai": "free CPU Studio stack: 4 h/session then it converts to paid; one at a time",

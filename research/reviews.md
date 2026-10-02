@@ -73,6 +73,7 @@ free plan.
 | netcup is #9 at the realistic month and #2 at 24/7, both $5.03 | `data/usage.md` | backed, but the number is **disputed** 7–11 % low |
 | Oracle is unverified | whole `oracle.com` domain (pricing, docs, price-list API) returns the same export-control 403 | backed (block page captured, ref id) |
 | Oracle's Always Free A1 allowance covers this shape at 24/7 | card's first-party quote of 1,500 OCPU-h + 9,000 GB-h; shape uses 1,440 + 2,880 | backed (card quote; not re-fetchable from here) |
+| Lizard's $6.55 is the shape's price | pricing page sells `Small 2 vCPU 4 GB $0.009/h`; docs fix 4 vCPU/4096 MiB | **disputed** — both first-party, same day; row keeps the docs reading and names the $0.009/h tier |
 | "search was attempted and failed" | the negative-result paragraph; no artefact committed | **claim, not artefact** — reproducible only by retrying the same URLs |
 | "187 of 366 cannot be priced at the 2 vCPU/4 GiB shape" | `data/usage.json` `eligible` flags | backed |
 
@@ -82,7 +83,9 @@ free plan.
    individually. 12 were re-checked; the other 354 are `index`-grade.
 2. `priceCard` strictness plus no `required`-feature pass means the ranking is
    a shape ranking, not a fit ranking (see pass 1).
-3. netcup's price is disputed and stated as a lower bound.
+3. netcup's number is a lower bound, resolved in revision 3: the row is VPS
+   Lite 1 (6-month minimum) at $5.03, and the VPS 500 the page leads with is
+   $8.51 on a 1-month term. Revision 1 reported a gap running the wrong way.
 4. Oracle Cloud is unverified (all `oracle.com` 403) and its Always-Free ARM
    allowance is quantified but not applied, because the model only discounts
    dollar credits, not resource allowances.
@@ -94,21 +97,19 @@ free plan.
    uninterrupted run, this understates the cost; for a provider with a session
    cap it is the only way it can serve the horizon at all. Both readings are
    shown, because the note says when restarts are needed.
-7. **The netcup reconciliation was wrong in revision 1 and is now corrected.**
-   Revision 1 compared the card to a Lite plan it was not on and reported a gap
-   running the wrong way. The real gap is 2–10 % low on the Lite line, and the
-   entry row the catalogue publishes is *VPS Lite 1 G12.5s* (6-month minimum),
-   not the VPS 500 G12.5 ("No preference Europe", $8.51 on a 1-month term)
-   that the same page shows first. See `research/verification/2026-10-02.md`.
+7. **Lizard is priced from the docs, and the pricing page contradicts the docs**
+   (`Small 2 vCPU / 4 GB / $0.009/h` vs `fixed limits of 4 vCPU and 4096 MiB`).
+   The row is likely high for this shape and now says so. Revision 1 quoted the
+   Small line and still marked the row confirmed; that is recorded as an error,
+   not smoothed over.
 8. **A monthly cap is silently applied at the long horizons.** For netcup the
    engine clamps the total to one monthly rent and emits the caveat "monthly cap
    reached"; the 1 h column is the same number. That is deliberate for a VPS,
    but it means the 1 h and 10 h cells are the *monthly* price, not an hourly
    tariff. Rows that do this carry the caveat in `data/derived.json`.
 
-**Assume more claims remain wrong.** The next pass should attack: whether
-Hyperbeam's participant-minute model is the right one for a headless sandbox
-(the card itself says the machine size is unpublished), whether Lizard's
-runtime honours Small, whether any provider hides an entry tier the way
-revision 1 wrongly believed Scaleway did, and whether the two
-identical-rate cards (PPIO/UCloud) are one vendor.
+**The next pass should attack:** whether the Lizard pricing page or its docs is
+current (this needs a changelog or an API call, not another read of the same two
+pages), whether Hyperbeam's participant-minute model is the right one for a
+headless sandbox, and whether the two identical-rate cards (PPIO/UCloud) are one
+vendor. **Assume more claims remain wrong.**
