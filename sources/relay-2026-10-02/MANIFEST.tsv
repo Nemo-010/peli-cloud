@@ -1,0 +1,7 @@
+id	url	http	bytes	sha256	fetched
+llms-txt	https://tcp.ssh.relay.ajam.dev/llms.txt	200	3595	caadf93f5be7acd67187eecc794acb43cd76e6d4ca39bf80e9604c3ea38e596b	2026-10-02T08:16:31Z
+llms-full	https://tcp.ssh.relay.ajam.dev/llms-full.txt	200	15477	a82bf7c9841a9b58ada1744434f4578835a0020b3bf59d7ce21804070fec2430	2026-10-02T08:16:32Z
+relays-json	https://tcp.ssh.relay.ajam.dev/relays.json	200	3197	ec1a28c3f48b5835a170bf84bee22b538ed1a17e9c9f00b742b72431cf0c25d7	2026-10-02T08:16:32Z
+health-detail	https://tcp.ssh.relay.ajam.dev/health?detail=1	200	764	728ff3720e1622eb2a739093e1224c559c46281cec0535cbfaee894a4fd6235e	2026-10-02T08:16:32Z
+trace-egress	https://tcp.ssh.relay.ajam.dev/trace?egress=1&format=text	200	1282	32ba754b00f3749ce6286578b8de1cc36b5b02ffc99883e476d33a154aa9742e	2026-10-02T08:16:32Z
+trace-banner	https://tcp.ssh.relay.ajam.dev/trace?target=github.com:22&banner=1&format=text	200	1316	180107903c1fa3f2001a0e46069b6dc3bf216f50cd3bd974d9f503304b61c67a	2026-10-02T08:16:32Z

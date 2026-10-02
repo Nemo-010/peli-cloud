@@ -2,6 +2,7 @@
 research/corpus/
 data/derived.json
 sources/**/*.html
+sources/**/*.raw
 __pycache__/
 *.pyc
 .DS_Store

@@ -255,7 +255,8 @@ host that cannot bind a port. The full note, with the conditions and the exact
 commands, is in
 [`research/verification/ssh-relay-2026-10-02.md`](../research/verification/ssh-relay-2026-10-02.md);
 the consolidated mechanism-and-failures report is
-[`docs/SSH-RELAY.md`](SSH-RELAY.md).
+[`docs/SSH-RELAY.md`](SSH-RELAY.md). The relay's forward transport and colo
+rotation are measured separately in [`docs/RELAY-FORWARD.md`](RELAY-FORWARD.md).
 
 ## How this was checked
 
