@@ -253,7 +253,9 @@ The working session returned `uid=966 gid=965`, `Linux`, and the login's
 `$HOME`, and the server logged `Pubkey auth succeeded` — a real SSH session on a
 host that cannot bind a port. The full note, with the conditions and the exact
 commands, is in
-[`research/verification/ssh-relay-2026-10-02.md`](../research/verification/ssh-relay-2026-10-02.md).
+[`research/verification/ssh-relay-2026-10-02.md`](../research/verification/ssh-relay-2026-10-02.md);
+the consolidated mechanism-and-failures report is
+[`docs/SSH-RELAY.md`](SSH-RELAY.md).
 
 ## How this was checked
 
