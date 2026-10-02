@@ -2,7 +2,7 @@
 
 Code-interpreter bursts: 1 vCPU / 2 GiB / 5 GiB, 200,000 sessions of 1 minute, 100 at once.
 
-143 priced providers of 367. Sorted cheapest first.
+143 priced providers of 366. Sorted cheapest first.
 
 | # | Provider | $/mo | $/mo no credit | Prepaid min | Free credit | Plan / mode | Caveats |
 |---|---|---|---|---|---|---|---|
@@ -324,7 +324,6 @@ Code-interpreter bursts: 1 vCPU / 2 GiB / 5 GiB, 200,000 sessions of 1 minute, 1
 - Sandbox0: Pay as you go (prepaid top-ups): max 20 concurrent
 - Scaleway Apple silicon (Mac mini): no Linux
 - Scaleway GPU instances: no priceable regime
-- Scaleway Stardust: no preset with ≥1 vCPU and ≥2 GiB
 - ScitiX Agent Sandbox: Self-hosted runtime + externally billed clusters: needs opt-in (alt); Self-hosted container backend: needs opt-in (alt); Self-hosted microVM backend: needs opt-in (alt); Pre-warmed
 - Scraping Bee: Browser API request (not time-priced): needs opt-in (alt)
 - SeaCloudAI Sandbox: no published per-resource rate

@@ -51,7 +51,8 @@ Planted three mutants into a copy of `data/derived.json` and re-ran
 All three landed in the intended bucket, and `mutant-paid` appeared in the
 ranked table at $25.00. The guard can fail: before this rule existed, Bright
 Data and Unikraft sat at rank 1 of every list at `$0.00`. With it, they are in
-`unpriced`, and the shipped top of `nano-box` is Scaleway Stardust at $0.498.
+`unpriced`, and the shipped top of `nano-box` is netcup VPS at $1.54, with
+Scaleway Stardust at $1.58 behind it.
 
 The guard's own limit, stated so it is not mistaken for stronger than it is: it
 tests *published compute rate*, not *realisable free tier*. A provider that
@@ -62,8 +63,8 @@ publishes a rate but is free for the shape (a credit, a free allowance) is
 
 | claim | artefact | status |
 | --- | --- | --- |
-| 367 providers, 4 workloads | `data/derived.json` header, `tools/rank.py` output | backed |
-| Scaleway Stardust is €0.0006/h, absent from the card | `research/verification/2026-10-02.md`, MANIFEST sha256 | backed |
+| 366 providers, 4 workloads | `data/derived.json` header, `tools/rank.py` output | backed |
+| Scaleway Stardust is €0.0006/h and the corpus card already carries it; the pass's duplicate card was removed | `research/verification/2026-10-02.md`, MANIFEST sha256 | backed (self-correction) |
 | boat's effective floor is $20/mo | verification quote + engine total | backed |
 | free credits move rows (e.g. Freestyle $39.48→$21.10) | `data/credits-vs-floor.md` | backed |
 | netcup is #1 for agent-box | `data/rankings/agent-box.md` | backed, but the number is **disputed** 7–11% low |
@@ -82,7 +83,9 @@ publishes a rate but is free for the shape (a credit, a free allowance) is
 5. The workload shapes are chosen here, not by the operator; a different shape
    reorders the list, which is why four are published.
 
+| The first draft wrongly called Stardust missing and added a duplicate card | `git log` of the only commit; the file is absent; `research/verification/2026-10-02.md` records the correction | corrected before publication |
+
 **Assume more claims remain wrong.** The first four the next pass should
 attack: the exact netcup reconciliation, Oracle's current E4 and free-tier
-values, whether Lizard's runtime honours Small, and whether any other provider
-hides an entry tier the way Scaleway hid Stardust.
+values, whether Lizard's runtime honours Small, and whether any provider hides
+an entry tier the way this pass's first draft wrongly believed Scaleway did.

@@ -10,48 +10,13 @@
   "persistentDisk": true
  },
  "generated": "2026-10-02",
- "paid_count": 144,
+ "paid_count": 143,
  "free_tier_count": 3,
  "unpriced_count": 2,
  "ineligible_count": 218,
  "rows": [
   {
    "rank": 1,
-   "id": "scaleway-stardust",
-   "name": "Scaleway Stardust",
-   "url": "https://www.scaleway.com/en/pricing/virtual-instances/",
-   "category": "hyperscaler",
-   "isolation": "vm",
-   "monthly_usd": 0.4984,
-   "monthly_no_credit_usd": 0.4984,
-   "monthly_floor_usd": null,
-   "free_monthly_credit_usd": 0,
-   "one_time_credit_usd": 0,
-   "mode": "STARDUST1-S (1 vCPU / 1 GiB, shared, per hour)",
-   "plan": "Usage account",
-   "eligible": true,
-   "meter": "paid",
-   "features": {
-    "persistent_disk": true,
-    "docker_inside": true,
-    "browser": false,
-    "desktop": false,
-    "ssh": true,
-    "root": true,
-    "gpu": false,
-    "arm64": false,
-    "pause_resume": false,
-    "open_source": false,
-    "self_host": false,
-    "byoc": false
-   },
-   "reasons": [],
-   "caveats": [
-    "IPv4 $4.15/mo extra"
-   ]
-  },
-  {
-   "rank": 2,
    "id": "netcup",
    "name": "netcup VPS",
    "url": "https://www.netcup.com/en/server/vps",
@@ -88,7 +53,7 @@
    ]
   },
   {
-   "rank": 3,
+   "rank": 2,
    "id": "scaleway",
    "name": "Scaleway Instances",
    "url": "https://www.scaleway.com/en/pricing/virtual-instances/",
@@ -123,7 +88,7 @@
    ]
   },
   {
-   "rank": 4,
+   "rank": 3,
    "id": "maritime",
    "name": "Maritime",
    "url": "https://maritime.sh/pricing",
@@ -159,7 +124,7 @@
    ]
   },
   {
-   "rank": 5,
+   "rank": 4,
    "id": "upcloud",
    "name": "UpCloud",
    "url": "https://upcloud.com/pricing/",
@@ -192,7 +157,7 @@
    "caveats": []
   },
   {
-   "rank": 6,
+   "rank": 5,
    "id": "google-cloud-run",
    "name": "Google Cloud Run",
    "url": "https://cloud.google.com/run/pricing",
@@ -230,7 +195,7 @@
    ]
   },
   {
-   "rank": 7,
+   "rank": 6,
    "id": "oracle-cloud",
    "name": "Oracle Cloud Infrastructure",
    "url": "https://www.oracle.com/cloud/compute/pricing/",
@@ -265,7 +230,7 @@
    ]
   },
   {
-   "rank": 8,
+   "rank": 7,
    "id": "sail",
    "name": "Sail Research (Sailboxes)",
    "url": "https://docs.sailresearch.com/pricing",
@@ -302,7 +267,7 @@
    ]
   },
   {
-   "rank": 9,
+   "rank": 8,
    "id": "kamatera",
    "name": "Kamatera",
    "url": "https://www.kamatera.com/pricing/",
@@ -337,7 +302,7 @@
    ]
   },
   {
-   "rank": 10,
+   "rank": 9,
    "id": "zipbox",
    "name": "zipbox",
    "url": "https://zipbox.ai/pricing",
@@ -373,7 +338,7 @@
    ]
   },
   {
-   "rank": 11,
+   "rank": 10,
    "id": "linode",
    "name": "Akamai Cloud / Linode",
    "url": "https://www.akamai.com/cloud/pricing",
@@ -408,7 +373,7 @@
    ]
   },
   {
-   "rank": 12,
+   "rank": 11,
    "id": "vultr",
    "name": "Vultr Cloud Compute",
    "url": "https://www.vultr.com/pricing/",
@@ -441,7 +406,7 @@
    "caveats": []
   },
   {
-   "rank": 13,
+   "rank": 12,
    "id": "agent-37",
    "name": "Agent 37",
    "url": "https://www.agent37.com/pricing",
@@ -477,7 +442,7 @@
    ]
   },
   {
-   "rank": 14,
+   "rank": 13,
    "id": "civo",
    "name": "Civo Compute",
    "url": "https://www.civo.com/pricing",
@@ -513,7 +478,7 @@
    ]
   },
   {
-   "rank": 15,
+   "rank": 14,
    "id": "ionos",
    "name": "IONOS Cloud",
    "url": "https://docs.ionos.com/cloud/support/general-information/price-list/ionos-cloud-eur-en",
@@ -548,7 +513,7 @@
    ]
   },
   {
-   "rank": 16,
+   "rank": 15,
    "id": "fly-machines",
    "name": "Fly.io Machines",
    "url": "https://fly.io/pricing",
@@ -586,7 +551,7 @@
    ]
   },
   {
-   "rank": 17,
+   "rank": 16,
    "id": "digitalocean",
    "name": "DigitalOcean Droplets",
    "url": "https://www.digitalocean.com/pricing/droplets",
@@ -621,7 +586,7 @@
    ]
   },
   {
-   "rank": 18,
+   "rank": 17,
    "id": "hetzner-cloud",
    "name": "Hetzner Cloud",
    "url": "https://docs.hetzner.com/general/infrastructure-and-availability/price-adjustment/",
@@ -656,7 +621,7 @@
    ]
   },
   {
-   "rank": 19,
+   "rank": 18,
    "id": "contabo",
    "name": "Contabo",
    "url": "https://contabo.com/en-us/pricing/",
@@ -692,7 +657,7 @@
    ]
   },
   {
-   "rank": 20,
+   "rank": 19,
    "id": "gcore",
    "name": "Gcore Cloud / Functions / GPU",
    "url": "https://gcore.com/cloud/virtual-machines",
@@ -727,7 +692,7 @@
    ]
   },
   {
-   "rank": 21,
+   "rank": 20,
    "id": "kakao-cloud",
    "name": "KakaoCloud Virtual Machine",
    "url": "https://www.kakaocloud.com/services/virtual-machine/pricing",
@@ -763,7 +728,7 @@
    ]
   },
   {
-   "rank": 22,
+   "rank": 21,
    "id": "railway",
    "name": "Railway",
    "url": "https://railway.com/pricing",
@@ -800,7 +765,7 @@
    ]
   },
   {
-   "rank": 23,
+   "rank": 22,
    "id": "withruntime",
    "name": "Runtime (withruntime.com)",
    "url": "https://withruntime.com/pricing",
@@ -835,7 +800,7 @@
    ]
   },
   {
-   "rank": 24,
+   "rank": 23,
    "id": "ibm-cloud-vpc",
    "name": "IBM Cloud VPC",
    "url": "https://www.ibm.com/products/virtual-servers/pricing",
@@ -872,7 +837,7 @@
    ]
   },
   {
-   "rank": 25,
+   "rank": 24,
    "id": "shardflux",
    "name": "Shardflux",
    "url": "https://shardflux.dev/#pricing",
@@ -908,7 +873,7 @@
    ]
   },
   {
-   "rank": 26,
+   "rank": 25,
    "id": "upstash-box",
    "name": "Upstash Box",
    "url": "https://upstash.com/pricing/box",
@@ -944,7 +909,7 @@
    ]
   },
   {
-   "rank": 27,
+   "rank": 26,
    "id": "ovhcloud",
    "name": "OVHcloud Public Cloud",
    "url": "https://us.ovhcloud.com/public-cloud/prices/",
@@ -982,7 +947,7 @@
    ]
   },
   {
-   "rank": 28,
+   "rank": 27,
    "id": "machine0",
    "name": "machine0",
    "url": "https://machine0.io/",
@@ -1015,7 +980,7 @@
    "caveats": []
   },
   {
-   "rank": 29,
+   "rank": 28,
    "id": "prized",
    "name": "Prized",
    "url": "https://prized.dev/docs/billing",
@@ -1052,7 +1017,7 @@
    ]
   },
   {
-   "rank": 30,
+   "rank": 29,
    "id": "sprites",
    "name": "Sprites (Fly.io)",
    "url": "https://fly.io/pricing",
@@ -1088,7 +1053,7 @@
    ]
   },
   {
-   "rank": 31,
+   "rank": 30,
    "id": "alibaba-ecs",
    "name": "Alibaba Cloud ECS International",
    "url": "https://www.alibabacloud.com/en/product/ecs/pricing",
@@ -1125,7 +1090,7 @@
    ]
   },
   {
-   "rank": 32,
+   "rank": 31,
    "id": "sakura-cloud",
    "name": "Sakura Internet Cloud",
    "url": "https://cloud.sakura.ad.jp/products/server/",
@@ -1160,7 +1125,7 @@
    ]
   },
   {
-   "rank": 33,
+   "rank": 32,
    "id": "smol-machines",
    "name": "smol machines",
    "url": "https://smolmachines.com/pricing",
@@ -1196,7 +1161,7 @@
    ]
   },
   {
-   "rank": 34,
+   "rank": 33,
    "id": "ubicloud",
    "name": "Ubicloud",
    "url": "https://www.ubicloud.com/docs/about/pricing",
@@ -1231,7 +1196,7 @@
    ]
   },
   {
-   "rank": 35,
+   "rank": 34,
    "id": "exoscale",
    "name": "Exoscale",
    "url": "https://www.exoscale.com/pricing/",
@@ -1264,7 +1229,7 @@
    "caveats": []
   },
   {
-   "rank": 36,
+   "rank": 35,
    "id": "hostinger-vps",
    "name": "Hostinger VPS",
    "url": "https://www.hostinger.com/vps-hosting",
@@ -1300,7 +1265,7 @@
    ]
   },
   {
-   "rank": 37,
+   "rank": 36,
    "id": "stackit",
    "name": "STACKIT Compute Engine",
    "url": "https://pim.api.stackit.cloud/v1/skus",
@@ -1336,7 +1301,7 @@
    ]
   },
   {
-   "rank": 38,
+   "rank": 37,
    "id": "tama",
    "name": "tama",
    "url": "https://tama.computer/",
@@ -1371,7 +1336,7 @@
    ]
   },
   {
-   "rank": 39,
+   "rank": 38,
    "id": "clever-cloud",
    "name": "Clever Cloud",
    "url": "https://www.clever.cloud/pricing/",
@@ -1408,7 +1373,7 @@
    ]
   },
   {
-   "rank": 40,
+   "rank": 39,
    "id": "paperspace",
    "name": "Paperspace",
    "url": "https://docs.digitalocean.com/products/paperspace/pricing/",
@@ -1445,7 +1410,7 @@
    ]
   },
   {
-   "rank": 41,
+   "rank": 40,
    "id": "lizard",
    "name": "Lizard",
    "url": "https://lizard.build/pricing",
@@ -1480,7 +1445,7 @@
    ]
   },
   {
-   "rank": 42,
+   "rank": 41,
    "id": "shellbox",
    "name": "shellbox",
    "url": "https://shellbox.dev/",
@@ -1515,7 +1480,7 @@
    ]
   },
   {
-   "rank": 43,
+   "rank": 42,
    "id": "exe-dev",
    "name": "exe.dev",
    "url": "https://exe.dev/pricing",
@@ -1552,7 +1517,7 @@
    ]
   },
   {
-   "rank": 44,
+   "rank": 43,
    "id": "aws-fargate",
    "name": "AWS Fargate",
    "url": "https://aws.amazon.com/fargate/pricing/",
@@ -1590,7 +1555,7 @@
    ]
   },
   {
-   "rank": 45,
+   "rank": 44,
    "id": "azure-container-apps",
    "name": "Azure Container Apps (Consumption, Dedicated, Dynamic Sessions)",
    "url": "https://azure.microsoft.com/en-us/pricing/details/container-apps/",
@@ -1630,7 +1595,7 @@
    ]
   },
   {
-   "rank": 46,
+   "rank": 45,
    "id": "ppio-sandbox",
    "name": "PPIO Agent Sandbox",
    "url": "https://ppio.com/docs/sandbox/pricing.md",
@@ -1665,7 +1630,7 @@
    ]
   },
   {
-   "rank": 47,
+   "rank": 46,
    "id": "boat",
    "name": "boat.dev",
    "url": "https://docs.boat.dev/pricing",
@@ -1702,7 +1667,7 @@
    ]
   },
   {
-   "rank": 48,
+   "rank": 47,
    "id": "opencomputer",
    "name": "OpenComputer",
    "url": "https://opencomputer.dev/sandboxes",
@@ -1740,7 +1705,7 @@
    ]
   },
   {
-   "rank": 49,
+   "rank": 48,
    "id": "northflank",
    "name": "Northflank Sandboxes",
    "url": "https://northflank.com/pricing",
@@ -1775,7 +1740,7 @@
    ]
   },
   {
-   "rank": 50,
+   "rank": 49,
    "id": "freestyle",
    "name": "Freestyle",
    "url": "https://www.freestyle.sh/pricing",
@@ -1812,7 +1777,7 @@
    ]
   },
   {
-   "rank": 51,
+   "rank": 50,
    "id": "celesto",
    "name": "Celesto Cloud",
    "url": "https://celesto.ai/pricing",
@@ -1847,7 +1812,7 @@
    ]
   },
   {
-   "rank": 52,
+   "rank": 51,
    "id": "sandbox0",
    "name": "Sandbox0",
    "url": "https://sandbox0.ai/pricing",
@@ -1882,7 +1847,7 @@
    ]
   },
   {
-   "rank": 53,
+   "rank": 52,
    "id": "gcp-compute",
    "name": "Google Compute Engine (Linux VMs)",
    "url": "https://cloud.google.com/products/compute/pricing/general-purpose",
@@ -1919,7 +1884,7 @@
    ]
   },
   {
-   "rank": 54,
+   "rank": 53,
    "id": "aws-workspaces",
    "name": "Amazon WorkSpaces Personal (Windows)",
    "url": "https://aws.amazon.com/workspaces/desktop-as-a-service/pricing/",
@@ -1955,7 +1920,7 @@
    ]
   },
   {
-   "rank": 55,
+   "rank": 54,
    "id": "azure-vm",
    "name": "Azure Virtual Machines (Linux)",
    "url": "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/",
@@ -1993,7 +1958,7 @@
    ]
   },
   {
-   "rank": 56,
+   "rank": 55,
    "id": "aws-ec2",
    "name": "AWS EC2 (reference VMs)",
    "url": "https://aws.amazon.com/ec2/pricing/on-demand/",
@@ -2031,7 +1996,7 @@
    ]
   },
   {
-   "rank": 57,
+   "rank": 56,
    "id": "prime-intellect",
    "name": "Prime Intellect Sandboxes",
    "url": "https://www.primeintellect.ai/sandboxes",
@@ -2066,7 +2031,7 @@
    ]
   },
   {
-   "rank": 58,
+   "rank": 57,
    "id": "alibaba-agentbay",
    "name": "Alibaba Cloud AgentBay",
    "url": "https://www.alibabacloud.com/help/en/agentbay/product-overview/agentbay-billing-instructions",
@@ -2103,7 +2068,7 @@
    ]
   },
   {
-   "rank": 59,
+   "rank": 58,
    "id": "samsung-cloud",
    "name": "Samsung SDS Cloud Platform",
    "url": "https://cloud.samsungsds.com/serviceportal/pricing.html",
@@ -2140,7 +2105,7 @@
    ]
   },
   {
-   "rank": 60,
+   "rank": 59,
    "id": "isorun",
    "name": "Isorun",
    "url": "https://docs.isorun.ai/getting-started/pricing",
@@ -2175,7 +2140,7 @@
    ]
   },
   {
-   "rank": 61,
+   "rank": 60,
    "id": "koyeb",
    "name": "Koyeb Sandboxes",
    "url": "https://www.koyeb.com/pricing",
@@ -2211,7 +2176,7 @@
    ]
   },
   {
-   "rank": 62,
+   "rank": 61,
    "id": "render",
    "name": "Render",
    "url": "https://render.com/pricing",
@@ -2246,7 +2211,7 @@
    ]
   },
   {
-   "rank": 63,
+   "rank": 62,
    "id": "manus-cloud-computer",
    "name": "Manus Cloud Computer",
    "url": "https://help.manus.im/en/articles/15392078-understanding-cloud-computer-plans-and-billing",
@@ -2281,7 +2246,7 @@
    ]
   },
   {
-   "rank": 64,
+   "rank": 63,
    "id": "omnara",
    "name": "Omnara",
    "url": "https://www.omnara.com/pricing",
@@ -2317,7 +2282,7 @@
    ]
   },
   {
-   "rank": 65,
+   "rank": 64,
    "id": "coasty",
    "name": "Coasty",
    "url": "https://coasty.ai/pricing",
@@ -2356,7 +2321,7 @@
    ]
   },
   {
-   "rank": 66,
+   "rank": 65,
    "id": "cloudflare-sandbox",
    "name": "Cloudflare Sandbox SDK / Containers",
    "url": "https://developers.cloudflare.com/containers/platform/pricing/",
@@ -2391,7 +2356,7 @@
    ]
   },
   {
-   "rank": 67,
+   "rank": 66,
    "id": "buddy",
    "name": "Buddy Sandboxes",
    "url": "https://buddy.works/pricing",
@@ -2427,7 +2392,7 @@
    ]
   },
   {
-   "rank": 68,
+   "rank": 67,
    "id": "e2e-networks",
    "name": "E2E Networks",
    "url": "https://www.e2enetworks.com/pricing",
@@ -2462,7 +2427,7 @@
    ]
   },
   {
-   "rank": 69,
+   "rank": 68,
    "id": "replit",
    "name": "Replit",
    "url": "https://docs.replit.com/billing/deployment-pricing",
@@ -2498,7 +2463,7 @@
    ]
   },
   {
-   "rank": 70,
+   "rank": 69,
    "id": "sealos-devbox",
    "name": "Sealos DevBox",
    "url": "https://sealos.io/pricing/",
@@ -2535,7 +2500,7 @@
    ]
   },
   {
-   "rank": 71,
+   "rank": 70,
    "id": "anchor-browser",
    "name": "Anchor Browser",
    "url": "https://anchorbrowser.io/pricing",
@@ -2572,7 +2537,7 @@
    ]
   },
   {
-   "rank": 72,
+   "rank": 71,
    "id": "createos",
    "name": "CreateOS Sandbox (NodeOps)",
    "url": "https://createos.sh/products/sandbox",
@@ -2608,7 +2573,7 @@
    ]
   },
   {
-   "rank": 73,
+   "rank": 72,
    "id": "morph-cloud",
    "name": "Morph Cloud",
    "url": "https://cloud.morph.so/web/subscribe",
@@ -2644,7 +2609,7 @@
    ]
   },
   {
-   "rank": 74,
+   "rank": 73,
    "id": "mosaic",
    "name": "Mosaic Sandbox",
    "url": "https://sandbox.mosaicos.com/",
@@ -2679,7 +2644,7 @@
    ]
   },
   {
-   "rank": 75,
+   "rank": 74,
    "id": "nebius",
    "name": "Nebius",
    "url": "https://docs.nebius.com/compute/resources/pricing",
@@ -2712,7 +2677,7 @@
    "caveats": []
   },
   {
-   "rank": 76,
+   "rank": 75,
    "id": "verda",
    "name": "Verda (formerly DataCrunch)",
    "url": "https://verda.com/pricing",
@@ -2747,7 +2712,7 @@
    ]
   },
   {
-   "rank": 77,
+   "rank": 76,
    "id": "jarvislabs",
    "name": "Jarvislabs",
    "url": "https://jarvislabs.ai/pricing",
@@ -2782,7 +2747,7 @@
    ]
   },
   {
-   "rank": 78,
+   "rank": 77,
    "id": "pandastack",
    "name": "PandaStack",
    "url": "https://www.pandastack.ai/pricing/",
@@ -2817,7 +2782,7 @@
    ]
   },
   {
-   "rank": 79,
+   "rank": 78,
    "id": "kernel",
    "name": "Kernel",
    "url": "https://www.onkernel.com/pricing",
@@ -2855,7 +2820,7 @@
    ]
   },
   {
-   "rank": 80,
+   "rank": 79,
    "id": "tencent-agent-runtime",
    "name": "Tencent Cloud Agent Runtime \u2014 Agent Sandbox",
    "url": "https://cloud.tencent.com/document/product/1814/133249",
@@ -2890,7 +2855,7 @@
    ]
   },
   {
-   "rank": 81,
+   "rank": 80,
    "id": "agentcomputer",
    "name": "AgentComputer",
    "url": "https://agentcomputer.ai/pricing",
@@ -2925,7 +2890,7 @@
    ]
   },
   {
-   "rank": 82,
+   "rank": 81,
    "id": "dedalus-labs",
    "name": "Dedalus Labs",
    "url": "https://www.dedaluslabs.ai/pricing",
@@ -2962,7 +2927,7 @@
    ]
   },
   {
-   "rank": 83,
+   "rank": 82,
    "id": "runpod",
    "name": "Runpod",
    "url": "https://www.runpod.io/pricing",
@@ -2995,7 +2960,7 @@
    "caveats": []
   },
   {
-   "rank": 84,
+   "rank": 83,
    "id": "latitude-sh",
    "name": "Latitude.sh",
    "url": "https://www.latitude.sh/pricing",
@@ -3031,7 +2996,7 @@
    ]
   },
   {
-   "rank": 85,
+   "rank": 84,
    "id": "openreward",
    "name": "OpenReward Sandboxes",
    "url": "https://openreward.ai/pricing",
@@ -3067,7 +3032,7 @@
    ]
   },
   {
-   "rank": 86,
+   "rank": 85,
    "id": "cua",
    "name": "Cua Fleet",
    "url": "https://cua.ai/pricing",
@@ -3103,7 +3068,7 @@
    ]
   },
   {
-   "rank": 87,
+   "rank": 86,
    "id": "microsandbox",
    "name": "microsandbox",
    "url": "https://microsandbox.dev/pricing",
@@ -3139,7 +3104,7 @@
    ]
   },
   {
-   "rank": 88,
+   "rank": 87,
    "id": "daytona",
    "name": "Daytona",
    "url": "https://www.daytona.io/pricing",
@@ -3177,7 +3142,7 @@
    ]
   },
   {
-   "rank": 89,
+   "rank": 88,
    "id": "tenki",
    "name": "Tenki Sandbox",
    "url": "https://tenki.cloud/pricing",
@@ -3214,7 +3179,7 @@
    ]
   },
   {
-   "rank": 90,
+   "rank": 89,
    "id": "hopx",
    "name": "Hopx",
    "url": "https://hopx.ai/pricing",
@@ -3250,7 +3215,7 @@
    ]
   },
   {
-   "rank": 91,
+   "rank": 90,
    "id": "runta",
    "name": "Runta",
    "url": "https://runta.com/pricing/",
@@ -3286,7 +3251,7 @@
    ]
   },
   {
-   "rank": 92,
+   "rank": 91,
    "id": "superserve",
    "name": "Superserve",
    "url": "https://superserve.ai/pricing",
@@ -3322,7 +3287,7 @@
    ]
   },
   {
-   "rank": 93,
+   "rank": 92,
    "id": "lightning-ai",
    "name": "Lightning AI",
    "url": "https://lightning.ai/pricing",
@@ -3361,7 +3326,7 @@
    ]
   },
   {
-   "rank": 94,
+   "rank": 93,
    "id": "boxd",
    "name": "boxd",
    "url": "https://boxd.sh/pricing",
@@ -3398,7 +3363,7 @@
    ]
   },
   {
-   "rank": 95,
+   "rank": 94,
    "id": "gologin",
    "name": "Gologin Cloud Browser",
    "url": "https://gologin.com/cloud-browser/",
@@ -3436,7 +3401,7 @@
    ]
   },
   {
-   "rank": 96,
+   "rank": 95,
    "id": "lightpanda",
    "name": "Lightpanda Cloud",
    "url": "https://lightpanda.io/pricing",
@@ -3474,7 +3439,7 @@
    ]
   },
   {
-   "rank": 97,
+   "rank": 96,
    "id": "bitrise",
    "name": "Bitrise (mobile CI)",
    "url": "https://bitrise.io/pricing",
@@ -3511,7 +3476,7 @@
    ]
   },
   {
-   "rank": 98,
+   "rank": 97,
    "id": "crusoe",
    "name": "Crusoe",
    "url": "https://www.crusoe.ai/cloud/pricing",
@@ -3544,7 +3509,7 @@
    "caveats": []
   },
   {
-   "rank": 99,
+   "rank": 98,
    "id": "miosa",
    "name": "MIOSA",
    "url": "https://miosa.ai/pricing",
@@ -3580,7 +3545,7 @@
    ]
   },
   {
-   "rank": 100,
+   "rank": 99,
    "id": "blaxel",
    "name": "Blaxel",
    "url": "https://blaxel.ai/pricing",
@@ -3616,7 +3581,7 @@
    ]
   },
   {
-   "rank": 101,
+   "rank": 100,
    "id": "azure-container-apps-sandboxes",
    "name": "Azure Container Apps Sandboxes",
    "url": "https://learn.microsoft.com/en-us/azure/container-apps/sandboxes-overview",
@@ -3652,7 +3617,7 @@
    ]
   },
   {
-   "rank": 102,
+   "rank": 101,
    "id": "beam",
    "name": "Beam",
    "url": "https://www.beam.cloud/pricing",
@@ -3688,7 +3653,7 @@
    ]
   },
   {
-   "rank": 103,
+   "rank": 102,
    "id": "sfcompute",
    "name": "SF Compute (GPU market + Autoresearch sandboxes)",
    "url": "https://autoresearch.sfcompute.com/",
@@ -3724,7 +3689,7 @@
    ]
   },
   {
-   "rank": 104,
+   "rank": 103,
    "id": "hetzner-dedicated",
    "name": "Hetzner Dedicated AX / EX",
    "url": "https://www.hetzner.com/dedicated-rootserver/",
@@ -3759,7 +3724,7 @@
    ]
   },
   {
-   "rank": 105,
+   "rank": 104,
    "id": "google-agent-engine",
    "name": "Google Agent Runtime / Agent Engine",
    "url": "https://cloud.google.com/products/gemini-enterprise-agent-platform/pricing",
@@ -3796,7 +3761,7 @@
    ]
   },
   {
-   "rank": 106,
+   "rank": 105,
    "id": "openpond",
    "name": "OpenPond Cloud Sandboxes",
    "url": "https://openpond.ai/pricing",
@@ -3832,7 +3797,7 @@
    ]
   },
   {
-   "rank": 107,
+   "rank": 106,
    "id": "cloudflare-browser",
    "name": "Cloudflare Browser Run / Kitesurf",
    "url": "https://developers.cloudflare.com/browser-run/pricing/",
@@ -3869,7 +3834,7 @@
    ]
   },
   {
-   "rank": 108,
+   "rank": 107,
    "id": "runs-on",
    "name": "RunsOn",
    "url": "https://runs-on.com/pricing/",
@@ -3905,7 +3870,7 @@
    ]
   },
   {
-   "rank": 109,
+   "rank": 108,
    "id": "gke-agent-sandbox",
    "name": "GKE Agent Sandbox",
    "url": "https://cloud.google.com/kubernetes-engine/docs/concepts/agent-sandbox",
@@ -3945,7 +3910,7 @@
    ]
   },
   {
-   "rank": 110,
+   "rank": 109,
    "id": "islo",
    "name": "Islo",
    "url": "https://islo.dev/pricing",
@@ -3981,7 +3946,7 @@
    ]
   },
   {
-   "rank": 111,
+   "rank": 110,
    "id": "rivet",
    "name": "Rivet (Actors & agentOS)",
    "url": "https://rivet.dev/pricing/",
@@ -4016,7 +3981,7 @@
    ]
   },
   {
-   "rank": 112,
+   "rank": 111,
    "id": "blacksmith",
    "name": "Blacksmith (GitHub Actions runners)",
    "url": "https://www.blacksmith.sh/pricing",
@@ -4053,7 +4018,7 @@
    ]
   },
   {
-   "rank": 113,
+   "rank": 112,
    "id": "open-telekom-cloud",
    "name": "Open Telekom Cloud / T Cloud Public",
    "url": "https://www.open-telekom-cloud.com/en/prices",
@@ -4090,7 +4055,7 @@
    ]
   },
   {
-   "rank": 114,
+   "rank": 113,
    "id": "orgo",
    "name": "Orgo",
    "url": "https://www.orgo.ai/pricing",
@@ -4127,7 +4092,7 @@
    ]
   },
   {
-   "rank": 115,
+   "rank": 114,
    "id": "runloop",
    "name": "Runloop",
    "url": "https://www.runloop.ai/pricing",
@@ -4164,7 +4129,7 @@
    ]
   },
   {
-   "rank": 116,
+   "rank": 115,
    "id": "naver-cloud",
    "name": "NAVER Cloud / LINE-NAVER scope",
    "url": "https://www.ncloud.com/product/compute/server",
@@ -4201,7 +4166,7 @@
    ]
   },
   {
-   "rank": 117,
+   "rank": 116,
    "id": "amika",
    "name": "Amika",
    "url": "https://www.amika.dev/pricing",
@@ -4237,7 +4202,7 @@
    ]
   },
   {
-   "rank": 118,
+   "rank": 117,
    "id": "omnirun",
    "name": "OmniRun",
    "url": "https://omnirun.io/pricing",
@@ -4274,7 +4239,7 @@
    ]
   },
   {
-   "rank": 119,
+   "rank": 118,
    "id": "github-codespaces",
    "name": "GitHub Codespaces",
    "url": "https://docs.github.com/en/billing/concepts/product-billing/github-codespaces",
@@ -4307,7 +4272,7 @@
    "caveats": []
   },
   {
-   "rank": 120,
+   "rank": 119,
    "id": "warpbuild",
    "name": "WarpBuild (GitHub Actions runners)",
    "url": "https://www.warpbuild.com/pricing",
@@ -4342,7 +4307,7 @@
    ]
   },
   {
-   "rank": 121,
+   "rank": 120,
    "id": "huawei-cloud",
    "name": "Huawei Cloud AgentArts",
    "url": "https://support.huaweicloud.com/price-agentarts/agentarts-price-pdf.pdf",
@@ -4379,7 +4344,7 @@
    ]
   },
   {
-   "rank": 122,
+   "rank": 121,
    "id": "arker",
    "name": "Arker",
    "url": "https://arker.ai/docs/pricing",
@@ -4416,7 +4381,7 @@
    ]
   },
   {
-   "rank": 123,
+   "rank": 122,
    "id": "opensteer",
    "name": "Opensteer",
    "url": "https://opensteer.com/pricing",
@@ -4454,7 +4419,7 @@
    ]
   },
   {
-   "rank": 124,
+   "rank": 123,
    "id": "instavm",
    "name": "InstaVM",
    "url": "https://instavm.io/pricing",
@@ -4492,7 +4457,7 @@
    ]
   },
   {
-   "rank": 125,
+   "rank": 124,
    "id": "starsling",
    "name": "StarSling",
    "url": "https://starsling.dev/pricing",
@@ -4528,7 +4493,7 @@
    ]
   },
   {
-   "rank": 126,
+   "rank": 125,
    "id": "remote-browser",
    "name": "Remote Browser",
    "url": "https://remote-browser.dev/pricing",
@@ -4566,7 +4531,7 @@
    ]
   },
   {
-   "rank": 127,
+   "rank": 126,
    "id": "ona",
    "name": "Ona (formerly Gitpod)",
    "url": "https://ona.com/pricing",
@@ -4605,7 +4570,7 @@
    ]
   },
   {
-   "rank": 128,
+   "rank": 127,
    "id": "namespace",
    "name": "Namespace",
    "url": "https://namespace.so/pricing",
@@ -4641,7 +4606,7 @@
    ]
   },
   {
-   "rank": 129,
+   "rank": 128,
    "id": "surfsky",
    "name": "Surfsky",
    "url": "https://surfsky.io/pricing",
@@ -4678,7 +4643,7 @@
    ]
   },
   {
-   "rank": 130,
+   "rank": 129,
    "id": "codesandbox-sdk",
    "name": "CodeSandbox SDK",
    "url": "https://codesandbox.io/docs/sdk/pricing",
@@ -4716,7 +4681,7 @@
    ]
   },
   {
-   "rank": 131,
+   "rank": 130,
    "id": "datalayer",
    "name": "Datalayer Runtimes",
    "url": "https://datalayer.io/pricing",
@@ -4753,7 +4718,7 @@
    ]
   },
   {
-   "rank": 132,
+   "rank": 131,
    "id": "hyperbeam",
    "name": "Hyperbeam",
    "url": "https://hyperbeam.com/",
@@ -4790,7 +4755,7 @@
    ]
   },
   {
-   "rank": 133,
+   "rank": 132,
    "id": "browsercloud",
    "name": "BrowserCloud",
    "url": "https://browsercloud.io/pricing",
@@ -4829,7 +4794,7 @@
    ]
   },
   {
-   "rank": 134,
+   "rank": 133,
    "id": "hyperstack",
    "name": "Hyperstack",
    "url": "https://www.hyperstack.cloud/gpu-pricing",
@@ -4865,7 +4830,7 @@
    ]
   },
   {
-   "rank": 135,
+   "rank": 134,
    "id": "ellipsis",
    "name": "Ellipsis",
    "url": "https://www.ellipsis.dev/pricing",
@@ -4901,7 +4866,7 @@
    ]
   },
   {
-   "rank": 136,
+   "rank": 135,
    "id": "depot",
    "name": "Depot (GitHub Actions runners)",
    "url": "https://depot.dev/pricing",
@@ -4937,7 +4902,7 @@
    ]
   },
   {
-   "rank": 137,
+   "rank": 136,
    "id": "buildkite-hosted",
    "name": "Buildkite hosted agents",
    "url": "https://buildkite.com/pricing",
@@ -4974,7 +4939,7 @@
    ]
   },
   {
-   "rank": 138,
+   "rank": 137,
    "id": "boxes-dev",
    "name": "boxes.dev",
    "url": "https://boxes.dev/",
@@ -5010,7 +4975,7 @@
    ]
   },
   {
-   "rank": 139,
+   "rank": 138,
    "id": "scrapeless",
    "name": "Scrapeless Agent Browser",
    "url": "https://www.scrapeless.com/en/pricing",
@@ -5049,7 +5014,7 @@
    ]
   },
   {
-   "rank": 140,
+   "rank": 139,
    "id": "replicas",
    "name": "Replicas",
    "url": "https://replicas.dev",
@@ -5086,7 +5051,7 @@
    ]
   },
   {
-   "rank": 141,
+   "rank": 140,
    "id": "bitbucket-pipelines",
    "name": "Bitbucket Pipelines",
    "url": "https://www.atlassian.com/software/bitbucket/pricing",
@@ -5122,7 +5087,7 @@
    ]
   },
   {
-   "rank": 142,
+   "rank": 141,
    "id": "archil",
    "name": "Archil",
    "url": "https://archil.com/pricing",
@@ -5158,7 +5123,7 @@
    ]
   },
   {
-   "rank": 143,
+   "rank": 142,
    "id": "ovh-gpu",
    "name": "OVHcloud GPU instances",
    "url": "https://www.ovhcloud.com/en/public-cloud/prices/",
@@ -5195,7 +5160,7 @@
    ]
   },
   {
-   "rank": 144,
+   "rank": 143,
    "id": "cloudcruise",
    "name": "CloudCruise",
    "url": "https://cloudcruise.com/pricing",

@@ -14,7 +14,7 @@
  "paid_count": 143,
  "free_tier_count": 0,
  "unpriced_count": 1,
- "ineligible_count": 223,
+ "ineligible_count": 222,
  "rows": [
   {
    "rank": 1,
@@ -11792,43 +11792,6 @@
    "caveats": [
     "IPv4 $4.15/mo extra",
     "term commitment"
-   ]
-  },
-  {
-   "rank": null,
-   "id": "scaleway-stardust",
-   "name": "Scaleway Stardust",
-   "url": "https://www.scaleway.com/en/pricing/virtual-instances/",
-   "category": "hyperscaler",
-   "isolation": "vm",
-   "monthly_usd": null,
-   "monthly_no_credit_usd": null,
-   "monthly_floor_usd": null,
-   "free_monthly_credit_usd": 0,
-   "one_time_credit_usd": 0,
-   "mode": null,
-   "plan": null,
-   "eligible": false,
-   "meter": "ineligible",
-   "features": {
-    "persistent_disk": true,
-    "docker_inside": true,
-    "browser": false,
-    "desktop": false,
-    "ssh": true,
-    "root": true,
-    "gpu": false,
-    "arm64": false,
-    "pause_resume": false,
-    "open_source": false,
-    "self_host": false,
-    "byoc": false
-   },
-   "reasons": [
-    "no preset with \u22651 vCPU and \u22652 GiB"
-   ],
-   "caveats": [
-    "IPv4 $4.15/mo extra"
    ]
   },
   {

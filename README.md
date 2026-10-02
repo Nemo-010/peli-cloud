@@ -24,7 +24,7 @@ No simulation, no Nemo — just the invoices.
   run the shape with a named compromise is listed under "Did not fit", not
   ranked. These numbers are therefore **not** the battleships rankings and must
   not be compared row for row.
-- **354 of 367 providers were not re-verified by hand.** 12 provider pages were
+- **354 of 366 providers were not re-verified by hand.** 12 provider pages were
   re-fetched and reconciled (`research/verification/2026-10-02.md`); the other
   354 carry the corpus's figure at its captured commit and are `index`-grade.
 - **Generic web search failed in this sandbox** (DuckDuckGo and Bing are
@@ -34,17 +34,17 @@ No simulation, no Nemo — just the invoices.
   Unikraft). Genuine free tiers are listed separately.
 - **Assume more claims are wrong than the five listed at the end.** This is
   revision 1 and there is no previous revision to count corrections against;
-  within this pass the review mutated the `meter` classifier and found one bug
-  that had put two unpriced meters at rank 1 on every list. Neither survives.
+  within this pass the review caught two of this pass's own errors before
+  publication — the duplicate Stardust card, and unpriced meters ranked as free.
+  Neither survives.
 
 ## Conditions
 
 - One host, 2026-10-02, reading provider pages over HTTPS. Prices are public
   list prices on that day; USD unless stated. EUR→USD at 1.1378 (ECB
   2026-09-28), the rate the corpus uses.
-- 367 provider cards: 366 from `ariana-dot-dev/battleships` at commit
-  `f6a71ab09fefa68e355ef47c52315e099f99c921`, plus one added here
-  (`scaleway-stardust`).
+- 366 provider cards from `ariana-dot-dev/battleships` at commit
+  `f6a71ab09fefa68e355ef47c52315e099f99c921`.
 - 4 fixed workloads: `nano-box`, `agent-box`, `devbox`, `interp`. They are
   declared in `research/tools/derive.mjs` and repeated in each ranking file.
 
@@ -84,11 +84,18 @@ shape it is worse: the effective floor is still $20.
 
 | # | Provider | $/mo | Note |
 |---|---|---|---|
-| 1 | Scaleway Stardust | **$0.498** | added this pass; absent from the corpus card |
-| 2 | netcup VPS | $1.54 | pico, 12-month term |
-| 3 | Scaleway Instances | $1.58 | |
-| 4 | Maritime | $2.00 | +$20/mo subscription |
-| 5 | UpCloud | $3.50 | |
+| 1 | netcup VPS | **$1.54** | pico, 12-month term; disputed |
+| 2 | Scaleway Instances (Stardust) | $1.58 | STARDUST1-S, stock-limited, EU only |
+| 3 | Maritime | $2.00 | +$20/mo subscription |
+| 4 | UpCloud | $3.50 | |
+| 5 | Google Cloud Run | $3.64 | after a $5.22/mo credit |
+
+Stardust was the operator's named edge case. It is **in** the corpus card at
+€0.0006/h and the card is right: Scaleway's own page says storage and IPv4 are
+excluded from the instance rate, so the 10 GiB is billed on top and the row is
+$1.58, not $0.50. The first draft of this pass added a duplicate Stardust card
+with an unsupported "included disk" assumption and briefly ranked it at $0.50;
+that card was removed. See `research/verification/2026-10-02.md`.
 
 ## Where the credits and the minimums land
 
@@ -107,9 +114,13 @@ Examples for `agent-box`:
 
 ## Findings
 
-1. **Scaleway Stardust was missing from the corpus.** Its card starts at DEV1-S
-   (~€0.0102/h); STARDUST1-S is €0.0006/h, about 17× cheaper, and becomes the
-   cheapest full VM in the catalogue. Added, verified, quoted.
+1. **The operator's named edge case, Scaleway Stardust, is already covered and
+   correctly priced.** The corpus card carries a stock-flagged `stardust` mode
+   at €0.0006/h × 1.1378 = $0.00068268/h, matching the provider page. My first
+   draft wrongly called it missing and added a duplicate card with an assumed
+   included disk; that briefly ranked it #1 on `nano-box` and was caught in
+   review and removed. Stardust is #2 on `nano-box` once disk is billed, which
+   is where it belongs.
 2. **boat's cheap headline is a $20/month floor**, exactly as the operator
    warned. Confirmed from the provider's own pricing page.
 3. **netcup's number is disputed.** The page is 7–11% above the corpus card.

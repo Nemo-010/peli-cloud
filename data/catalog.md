@@ -7,50 +7,50 @@ All prices are monthly list prices in USD for the fixed workloads below. `$ /mo 
 
 One tiny always-on box: 1 vCPU / 1 GiB / 10 GiB, 24/7, 20 GiB egress out. The floor of the market.
 
-144 priced providers fit. Top 40, cheapest first:
+143 priced providers fit. Top 40, cheapest first:
 
 | # | Provider | $/mo | $/mo no credit | Prepaid min | Free credit | Plan / mode | Caveats |
 |---|---|---|---|---|---|---|---|
-| 1 | [Scaleway Stardust](https://www.scaleway.com/en/pricing/virtual-instances/) | $0.498 | $0.498 | - | $0.000 | Usage account / STARDUST1-S (1 vCPU / 1 GiB, shared, per hour) | IPv4 $4.15/mo extra |
-| 2 | [netcup VPS](https://www.netcup.com/en/server/vps) | $1.54 | $1.54 | - | $0.000 | Usage account / VPS Lite / pico / nano, 2-12 month terms (net EUR conv | IPv4 $0.57/mo extra; 12 months; paid term, not a cap; 24 months; paid term, not a cap |
-| 3 | [Scaleway Instances](https://www.scaleway.com/en/pricing/virtual-instances/) | $1.58 | $1.58 | - | $0.000 | Usage account / Stardust (tiny shared instance, stock-limited) | IPv4 $4.15/mo extra |
-| 4 | [Maritime](https://maritime.sh/pricing) | $2.00 | $2.00 | - | - | Free agents only / Included agent machine | egress price not published; $20/mo subscription fee |
-| 5 | [UpCloud](https://upcloud.com/pricing/) | $3.50 | $3.50 | - | $0.000 | Usage account / Starter |  |
-| 6 | [Google Cloud Run](https://cloud.google.com/run/pricing) | $3.64 | $8.86 | - | $5.22 | Pay-as-you-go / Cloud Run instances (Preview): long-lived singleton, s | $5.22/mo free credit applied; $300 one-time credit; Cloud Run CUD: commit a $/hour spend for 1y or 3y (same rate, 17% of |
-| 7 | [Oracle Cloud Infrastructure](https://www.oracle.com/cloud/compute/pricing/) | $3.80 | $3.80 | - | $0.000 | Usage account / E4 12.5% baseline burstable | $300 one-time credit |
-| 8 | [Sail Research (Sailboxes)](https://docs.sailresearch.com/pricing) | $4.12 | $4.12 | - | $5.00 | Free (pay-as-you-go) / Sailbox, billed on observed usage (used vCPU /  | egress price not published; $5/mo free credit applied; $250/mo subscription fee |
-| 9 | [Kamatera](https://www.kamatera.com/pricing/) | $4.20 | $4.20 | - | $0.000 | Usage account / Availability shared monthly | $100 one-time credit |
-| 10 | [zipbox](https://zipbox.ai/pricing) | $4.96 | $4.96 | - | - | Prepaid pay as you go / Per-second fixed VM sizes | egress price not published; $25 one-time credit |
-| 11 | [Akamai Cloud / Linode](https://www.akamai.com/cloud/pricing) | $5.00 | $5.00 | - | $0.000 | Usage account / Shared CPU | $100 one-time credit |
-| 12 | [Vultr Cloud Compute](https://www.vultr.com/pricing/) | $5.00 | $5.00 | - | $0.000 | Usage account / Cloud Compute Regular (vc2, shared vCPU), hourly with  |  |
-| 13 | [Agent 37](https://www.agent37.com/pricing) | $5.30 | $5.30 | - | - | Wallet (any top-up) / Standard (no dedicated cores) | egress price not published; $1 one-time credit |
-| 14 | [Civo Compute](https://www.civo.com/pricing) | $5.43 | $5.43 | - | $0.000 | Usage account / Standard Compute | $250 one-time credit; term commitment |
-| 15 | [IONOS Cloud](https://docs.ionos.com/cloud/support/general-information/price-list/ionos-cloud-eur-en) | $5.81 | $5.81 | - | - | Pay as you go / Basic Cloud Cubes | IPv4 $5.69/mo extra |
-| 16 | [Fly.io Machines](https://fly.io/pricing) | $5.97 | $5.97 | $5.00 | $0.000 | Pay As You Go / Shared CPU with 1-year reservation blocks (40% off), i | $5/mo prepaid minimum (fee is a usage credit); IPv4 $2.00/mo extra; Annual prepaid blocks per region + CPU class: $144/y |
-| 17 | [DigitalOcean Droplets](https://www.digitalocean.com/pricing/droplets) | $6.00 | $6.00 | - | $0.000 | Pay as you go / Basic Droplet, Regular CPU (shared vCPU), per-second w | $5 one-time credit |
-| 18 | [Hetzner Cloud](https://docs.hetzner.com/general/infrastructure-and-availability/price-adjustment/) | $6.49 | $6.49 | - | $0.000 | Pay-as-you-go (postpaid) / Shared vCPU, Cost-Optimized (CX, Intel/AMD) | IPv4 $0.60/mo extra |
-| 19 | [Contabo](https://contabo.com/en-us/pricing/) | $6.60 | $6.60 | - | $0.000 | Usage account / Core monthly list | Advertised effective monthly rate for the first 24 months of a 24-month subscription; regular list price is crossed out. |
-| 20 | [Gcore Cloud / Functions / GPU](https://gcore.com/cloud/virtual-machines) | $6.64 | $6.64 | - | - | Pay as you go / Virtual machine | disk beyond 0 GiB: price unknown |
-| 21 | [KakaoCloud Virtual Machine](https://www.kakaocloud.com/services/virtual-machine/pricing) | $6.83 | $6.83 | - | - | Pay as you go / t1i burstable | $220.92 one-time credit; IPv4 $2.96/mo extra |
-| 22 | [Railway](https://railway.com/pricing) | $7.10 | $7.10 | $5.00 | $0.000 | Free / Services (container rates, always-on or serverless service) | disk beyond 0 GiB: price unknown; $5 one-time credit; $5/mo prepaid minimum (fee is a usage credit) |
-| 23 | [Runtime (withruntime.com)](https://withruntime.com/pricing) | $7.30 | $7.30 | - | - | Prepaid paid account / Active CPU plus reserved RAM | IPv4 $5.00/mo extra |
-| 24 | [IBM Cloud VPC](https://www.ibm.com/products/virtual-servers/pricing) | $7.50 | $7.50 | - | $0.000 | Usage account / Nano Flex 10% baseline (burst to 20%) | $200 one-time credit; IPv4 $4.38/mo extra; Self-serve 1- or 3-year reservations in the console (Infrastructure > Reserva |
-| 25 | [Shardflux](https://shardflux.dev/#pricing) | $9.00 | $9.00 | - | - | Developer / Workspace | egress price not published; $9/mo subscription fee |
-| 26 | [Upstash Box](https://upstash.com/pricing/box) | $9.00 | $9.00 | - | $0.000 | Pay as You Go / Keep-Alive Small fleet sized to peak concurrency (part | flat pool: the tier is billed whether used or not; egress price not published |
-| 27 | [OVHcloud Public Cloud](https://us.ovhcloud.com/public-cloud/prices/) | $9.42 | $9.42 | - | $0.000 | Usage account / D2 Discovery (shared) hourly | $200 one-time credit; IPv4 $2.33/mo extra; 12 months compute commitment; 15% off compute only.; 36 months compute commit |
-| 28 | [machine0](https://machine0.io/) | $9.49 | $9.49 | - | - | Pay as you go / On-demand |  |
-| 29 | [Prized](https://prized.dev/docs/billing) | $10.00 | $10.00 | $10.00 | - | Paid credit plan / On-demand | egress price not published; $30 one-time credit; $10/mo prepaid minimum (fee is a usage credit) |
-| 30 | [Sprites (Fly.io)](https://fly.io/pricing) | $10.98 | $10.98 | - | $0.000 | Pay-as-you-go / Sprite, billed on actual CPU time + actual memory whil | $30 one-time credit; $20/mo subscription fee |
-| 31 | [Alibaba Cloud ECS International](https://www.alibabacloud.com/en/product/ecs/pricing) | $11.06 | $11.06 | - | $0.000 | Usage account / economy | $90 one-time credit; 1 month prepaid; 12 months prepaid; promotional trade price, not guaranteed renewal rate |
-| 32 | [Sakura Internet Cloud](https://cloud.sakura.ad.jp/products/server/) | $11.15 | $11.15 | - | $0.000 | Pay as you go / Normal VM, displayed Ishikari zone | outbound bandwidth capped at 100 Mbps |
-| 33 | [smol machines](https://smolmachines.com/pricing) | $11.29 | $11.29 | - | - | Standard / Active usage plus running-instance fee | $100 one-time credit; $20/mo subscription fee |
-| 34 | [Ubicloud](https://www.ubicloud.com/docs/about/pricing) | $11.39 | $11.39 | - | $0.000 | Usage / Shared burstable VMs | IPv4 $3.00/mo extra |
-| 35 | [Exoscale](https://www.exoscale.com/pricing/) | $11.67 | $11.67 | - | $0.000 | Usage account / Standard |  |
-| 36 | [Hostinger VPS](https://www.hostinger.com/vps-hosting) | $11.99 | $11.99 | - | $0.000 | Usage account / Regular price, 24-month prepaid (amortized monthly) | 24 months paid upfront; 24 months paid upfront; introductory discount |
-| 37 | [STACKIT Compute Engine](https://pim.api.stackit.cloud/v1/skus) | $12.49 | $12.49 | - | - | Pay as you go / Single AZ | egress price not published; IPv4 $3.37/mo extra |
-| 38 | [tama](https://tama.computer/) | $12.54 | $12.54 | - | - | Pay per running second / CPU on-demand | egress price not published |
-| 39 | [Clever Cloud](https://www.clever.cloud/pricing/) | $14.11 | $14.11 | - | - | Pay as you go / Docker application, Paris | disk beyond 0 GiB: price unknown; egress price not published; $557.52/mo subscription fee |
-| 40 | [Paperspace](https://docs.digitalocean.com/products/paperspace/pricing/) | $14.14 | $14.14 | - | - | Core usage / Current Core CPU hourly | $8/mo subscription fee; IPv4 $3.00/mo extra; term commitment |
+| 1 | [netcup VPS](https://www.netcup.com/en/server/vps) | $1.54 | $1.54 | - | $0.000 | Usage account / VPS Lite / pico / nano, 2-12 month terms (net EUR conv | IPv4 $0.57/mo extra; 12 months; paid term, not a cap; 24 months; paid term, not a cap |
+| 2 | [Scaleway Instances](https://www.scaleway.com/en/pricing/virtual-instances/) | $1.58 | $1.58 | - | $0.000 | Usage account / Stardust (tiny shared instance, stock-limited) | IPv4 $4.15/mo extra |
+| 3 | [Maritime](https://maritime.sh/pricing) | $2.00 | $2.00 | - | - | Free agents only / Included agent machine | egress price not published; $20/mo subscription fee |
+| 4 | [UpCloud](https://upcloud.com/pricing/) | $3.50 | $3.50 | - | $0.000 | Usage account / Starter |  |
+| 5 | [Google Cloud Run](https://cloud.google.com/run/pricing) | $3.64 | $8.86 | - | $5.22 | Pay-as-you-go / Cloud Run instances (Preview): long-lived singleton, s | $5.22/mo free credit applied; $300 one-time credit; Cloud Run CUD: commit a $/hour spend for 1y or 3y (same rate, 17% of |
+| 6 | [Oracle Cloud Infrastructure](https://www.oracle.com/cloud/compute/pricing/) | $3.80 | $3.80 | - | $0.000 | Usage account / E4 12.5% baseline burstable | $300 one-time credit |
+| 7 | [Sail Research (Sailboxes)](https://docs.sailresearch.com/pricing) | $4.12 | $4.12 | - | $5.00 | Free (pay-as-you-go) / Sailbox, billed on observed usage (used vCPU /  | egress price not published; $5/mo free credit applied; $250/mo subscription fee |
+| 8 | [Kamatera](https://www.kamatera.com/pricing/) | $4.20 | $4.20 | - | $0.000 | Usage account / Availability shared monthly | $100 one-time credit |
+| 9 | [zipbox](https://zipbox.ai/pricing) | $4.96 | $4.96 | - | - | Prepaid pay as you go / Per-second fixed VM sizes | egress price not published; $25 one-time credit |
+| 10 | [Akamai Cloud / Linode](https://www.akamai.com/cloud/pricing) | $5.00 | $5.00 | - | $0.000 | Usage account / Shared CPU | $100 one-time credit |
+| 11 | [Vultr Cloud Compute](https://www.vultr.com/pricing/) | $5.00 | $5.00 | - | $0.000 | Usage account / Cloud Compute Regular (vc2, shared vCPU), hourly with  |  |
+| 12 | [Agent 37](https://www.agent37.com/pricing) | $5.30 | $5.30 | - | - | Wallet (any top-up) / Standard (no dedicated cores) | egress price not published; $1 one-time credit |
+| 13 | [Civo Compute](https://www.civo.com/pricing) | $5.43 | $5.43 | - | $0.000 | Usage account / Standard Compute | $250 one-time credit; term commitment |
+| 14 | [IONOS Cloud](https://docs.ionos.com/cloud/support/general-information/price-list/ionos-cloud-eur-en) | $5.81 | $5.81 | - | - | Pay as you go / Basic Cloud Cubes | IPv4 $5.69/mo extra |
+| 15 | [Fly.io Machines](https://fly.io/pricing) | $5.97 | $5.97 | $5.00 | $0.000 | Pay As You Go / Shared CPU with 1-year reservation blocks (40% off), i | $5/mo prepaid minimum (fee is a usage credit); IPv4 $2.00/mo extra; Annual prepaid blocks per region + CPU class: $144/y |
+| 16 | [DigitalOcean Droplets](https://www.digitalocean.com/pricing/droplets) | $6.00 | $6.00 | - | $0.000 | Pay as you go / Basic Droplet, Regular CPU (shared vCPU), per-second w | $5 one-time credit |
+| 17 | [Hetzner Cloud](https://docs.hetzner.com/general/infrastructure-and-availability/price-adjustment/) | $6.49 | $6.49 | - | $0.000 | Pay-as-you-go (postpaid) / Shared vCPU, Cost-Optimized (CX, Intel/AMD) | IPv4 $0.60/mo extra |
+| 18 | [Contabo](https://contabo.com/en-us/pricing/) | $6.60 | $6.60 | - | $0.000 | Usage account / Core monthly list | Advertised effective monthly rate for the first 24 months of a 24-month subscription; regular list price is crossed out. |
+| 19 | [Gcore Cloud / Functions / GPU](https://gcore.com/cloud/virtual-machines) | $6.64 | $6.64 | - | - | Pay as you go / Virtual machine | disk beyond 0 GiB: price unknown |
+| 20 | [KakaoCloud Virtual Machine](https://www.kakaocloud.com/services/virtual-machine/pricing) | $6.83 | $6.83 | - | - | Pay as you go / t1i burstable | $220.92 one-time credit; IPv4 $2.96/mo extra |
+| 21 | [Railway](https://railway.com/pricing) | $7.10 | $7.10 | $5.00 | $0.000 | Free / Services (container rates, always-on or serverless service) | disk beyond 0 GiB: price unknown; $5 one-time credit; $5/mo prepaid minimum (fee is a usage credit) |
+| 22 | [Runtime (withruntime.com)](https://withruntime.com/pricing) | $7.30 | $7.30 | - | - | Prepaid paid account / Active CPU plus reserved RAM | IPv4 $5.00/mo extra |
+| 23 | [IBM Cloud VPC](https://www.ibm.com/products/virtual-servers/pricing) | $7.50 | $7.50 | - | $0.000 | Usage account / Nano Flex 10% baseline (burst to 20%) | $200 one-time credit; IPv4 $4.38/mo extra; Self-serve 1- or 3-year reservations in the console (Infrastructure > Reserva |
+| 24 | [Shardflux](https://shardflux.dev/#pricing) | $9.00 | $9.00 | - | - | Developer / Workspace | egress price not published; $9/mo subscription fee |
+| 25 | [Upstash Box](https://upstash.com/pricing/box) | $9.00 | $9.00 | - | $0.000 | Pay as You Go / Keep-Alive Small fleet sized to peak concurrency (part | flat pool: the tier is billed whether used or not; egress price not published |
+| 26 | [OVHcloud Public Cloud](https://us.ovhcloud.com/public-cloud/prices/) | $9.42 | $9.42 | - | $0.000 | Usage account / D2 Discovery (shared) hourly | $200 one-time credit; IPv4 $2.33/mo extra; 12 months compute commitment; 15% off compute only.; 36 months compute commit |
+| 27 | [machine0](https://machine0.io/) | $9.49 | $9.49 | - | - | Pay as you go / On-demand |  |
+| 28 | [Prized](https://prized.dev/docs/billing) | $10.00 | $10.00 | $10.00 | - | Paid credit plan / On-demand | egress price not published; $30 one-time credit; $10/mo prepaid minimum (fee is a usage credit) |
+| 29 | [Sprites (Fly.io)](https://fly.io/pricing) | $10.98 | $10.98 | - | $0.000 | Pay-as-you-go / Sprite, billed on actual CPU time + actual memory whil | $30 one-time credit; $20/mo subscription fee |
+| 30 | [Alibaba Cloud ECS International](https://www.alibabacloud.com/en/product/ecs/pricing) | $11.06 | $11.06 | - | $0.000 | Usage account / economy | $90 one-time credit; 1 month prepaid; 12 months prepaid; promotional trade price, not guaranteed renewal rate |
+| 31 | [Sakura Internet Cloud](https://cloud.sakura.ad.jp/products/server/) | $11.15 | $11.15 | - | $0.000 | Pay as you go / Normal VM, displayed Ishikari zone | outbound bandwidth capped at 100 Mbps |
+| 32 | [smol machines](https://smolmachines.com/pricing) | $11.29 | $11.29 | - | - | Standard / Active usage plus running-instance fee | $100 one-time credit; $20/mo subscription fee |
+| 33 | [Ubicloud](https://www.ubicloud.com/docs/about/pricing) | $11.39 | $11.39 | - | $0.000 | Usage / Shared burstable VMs | IPv4 $3.00/mo extra |
+| 34 | [Exoscale](https://www.exoscale.com/pricing/) | $11.67 | $11.67 | - | $0.000 | Usage account / Standard |  |
+| 35 | [Hostinger VPS](https://www.hostinger.com/vps-hosting) | $11.99 | $11.99 | - | $0.000 | Usage account / Regular price, 24-month prepaid (amortized monthly) | 24 months paid upfront; 24 months paid upfront; introductory discount |
+| 36 | [STACKIT Compute Engine](https://pim.api.stackit.cloud/v1/skus) | $12.49 | $12.49 | - | - | Pay as you go / Single AZ | egress price not published; IPv4 $3.37/mo extra |
+| 37 | [tama](https://tama.computer/) | $12.54 | $12.54 | - | - | Pay per running second / CPU on-demand | egress price not published |
+| 38 | [Clever Cloud](https://www.clever.cloud/pricing/) | $14.11 | $14.11 | - | - | Pay as you go / Docker application, Paris | disk beyond 0 GiB: price unknown; egress price not published; $557.52/mo subscription fee |
+| 39 | [Paperspace](https://docs.digitalocean.com/products/paperspace/pricing/) | $14.14 | $14.14 | - | - | Core usage / Current Core CPU hourly | $8/mo subscription fee; IPv4 $3.00/mo extra; term commitment |
+| 40 | [Lizard](https://lizard.build/pricing) | $14.54 | $14.54 | - | $0.000 | After a first top-up / Sandbox (4 vCPU / 4 GiB, flat per second while  | $10 one-time credit |
 
 Full table: [rankings/nano-box.md](rankings/nano-box.md)
 

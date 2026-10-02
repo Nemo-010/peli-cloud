@@ -6,7 +6,7 @@ at all, and what is the monthly list bill once recurring free credits and
 subscription floors are applied - cheapest first?
 
 The input, data/derived.json, is produced by research/tools/derive.mjs from the
-third-party battleships corpus plus research/cards-extra. This script does no
+third-party battleships corpus. This script does no
 network and no pricing: it sorts, applies the caveat rules below, and writes
 the tables. Every number it prints is traceable to a card field or to the
 engine's own total.

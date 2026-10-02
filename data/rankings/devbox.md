@@ -2,7 +2,7 @@
 
 A 24/7 developer box: 4 vCPU / 8 GiB / 50 GiB, 50 GiB egress out.
 
-139 priced providers of 367. Sorted cheapest first.
+139 priced providers of 366. Sorted cheapest first.
 
 | # | Provider | $/mo | $/mo no credit | Prepaid min | Free credit | Plan / mode | Caveats |
 |---|---|---|---|---|---|---|---|
@@ -320,7 +320,6 @@ A 24/7 developer box: 4 vCPU / 8 GiB / 50 GiB, 50 GiB egress out.
 - Sandbox as a Service: Prepaid: sessions capped at 24 h
 - Scaleway Apple silicon (Mac mini): no Linux
 - Scaleway GPU instances: no priceable regime
-- Scaleway Stardust: no preset with ≥4 vCPU and ≥8 GiB
 - ScitiX Agent Sandbox: Self-hosted runtime + externally billed clusters: needs opt-in (alt); Self-hosted container backend: needs opt-in (alt); Self-hosted microVM backend: needs opt-in (alt); Pre-warmed
 - Scrapfly Cloud Browser: Discovery: regime not sold on this plan; Pro: regime not sold on this plan; Startup: regime not sold on this plan; Enterprise: sessions capped at 0.5 h; Custom: regime not sold on 
 - Scraping Bee: Browser API request (not time-priced): needs opt-in (alt)

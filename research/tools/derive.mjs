@@ -7,7 +7,7 @@
 // This is the driver only. The pricing engine and the 366 provider cards
 // are third-party corpus (ariana-dot-dev/battleships, no licence published)
 // and are NOT in this repository. Fetch them with tools/fetch-corpus.sh
-// first. Run:
+// first. research/cards-extra is loaded if present and is empty in this pass. Run:
 //
 //   node research/tools/derive.mjs --corpus research/corpus --out data/derived.json
 //

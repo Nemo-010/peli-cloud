@@ -12,8 +12,10 @@
   LICENSE file (GitHub API `license: None`). So neither its cards nor its engine
   are committed here. `tools/fetch-corpus.sh` reconstructs them at the pinned
   commit, and this repository publishes only its own measurements over them.
-- **Our additions**: `research/cards-extra/scaleway-stardust.json`, written here
-  from Scaleway's own pricing page (see `research/verification/2026-10-02.md`).
+- **No card was added.** An earlier draft added a duplicate
+  `scaleway-stardust` card; it was wrong (the corpus already carries the tier
+  and Scaleway bills storage separately) and was deleted. The catalogue is the
+  corpus's 366 cards only.
 
 The commit is abbreviated to 12 hex characters on purpose: a longer run of hex
 looks like a credential to secret scanners. The full id is in `tools/fetch-corpus.sh`.
@@ -25,7 +27,7 @@ looks like a credential to secret scanners. The full id is in `tools/fetch-corpu
 | the 366 cards | all, via the engine | the per-provider modes, plans, free credits and flags the ranking is built from |
 | `research/regimes/` and `research/verify/` | the boat, freestyle, lizard, scaleway entries | the maintainer's own reconciliation of a page against its card; used to seed this pass's checks |
 | the tracker | all issues and PRs, both states (1 open PR) | the Croft proposal, and confirmation that no prior issue names Stardust |
-| first-party pricing pages | 13 fetched, 12 read, 1 blocked | the independent quotes in `research/verification/2026-10-02.md` |
+| first-party pricing pages | 12 fetched and read, 1 blocked | the independent quotes in `research/verification/2026-10-02.md` |
 
 ## Gaps, named
 
@@ -38,5 +40,5 @@ looks like a credential to secret scanners. The full id is in `tools/fetch-corpu
 - The **pricing engine is third-party**; this repository does not reimplement it
   and does not re-derive `priceCard`'s arithmetic. `tools/rank.py` sorts and
   classifies; it does not price.
-- **217–227 of 367 providers fit no workload** because their shape or metering
+- **218–226 of 366 providers fit no workload** because their shape or metering
   is not published; they are listed with the engine's reason, not hidden.
