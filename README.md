@@ -32,7 +32,10 @@ No simulation, no Nemo — just the invoices.
 - **A `$0` row is never treated as free.** A zero total with no published
   compute rate is classed `unpriced` and kept out of the ranking (Bright Data,
   Unikraft). Genuine free tiers are listed separately.
-- **Assume more claims are wrong than the five listed at the end.**
+- **Assume more claims are wrong than the five listed at the end.** This is
+  revision 1 and there is no previous revision to count corrections against;
+  within this pass the review mutated the `meter` classifier and found one bug
+  that had put two unpriced meters at rank 1 on every list. Neither survives.
 
 ## Conditions
 
