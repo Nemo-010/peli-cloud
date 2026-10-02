@@ -52,9 +52,11 @@ printf '%s:x:%s:%s:test:%s:/bin/sh\n' "$ME_NAME" "$ME_UID" "$ME_GID" "$ME_HOME" 
 
 # 3. Host key in dropbear format, operator key in OpenSSH format. ssh-keygen
 #    needs a passwd entry for the client uid; the sandhome fakepwd shim supplies
-#    one where /etc/passwd does not exist.
+#    one where /etc/passwd does not exist: the release's own fakepwd.so is
+#    preferred (so no sandhome install is needed), the sandhome shim kept as a
+#    fallback.
 CLIENT_SHIM=""
-for s in /state/home/.local/share/sandhome/shims/fakepwd.so "$HOME"/.local/share/sandhome/shims/fakepwd.so; do
+for s in "$WORK/fakepwd.so" /state/home/.local/share/sandhome/shims/fakepwd.so "$HOME"/.local/share/sandhome/shims/fakepwd.so; do
   [ -r "$s" ] && { CLIENT_SHIM="$s"; break; }
 done
 rm -f hostkey ak/id ak/id.pub

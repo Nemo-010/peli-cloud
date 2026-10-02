@@ -91,7 +91,8 @@ stderr, `-F` stay in the foreground, `-r` the host key, `-D` the
 
 Each is a symptom, the diagnosis, and the fix. The fixes are configuration; two
 of them are the difference between the shipped tool working and not working on a
-static binary.
+static binary. (A fifth, client-side one — section 4.4 — was added when this
+check was run on 2026-10-02 and the first script revision failed.)
 
 ### 4.1 The passwd database must come from a file (`-Y`), not the system
 
@@ -137,14 +138,22 @@ static binary.
 ### 4.4 Client-side: OpenSSH still needs a passwd entry
 
 - **Symptom:** on a host with no `/etc/passwd`, the local `ssh-keygen` and `ssh`
-  cannot map the local uid to a name and fail at startup, before the relay is
-  ever reached.
+  cannot map the local uid to a name and fail before the relay is ever reached:
+  `No user exists for uid 966` (OpenSSH exit 255).
 - **Diagnosis:** unlike the static server `dropbear`, the **client** OpenSSH is
-  dynamically linked, so the `sandhome` `fakepwd.so` shim *can* interpose it.
-- **Fix:** when that shim is present, the script loads it with
-  `LD_PRELOAD=<fakepwd.so>` and `SANDHOME_PASSWD=<workdir>/passwd` for the
+  dynamically linked, so an `LD_PRELOAD` shim *can* interpose it.
+- **Fix:** load the release's own `fakepwd.so` (shipped in the same tarball)
+  with `LD_PRELOAD=<fakepwd.so>` and `SANDHOME_PASSWD=<workdir>/passwd` for the
   `ssh-keygen` and `ssh` invocations. This is the one place a preload shim is
   the correct tool, and it is deliberately the client, not the server.
+- **The first version of the check script missed this.** It only looked for a
+  *sandhome-installed* shim (`~/.local/share/sandhome/shims/fakepwd.so`) and
+  skipped the client shim entirely when sandhome was absent — which it is on
+  this host — so the check died at `No user exists for uid 966` with exit 255.
+  The shipped shim lives in the release tarball and exposes the same interface
+  (`SANDHOME_PASSWD`), so the fix is to prefer it; the sandhome path stays as a
+  fallback. This is the **fifth** thing that had to change, found by running the
+  check rather than reading it.
 
 ## 5. Credentials and the trust model
 
@@ -181,21 +190,39 @@ node behind:
 
 ## 7. Measured result
 
+Two runs on 2026-10-02, both `sh tools/ssh-relay-check.sh` and a compound
+remote shell. First, the check itself:
+
 ```
-relay=tcp.ssh.relay.ajam.dev name=p-188ee9f... login=966
+relay=tcp.ssh.relay.ajam.dev name=p-99e03c... login=966
 ssh_exit=0 marker=MARK:966:Linux
-dropssh: registered with tcp.ssh.relay.ajam.dev as p-188ee9f...
+dropssh: registered with tcp.ssh.relay.ajam.dev as p-99e03c... (path /v1/node/...)
 dropssh: relay hello: maxFrameBytes=65536 maxSessions=64
-dropssh: operator opened session 4d805ba8 (ready sent)
-[10318] Child connection from unix:0
-[10318] Pubkey auth succeeded for '966' with ssh-ed25519 key SHA256:686ij2Ah... from unix:0
-[10318] Exit (966) from <unix:0>: Exited normally
+dropssh: operator opened session 4f606bce (ready sent)
+[451] Child connection from unix:0
+[451] Pubkey auth succeeded for '966' with ssh-ed25519 key SHA256:eYhfcUTt... from unix:0
+[451] Exit (966) from <unix:0>: Exited normally
 PASS: a real ssh login ran over the outbound-only relay
 ```
 
-The command run over the session was `id -u` plus `uname -s`; it returned `966`
-and `Linux`. `dropssh` registered, paired, and handed one session to a real
-login — with the client dialing out the whole way.
+Second, a single session running a compound command, to show it is a shell and
+not one `printf`. Everything below came back over the relay:
+
+```
+whoami=966
+id=uid=966 gid=965 groups=965
+kernel=Linux 7.2.2-artix1-1.1 x86_64
+home=/state/home
+cwd=/state/home
+repo=LICENSE NOTICE README.md data docs research sources tests tools
+hostname=sandbox
+```
+
+The server logged `Pubkey auth succeeded for '966' with ssh-ed25519 key ...` and
+`Exit (966) ...: Exited normally` on both. `ssh_exit=0` both times. The remote
+side ran `id`, `uname -srm`, expanded `$HOME`/`pwd`, listed the repository, and
+read the kernel hostname — over a connection this host only ever dialed out of.
+The bearer name and tokens are redacted here and are not committed.
 
 ## 8. What this does not establish
 
