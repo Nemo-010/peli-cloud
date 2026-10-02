@@ -15,8 +15,8 @@ Main table is ranked by **10 h/d x30** (the realistic agent month). A dash means
 | 1 | [Lightning AI](https://lightning.ai/pricing) | dev-env/vm | $0.0014 | $0.014 | $0.033 | $0.230 | $0.411 | $0.986 | free CPU Studio: 4 h/session then paid, one at a time; rest is Drive storage; 403 here; egress unpublished; flat pool, billed whether used or not |
 | 2 | [Agent 37](https://www.agent37.com/pricing) | agent-sandbox/gvisor | $0.0085 | $0.085 | $0.204 | $1.43 | $2.55 | $6.12 | egress unpublished |
 | 3 | [Oracle Cloud Infrastructure](https://www.oracle.com/cloud/compute/pricing/) | hyperscaler/vm | $0.010 | $0.103 | $0.247 | $1.73 | $3.09 | $7.41 | unverified: all oracle.com returns 403; Always Free A1 covers this shape ($0) |
-| 4 | [Hetzner Cloud](https://docs.hetzner.com/general/infrastructure-and-availability/price-adjustment/) | hyperscaler/vm | $0.010 | $0.104 | $0.250 | $1.75 | $3.12 | $6.49 |  |
-| 5 | [Azure Container Apps (Consumption, Dedicated, Dynamic Sessions)](https://azure.microsoft.com/en-us/pricing/details/container-apps/) | hyperscaler/vm | $0 | $0 | $0 | $0 | $3.60 | $16.20 | free grant ($5.40) is Consumption vCPU/GiB, not the Dynamic Sessions mode priced; no machine size published, not shape-comparable; disk beyond 4 GiB: price unknown |
+| 4 | [Hetzner Cloud](https://docs.hetzner.com/general/infrastructure-and-availability/price-adjustment/) | hyperscaler/vm | $0.010 | $0.104 | $0.250 | $1.75 | $3.12 | $6.49 | bursty 30-min starts bill 2.0x here (min 1 h) |
+| 5 | [Azure Container Apps (Consumption, Dedicated, Dynamic Sessions)](https://azure.microsoft.com/en-us/pricing/details/container-apps/) | hyperscaler/vm | $0 | $0 | $0 | $0 | $3.60 | $16.20 | free grant ($5.40) is Consumption vCPU/GiB, not the Dynamic Sessions mode priced; bursty 30-min starts bill 3.5x here (min 1 h); no machine size published, not shape-comparable |
 | 6 | [zipbox](https://zipbox.ai/pricing) | agent-sandbox/firecracker | $0.014 | $0.137 | $0.329 | $2.30 | $4.11 | $9.86 | egress unpublished |
 | 7 | [Google Cloud Run](https://cloud.google.com/run/pricing) | hyperscaler/gvisor | $0 | $0 | $0 | $0.144 | $4.36 | $17.77 | free tier is the Services grant; row is the Instances (Preview) meter; $5.22/mo free credit |
 | 8 | [IONOS Cloud](https://docs.ionos.com/cloud/support/general-information/price-list/ionos-cloud-eur-en) | hyperscaler/vm | $0.015 | $0.148 | $0.355 | $2.48 | $4.44 | $10.65 |  |
@@ -25,31 +25,31 @@ Main table is ranked by **10 h/d x30** (the realistic agent month). A dash means
 | 11 | [Gcore Cloud / Functions / GPU](https://gcore.com/cloud/virtual-machines) | hyperscaler/vm | $0.019 | $0.193 | $0.464 | $3.25 | $5.80 | $13.92 | disk beyond 0 GiB: price unknown |
 | 12 | [Browser Use Cloud](https://browser-use.com/pricing) | browser/- | $0.020 | $0.200 | $0.480 | $3.36 | $6.00 | $14.40 | no machine size published, not shape-comparable; disk beyond 0 GiB: price unknown; session cap 4 h, needs restarts |
 | 13 | [shellbox](https://shellbox.dev/) | agent-sandbox/firecracker | $0.020 | $0.200 | $0.480 | $3.36 | $6.00 | $14.40 | egress unpublished |
-| 14 | [UpCloud](https://upcloud.com/pricing/) | hyperscaler/vm | $0.021 | $0.209 | $0.500 | $3.50 | $6.25 | $14.00 |  |
+| 14 | [UpCloud](https://upcloud.com/pricing/) | hyperscaler/vm | $0.021 | $0.209 | $0.500 | $3.50 | $6.25 | $14.00 | bursty 30-min starts bill 2.0x here (min 1 h) |
 | 15 | [Lizard](https://lizard.build/pricing) | agent-sandbox/container | $0.022 | $0.218 | $0.524 | $3.67 | $6.55 | $15.72 | disputed: pricing page sells Small 2 vCPU/4 GiB at $0.009/h; docs fix 4 vCPU |
 | 16 | [Contabo](https://contabo.com/en-us/pricing/) | hyperscaler/vm | $6.60 | $6.60 | $6.60 | $6.60 | $6.60 | $6.60 | visible $4.40 is a 24-month intro, list is $6.60; price is one month's rent at every horizon |
 | 17 | [Fly.io Machines](https://fly.io/pricing) | paas/firecracker | $0.025 | $0.253 | $0.607 | $4.25 | $7.58 | $18.20 |  |
 | 18 | [OVHcloud Public Cloud](https://us.ovhcloud.com/public-cloud/prices/) | hyperscaler/vm | $0.026 | $0.256 | $0.614 | $4.30 | $7.68 | $18.43 |  |
-| 19 | [Scaleway Instances](https://www.scaleway.com/en/pricing/virtual-instances/) | hyperscaler/vm | $0.026 | $0.259 | $0.623 | $4.36 | $7.78 | $18.67 | Stardust disk is billed on top of the instance rate |
+| 19 | [Scaleway Instances](https://www.scaleway.com/en/pricing/virtual-instances/) | hyperscaler/vm | $0.026 | $0.259 | $0.623 | $4.36 | $7.78 | $18.67 | Stardust disk is billed on top of the instance rate; bursty 30-min starts bill 2.0x here (min 1 h) |
 | 20 | [InsForge (InstaCloud)](https://www.instacloud.com/pricing) | paas/vm | $0 | $0 | $0 | $0.038 | $7.92 | $33.02 | $10/mo free credit |
 | 21 | [Kamatera](https://www.kamatera.com/pricing/) | hyperscaler/vm | $0.028 | $0.274 | $0.658 | $4.60 | $8.22 | $19.73 |  |
 | 22 | [Upstash Box](https://upstash.com/pricing/box) | agent-sandbox/container | $0.103 | $1.03 | $2.47 | $8.46 | $8.82 | $9.97 | egress unpublished; flat pool, billed whether used or not |
-| 23 | [Civo Compute](https://www.civo.com/pricing) | hyperscaler/vm | $0.030 | $0.298 | $0.714 | $5.00 | $8.93 | $21.43 |  |
-| 24 | [Vultr Cloud Compute](https://www.vultr.com/pricing/) | hyperscaler/vm | $0.030 | $0.298 | $0.715 | $5.01 | $8.94 | $20.00 |  |
-| 25 | [Together Code Sandbox](https://www.together.ai/pricing) | agent-sandbox/firecracker | $0.030 | $0.300 | $0.720 | $5.04 | $9.00 | $21.60 | no machine size published, not shape-comparable; egress unpublished |
+| 23 | [Civo Compute](https://www.civo.com/pricing) | hyperscaler/vm | $0.030 | $0.298 | $0.714 | $5.00 | $8.93 | $21.43 | bursty 30-min starts bill 2.0x here (min 1 h) |
+| 24 | [Vultr Cloud Compute](https://www.vultr.com/pricing/) | hyperscaler/vm | $0.030 | $0.298 | $0.715 | $5.01 | $8.94 | $20.00 | bursty 30-min starts bill 2.0x here (min 1 h) |
+| 25 | [Together Code Sandbox](https://www.together.ai/pricing) | agent-sandbox/firecracker | $0.030 | $0.300 | $0.720 | $5.04 | $9.00 | $21.60 | bursty 30-min starts bill 2.0x here (min 1 h); no machine size published, not shape-comparable; egress unpublished |
 | 26 | [Alibaba Cloud ECS International](https://www.alibabacloud.com/en/product/ecs/pricing) | hyperscaler/vm | $0.030 | $0.302 | $0.725 | $5.08 | $9.06 | $14.48 |  |
 | 27 | [Ubicloud](https://www.ubicloud.com/docs/about/pricing) | hyperscaler/vm | $0.031 | $0.312 | $0.749 | $5.24 | $9.36 | $22.46 |  |
-| 28 | [Anchor Browser](https://anchorbrowser.io/pricing) | browser/dedicated-vm | $0 | $0 | $0 | $3.41 | $10.01 | $31.01 | no machine size published, not shape-comparable; disk beyond 0 GiB: price unknown |
+| 28 | [Anchor Browser](https://anchorbrowser.io/pricing) | browser/dedicated-vm | $0 | $0 | $0 | $3.41 | $10.01 | $31.01 | bursty 30-min starts bill 1.6x here ($0.01 per start); no machine size published, not shape-comparable; disk beyond 0 GiB: price unknown |
 | 29 | [Prized](https://prized.dev/docs/billing) | dev-env/vm | $10.00 | $10.00 | $10.00 | $10.00 | $10.27 | $24.66 | $10/mo minimum, fee is a usage credit; egress unpublished |
 | 30 | [KakaoCloud Virtual Machine](https://www.kakaocloud.com/services/virtual-machine/pricing) | hyperscaler/vm | $0.035 | $0.349 | $0.838 | $5.86 | $10.47 | $25.13 |  |
 | 31 | [IBM Cloud VPC](https://www.ibm.com/products/virtual-servers/pricing) | hyperscaler/vm | $0.035 | $0.352 | $0.844 | $5.91 | $10.55 | $25.33 |  |
 | 32 | [DigitalOcean Droplets](https://www.digitalocean.com/pricing/droplets) | hyperscaler/vm | $0.036 | $0.357 | $0.857 | $6.00 | $10.71 | $24.00 |  |
-| 33 | [Akamai Cloud / Linode](https://www.akamai.com/cloud/pricing) | hyperscaler/vm | $0.036 | $0.360 | $0.864 | $6.05 | $10.80 | $24.00 |  |
+| 33 | [Akamai Cloud / Linode](https://www.akamai.com/cloud/pricing) | hyperscaler/vm | $0.036 | $0.360 | $0.864 | $6.05 | $10.80 | $24.00 | bursty 30-min starts bill 2.0x here (min 1 h) |
 | 34 | [Tencent Cloud Studio](https://cloud.tencent.cn/document/product/1039/131894) | dev-env/container | $0.037 | $0.373 | $0.894 | $6.26 | $11.18 | $26.82 | disk beyond 0 GiB: price unknown; egress unpublished |
 | 35 | [Azure Virtual Machines (Linux)](https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/) | hyperscaler/vm | $0.040 | $0.397 | $0.952 | $6.66 | $11.90 | $28.55 |  |
-| 36 | [Paperspace](https://docs.digitalocean.com/products/paperspace/pricing/) | gpu-cloud/vm | $0.043 | $0.427 | $1.03 | $7.18 | $12.82 | $30.77 |  |
+| 36 | [Paperspace](https://docs.digitalocean.com/products/paperspace/pricing/) | gpu-cloud/vm | $0.043 | $0.427 | $1.03 | $7.18 | $12.82 | $30.77 | bursty 30-min starts bill 2.0x here (rounds to 1 h) |
 | 37 | [Kernel](https://www.onkernel.com/pricing) | browser/firecracker | $0 | $0 | $0 | $5.08 | $13.00 | $38.20 | no machine size published, not shape-comparable; disk beyond 0 GiB: price unknown; egress unpublished |
-| 38 | [Sail Research (Sailboxes)](https://docs.sailresearch.com/pricing) | agent-sandbox/firecracker | $0 | $0 | $0 | $5.09 | $13.01 | $38.21 | $5/mo free credit; egress unpublished |
+| 38 | [Sail Research (Sailboxes)](https://docs.sailresearch.com/pricing) | agent-sandbox/firecracker | $0 | $0 | $0 | $5.09 | $13.01 | $38.21 | bursty 30-min starts bill 1.5x here ($0.01 per start); $5/mo free credit; egress unpublished |
 | 39 | [tama](https://tama.computer/) | agent-sandbox/vm | $0.045 | $0.454 | $1.09 | $7.63 | $13.62 | $32.70 | egress unpublished |
 | 40 | [E2E Networks](https://www.e2enetworks.com/pricing) | hyperscaler/vm | $0.047 | $0.467 | $1.12 | $7.85 | $14.02 | $33.65 | egress unpublished |
 | 41 | [Exoscale](https://www.exoscale.com/pricing/) | hyperscaler/vm | $0.050 | $0.495 | $1.19 | $8.31 | $14.84 | $35.61 |  |
@@ -58,7 +58,7 @@ Main table is ranked by **10 h/d x30** (the realistic agent month). A dash means
 | 44 | [exe.dev](https://exe.dev/pricing) | dev-env/vm | $15.00 | $15.00 | $15.00 | $15.00 | $15.00 | $15.00 | $15/mo minimum, fee is a usage credit; flat pool, billed whether used or not |
 | 45 | [Mosaic Sandbox](https://sandbox.mosaicos.com/) | agent-sandbox/firecracker | $0.050 | $0.500 | $1.20 | $8.40 | $15.00 | $36.00 | egress unpublished |
 | 46 | [AWS EC2 (reference VMs)](https://aws.amazon.com/ec2/pricing/on-demand/) | hyperscaler/vm | $0.051 | $0.513 | $1.23 | $8.62 | $15.39 | $36.93 |  |
-| 47 | [STACKIT Compute Engine](https://pim.api.stackit.cloud/v1/skus) | hyperscaler/vm | $0.051 | $0.513 | $1.23 | $8.62 | $15.40 | $36.95 | egress unpublished |
+| 47 | [STACKIT Compute Engine](https://pim.api.stackit.cloud/v1/skus) | hyperscaler/vm | $0.051 | $0.513 | $1.23 | $8.62 | $15.40 | $36.95 | bursty 30-min starts bill 2.0x here (min 1 h); egress unpublished |
 | 48 | [Nebius](https://docs.nebius.com/compute/resources/pricing) | gpu-cloud/vm | $0.051 | $0.515 | $1.24 | $8.66 | $15.46 | $37.11 |  |
 | 49 | [machine0](https://machine0.io/) | agent-sandbox/vm | $0.052 | $0.520 | $1.25 | $8.74 | $15.60 | $37.44 |  |
 | 50 | [Jarvislabs](https://jarvislabs.ai/pricing) | gpu-cloud/vm | $0.053 | $0.527 | $1.27 | $8.86 | $15.82 | $37.97 |  |
@@ -94,13 +94,13 @@ Main table is ranked by **10 h/d x30** (the realistic agent month). A dash means
 | 80 | [Clever Cloud](https://www.clever.cloud/pricing/) | paas/vm | $0.092 | $0.918 | $2.20 | $15.43 | $27.55 | $66.12 | disk beyond 0 GiB: price unknown; egress unpublished |
 | 81 | [Samsung SDS Cloud Platform](https://cloud.samsungsds.com/serviceportal/pricing.html) | hyperscaler/vm | $0.092 | $0.925 | $2.22 | $15.53 | $27.74 | $66.57 |  |
 | 82 | [Prime Intellect Sandboxes](https://www.primeintellect.ai/sandboxes) | agent-sandbox/vm | $0.094 | $0.940 | $2.26 | $15.79 | $28.20 | $67.68 | egress unpublished |
-| 83 | [Sakura Internet Cloud](https://cloud.sakura.ad.jp/products/server/) | hyperscaler/vm | $0.139 | $1.39 | $3.35 | $23.42 | $28.61 | $31.17 | price is one month's rent at every horizon |
+| 83 | [Sakura Internet Cloud](https://cloud.sakura.ad.jp/products/server/) | hyperscaler/vm | $0.139 | $1.39 | $3.35 | $23.42 | $28.61 | $31.17 | bursty 30-min starts bill 1.1x here (min 1 h); price is one month's rent at every horizon |
 | 84 | [Koyeb Sandboxes](https://www.koyeb.com/pricing) | agent-sandbox/vm | $29.00 | $29.00 | $29.00 | $29.00 | $29.00 | $39.74 |  |
 | 85 | [Alibaba Cloud AgentBay](https://www.alibabacloud.com/help/en/agentbay/product-overview/agentbay-billing-instructions) | agent-sandbox/container | $0.099 | $0.992 | $2.38 | $16.67 | $29.76 | $71.42 | disk beyond 0 GiB: price unknown |
 | 86 | [Hyperbrowser](https://www.hyperbrowser.ai/pricing) | browser/firecracker | $0.100 | $1.00 | $2.40 | $16.80 | $30.00 | $72.00 | no machine size published, not shape-comparable; disk beyond 0 GiB: price unknown; session cap 12 h, needs restarts |
 | 87 | [Morph Cloud](https://cloud.morph.so/web/subscribe) | agent-sandbox/vm | $0.100 | $1.00 | $2.40 | $16.80 | $30.00 | $62.00 | disk beyond 16 GiB: price unknown; egress unpublished |
 | 88 | [Cloudflare Browser Run / Kitesurf](https://developers.cloudflare.com/browser-run/pricing/) | browser/container | $5.00 | $5.00 | $6.26 | $19.22 | $31.10 | $68.90 | no machine size published, not shape-comparable; disk beyond 0 GiB: price unknown |
-| 89 | [Hetzner Dedicated AX / EX](https://www.hetzner.com/dedicated-rootserver/) | hyperscaler/dedicated-host | $0.107 | $1.07 | $2.58 | $18.06 | $32.25 | $67.10 |  |
+| 89 | [Hetzner Dedicated AX / EX](https://www.hetzner.com/dedicated-rootserver/) | hyperscaler/dedicated-host | $0.107 | $1.07 | $2.58 | $18.06 | $32.25 | $67.10 | bursty 30-min starts bill 2.0x here (min 1 h) |
 | 90 | [Blacksmith (GitHub Actions runners)](https://www.blacksmith.sh/pricing) | macos/vm | $0 | $0 | $0 | $13.20 | $33.00 | $96.00 | $12/mo free credit; egress unpublished |
 | 91 | [Isorun](https://docs.isorun.ai/getting-started/pricing) | agent-sandbox/vm | $0.110 | $1.10 | $2.65 | $18.55 | $33.13 | $79.52 |  |
 | 92 | [Novita AI Agent Sandbox](https://docs.novita.ai/guides/sandbox-pricing) | agent-sandbox/firecracker | $0.117 | $1.17 | $2.80 | $19.60 | $34.99 | $83.98 | egress unpublished |
@@ -110,7 +110,7 @@ Main table is ranked by **10 h/d x30** (the realistic agent month). A dash means
 | 96 | [Collimate](https://collimate.ai/pricing) | agent-sandbox/firecracker | $0.128 | $1.28 | $3.07 | $21.50 | $38.40 | $92.16 | disk beyond 0 GiB: price unknown |
 | 97 | [Open Telekom Cloud / T Cloud Public](https://www.open-telekom-cloud.com/en/prices) | hyperscaler/vm | $0.133 | $1.32 | $3.18 | $22.26 | $39.75 | $95.40 |  |
 | 98 | [Docker Cloud Sandboxes](https://www.docker.com/blog/introducing-cloud-sandboxes-start-on-your-laptop-finish-in-the-cloud/) | agent-sandbox/vm | $0.140 | $1.40 | $3.36 | $23.52 | $42.00 | $101 |  |
-| 99 | [NAVER Cloud / LINE-NAVER scope](https://www.ncloud.com/product/compute/server) | hyperscaler/vm | $0.141 | $1.41 | $3.39 | $23.75 | $42.42 | $102 | disk beyond 0 GiB: price unknown; egress unpublished |
+| 99 | [NAVER Cloud / LINE-NAVER scope](https://www.ncloud.com/product/compute/server) | hyperscaler/vm | $0.141 | $1.41 | $3.39 | $23.75 | $42.42 | $102 | bursty 30-min starts bill 2.0x here (rounds to 1 h); disk beyond 0 GiB: price unknown; egress unpublished |
 | 100 | [Tencent Cloud Agent Runtime — Agent Sandbox](https://cloud.tencent.com/document/product/1814/133249) | agent-sandbox/- | $0.142 | $1.42 | $3.41 | $23.88 | $42.64 | $102 | egress unpublished |
 | 101 | [Cloudflare Sandbox SDK / Containers](https://developers.cloudflare.com/containers/platform/pricing/) | agent-sandbox/vm | $5.00 | $5.59 | $7.42 | $26.29 | $43.59 | $98.62 |  |
 | 102 | [Deno Sandbox](https://deno.com/deploy/pricing) | agent-sandbox/firecracker | $20.00 | $20.00 | $20.00 | $23.13 | $44.25 | - | disk beyond 10 GiB: price unknown; session cap 0.5 h, needs restarts |
@@ -153,7 +153,7 @@ Main table is ranked by **10 h/d x30** (the realistic agent month). A dash means
 | 139 | [AWS Lambda MicroVMs](https://aws.amazon.com/lambda/pricing/) | hyperscaler/firecracker | $0.252 | $2.52 | $6.05 | $42.37 | $75.66 | $182 | session cap 8 h, needs restarts |
 | 140 | [Namespace](https://namespace.so/pricing) | dev-env/vm | $0.258 | $2.58 | $6.19 | $43.30 | $77.33 | $186 | egress unpublished |
 | 141 | [AgentComputer](https://agentcomputer.ai/pricing) | agent-sandbox/firecracker | $0.259 | $2.59 | $6.21 | $43.45 | $77.60 | $186 | egress unpublished |
-| 142 | [Amazon WorkSpaces Personal (Windows)](https://aws.amazon.com/workspaces/desktop-as-a-service/pricing/) | windows/vm | $0.287 | $2.81 | $6.73 | $47.05 | $84.01 | $202 |  |
+| 142 | [Amazon WorkSpaces Personal (Windows)](https://aws.amazon.com/workspaces/desktop-as-a-service/pricing/) | windows/vm | $0.287 | $2.81 | $6.73 | $47.05 | $84.01 | $202 | bursty 30-min starts bill 2.0x here (min 1 h) |
 | 143 | [Rivet (Actors & agentOS)](https://rivet.dev/pricing/) | agent-sandbox/- | $20.00 | $20.00 | $20.00 | $48.32 | $86.29 | $207 |  |
 | 144 | [CircleCI](https://circleci.com/pricing/price-list/) | macos/vm | $0 | $0 | $0 | $42.48 | $90.00 | $241 | $15/mo minimum, fee is a usage credit; session cap 5 h, needs restarts |
 | 145 | [Google Cloud Build](https://cloud.google.com/build/pricing) | paas/vm | $0 | $0 | $0 | $45.48 | $93.00 | $244 | egress unpublished |
@@ -166,7 +166,7 @@ Main table is ranked by **10 h/d x30** (the realistic agent month). A dash means
 | 152 | [GitLab.com hosted runners](https://docs.gitlab.com/ci/pipelines/compute_minutes/) | macos/vm | $0 | $2.00 | $10.40 | $29.80 | $109 | $361 | session cap 3 h, needs restarts; egress unpublished |
 | 153 | [Depot (GitHub Actions runners)](https://depot.dev/pricing) | macos/vm | $20.00 | $20.00 | $20.00 | $68.48 | $116 | $267 | egress unpublished |
 | 154 | [Huawei Cloud AgentArts](https://support.huaweicloud.com/price-agentarts/agentarts-price-pdf.pdf) | agent-sandbox/container | $0.397 | $3.97 | $9.53 | $66.74 | $119 | $286 |  |
-| 155 | [Expo](https://expo.dev) | macos/vm | $19.00 | $19.00 | $19.00 | $58.00 | $124 | $334 | disk beyond 0 GiB: price unknown; session cap 2 h, needs restarts; egress unpublished |
+| 155 | [Expo](https://expo.dev) | macos/vm | $19.00 | $19.00 | $19.00 | $58.00 | $124 | $334 | bursty 30-min starts bill 2.4x here ($1 per start); disk beyond 0 GiB: price unknown; session cap 2 h, needs restarts |
 | 156 | [boxes.dev](https://boxes.dev/) | dev-env/firecracker | $99.00 | $99.00 | $99.00 | $99.00 | $129 | $381 | egress unpublished |
 | 157 | [Buildkite hosted agents](https://buildkite.com/pricing) | macos/vm | $0 | $0 | $3.52 | $72.64 | $136 | $338 | session cap 8 h, needs restarts; egress unpublished |
 | 158 | [Ellipsis](https://www.ellipsis.dev/pricing) | agent-sandbox/qemu-kvm | $0.457 | $4.57 | $10.96 | $76.73 | $137 | $329 | disk beyond 0 GiB: price unknown; session cap 1 h, needs restarts; egress unpublished |
@@ -391,8 +391,8 @@ Main table is ranked by **10 h/d x30** (the realistic agent month). A dash means
 | 4 | [shellbox](https://shellbox.dev/) | agent-sandbox/firecracker | $0.020 | $0.200 | $0.480 | $3.36 | $6.00 | $14.40 | egress unpublished |
 | 5 | [Lizard](https://lizard.build/pricing) | agent-sandbox/container | $0.022 | $0.218 | $0.524 | $3.67 | $6.55 | $15.72 | disputed: pricing page sells Small 2 vCPU/4 GiB at $0.009/h; docs fix 4 vCPU |
 | 6 | [Upstash Box](https://upstash.com/pricing/box) | agent-sandbox/container | $0.103 | $1.03 | $2.47 | $8.46 | $8.82 | $9.97 | egress unpublished; flat pool, billed whether used or not |
-| 7 | [Together Code Sandbox](https://www.together.ai/pricing) | agent-sandbox/firecracker | $0.030 | $0.300 | $0.720 | $5.04 | $9.00 | $21.60 | no machine size published, not shape-comparable; egress unpublished |
-| 8 | [Sail Research (Sailboxes)](https://docs.sailresearch.com/pricing) | agent-sandbox/firecracker | $0 | $0 | $0 | $5.09 | $13.01 | $38.21 | $5/mo free credit; egress unpublished |
+| 7 | [Together Code Sandbox](https://www.together.ai/pricing) | agent-sandbox/firecracker | $0.030 | $0.300 | $0.720 | $5.04 | $9.00 | $21.60 | bursty 30-min starts bill 2.0x here (min 1 h); no machine size published, not shape-comparable; egress unpublished |
+| 8 | [Sail Research (Sailboxes)](https://docs.sailresearch.com/pricing) | agent-sandbox/firecracker | $0 | $0 | $0 | $5.09 | $13.01 | $38.21 | bursty 30-min starts bill 1.5x here ($0.01 per start); $5/mo free credit; egress unpublished |
 | 9 | [tama](https://tama.computer/) | agent-sandbox/vm | $0.045 | $0.454 | $1.09 | $7.63 | $13.62 | $32.70 | egress unpublished |
 | 10 | [Coasty](https://coasty.ai/pricing) | agent-sandbox/vm | $0.050 | $0.500 | $1.20 | $8.40 | $15.00 | $30.00 | no machine size published, not shape-comparable; disk beyond 0 GiB: price unknown; egress unpublished |
 | 11 | [Mosaic Sandbox](https://sandbox.mosaicos.com/) | agent-sandbox/firecracker | $0.050 | $0.500 | $1.20 | $8.40 | $15.00 | $36.00 | egress unpublished |
@@ -473,8 +473,8 @@ Main table is ranked by **10 h/d x30** (the realistic agent month). A dash means
 | # | Provider | Type | Cost | Notes |
 |---|---|---|---|---|
 | 1 | [Amika](https://www.amika.dev/pricing) | agent-sandbox/vm | $0 | egress unpublished |
-| 2 | [Anchor Browser](https://anchorbrowser.io/pricing) | browser/dedicated-vm | $0 | no machine size published, not shape-comparable; disk beyond 0 GiB: price unknown |
-| 3 | [Azure Container Apps (Consumption, Dedicated, Dynamic Sessions)](https://azure.microsoft.com/en-us/pricing/details/container-apps/) | hyperscaler/vm | $0 | free grant ($5.40) is Consumption vCPU/GiB, not the Dynamic Sessions mode priced; no machine size published, not shape-comparable; disk beyond 4 GiB: price unknown |
+| 2 | [Anchor Browser](https://anchorbrowser.io/pricing) | browser/dedicated-vm | $0 | bursty 30-min starts bill 1.6x here ($0.01 per start); no machine size published, not shape-comparable; disk beyond 0 GiB: price unknown |
+| 3 | [Azure Container Apps (Consumption, Dedicated, Dynamic Sessions)](https://azure.microsoft.com/en-us/pricing/details/container-apps/) | hyperscaler/vm | $0 | free grant ($5.40) is Consumption vCPU/GiB, not the Dynamic Sessions mode priced; bursty 30-min starts bill 3.5x here (min 1 h); no machine size published, not shape-comparable |
 | 4 | [Blacksmith (GitHub Actions runners)](https://www.blacksmith.sh/pricing) | macos/vm | $0 | $12/mo free credit; egress unpublished |
 | 5 | [Buddy Sandboxes](https://buddy.works/pricing) | agent-sandbox/vm | $0 | egress unpublished |
 | 6 | [Buildkite hosted agents](https://buildkite.com/pricing) | macos/vm | $0 | session cap 8 h, needs restarts; egress unpublished |
@@ -494,7 +494,7 @@ Main table is ranked by **10 h/d x30** (the realistic agent month). A dash means
 | 20 | [Opensteer](https://opensteer.com/pricing) | browser/- | $0 | no machine size published, not shape-comparable; disk beyond 0 GiB: price unknown; egress unpublished |
 | 21 | [PandaStack](https://www.pandastack.ai/pricing/) | agent-sandbox/firecracker | $0 |  |
 | 22 | [Remote Browser](https://remote-browser.dev/pricing) | browser/container | $0 | no machine size published, not shape-comparable; disk beyond 0 GiB: price unknown; egress unpublished |
-| 23 | [Sail Research (Sailboxes)](https://docs.sailresearch.com/pricing) | agent-sandbox/firecracker | $0 | $5/mo free credit; egress unpublished |
+| 23 | [Sail Research (Sailboxes)](https://docs.sailresearch.com/pricing) | agent-sandbox/firecracker | $0 | bursty 30-min starts bill 1.5x here ($0.01 per start); $5/mo free credit; egress unpublished |
 | 24 | [Lightning AI](https://lightning.ai/pricing) | dev-env/vm | $0.0014 | free CPU Studio: 4 h/session then paid, one at a time; rest is Drive storage; 403 here; egress unpublished; flat pool, billed whether used or not |
 | 25 | [Agent 37](https://www.agent37.com/pricing) | agent-sandbox/gvisor | $0.0085 | egress unpublished |
 
@@ -503,8 +503,8 @@ Main table is ranked by **10 h/d x30** (the realistic agent month). A dash means
 | # | Provider | Type | Cost | Notes |
 |---|---|---|---|---|
 | 1 | [Amika](https://www.amika.dev/pricing) | agent-sandbox/vm | $0 | egress unpublished |
-| 2 | [Anchor Browser](https://anchorbrowser.io/pricing) | browser/dedicated-vm | $0 | no machine size published, not shape-comparable; disk beyond 0 GiB: price unknown |
-| 3 | [Azure Container Apps (Consumption, Dedicated, Dynamic Sessions)](https://azure.microsoft.com/en-us/pricing/details/container-apps/) | hyperscaler/vm | $0 | free grant ($5.40) is Consumption vCPU/GiB, not the Dynamic Sessions mode priced; no machine size published, not shape-comparable; disk beyond 4 GiB: price unknown |
+| 2 | [Anchor Browser](https://anchorbrowser.io/pricing) | browser/dedicated-vm | $0 | bursty 30-min starts bill 1.6x here ($0.01 per start); no machine size published, not shape-comparable; disk beyond 0 GiB: price unknown |
+| 3 | [Azure Container Apps (Consumption, Dedicated, Dynamic Sessions)](https://azure.microsoft.com/en-us/pricing/details/container-apps/) | hyperscaler/vm | $0 | free grant ($5.40) is Consumption vCPU/GiB, not the Dynamic Sessions mode priced; bursty 30-min starts bill 3.5x here (min 1 h); no machine size published, not shape-comparable |
 | 4 | [Blacksmith (GitHub Actions runners)](https://www.blacksmith.sh/pricing) | macos/vm | $0 | $12/mo free credit; egress unpublished |
 | 5 | [Buildkite hosted agents](https://buildkite.com/pricing) | macos/vm | $0 | session cap 8 h, needs restarts; egress unpublished |
 | 6 | [CircleCI](https://circleci.com/pricing/price-list/) | macos/vm | $0 | $15/mo minimum, fee is a usage credit; session cap 5 h, needs restarts |
@@ -520,11 +520,11 @@ Main table is ranked by **10 h/d x30** (the realistic agent month). A dash means
 | 16 | [Modal](https://modal.com/pricing) | agent-sandbox/gvisor | $0 | $30/mo free credit |
 | 17 | [Opensteer](https://opensteer.com/pricing) | browser/- | $0 | no machine size published, not shape-comparable; disk beyond 0 GiB: price unknown; egress unpublished |
 | 18 | [PandaStack](https://www.pandastack.ai/pricing/) | agent-sandbox/firecracker | $0 |  |
-| 19 | [Sail Research (Sailboxes)](https://docs.sailresearch.com/pricing) | agent-sandbox/firecracker | $0 | $5/mo free credit; egress unpublished |
+| 19 | [Sail Research (Sailboxes)](https://docs.sailresearch.com/pricing) | agent-sandbox/firecracker | $0 | bursty 30-min starts bill 1.5x here ($0.01 per start); $5/mo free credit; egress unpublished |
 | 20 | [Lightning AI](https://lightning.ai/pricing) | dev-env/vm | $0.014 | free CPU Studio: 4 h/session then paid, one at a time; rest is Drive storage; 403 here; egress unpublished; flat pool, billed whether used or not |
 | 21 | [Agent 37](https://www.agent37.com/pricing) | agent-sandbox/gvisor | $0.085 | egress unpublished |
 | 22 | [Oracle Cloud Infrastructure](https://www.oracle.com/cloud/compute/pricing/) | hyperscaler/vm | $0.103 | unverified: all oracle.com returns 403; Always Free A1 covers this shape ($0) |
-| 23 | [Hetzner Cloud](https://docs.hetzner.com/general/infrastructure-and-availability/price-adjustment/) | hyperscaler/vm | $0.104 |  |
+| 23 | [Hetzner Cloud](https://docs.hetzner.com/general/infrastructure-and-availability/price-adjustment/) | hyperscaler/vm | $0.104 | bursty 30-min starts bill 2.0x here (min 1 h) |
 | 24 | [zipbox](https://zipbox.ai/pricing) | agent-sandbox/firecracker | $0.137 | egress unpublished |
 | 25 | [IONOS Cloud](https://docs.ionos.com/cloud/support/general-information/price-list/ionos-cloud-eur-en) | hyperscaler/vm | $0.148 |  |
 
@@ -532,8 +532,8 @@ Main table is ranked by **10 h/d x30** (the realistic agent month). A dash means
 
 | # | Provider | Type | Cost | Notes |
 |---|---|---|---|---|
-| 1 | [Anchor Browser](https://anchorbrowser.io/pricing) | browser/dedicated-vm | $0 | no machine size published, not shape-comparable; disk beyond 0 GiB: price unknown |
-| 2 | [Azure Container Apps (Consumption, Dedicated, Dynamic Sessions)](https://azure.microsoft.com/en-us/pricing/details/container-apps/) | hyperscaler/vm | $0 | free grant ($5.40) is Consumption vCPU/GiB, not the Dynamic Sessions mode priced; no machine size published, not shape-comparable; disk beyond 4 GiB: price unknown |
+| 1 | [Anchor Browser](https://anchorbrowser.io/pricing) | browser/dedicated-vm | $0 | bursty 30-min starts bill 1.6x here ($0.01 per start); no machine size published, not shape-comparable; disk beyond 0 GiB: price unknown |
+| 2 | [Azure Container Apps (Consumption, Dedicated, Dynamic Sessions)](https://azure.microsoft.com/en-us/pricing/details/container-apps/) | hyperscaler/vm | $0 | free grant ($5.40) is Consumption vCPU/GiB, not the Dynamic Sessions mode priced; bursty 30-min starts bill 3.5x here (min 1 h); no machine size published, not shape-comparable |
 | 3 | [Blacksmith (GitHub Actions runners)](https://www.blacksmith.sh/pricing) | macos/vm | $0 | $12/mo free credit; egress unpublished |
 | 4 | [CircleCI](https://circleci.com/pricing/price-list/) | macos/vm | $0 | $15/mo minimum, fee is a usage credit; session cap 5 h, needs restarts |
 | 5 | [Freestyle](https://www.freestyle.sh/pricing) | agent-sandbox/bare-metal-vm | $0 | $18.38/mo free credit |
@@ -547,11 +547,11 @@ Main table is ranked by **10 h/d x30** (the realistic agent month). A dash means
 | 13 | [Kernel](https://www.onkernel.com/pricing) | browser/firecracker | $0 | no machine size published, not shape-comparable; disk beyond 0 GiB: price unknown; egress unpublished |
 | 14 | [Modal](https://modal.com/pricing) | agent-sandbox/gvisor | $0 | $30/mo free credit |
 | 15 | [Opensteer](https://opensteer.com/pricing) | browser/- | $0 | no machine size published, not shape-comparable; disk beyond 0 GiB: price unknown; egress unpublished |
-| 16 | [Sail Research (Sailboxes)](https://docs.sailresearch.com/pricing) | agent-sandbox/firecracker | $0 | $5/mo free credit; egress unpublished |
+| 16 | [Sail Research (Sailboxes)](https://docs.sailresearch.com/pricing) | agent-sandbox/firecracker | $0 | bursty 30-min starts bill 1.5x here ($0.01 per start); $5/mo free credit; egress unpublished |
 | 17 | [Lightning AI](https://lightning.ai/pricing) | dev-env/vm | $0.033 | free CPU Studio: 4 h/session then paid, one at a time; rest is Drive storage; 403 here; egress unpublished; flat pool, billed whether used or not |
 | 18 | [Agent 37](https://www.agent37.com/pricing) | agent-sandbox/gvisor | $0.204 | egress unpublished |
 | 19 | [Oracle Cloud Infrastructure](https://www.oracle.com/cloud/compute/pricing/) | hyperscaler/vm | $0.247 | unverified: all oracle.com returns 403; Always Free A1 covers this shape ($0) |
-| 20 | [Hetzner Cloud](https://docs.hetzner.com/general/infrastructure-and-availability/price-adjustment/) | hyperscaler/vm | $0.250 |  |
+| 20 | [Hetzner Cloud](https://docs.hetzner.com/general/infrastructure-and-availability/price-adjustment/) | hyperscaler/vm | $0.250 | bursty 30-min starts bill 2.0x here (min 1 h) |
 | 21 | [zipbox](https://zipbox.ai/pricing) | agent-sandbox/firecracker | $0.329 | egress unpublished |
 | 22 | [IONOS Cloud](https://docs.ionos.com/cloud/support/general-information/price-list/ionos-cloud-eur-en) | hyperscaler/vm | $0.355 |  |
 | 23 | [Gcore Cloud / Functions / GPU](https://gcore.com/cloud/virtual-machines) | hyperscaler/vm | $0.464 | disk beyond 0 GiB: price unknown |
@@ -562,7 +562,7 @@ Main table is ranked by **10 h/d x30** (the realistic agent month). A dash means
 
 | # | Provider | Type | Cost | Notes |
 |---|---|---|---|---|
-| 1 | [Azure Container Apps (Consumption, Dedicated, Dynamic Sessions)](https://azure.microsoft.com/en-us/pricing/details/container-apps/) | hyperscaler/vm | $0 | free grant ($5.40) is Consumption vCPU/GiB, not the Dynamic Sessions mode priced; no machine size published, not shape-comparable; disk beyond 4 GiB: price unknown |
+| 1 | [Azure Container Apps (Consumption, Dedicated, Dynamic Sessions)](https://azure.microsoft.com/en-us/pricing/details/container-apps/) | hyperscaler/vm | $0 | free grant ($5.40) is Consumption vCPU/GiB, not the Dynamic Sessions mode priced; bursty 30-min starts bill 3.5x here (min 1 h); no machine size published, not shape-comparable |
 | 2 | [InsForge (InstaCloud)](https://www.instacloud.com/pricing) | paas/vm | $0.038 | $10/mo free credit |
 | 3 | [Google Cloud Run](https://cloud.google.com/run/pricing) | hyperscaler/gvisor | $0.144 | free tier is the Services grant; row is the Instances (Preview) meter; $5.22/mo free credit |
 | 4 | [Lightning AI](https://lightning.ai/pricing) | dev-env/vm | $0.230 | free CPU Studio: 4 h/session then paid, one at a time; rest is Drive storage; 403 here; egress unpublished; flat pool, billed whether used or not |
@@ -570,23 +570,23 @@ Main table is ranked by **10 h/d x30** (the realistic agent month). A dash means
 | 6 | [Kedge](https://kedge.dev/docs/billing) | agent-sandbox/vm | $0.984 | $5/mo free credit |
 | 7 | [Agent 37](https://www.agent37.com/pricing) | agent-sandbox/gvisor | $1.43 | egress unpublished |
 | 8 | [Oracle Cloud Infrastructure](https://www.oracle.com/cloud/compute/pricing/) | hyperscaler/vm | $1.73 | unverified: all oracle.com returns 403; Always Free A1 covers this shape ($0) |
-| 9 | [Hetzner Cloud](https://docs.hetzner.com/general/infrastructure-and-availability/price-adjustment/) | hyperscaler/vm | $1.75 |  |
+| 9 | [Hetzner Cloud](https://docs.hetzner.com/general/infrastructure-and-availability/price-adjustment/) | hyperscaler/vm | $1.75 | bursty 30-min starts bill 2.0x here (min 1 h) |
 | 10 | [Modal](https://modal.com/pricing) | agent-sandbox/gvisor | $1.91 | $30/mo free credit |
 | 11 | [zipbox](https://zipbox.ai/pricing) | agent-sandbox/firecracker | $2.30 | egress unpublished |
 | 12 | [IONOS Cloud](https://docs.ionos.com/cloud/support/general-information/price-list/ionos-cloud-eur-en) | hyperscaler/vm | $2.48 |  |
 | 13 | [Gcore Cloud / Functions / GPU](https://gcore.com/cloud/virtual-machines) | hyperscaler/vm | $3.25 | disk beyond 0 GiB: price unknown |
 | 14 | [Browser Use Cloud](https://browser-use.com/pricing) | browser/- | $3.36 | no machine size published, not shape-comparable; disk beyond 0 GiB: price unknown; session cap 4 h, needs restarts |
 | 15 | [shellbox](https://shellbox.dev/) | agent-sandbox/firecracker | $3.36 | egress unpublished |
-| 16 | [Anchor Browser](https://anchorbrowser.io/pricing) | browser/dedicated-vm | $3.41 | no machine size published, not shape-comparable; disk beyond 0 GiB: price unknown |
-| 17 | [UpCloud](https://upcloud.com/pricing/) | hyperscaler/vm | $3.50 |  |
+| 16 | [Anchor Browser](https://anchorbrowser.io/pricing) | browser/dedicated-vm | $3.41 | bursty 30-min starts bill 1.6x here ($0.01 per start); no machine size published, not shape-comparable; disk beyond 0 GiB: price unknown |
+| 17 | [UpCloud](https://upcloud.com/pricing/) | hyperscaler/vm | $3.50 | bursty 30-min starts bill 2.0x here (min 1 h) |
 | 18 | [Lizard](https://lizard.build/pricing) | agent-sandbox/container | $3.67 | disputed: pricing page sells Small 2 vCPU/4 GiB at $0.009/h; docs fix 4 vCPU |
 | 19 | [Freestyle](https://www.freestyle.sh/pricing) | agent-sandbox/bare-metal-vm | $4.13 | $18.38/mo free credit |
 | 20 | [Fly.io Machines](https://fly.io/pricing) | paas/firecracker | $4.25 |  |
 | 21 | [OVHcloud Public Cloud](https://us.ovhcloud.com/public-cloud/prices/) | hyperscaler/vm | $4.30 |  |
-| 22 | [Scaleway Instances](https://www.scaleway.com/en/pricing/virtual-instances/) | hyperscaler/vm | $4.36 | Stardust disk is billed on top of the instance rate |
+| 22 | [Scaleway Instances](https://www.scaleway.com/en/pricing/virtual-instances/) | hyperscaler/vm | $4.36 | Stardust disk is billed on top of the instance rate; bursty 30-min starts bill 2.0x here (min 1 h) |
 | 23 | [Kamatera](https://www.kamatera.com/pricing/) | hyperscaler/vm | $4.60 |  |
-| 24 | [Civo Compute](https://www.civo.com/pricing) | hyperscaler/vm | $5.00 |  |
-| 25 | [Vultr Cloud Compute](https://www.vultr.com/pricing/) | hyperscaler/vm | $5.01 |  |
+| 24 | [Civo Compute](https://www.civo.com/pricing) | hyperscaler/vm | $5.00 | bursty 30-min starts bill 2.0x here (min 1 h) |
+| 25 | [Vultr Cloud Compute](https://www.vultr.com/pricing/) | hyperscaler/vm | $5.01 | bursty 30-min starts bill 2.0x here (min 1 h) |
 
 ### 10 h/d x30 — 179 priceable, top 25
 
@@ -595,8 +595,8 @@ Main table is ranked by **10 h/d x30** (the realistic agent month). A dash means
 | 1 | [Lightning AI](https://lightning.ai/pricing) | dev-env/vm | $0.411 | free CPU Studio: 4 h/session then paid, one at a time; rest is Drive storage; 403 here; egress unpublished; flat pool, billed whether used or not |
 | 2 | [Agent 37](https://www.agent37.com/pricing) | agent-sandbox/gvisor | $2.55 | egress unpublished |
 | 3 | [Oracle Cloud Infrastructure](https://www.oracle.com/cloud/compute/pricing/) | hyperscaler/vm | $3.09 | unverified: all oracle.com returns 403; Always Free A1 covers this shape ($0) |
-| 4 | [Hetzner Cloud](https://docs.hetzner.com/general/infrastructure-and-availability/price-adjustment/) | hyperscaler/vm | $3.12 |  |
-| 5 | [Azure Container Apps (Consumption, Dedicated, Dynamic Sessions)](https://azure.microsoft.com/en-us/pricing/details/container-apps/) | hyperscaler/vm | $3.60 | free grant ($5.40) is Consumption vCPU/GiB, not the Dynamic Sessions mode priced; no machine size published, not shape-comparable; disk beyond 4 GiB: price unknown |
+| 4 | [Hetzner Cloud](https://docs.hetzner.com/general/infrastructure-and-availability/price-adjustment/) | hyperscaler/vm | $3.12 | bursty 30-min starts bill 2.0x here (min 1 h) |
+| 5 | [Azure Container Apps (Consumption, Dedicated, Dynamic Sessions)](https://azure.microsoft.com/en-us/pricing/details/container-apps/) | hyperscaler/vm | $3.60 | free grant ($5.40) is Consumption vCPU/GiB, not the Dynamic Sessions mode priced; bursty 30-min starts bill 3.5x here (min 1 h); no machine size published, not shape-comparable |
 | 6 | [zipbox](https://zipbox.ai/pricing) | agent-sandbox/firecracker | $4.11 | egress unpublished |
 | 7 | [Google Cloud Run](https://cloud.google.com/run/pricing) | hyperscaler/gvisor | $4.36 | free tier is the Services grant; row is the Instances (Preview) meter; $5.22/mo free credit |
 | 8 | [IONOS Cloud](https://docs.ionos.com/cloud/support/general-information/price-list/ionos-cloud-eur-en) | hyperscaler/vm | $4.44 |  |
@@ -605,18 +605,18 @@ Main table is ranked by **10 h/d x30** (the realistic agent month). A dash means
 | 11 | [Gcore Cloud / Functions / GPU](https://gcore.com/cloud/virtual-machines) | hyperscaler/vm | $5.80 | disk beyond 0 GiB: price unknown |
 | 12 | [Browser Use Cloud](https://browser-use.com/pricing) | browser/- | $6.00 | no machine size published, not shape-comparable; disk beyond 0 GiB: price unknown; session cap 4 h, needs restarts |
 | 13 | [shellbox](https://shellbox.dev/) | agent-sandbox/firecracker | $6.00 | egress unpublished |
-| 14 | [UpCloud](https://upcloud.com/pricing/) | hyperscaler/vm | $6.25 |  |
+| 14 | [UpCloud](https://upcloud.com/pricing/) | hyperscaler/vm | $6.25 | bursty 30-min starts bill 2.0x here (min 1 h) |
 | 15 | [Lizard](https://lizard.build/pricing) | agent-sandbox/container | $6.55 | disputed: pricing page sells Small 2 vCPU/4 GiB at $0.009/h; docs fix 4 vCPU |
 | 16 | [Contabo](https://contabo.com/en-us/pricing/) | hyperscaler/vm | $6.60 | visible $4.40 is a 24-month intro, list is $6.60; price is one month's rent at every horizon |
 | 17 | [Fly.io Machines](https://fly.io/pricing) | paas/firecracker | $7.58 |  |
 | 18 | [OVHcloud Public Cloud](https://us.ovhcloud.com/public-cloud/prices/) | hyperscaler/vm | $7.68 |  |
-| 19 | [Scaleway Instances](https://www.scaleway.com/en/pricing/virtual-instances/) | hyperscaler/vm | $7.78 | Stardust disk is billed on top of the instance rate |
+| 19 | [Scaleway Instances](https://www.scaleway.com/en/pricing/virtual-instances/) | hyperscaler/vm | $7.78 | Stardust disk is billed on top of the instance rate; bursty 30-min starts bill 2.0x here (min 1 h) |
 | 20 | [InsForge (InstaCloud)](https://www.instacloud.com/pricing) | paas/vm | $7.92 | $10/mo free credit |
 | 21 | [Kamatera](https://www.kamatera.com/pricing/) | hyperscaler/vm | $8.22 |  |
 | 22 | [Upstash Box](https://upstash.com/pricing/box) | agent-sandbox/container | $8.82 | egress unpublished; flat pool, billed whether used or not |
-| 23 | [Civo Compute](https://www.civo.com/pricing) | hyperscaler/vm | $8.93 |  |
-| 24 | [Vultr Cloud Compute](https://www.vultr.com/pricing/) | hyperscaler/vm | $8.94 |  |
-| 25 | [Together Code Sandbox](https://www.together.ai/pricing) | agent-sandbox/firecracker | $9.00 | no machine size published, not shape-comparable; egress unpublished |
+| 23 | [Civo Compute](https://www.civo.com/pricing) | hyperscaler/vm | $8.93 | bursty 30-min starts bill 2.0x here (min 1 h) |
+| 24 | [Vultr Cloud Compute](https://www.vultr.com/pricing/) | hyperscaler/vm | $8.94 | bursty 30-min starts bill 2.0x here (min 1 h) |
+| 25 | [Together Code Sandbox](https://www.together.ai/pricing) | agent-sandbox/firecracker | $9.00 | bursty 30-min starts bill 2.0x here (min 1 h); no machine size published, not shape-comparable; egress unpublished |
 
 ### 24/7 x30 — 177 priceable, top 25
 
@@ -625,28 +625,66 @@ Main table is ranked by **10 h/d x30** (the realistic agent month). A dash means
 | 1 | [Lightning AI](https://lightning.ai/pricing) | dev-env/vm | $0.986 | free CPU Studio: 4 h/session then paid, one at a time; rest is Drive storage; 403 here; egress unpublished; flat pool, billed whether used or not |
 | 2 | [netcup VPS](https://www.netcup.com/en/server/vps) | hyperscaler/vm | $5.03 | entry row is VPS Lite 1 (6-month min); VPS 500 is $8.51/mo; price is one month's rent at every horizon |
 | 3 | [Agent 37](https://www.agent37.com/pricing) | agent-sandbox/gvisor | $6.12 | egress unpublished |
-| 4 | [Hetzner Cloud](https://docs.hetzner.com/general/infrastructure-and-availability/price-adjustment/) | hyperscaler/vm | $6.49 |  |
+| 4 | [Hetzner Cloud](https://docs.hetzner.com/general/infrastructure-and-availability/price-adjustment/) | hyperscaler/vm | $6.49 | bursty 30-min starts bill 2.0x here (min 1 h) |
 | 5 | [Contabo](https://contabo.com/en-us/pricing/) | hyperscaler/vm | $6.60 | visible $4.40 is a 24-month intro, list is $6.60; price is one month's rent at every horizon |
 | 6 | [Oracle Cloud Infrastructure](https://www.oracle.com/cloud/compute/pricing/) | hyperscaler/vm | $7.41 | unverified: all oracle.com returns 403; Always Free A1 covers this shape ($0) |
 | 7 | [zipbox](https://zipbox.ai/pricing) | agent-sandbox/firecracker | $9.86 | egress unpublished |
 | 8 | [Upstash Box](https://upstash.com/pricing/box) | agent-sandbox/container | $9.97 | egress unpublished; flat pool, billed whether used or not |
 | 9 | [IONOS Cloud](https://docs.ionos.com/cloud/support/general-information/price-list/ionos-cloud-eur-en) | hyperscaler/vm | $10.65 |  |
 | 10 | [Gcore Cloud / Functions / GPU](https://gcore.com/cloud/virtual-machines) | hyperscaler/vm | $13.92 | disk beyond 0 GiB: price unknown |
-| 11 | [UpCloud](https://upcloud.com/pricing/) | hyperscaler/vm | $14.00 |  |
+| 11 | [UpCloud](https://upcloud.com/pricing/) | hyperscaler/vm | $14.00 | bursty 30-min starts bill 2.0x here (min 1 h) |
 | 12 | [Browser Use Cloud](https://browser-use.com/pricing) | browser/- | $14.40 | no machine size published, not shape-comparable; disk beyond 0 GiB: price unknown; session cap 4 h, needs restarts |
 | 13 | [shellbox](https://shellbox.dev/) | agent-sandbox/firecracker | $14.40 | egress unpublished |
 | 14 | [Alibaba Cloud ECS International](https://www.alibabacloud.com/en/product/ecs/pricing) | hyperscaler/vm | $14.48 |  |
 | 15 | [Hostinger VPS](https://www.hostinger.com/vps-hosting) | hyperscaler/vm | $14.99 | price is one month's rent at every horizon |
 | 16 | [exe.dev](https://exe.dev/pricing) | dev-env/vm | $15.00 | $15/mo minimum, fee is a usage credit; flat pool, billed whether used or not |
 | 17 | [Lizard](https://lizard.build/pricing) | agent-sandbox/container | $15.72 | disputed: pricing page sells Small 2 vCPU/4 GiB at $0.009/h; docs fix 4 vCPU |
-| 18 | [Azure Container Apps (Consumption, Dedicated, Dynamic Sessions)](https://azure.microsoft.com/en-us/pricing/details/container-apps/) | hyperscaler/vm | $16.20 | free grant ($5.40) is Consumption vCPU/GiB, not the Dynamic Sessions mode priced; no machine size published, not shape-comparable; disk beyond 4 GiB: price unknown |
+| 18 | [Azure Container Apps (Consumption, Dedicated, Dynamic Sessions)](https://azure.microsoft.com/en-us/pricing/details/container-apps/) | hyperscaler/vm | $16.20 | free grant ($5.40) is Consumption vCPU/GiB, not the Dynamic Sessions mode priced; bursty 30-min starts bill 3.5x here (min 1 h); no machine size published, not shape-comparable |
 | 19 | [Google Cloud Run](https://cloud.google.com/run/pricing) | hyperscaler/gvisor | $17.77 | free tier is the Services grant; row is the Instances (Preview) meter; $5.22/mo free credit |
 | 20 | [Fly.io Machines](https://fly.io/pricing) | paas/firecracker | $18.20 |  |
 | 21 | [OVHcloud Public Cloud](https://us.ovhcloud.com/public-cloud/prices/) | hyperscaler/vm | $18.43 |  |
-| 22 | [Scaleway Instances](https://www.scaleway.com/en/pricing/virtual-instances/) | hyperscaler/vm | $18.67 | Stardust disk is billed on top of the instance rate |
+| 22 | [Scaleway Instances](https://www.scaleway.com/en/pricing/virtual-instances/) | hyperscaler/vm | $18.67 | Stardust disk is billed on top of the instance rate; bursty 30-min starts bill 2.0x here (min 1 h) |
 | 23 | [Kamatera](https://www.kamatera.com/pricing/) | hyperscaler/vm | $19.73 |  |
 | 24 | [boat.dev](https://docs.boat.dev/pricing) | agent-sandbox/vm | $20.00 | disk beyond 12 GiB: price unknown; $20/mo minimum, fee is a usage credit |
 | 25 | [Notte](https://www.notte.cc/pricing) | browser/container | $20.00 | no machine size published, not shape-comparable; disk beyond 0 GiB: price unknown; $20/mo minimum, fee is a usage credit |
+
+## Bursty use: what the minimum billable unit does (10 h/day as 20 x 30-min sessions)
+
+Same 300 h of demand as the **10 h/d x30** column, delivered the way an agent that starts a sandbox per tool call does it: **600 starts of 30 minutes** instead of one 10 h session. Both deliver 300 h, so the comparison is like for like. **21 of the 179 priceable providers are penalised** by their minimum billable unit or granularity. A row here means the headline rate cannot survive a bursty agent; a real agent that holds one box for the hour pays once, so these are the pessimistic side of the bound. A bursty run can also land on a different mode of the same provider than the smooth month, so a row is not always the same product; the `rounds up to` column names the mode's own rounding.
+
+| # | Provider | Type | 10 h/d x30 | bursty (600 x 30 min) | penalty | rounds up to | Notes |
+|---|---|---|---|---|---|---|---|
+| 1 | [Azure Container Apps (Consumption, Dedicated, Dynamic Sessions)](https://azure.microsoft.com/en-us/pricing/details/container-apps/) | hyperscaler/vm | $3.60 | $12.60 | **3.50x** | min 1 h | free grant ($5.40) is Consumption vCPU/GiB, not the Dynamic Sessions mode priced; bursty 30-min starts bill 3.5x here (min 1 h); no machine size published, not shape-comparable |
+| 2 | [Expo](https://expo.dev) | macos/vm | $124 | $298 | **2.40x** | $1 per start | bursty 30-min starts bill 2.4x here ($1 per start); disk beyond 0 GiB: price unknown; session cap 2 h, needs restarts |
+| 3 | [Amazon WorkSpaces Personal (Windows)](https://aws.amazon.com/workspaces/desktop-as-a-service/pricing/) | windows/vm | $84.01 | $172 | **2.05x** | min 1 h | bursty 30-min starts bill 2.0x here (min 1 h) |
+| 4 | [UpCloud](https://upcloud.com/pricing/) | hyperscaler/vm | $6.25 | $12.66 | **2.02x** | min 1 h | bursty 30-min starts bill 2.0x here (min 1 h) |
+| 5 | [STACKIT Compute Engine](https://pim.api.stackit.cloud/v1/skus) | hyperscaler/vm | $15.40 | $30.79 | **2.00x** | min 1 h | bursty 30-min starts bill 2.0x here (min 1 h); egress unpublished |
+| 6 | [Akamai Cloud / Linode](https://www.akamai.com/cloud/pricing) | hyperscaler/vm | $10.80 | $21.60 | **2.00x** | min 1 h | bursty 30-min starts bill 2.0x here (min 1 h) |
+| 7 | [Civo Compute](https://www.civo.com/pricing) | hyperscaler/vm | $8.93 | $17.86 | **2.00x** | min 1 h | bursty 30-min starts bill 2.0x here (min 1 h) |
+| 8 | [Hetzner Cloud](https://docs.hetzner.com/general/infrastructure-and-availability/price-adjustment/) | hyperscaler/vm | $3.12 | $6.24 | **2.00x** | min 1 h | bursty 30-min starts bill 2.0x here (min 1 h) |
+| 9 | [Hetzner Dedicated AX / EX](https://www.hetzner.com/dedicated-rootserver/) | hyperscaler/dedicated-host | $32.25 | $64.50 | **2.00x** | min 1 h | bursty 30-min starts bill 2.0x here (min 1 h) |
+| 10 | [NAVER Cloud / LINE-NAVER scope](https://www.ncloud.com/product/compute/server) | hyperscaler/vm | $42.42 | $84.84 | **2.00x** | rounds to 1 h | bursty 30-min starts bill 2.0x here (rounds to 1 h); disk beyond 0 GiB: price unknown; egress unpublished |
+| 11 | [Paperspace](https://docs.digitalocean.com/products/paperspace/pricing/) | gpu-cloud/vm | $12.82 | $25.64 | **2.00x** | rounds to 1 h | bursty 30-min starts bill 2.0x here (rounds to 1 h) |
+| 12 | [Scaleway Instances](https://www.scaleway.com/en/pricing/virtual-instances/) | hyperscaler/vm | $7.78 | $15.56 | **2.00x** | min 1 h | Stardust disk is billed on top of the instance rate; bursty 30-min starts bill 2.0x here (min 1 h) |
+| 13 | [Together Code Sandbox](https://www.together.ai/pricing) | agent-sandbox/firecracker | $9.00 | $18.00 | **2.00x** | min 1 h | bursty 30-min starts bill 2.0x here (min 1 h); no machine size published, not shape-comparable; egress unpublished |
+| 14 | [Vultr Cloud Compute](https://www.vultr.com/pricing/) | hyperscaler/vm | $8.94 | $17.88 | **2.00x** | min 1 h | bursty 30-min starts bill 2.0x here (min 1 h) |
+| 15 | [Anchor Browser](https://anchorbrowser.io/pricing) | browser/dedicated-vm | $10.01 | $16.00 | **1.60x** | $0.01 per start | bursty 30-min starts bill 1.6x here ($0.01 per start); no machine size published, not shape-comparable; disk beyond 0 GiB: price unknown |
+| 16 | [Sail Research (Sailboxes)](https://docs.sailresearch.com/pricing) | agent-sandbox/firecracker | $13.01 | $19.00 | **1.46x** | $0.01 per start | bursty 30-min starts bill 1.5x here ($0.01 per start); $5/mo free credit; egress unpublished |
+| 17 | [Sakura Internet Cloud](https://cloud.sakura.ad.jp/products/server/) | hyperscaler/vm | $28.61 | $30.44 | **1.06x** | min 1 h | bursty 30-min starts bill 1.1x here (min 1 h); price is one month's rent at every horizon |
+| 18 | [E2E Networks](https://www.e2enetworks.com/pricing) | hyperscaler/vm | $14.02 | $14.70 | **1.05x** | rounds to 1 h | egress unpublished |
+| 19 | [Kamatera](https://www.kamatera.com/pricing/) | hyperscaler/vm | $8.22 | $8.49 | **1.03x** | - |  |
+| 20 | [Azure Virtual Machines (Linux)](https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/) | hyperscaler/vm | $11.90 | $12.19 | **1.02x** | - |  |
+| 21 | [Namespace](https://namespace.so/pricing) | dev-env/vm | $77.33 | $78.55 | **1.02x** | - | egress unpublished |
+
+## Free-tier census: recurring, one-time, and unknown
+
+- **13 providers publish a credit that recurs every month.** The largest is Modal at $30/month.
+- **89 publish a one-time credit.** The famous $300 grants are here; they do not renew.
+- **71 sell a $0 plan and publish no credit, quota or cap.** Whether that is a usable free tier or an unpriced meter is not in the card; it is recorded as unknown, not free.
+
+## Exclusion ledger
+
+All 366 of 366 surveyed providers are accounted for: **179** priceable at some horizon, **2** with only a bandwidth/flat-pool meter (`unpriced`), **185** that fit no sized mode. The table below lists every provider the ranking could not price, with the engine's reason.
 
 ## Could not be priced at the 10 h/day month (or any horizon)
 

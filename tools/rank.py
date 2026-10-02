@@ -72,6 +72,75 @@ def chosen_plan(p, wl):
     return None
 
 
+def selected_mode(p, wl):
+    """The mode the engine actually priced this horizon on, so its minimum
+    billable unit travels with the row instead of being averaged over a card."""
+    name = p["cost"][wl].get("mode")
+    for m in p["facts"].get("modes", []):
+        if m.get("label") == name:
+            return m
+    return None
+
+
+def burst_penalty(p):
+    """Bursty month / smooth month: the same 300 h of demand delivered as 600
+    starts of 30 minutes instead of one 10 h session. >1 means the headline
+    rate cannot survive a bursty agent."""
+    m = p["cost"][PRIMARY]
+    b = (p.get("burst") or {}).get("b30m") or {}
+    mt, bt = m.get("total"), b.get("total")
+    if not (m.get("eligible") and isinstance(mt, (int, float)) and mt > 0):
+        return None, None
+    if not (b.get("eligible") and isinstance(bt, (int, float))):
+        return None, None
+    return bt, bt / mt
+
+
+def min_bill_label(p, wl=PRIMARY):
+    """What a start rounds up to, from the mode the engine selected."""
+    m = selected_mode(p, wl)
+    if not m:
+        return None
+    mb = m.get("min_billed_seconds")
+    gran = m.get("granularity_s")
+    sf = m.get("start_fee")
+    if isinstance(mb, (int, float)) and mb >= 3600:
+        return f"min {mb / 3600:g} h"
+    if isinstance(gran, (int, float)) and gran >= 3600:
+        return f"rounds to {gran / 3600:g} h"
+    if isinstance(sf, (int, float)) and sf > 0:
+        return f"${sf:g} per start"
+    if isinstance(mb, (int, float)) and mb > 60:
+        return f"min {mb / 60:g} min"
+    if isinstance(gran, (int, float)) and gran > 60:
+        return f"rounds to {gran / 60:g} min"
+    return None
+
+
+def burst_bill_label(p):
+    """The same question, but for the mode the bursty run actually picked:
+    a burst can land on a different (and dearer) mode than the smooth month."""
+    lbl = ((p.get("burst") or {}).get("b30m") or {}).get("mode")
+    if not lbl:
+        return None
+    for m in p["facts"].get("modes", []):
+        if m.get("label") == lbl:
+            mb = m.get("min_billed_seconds")
+            gran = m.get("granularity_s")
+            sf = m.get("start_fee")
+            if isinstance(mb, (int, float)) and mb >= 3600:
+                return f"min {mb / 3600:g} h"
+            if isinstance(gran, (int, float)) and gran >= 3600:
+                return f"rounds to {gran / 3600:g} h"
+            if isinstance(sf, (int, float)) and sf > 0:
+                return f"${sf:g} per start"
+            if isinstance(mb, (int, float)) and mb > 60:
+                return f"min {mb / 60:g} min"
+            if isinstance(gran, (int, float)) and gran > 60:
+                return f"rounds to {gran / 60:g} min"
+    return None
+
+
 def plan_floor(p, wl):
     """Prepaid floor on the plan the engine actually chose: a fee that is a
     usage credit, so usage below it is still billed at the fee."""
@@ -121,6 +190,10 @@ def notes_for(p, m10h):
     cv = []
     if p["id"] in CORRECTIONS:
         cv.append(CORRECTIONS[p["id"]])
+    bp = burst_penalty(p)[1]
+    min_bill = min_bill_label(p)
+    if bp and bp > 1.05:
+        cv.append(f"bursty 30-min starts bill {bp:.1f}x here" + (f" ({min_bill})" if min_bill else ""))
     for x in (p["cost"][m10h].get("caveats") or []):
         low = x.lower()
         if "machine size" in low:
@@ -178,6 +251,9 @@ def build_rows():
             "id": p["id"], "name": p["name"], "url": p["url"],
             "category": p["category"], "isolation": p["isolation"],
             "costs": costs, "eligible": any_eligible, "unpriced": unpriced,
+            "free": p.get("free") or {},
+            "burst": burst_penalty(p)[0], "burst_x": burst_penalty(p)[1],
+            "min_bill": min_bill_label(p), "burst_bill": burst_bill_label(p),
             "mode": p["cost"][PRIMARY].get("mode") or p["cost"]["r1h"].get("mode"),
             "plan": p["cost"][PRIMARY].get("plan"),
             "reasons": p["cost"][PRIMARY].get("reasons") or p["cost"]["r1h"].get("reasons") or [],
@@ -251,6 +327,7 @@ for r in rows:
         "id": r["id"], "name": r["name"], "url": r["url"],
         "category": r["category"], "isolation": r["isolation"],
         "costs": r["costs"],
+        "burst": r.get("burst"), "burst_x": r.get("burst_x"), "min_bill": r.get("min_bill"), "burst_bill": r.get("burst_bill"),
         "ranks": {h: rank_maps[h].get(r["id"]) for h in HORIZONS},
         "mode": r["mode"], "plan": r["plan"],
         "eligible": r["eligible"], "unpriced": r["unpriced"],
@@ -304,6 +381,58 @@ for h in HORIZONS:
         lines.append(f"| {i} | [{r['name']}]({r['url']}) | {r['category']}/{r['isolation'] or '-'} | "
                      f"{money(r['costs'][h])} | {r['notes'].replace('|', r'\|')} |")
     md.append("\n".join(lines) + "\n")
+
+md.append("## Bursty use: what the minimum billable unit does (10 h/day as 20 x 30-min sessions)\n")
+burst_rows = sorted([r for r in rows if r.get("burst_x") and r["burst_x"] > 1.005],
+                    key=lambda r: (-r["burst_x"], r["name"].lower()))
+md.append(f"Same 300 h of demand as the **10 h/d x30** column, delivered the way an agent "
+          f"that starts a sandbox per tool call does it: **600 starts of 30 minutes** instead of "
+          f"one 10 h session. Both deliver 300 h, so the comparison is like for like. "
+          f"**{len(burst_rows)} of the {len(priced)} priceable providers are penalised** by their "
+          f"minimum billable unit or granularity. A row here means the headline rate cannot "
+          f"survive a bursty agent; a real agent that holds one box for the hour pays once, so "
+          f"these are the pessimistic side of the bound. A bursty run can also land on a "
+          f"different mode of the same provider than the smooth month, so a row is not always the "
+          f"same product; the `rounds up to` column names the mode's own rounding.\n")
+lines = ["| # | Provider | Type | 10 h/d x30 | bursty (600 x 30 min) | penalty | rounds up to | Notes |",
+         "|---|---|---|---|---|---|---|---|"]
+for i, r in enumerate(burst_rows, 1):
+    lines.append(f"| {i} | [{r['name']}]({r['url']}) | {r['category']}/{r['isolation'] or '-'} | "
+                 f"{money(r['costs'][PRIMARY])} | {money(r['burst'])} | **{r['burst_x']:.2f}x** | "
+                 f"{r.get('burst_bill') or r.get('min_bill') or '-'} | {r['notes'].replace('|', r'\|')} |")
+md.append("\n".join(lines) + "\n")
+
+md.append("## Free-tier census: recurring, one-time, and unknown\n")
+rec = [p for p in PROVIDERS if (p.get("free") or {}).get("monthly_credit")]
+one = [p for p in PROVIDERS if (p.get("free") or {}).get("one_time_credit")]
+
+def zero_plan_no_credit(p):
+    """A plan named like a free tier, priced $0, with no credit on the card.
+    Strict on purpose: a $0 pay-as-you-go plan is not a read of a free tier."""
+    f = p.get("free") or {}
+    if f.get("monthly_credit") or f.get("one_time_credit"):
+        return False
+    name = re.compile(r"free|hobby|starter|basic|community|trial|developer|individual", re.I)
+    return any((pl.get("fee") == 0 and not pl.get("trial_only")
+                and not (pl.get("included_usd") or 0)
+                and name.search(pl.get("name") or "")) for pl in (p["facts"].get("plans") or []))
+
+unknown = [p for p in PROVIDERS if zero_plan_no_credit(p)]
+md.append(f"- **{len(rec)} providers publish a credit that recurs every month.** "
+          f"The largest is {max((p['free']['monthly_credit'], p['name']) for p in rec)[1]} at "
+          f"${max(p['free']['monthly_credit'] for p in rec):g}/month.")
+md.append(f"- **{len(one)} publish a one-time credit.** The famous $300 grants are here; they do "
+          f"not renew.")
+md.append(f"- **{len(unknown)} sell a $0 plan and publish no credit, quota or cap.** Whether that "
+          f"is a usable free tier or an unpriced meter is not in the card; it is recorded as "
+          f"unknown, not free.\n")
+
+ledger = len(priced) + len(nofit) + len(unpriced)
+md.append(f"## Exclusion ledger\n")
+md.append(f"All {ledger} of {len(rows)} surveyed providers are accounted for: "
+          f"**{len(priced)}** priceable at some horizon, **{len(unpriced)}** with only a "
+          f"bandwidth/flat-pool meter (`unpriced`), **{len(nofit)}** that fit no sized mode. "
+          f"The table below lists every provider the ranking could not price, with the engine's reason.\n")
 
 md.append("## Could not be priced at the 10 h/day month (or any horizon)\n")
 md.append("| Provider | Type | Reason |")

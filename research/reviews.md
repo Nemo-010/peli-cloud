@@ -133,3 +133,45 @@ Small size (this needs an authenticated API call, not another read), and a
 second tier of providers below the top 20 (Kamatera, Civo, Vultr, Together,
 Alibaba, Together) that has never been re-read. **Assume more claims remain
 wrong.**
+
+---
+
+## Pass 5 (2026-10-02): the minimum bill, ported from a parallel implementation
+
+A second implementation of the same catalogue (`talaria0101/peli-cloud`, 0BSD,
+same day) was read. Three things closed gaps here and were ported rather than
+copied: the **minimum billable unit / granularity per start**, a **free-tier
+census**, and an **exclusion ledger** covering all 366 cards. One thing was
+refused: talaria vendors the unlicensed `battleships` corpus in tree under
+0BSD. That corpus publishes no licence, so it cannot be redistributed and must
+not be relicensed; this repo continues to fetch it with `tools/fetch-corpus.sh`
+and commits none of it.
+
+The new workload is `b30m` — the same 300 h/month as `m10h`, delivered as 600
+thirty-minute starts (20/day). It is priced through the same engine and the same
+shape, and emitted per provider as `burst` in `data/derived.json`. **21 of the
+179 priceable providers are penalised**, led by Azure Container Apps at 3.5x
+(the credit is fixed while billed hours double), Expo at 2.4x (a $1 per-start
+fee), and a block of hourly-rounding VPS providers at exactly 2x (Hetzner,
+Civo, Scaleway, Vultr, Linode, Paperspace, UpCloud, STACKIT, NAVER, Together).
+Hetzner is the notable faller: #4 smooth, #7 bursty. Full table in
+`data/usage.md`.
+
+The free-tier census separates what a "free tier" is: **13** providers publish a
+credit that recurs monthly (largest Modal, $30/mo), **89** a one-time credit
+(including the $300 grants, which do not renew), and **71** sell a $0 plan with
+no credit, quota or cap — recorded as unknown, not free. The ledger accounts for
+all 366: 179 priceable, 2 unpriced meters (Bright Data, Unikraft), 185 no-fit.
+A `trial_only` plan is never a ranked row; the engine skips it, so boat, vercel,
+codesandbox and rivet rank on their paid plans.
+
+Ten adversarial reviews of this revision, each with method and evidence, are in
+`research/deep-reviews.md`. Two changes came out of them: finding 3 was
+tightened to "two of the top seven are credit-driven" (Azure and Google; the
+top four do not move without credits), and the bursty table warns that a bursty
+run can land on a different mode — and therefore a different product — than the
+smooth month (E2E and Expo both switch).
+
+The next pass should still attack: Lizard's Small size (authenticated API call),
+and the never-re-read second tier (Kamatera, Civo, Vultr, Together, Alibaba).
+**Assume more claims remain wrong.**

@@ -66,6 +66,20 @@ for (const def of Object.values(WORKLOADS)) {
   def.total_minutes = def.sessions * def.minutes;
 }
 
+// Bursty use: the same 10 h/day a month, delivered the way an agent that starts
+// a sandbox per tool call actually does it - twenty 30-minute sessions a day
+// (600 over the month), not one 10 h session. The engine applies each mode's
+// minimum billable unit and granularity per start, so this is the pessimistic
+// side of the same demand: a provider that rounds any start up to an hour shows
+// a 2x penalty here and 1x in the m10h column above. Compared like for like, so
+// the three columns are the same 300 hours of demand.
+const BURSTY = {
+  b30m: { sessions: 600, minutes: 30, description: '10 h/day as 20 x 30-min sessions (bursty agent month)' },
+};
+for (const def of Object.values(BURSTY)) {
+  def.total_minutes = def.sessions * def.minutes;
+}
+
 function price(card, W, credits) {
   try {
     const r = PM.priceCard(card, Object.assign({}, BASE, W), { credits });
@@ -96,7 +110,7 @@ function facts(card) {
     pricing: m.pricing || null, vcpu_h: m.vcpu_h ?? null, ram_gib_h: m.ram_gib_h ?? null,
     sizes: (m.sizes || []).map(s => ({ name: s.name, vcpu: s.vcpu, ram_gib: s.ram_gib, disk_gib: s.disk_gib ?? null, hour: s.hour ?? null, month_cap: s.month_cap ?? null })),
     min_billed_seconds: m.min_billed_seconds ?? null, granularity_s: m.granularity_s ?? null,
-    boot_overhead_s: m.boot_overhead_s ?? null, commit_note: m.commit_note || null,
+    start_fee: m.start_fee ?? null, boot_overhead_s: m.boot_overhead_s ?? null, commit_note: m.commit_note || null,
     vcpu_options: m.vcpu_options || null, min_vcpu: m.min_vcpu ?? null, max_vcpu: m.max_vcpu ?? null, max_ram_gib: m.max_ram_gib ?? null,
     always_on_month_per_instance: m.always_on_month_per_instance ?? null, requires_always_on: !!m.requires_always_on,
   }));
@@ -160,6 +174,17 @@ const providers = cards.map(card => {
     }
     cost[id] = best || { eligible: false, total: null, reasons: firstReasons, caveats: [], mode: firstMode };
   }
+  const burst = {};
+  for (const [id, def] of Object.entries(BURSTY)) {
+    const w = Object.assign({}, SHAPE, { sessions: def.sessions, sessionMin: def.minutes });
+    const r = price(card, w, true);
+    const nc = price(card, w, false);
+    burst[id] = {
+      eligible: r.eligible, total: r.total, total_no_credit: nc.total,
+      mode: r.mode, plan: r.plan, reasons: r.reasons, caveats: r.caveats,
+      sessions: def.sessions, session_min: def.minutes,
+    };
+  }
   return {
     id: card.id,
     name: card.name,
@@ -168,6 +193,7 @@ const providers = cards.map(card => {
     isolation: card.isolation,
     free: card.free || null,
     cost,
+    burst,
     facts: facts(card),
   };
 });
@@ -183,6 +209,7 @@ const out = {
   shape: SHAPE,
   method: 'each horizon is delivered as the cheapest eligible split into sessions (a 10 h day may be one 10 h session or two 5 h sessions); providers are ranked on that cheapest price',
   workloads: Object.fromEntries(Object.entries(WORKLOADS).map(([k, v]) => [k, { description: v.description, sessions: v.sessions, minutes: v.minutes, total_minutes: v.total_minutes }])),
+  bursty: Object.fromEntries(Object.entries(BURSTY).map(([k, v]) => [k, { description: v.description, sessions: v.sessions, minutes: v.minutes, total_minutes: v.total_minutes }])),
   providers,
 };
 fs.mkdirSync(path.dirname(OUT), { recursive: true });

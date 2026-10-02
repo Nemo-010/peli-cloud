@@ -52,6 +52,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -84,6 +88,10 @@
     "m10h": 2.5479,
     "m30": 6.1151
    },
+   "burst": 2.5479,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 25,
     "r10h": 21,
@@ -114,6 +122,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -146,6 +158,10 @@
     "m10h": 77.598,
     "m30": 186.2352
    },
+   "burst": 77.598,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 124,
     "r10h": 122,
@@ -176,6 +192,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -209,6 +229,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -241,6 +265,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -274,6 +302,10 @@
     "m10h": 29.76,
     "m30": 71.424
    },
+   "burst": 29.76,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 83,
     "r10h": 80,
@@ -307,6 +339,10 @@
     "m10h": 16.8603,
     "m30": 40.4648
    },
+   "burst": 16.8603,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 63,
     "r10h": 59,
@@ -337,6 +373,10 @@
     "m10h": 9.063,
     "m30": 14.4792
    },
+   "burst": 9.063,
+   "burst_x": 1.0,
+   "min_bill": "min 2 min",
+   "burst_bill": "min 2 min",
    "ranks": {
     "r1h": 42,
     "r10h": 38,
@@ -367,6 +407,10 @@
     "m10h": 107.32,
     "m30": 264.568
    },
+   "burst": 107.32,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 1,
     "r10h": 1,
@@ -397,6 +441,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -429,6 +477,10 @@
     "m10h": 10.01,
     "m30": 31.01
    },
+   "burst": 16,
+   "burst_x": 1.5984015984015985,
+   "min_bill": "$0.01 per start",
+   "burst_bill": "$0.01 per start",
    "ranks": {
     "r1h": 2,
     "r10h": 2,
@@ -446,7 +498,7 @@
     "machine size per session not published",
     "disk beyond 0 GiB: price unknown"
    ],
-   "notes": "no machine size published, not shape-comparable; disk beyond 0 GiB: price unknown"
+   "notes": "bursty 30-min starts bill 1.6x here ($0.01 per start); no machine size published, not shape-comparable; disk beyond 0 GiB: price unknown"
   },
   {
    "id": "anka-build-cloud",
@@ -462,6 +514,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -495,6 +551,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -527,6 +587,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -561,6 +625,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -593,6 +661,10 @@
     "m10h": 552.6438,
     "m30": 630.5452
    },
+   "burst": 552.6438,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 177,
     "r10h": 177,
@@ -623,6 +695,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -655,6 +731,10 @@
     "m10h": 56.3208,
     "m30": 135.1699
    },
+   "burst": 56.3208,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 115,
     "r10h": 111,
@@ -685,6 +765,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -717,6 +801,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -749,6 +837,10 @@
     "m10h": 38.19,
     "m30": 91.656
    },
+   "burst": 38.19,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 92,
     "r10h": 88,
@@ -781,6 +873,10 @@
     "m10h": 21.6,
     "m30": 51.84
    },
+   "burst": 21.6,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 73,
     "r10h": 69,
@@ -811,6 +907,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -844,6 +944,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -877,6 +981,10 @@
     "m10h": 15.3875,
     "m30": 36.9301
    },
+   "burst": 15.3875,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 56,
     "r10h": 52,
@@ -907,6 +1015,10 @@
     "m10h": 17.43,
     "m30": 41.832
    },
+   "burst": 17.43,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 64,
     "r10h": 60,
@@ -937,6 +1049,10 @@
     "m10h": 75.66,
     "m30": 181.584
    },
+   "burst": 75.66,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 122,
     "r10h": 120,
@@ -967,6 +1083,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -999,6 +1119,10 @@
     "m10h": 84.007,
     "m30": 201.607
    },
+   "burst": 172.2,
+   "burst_x": 2.0498291809015914,
+   "min_bill": "min 1 h",
+   "burst_bill": "min 1 h",
    "ranks": {
     "r1h": 125,
     "r10h": 123,
@@ -1013,7 +1137,7 @@
    "unpriced": false,
    "reasons": [],
    "caveats": [],
-   "notes": ""
+   "notes": "bursty 30-min starts bill 2.0x here (min 1 h)"
   },
   {
    "id": "azure-container-apps-sandboxes",
@@ -1029,6 +1153,10 @@
     "m10h": 64.8,
     "m30": 155.52
    },
+   "burst": 64.8,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 118,
     "r10h": 115,
@@ -1059,6 +1187,10 @@
     "m10h": 3.6,
     "m30": 16.2
    },
+   "burst": 12.6,
+   "burst_x": 3.5,
+   "min_bill": "min 1 h",
+   "burst_bill": "min 1 h",
    "ranks": {
     "r1h": 3,
     "r10h": 3,
@@ -1076,7 +1208,7 @@
     "machine size per session not published",
     "disk beyond 4 GiB: price unknown"
    ],
-   "notes": "free grant ($5.40) is Consumption vCPU/GiB, not the Dynamic Sessions mode priced; no machine size published, not shape-comparable; disk beyond 4 GiB: price unknown"
+   "notes": "free grant ($5.40) is Consumption vCPU/GiB, not the Dynamic Sessions mode priced; bursty 30-min starts bill 3.5x here (min 1 h); no machine size published, not shape-comparable"
   },
   {
    "id": "azure-dev-box",
@@ -1092,6 +1224,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -1124,6 +1260,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -1157,6 +1297,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -1193,6 +1337,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -1228,6 +1376,10 @@
     "m10h": 11.8969,
     "m30": 28.5519
    },
+   "burst": 12.1938,
+   "burst_x": 1.0249560809958895,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 49,
     "r10h": 45,
@@ -1258,6 +1410,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -1291,6 +1447,10 @@
     "m10h": 159.8219,
     "m30": 261.7726
    },
+   "burst": 159.8219,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 161,
     "r10h": 161,
@@ -1321,6 +1481,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -1362,6 +1526,10 @@
     "m10h": 68.148,
     "m30": 163.5552
    },
+   "burst": 68.148,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 119,
     "r10h": 117,
@@ -1394,6 +1562,10 @@
     "m10h": 173.25,
     "m30": 425.25
    },
+   "burst": 173.25,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 84,
     "r10h": 133,
@@ -1424,6 +1596,10 @@
     "m10h": 59,
     "m30": 59
    },
+   "burst": 59,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 170,
     "r10h": 170,
@@ -1456,6 +1632,10 @@
     "m10h": 33,
     "m30": 96
    },
+   "burst": 33,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 4,
     "r10h": 4,
@@ -1486,6 +1666,10 @@
     "m10h": 50.6663,
     "m30": 121.5991
    },
+   "burst": 50.6663,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 112,
     "r10h": 108,
@@ -1516,6 +1700,10 @@
     "m10h": 20,
     "m30": 20
    },
+   "burst": 20,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 148,
     "r10h": 146,
@@ -1548,6 +1736,10 @@
     "m10h": 46.92,
     "m30": 112.608
    },
+   "burst": 46.92,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 101,
     "r10h": 97,
@@ -1578,6 +1770,10 @@
     "m10h": 129,
     "m30": 381
    },
+   "burst": 129,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 162,
     "r10h": 162,
@@ -1608,6 +1804,10 @@
     "m10h": 0,
     "m30": 0
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -1641,6 +1841,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -1673,6 +1877,10 @@
     "m10h": 6,
     "m30": 14.4
    },
+   "burst": 6,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 31,
     "r10h": 27,
@@ -1706,6 +1914,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -1738,6 +1950,10 @@
     "m10h": 99,
     "m30": 121
    },
+   "burst": 99,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 163,
     "r10h": 163,
@@ -1771,6 +1987,10 @@
     "m10h": 249,
     "m30": 249
    },
+   "burst": 249,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 171,
     "r10h": 171,
@@ -1804,6 +2024,10 @@
     "m10h": 350,
     "m30": 350
    },
+   "burst": 350,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 175,
     "r10h": 175,
@@ -1837,6 +2061,10 @@
     "m10h": 26.43,
     "m30": 63.642
    },
+   "burst": 26.43,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 5,
     "r10h": 70,
@@ -1867,6 +2095,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -1899,6 +2131,10 @@
     "m10h": 136,
     "m30": 337.6
    },
+   "burst": 136,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 6,
     "r10h": 5,
@@ -1929,6 +2165,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -1961,6 +2201,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -1993,6 +2237,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -2025,6 +2273,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -2059,6 +2311,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -2091,6 +2347,10 @@
     "m10h": 18,
     "m30": 43.2
    },
+   "burst": 18,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 65,
     "r10h": 61,
@@ -2121,6 +2381,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -2165,6 +2429,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -2197,6 +2465,10 @@
     "m10h": 90,
     "m30": 241.2
    },
+   "burst": 90,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 7,
     "r10h": 6,
@@ -2227,6 +2499,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -2259,6 +2535,10 @@
     "m10h": 8.9286,
     "m30": 21.4286
    },
+   "burst": 17.8572,
+   "burst_x": 2.0,
+   "min_bill": "min 1 h",
+   "burst_bill": "min 1 h",
    "ranks": {
     "r1h": 39,
     "r10h": 35,
@@ -2273,7 +2553,7 @@
    "unpriced": false,
    "reasons": [],
    "caveats": [],
-   "notes": ""
+   "notes": "bursty 30-min starts bill 2.0x here (min 1 h)"
   },
   {
    "id": "claude-managed-agents",
@@ -2289,6 +2569,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -2323,6 +2607,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -2355,6 +2643,10 @@
     "m10h": 27.55,
     "m30": 66.12
    },
+   "burst": 27.55,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 80,
     "r10h": 77,
@@ -2387,6 +2679,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -2419,6 +2715,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -2451,6 +2751,10 @@
     "m10h": 894,
     "m30": 2154
    },
+   "burst": 894,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 8,
     "r10h": 153,
@@ -2484,6 +2788,10 @@
     "m10h": 31.1,
     "m30": 68.9
    },
+   "burst": 31.1,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 135,
     "r10h": 130,
@@ -2517,6 +2825,10 @@
     "m10h": 43.5867,
     "m30": 98.6235
    },
+   "burst": 43.6303,
+   "burst_x": 1.0010003051389529,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 136,
     "r10h": 134,
@@ -2547,6 +2859,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -2580,6 +2896,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -2612,6 +2932,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -2644,6 +2968,10 @@
     "m10h": 15,
     "m30": 30
    },
+   "burst": 15,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 54,
     "r10h": 50,
@@ -2677,6 +3005,10 @@
     "m10h": 332.5,
     "m30": 332.5
    },
+   "burst": 332.5,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 134,
     "r10h": 154,
@@ -2710,6 +3042,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -2742,6 +3078,10 @@
     "m10h": 190.8,
     "m30": 253.212
    },
+   "burst": 190.8,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 167,
     "r10h": 167,
@@ -2772,6 +3112,10 @@
     "m10h": 38.4,
     "m30": 92.16
    },
+   "burst": 38.4,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 93,
     "r10h": 89,
@@ -2804,6 +3148,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -2836,6 +3184,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -2868,6 +3220,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -2900,6 +3256,10 @@
     "m10h": 6.6,
     "m30": 6.6
    },
+   "burst": 6.6,
+   "burst_x": 1.0,
+   "min_bill": "min 1 h",
+   "burst_bill": "min 1 h",
    "ranks": {
     "r1h": 139,
     "r10h": 135,
@@ -2932,6 +3292,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -2979,6 +3343,10 @@
     "m10h": 36.5568,
     "m30": 87.7363
    },
+   "burst": 36.5568,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 141,
     "r10h": 139,
@@ -3009,6 +3377,10 @@
     "m10h": 24.6575,
     "m30": 59.1781
    },
+   "burst": 24.6575,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 74,
     "r10h": 71,
@@ -3039,6 +3411,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -3072,6 +3448,10 @@
     "m10h": 53.55,
     "m30": 128.52
    },
+   "burst": 53.55,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 113,
     "r10h": 109,
@@ -3104,6 +3484,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -3136,6 +3520,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -3168,6 +3556,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -3201,6 +3593,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -3233,6 +3629,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -3265,6 +3665,10 @@
     "m10h": 50.166,
     "m30": 120.3984
    },
+   "burst": 50.166,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 106,
     "r10h": 102,
@@ -3297,6 +3701,10 @@
     "m10h": 50.5841,
     "m30": 121.4019
    },
+   "burst": 50.5841,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 111,
     "r10h": 107,
@@ -3327,6 +3735,10 @@
     "m10h": 45.312,
     "m30": 108.7488
    },
+   "burst": 45.312,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 99,
     "r10h": 95,
@@ -3357,6 +3769,10 @@
     "m10h": 44.25,
     "m30": null
    },
+   "burst": 44.25,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 149,
     "r10h": 147,
@@ -3389,6 +3805,10 @@
     "m10h": 116,
     "m30": 267.2
    },
+   "burst": 116,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 150,
     "r10h": 148,
@@ -3419,6 +3839,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -3451,6 +3875,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -3491,6 +3919,10 @@
     "m10h": 10.713,
     "m30": 24
    },
+   "burst": 10.713,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 46,
     "r10h": 42,
@@ -3521,6 +3953,10 @@
     "m10h": 42,
     "m30": 100.8
    },
+   "burst": 42,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 96,
     "r10h": 92,
@@ -3551,6 +3987,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -3583,6 +4023,10 @@
     "m10h": 49.68,
     "m30": 119.232
    },
+   "burst": 49.68,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 102,
     "r10h": 98,
@@ -3613,6 +4057,10 @@
     "m10h": 14.0219,
     "m30": 33.6526
    },
+   "burst": 14.7,
+   "burst_x": 1.0483600653263823,
+   "min_bill": "rounds to 1 h",
+   "burst_bill": null,
    "ranks": {
     "r1h": 52,
     "r10h": 48,
@@ -3643,6 +4091,10 @@
     "m10h": 137.0131,
     "m30": 328.8315
    },
+   "burst": 137.0131,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 131,
     "r10h": 129,
@@ -3675,6 +4127,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -3708,6 +4164,10 @@
     "m10h": 15,
     "m30": 15
    },
+   "burst": 15,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 145,
     "r10h": 143,
@@ -3740,6 +4200,10 @@
     "m10h": 14.838,
     "m30": 35.6112
    },
+   "burst": 14.838,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 53,
     "r10h": 49,
@@ -3770,6 +4234,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -3802,6 +4270,10 @@
     "m10h": 124,
     "m30": 334
    },
+   "burst": 298,
+   "burst_x": 2.403225806451613,
+   "min_bill": "$1 per start",
+   "burst_bill": null,
    "ranks": {
     "r1h": 146,
     "r10h": 144,
@@ -3818,7 +4290,7 @@
    "caveats": [
     "disk beyond 0 GiB: price unknown"
    ],
-   "notes": "disk beyond 0 GiB: price unknown; session cap 2 h, needs restarts; egress unpublished"
+   "notes": "bursty 30-min starts bill 2.4x here ($1 per start); disk beyond 0 GiB: price unknown; session cap 2 h, needs restarts"
   },
   {
    "id": "fal",
@@ -3834,6 +4306,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -3872,6 +4348,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -3904,6 +4384,10 @@
     "m10h": 749,
     "m30": 749
    },
+   "burst": 749,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 179,
     "r10h": 179,
@@ -3937,6 +4421,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -3971,6 +4459,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -4003,6 +4495,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -4038,6 +4534,10 @@
     "m10h": 7.5826,
     "m30": 18.1983
    },
+   "burst": 7.5826,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 35,
     "r10h": 31,
@@ -4068,6 +4568,10 @@
     "m10h": 21.808,
     "m30": 78.0712
    },
+   "burst": 21.808,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 9,
     "r10h": 7,
@@ -4098,6 +4602,10 @@
     "m10h": 5.802,
     "m30": 13.9248
    },
+   "burst": 5.802,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 30,
     "r10h": 26,
@@ -4130,6 +4638,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -4168,6 +4680,10 @@
     "m10h": 20.9253,
     "m30": 50.2208
    },
+   "burst": 20.9253,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 71,
     "r10h": 67,
@@ -4198,6 +4714,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -4230,6 +4750,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -4262,6 +4786,10 @@
     "m10h": 21,
     "m30": 21
    },
+   "burst": 21,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 10,
     "r10h": 8,
@@ -4294,6 +4822,10 @@
     "m10h": 46.575,
     "m30": 126.9
    },
+   "burst": 46.59,
+   "burst_x": 1.0003220611916264,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 11,
     "r10h": 9,
@@ -4324,6 +4856,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -4356,6 +4892,10 @@
     "m10h": 109,
     "m30": 361
    },
+   "burst": 109,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 12,
     "r10h": 113,
@@ -4386,6 +4926,10 @@
     "m10h": 73,
     "m30": 73
    },
+   "burst": 73,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 160,
     "r10h": 160,
@@ -4418,6 +4962,10 @@
     "m10h": 21,
     "m30": 50.4
    },
+   "burst": 21,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 143,
     "r10h": 141,
@@ -4451,6 +4999,10 @@
     "m10h": 61.8,
     "m30": 148.32
    },
+   "burst": 61.8,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 117,
     "r10h": 114,
@@ -4483,6 +5035,10 @@
     "m10h": 93,
     "m30": 244.2
    },
+   "burst": 93,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 13,
     "r10h": 10,
@@ -4513,6 +5069,10 @@
     "m10h": 4.3583,
     "m30": 17.768
    },
+   "burst": 4.3583,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 14,
     "r10h": 11,
@@ -4543,6 +5103,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -4576,6 +5140,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -4608,6 +5176,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -4640,6 +5212,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -4672,6 +5248,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -4704,6 +5284,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -4736,6 +5320,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -4772,6 +5360,10 @@
     "m10h": 3.12,
     "m30": 6.49
    },
+   "burst": 6.24,
+   "burst_x": 2.0,
+   "min_bill": "min 1 h",
+   "burst_bill": "min 1 h",
    "ranks": {
     "r1h": 27,
     "r10h": 23,
@@ -4786,7 +5378,7 @@
    "unpriced": false,
    "reasons": [],
    "caveats": [],
-   "notes": ""
+   "notes": "bursty 30-min starts bill 2.0x here (min 1 h)"
   },
   {
    "id": "hetzner-dedicated",
@@ -4802,6 +5394,10 @@
     "m10h": 32.25,
     "m30": 67.1
    },
+   "burst": 64.5,
+   "burst_x": 2.0,
+   "min_bill": "min 1 h",
+   "burst_bill": "min 1 h",
    "ranks": {
     "r1h": 88,
     "r10h": 84,
@@ -4816,7 +5412,7 @@
    "unpriced": false,
    "reasons": [],
    "caveats": [],
-   "notes": ""
+   "notes": "bursty 30-min starts bill 2.0x here (min 1 h)"
   },
   {
    "id": "hetzner-gpu",
@@ -4832,6 +5428,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -4866,6 +5466,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -4898,6 +5502,10 @@
     "m10h": 50.3277,
     "m30": 120.7864
    },
+   "burst": 50.3277,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 108,
     "r10h": 104,
@@ -4928,6 +5536,10 @@
     "m10h": 14.99,
     "m30": 14.99
    },
+   "burst": 14.99,
+   "burst_x": 1.0,
+   "min_bill": "min 1 h",
+   "burst_bill": "min 1 h",
    "ranks": {
     "r1h": 144,
     "r10h": 142,
@@ -4960,6 +5572,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -4992,6 +5608,10 @@
     "m10h": 119.1829,
     "m30": 286.0389
    },
+   "burst": 119.1829,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 130,
     "r10h": 128,
@@ -5022,6 +5642,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -5055,6 +5679,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -5094,6 +5722,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -5126,6 +5758,10 @@
     "m10h": 56,
     "m30": 232.4
    },
+   "burst": 56,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 15,
     "r10h": 12,
@@ -5159,6 +5795,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -5191,6 +5831,10 @@
     "m10h": 30,
     "m30": 72
    },
+   "burst": 30,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 85,
     "r10h": 81,
@@ -5224,6 +5868,10 @@
     "m10h": 105,
     "m30": 252
    },
+   "burst": 105,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 128,
     "r10h": 126,
@@ -5254,6 +5902,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -5286,6 +5938,10 @@
     "m10h": 10.5525,
     "m30": 25.326
    },
+   "burst": 10.5525,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 45,
     "r10h": 41,
@@ -5316,6 +5972,10 @@
     "m10h": 7.9245,
     "m30": 33.0188
    },
+   "burst": 7.9245,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 16,
     "r10h": 13,
@@ -5346,6 +6006,10 @@
     "m10h": 150.28,
     "m30": 220.672
    },
+   "burst": 150.28,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 165,
     "r10h": 165,
@@ -5378,6 +6042,10 @@
     "m10h": 145,
     "m30": 250
    },
+   "burst": 145,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 166,
     "r10h": 166,
@@ -5410,6 +6078,10 @@
     "m10h": 4.4374,
     "m30": 10.6498
    },
+   "burst": 4.4374,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 29,
     "r10h": 25,
@@ -5440,6 +6112,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -5472,6 +6148,10 @@
     "m10h": 94.2,
     "m30": 226.08
    },
+   "burst": 94.2,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 126,
     "r10h": 124,
@@ -5502,6 +6182,10 @@
     "m10h": 33.1315,
     "m30": 79.5156
    },
+   "burst": 33.1315,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 89,
     "r10h": 85,
@@ -5532,6 +6216,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -5564,6 +6252,10 @@
     "m10h": 15.8219,
     "m30": 37.9726
    },
+   "burst": 15.8219,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 60,
     "r10h": 56,
@@ -5594,6 +6286,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -5626,6 +6322,10 @@
     "m10h": 10.472,
     "m30": 25.1327
    },
+   "burst": 10.472,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 44,
     "r10h": 40,
@@ -5656,6 +6356,10 @@
     "m10h": 8.2196,
     "m30": 19.7265
    },
+   "burst": 8.4932,
+   "burst_x": 1.033286291303713,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 38,
     "r10h": 34,
@@ -5686,6 +6390,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -5720,6 +6428,10 @@
     "m10h": 5.6849,
     "m30": 20.6438
    },
+   "burst": 5.6849,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 17,
     "r10h": 14,
@@ -5750,6 +6462,10 @@
     "m10h": 13,
     "m30": 38.2001
    },
+   "burst": 13,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 18,
     "r10h": 15,
@@ -5783,6 +6499,10 @@
     "m10h": 29,
     "m30": 39.736
    },
+   "burst": 29,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 155,
     "r10h": 155,
@@ -5813,6 +6533,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -5845,6 +6569,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -5882,6 +6610,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -5916,6 +6648,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -5948,6 +6684,10 @@
     "m10h": 48.33,
     "m30": 48.33
    },
+   "burst": 48.33,
+   "burst_x": 1.0,
+   "min_bill": "min 1 h",
+   "burst_bill": "min 1 h",
    "ranks": {
     "r1h": 116,
     "r10h": 112,
@@ -5980,6 +6720,10 @@
     "m10h": 49.68,
     "m30": 119.232
    },
+   "burst": 49.68,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 103,
     "r10h": 99,
@@ -6012,6 +6756,10 @@
     "m10h": 0.411,
     "m30": 0.9863
    },
+   "burst": 0.411,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 24,
     "r10h": 20,
@@ -6044,6 +6792,10 @@
     "m10h": 19,
     "m30": 52.6
    },
+   "burst": 19,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 147,
     "r10h": 145,
@@ -6077,6 +6829,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -6109,6 +6865,10 @@
     "m10h": 10.8,
     "m30": 24
    },
+   "burst": 21.6,
+   "burst_x": 2.0,
+   "min_bill": "min 1 h",
+   "burst_bill": "min 1 h",
    "ranks": {
     "r1h": 47,
     "r10h": 43,
@@ -6123,7 +6883,7 @@
    "unpriced": false,
    "reasons": [],
    "caveats": [],
-   "notes": ""
+   "notes": "bursty 30-min starts bill 2.0x here (min 1 h)"
   },
   {
    "id": "lizard",
@@ -6139,6 +6899,10 @@
     "m10h": 6.5507,
     "m30": 15.7216
    },
+   "burst": 6.5507,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 34,
     "r10h": 30,
@@ -6169,6 +6933,10 @@
     "m10h": 15.6,
     "m30": 37.44
    },
+   "burst": 15.6,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 59,
     "r10h": 55,
@@ -6199,6 +6967,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -6233,6 +7005,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -6267,6 +7043,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -6299,6 +7079,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -6331,6 +7115,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -6363,6 +7151,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -6395,6 +7187,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -6430,6 +7226,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -6462,6 +7262,10 @@
     "m10h": 49,
     "m30": 111.696
    },
+   "burst": 49,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 157,
     "r10h": 157,
@@ -6492,6 +7296,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -6524,6 +7332,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -6556,6 +7368,10 @@
     "m10h": 46.5561,
     "m30": 111.7346
    },
+   "burst": 46.5561,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 100,
     "r10h": 96,
@@ -6588,6 +7404,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -6620,6 +7440,10 @@
     "m10h": 26.9808,
     "m30": 106.7539
    },
+   "burst": 26.9808,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 19,
     "r10h": 16,
@@ -6650,6 +7474,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -6682,6 +7510,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -6714,6 +7546,10 @@
     "m10h": 30,
     "m30": 62
    },
+   "burst": 30,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 86,
     "r10h": 82,
@@ -6746,6 +7582,10 @@
     "m10h": 15,
     "m30": 36
    },
+   "burst": 15,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 55,
     "r10h": 51,
@@ -6776,6 +7616,10 @@
     "m10h": 77.326,
     "m30": 185.5825
    },
+   "burst": 78.5534,
+   "burst_x": 1.0158730569278123,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 123,
     "r10h": 121,
@@ -6806,6 +7650,10 @@
     "m10h": 42.4176,
     "m30": 101.8022
    },
+   "burst": 84.8352,
+   "burst_x": 2.0,
+   "min_bill": "rounds to 1 h",
+   "burst_bill": "rounds to 1 h",
    "ranks": {
     "r1h": 97,
     "r10h": 93,
@@ -6822,7 +7670,7 @@
    "caveats": [
     "disk beyond 0 GiB: price unknown"
    ],
-   "notes": "disk beyond 0 GiB: price unknown; egress unpublished"
+   "notes": "bursty 30-min starts bill 2.0x here (rounds to 1 h); disk beyond 0 GiB: price unknown; egress unpublished"
   },
   {
    "id": "nebius-contree",
@@ -6838,6 +7686,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -6870,6 +7722,10 @@
     "m10h": 15.4636,
     "m30": 37.1125
    },
+   "burst": 15.4636,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 58,
     "r10h": 54,
@@ -6900,6 +7756,10 @@
     "m10h": 5.0291,
     "m30": 5.0291
    },
+   "burst": 5.0291,
+   "burst_x": 1.0,
+   "min_bill": "min 1 h",
+   "burst_bill": "min 1 h",
    "ranks": {
     "r1h": 138,
     "r10h": 132,
@@ -6932,6 +7792,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -6964,6 +7828,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -6996,6 +7864,10 @@
     "m10h": 21.1812,
     "m30": 50.835
    },
+   "burst": 21.1812,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 72,
     "r10h": 68,
@@ -7026,6 +7898,10 @@
     "m10h": 20,
     "m30": 20
    },
+   "burst": 20,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 151,
     "r10h": 149,
@@ -7059,6 +7935,10 @@
     "m10h": 34.992,
     "m30": 83.9808
    },
+   "burst": 34.992,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 90,
     "r10h": 86,
@@ -7089,6 +7969,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -7122,6 +8006,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -7154,6 +8042,10 @@
     "m10h": 49.68,
     "m30": 119.232
    },
+   "burst": 49.68,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 104,
     "r10h": 100,
@@ -7186,6 +8078,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -7218,6 +8114,10 @@
     "m10h": 75,
     "m30": 180
    },
+   "burst": 75,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 152,
     "r10h": 150,
@@ -7250,6 +8150,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -7282,6 +8186,10 @@
     "m10h": 39.7505,
     "m30": 95.4012
    },
+   "burst": 39.7505,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 94,
     "r10h": 90,
@@ -7312,6 +8220,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -7344,6 +8256,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -7380,6 +8296,10 @@
     "m10h": 20,
     "m30": 92.16
    },
+   "burst": 20,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 129,
     "r10h": 127,
@@ -7412,6 +8332,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -7445,6 +8369,10 @@
     "m10h": 71.28,
     "m30": 171.072
    },
+   "burst": 71.28,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 120,
     "r10h": 118,
@@ -7477,6 +8405,10 @@
     "m10h": 49.68,
     "m30": 119.232
    },
+   "burst": 49.68,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 105,
     "r10h": 101,
@@ -7509,6 +8441,10 @@
     "m10h": 25.65,
     "m30": 61.56
    },
+   "burst": 25.65,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 78,
     "r10h": 75,
@@ -7541,6 +8477,10 @@
     "m10h": 55,
     "m30": 139
    },
+   "burst": 55,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 20,
     "r10h": 17,
@@ -7574,6 +8514,10 @@
     "m10h": 3.0868,
     "m30": 7.4084
    },
+   "burst": 3.0868,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 26,
     "r10h": 22,
@@ -7604,6 +8548,10 @@
     "m10h": 99,
     "m30": 99
    },
+   "burst": 99,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 164,
     "r10h": 164,
@@ -7637,6 +8585,10 @@
     "m10h": 25.6005,
     "m30": 61.4412
    },
+   "burst": 25.6005,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 77,
     "r10h": 74,
@@ -7670,6 +8622,10 @@
     "m10h": 264,
     "m30": 633.6
    },
+   "burst": 264,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 133,
     "r10h": 137,
@@ -7702,6 +8658,10 @@
     "m10h": 7.68,
     "m30": 18.432
    },
+   "burst": 7.68,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 36,
     "r10h": 32,
@@ -7732,6 +8692,10 @@
     "m10h": 70.2296,
     "m30": 176.111
    },
+   "burst": 70.2296,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 21,
     "r10h": 18,
@@ -7762,6 +8726,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -7794,6 +8762,10 @@
     "m10h": 12.8219,
     "m30": 30.7726
    },
+   "burst": 25.6438,
+   "burst_x": 2.0,
+   "min_bill": "rounds to 1 h",
+   "burst_bill": "rounds to 1 h",
    "ranks": {
     "r1h": 50,
     "r10h": 46,
@@ -7808,7 +8780,7 @@
    "unpriced": false,
    "reasons": [],
    "caveats": [],
-   "notes": ""
+   "notes": "bursty 30-min starts bill 2.0x here (rounds to 1 h)"
   },
   {
    "id": "party",
@@ -7824,6 +8796,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -7856,6 +8832,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -7888,6 +8868,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -7920,6 +8904,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -7952,6 +8940,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -7984,6 +8976,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -8016,6 +9012,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -8049,6 +9049,10 @@
     "m10h": 19.313,
     "m30": 46.3513
    },
+   "burst": 19.313,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 68,
     "r10h": 64,
@@ -8079,6 +9083,10 @@
     "m10h": 28.2,
     "m30": 67.68
    },
+   "burst": 28.2,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 82,
     "r10h": 79,
@@ -8109,6 +9117,10 @@
     "m10h": 10.274,
     "m30": 24.6575
    },
+   "burst": 10.274,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 142,
     "r10h": 140,
@@ -8139,6 +9151,10 @@
     "m10h": 16.6752,
     "m30": 40.0205
    },
+   "burst": 16.6752,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 137,
     "r10h": 131,
@@ -8171,6 +9187,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -8203,6 +9223,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -8235,6 +9259,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -8267,6 +9295,10 @@
     "m10h": 71.05,
     "m30": 173.95
    },
+   "burst": 71.05,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 22,
     "r10h": 116,
@@ -8300,6 +9332,10 @@
     "m10h": 36.9862,
     "m30": 88.7669
    },
+   "burst": 36.9862,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 91,
     "r10h": 87,
@@ -8330,6 +9366,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -8362,6 +9402,10 @@
     "m10h": 194,
     "m30": 395.6
    },
+   "burst": 194,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 158,
     "r10h": 158,
@@ -8392,6 +9436,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -8431,6 +9479,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -8464,6 +9516,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -8497,6 +9553,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -8529,6 +9589,10 @@
     "m10h": 86.2888,
     "m30": 207.093
    },
+   "burst": 86.2888,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 153,
     "r10h": 151,
@@ -8559,6 +9623,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -8591,6 +9659,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -8623,6 +9695,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -8655,6 +9731,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -8687,6 +9767,10 @@
     "m10h": 97.094,
     "m30": 233.0255
    },
+   "burst": 97.094,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 127,
     "r10h": 125,
@@ -8717,6 +9801,10 @@
     "m10h": 18.8219,
     "m30": 45.1726
    },
+   "burst": 18.8219,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 67,
     "r10h": 63,
@@ -8747,6 +9835,10 @@
     "m10h": 61.57,
     "m30": 106.93
    },
+   "burst": 61.57,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 156,
     "r10h": 156,
@@ -8777,6 +9869,10 @@
     "m10h": 50.328,
     "m30": 120.7872
    },
+   "burst": 50.328,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 109,
     "r10h": 105,
@@ -8807,6 +9903,10 @@
     "m10h": 13.01,
     "m30": 38.21
    },
+   "burst": 19,
+   "burst_x": 1.4604150653343582,
+   "min_bill": "$0.01 per start",
+   "burst_bill": "$0.01 per start",
    "ranks": {
     "r1h": 23,
     "r10h": 19,
@@ -8821,7 +9921,7 @@
    "unpriced": false,
    "reasons": [],
    "caveats": [],
-   "notes": "$5/mo free credit; egress unpublished"
+   "notes": "bursty 30-min starts bill 1.5x here ($0.01 per start); $5/mo free credit; egress unpublished"
   },
   {
    "id": "sakura-cloud",
@@ -8837,6 +9937,10 @@
     "m10h": 28.6055,
     "m30": 31.1727
    },
+   "burst": 30.4392,
+   "burst_x": 1.064103057104403,
+   "min_bill": "min 1 h",
+   "burst_bill": "min 1 h",
    "ranks": {
     "r1h": 95,
     "r10h": 91,
@@ -8854,7 +9958,7 @@
     "monthly cap reached",
     "outbound bandwidth capped at 100 Mbps"
    ],
-   "notes": "price is one month's rent at every horizon"
+   "notes": "bursty 30-min starts bill 1.1x here (min 1 h); price is one month's rent at every horizon"
   },
   {
    "id": "samsung-cloud",
@@ -8870,6 +9974,10 @@
     "m10h": 27.7373,
     "m30": 66.5694
    },
+   "burst": 27.7373,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 81,
     "r10h": 78,
@@ -8900,6 +10008,10 @@
     "m10h": 27,
     "m30": 64.8
    },
+   "burst": 27,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 79,
     "r10h": 76,
@@ -8930,6 +10042,10 @@
     "m10h": 18.1644,
     "m30": 43.5945
    },
+   "burst": 18.1644,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 66,
     "r10h": 62,
@@ -8960,6 +10076,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -8992,6 +10112,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -9024,6 +10148,10 @@
     "m10h": 7.7812,
     "m30": 18.6748
    },
+   "burst": 15.5624,
+   "burst_x": 2.0,
+   "min_bill": "min 1 h",
+   "burst_bill": "min 1 h",
    "ranks": {
     "r1h": 37,
     "r10h": 33,
@@ -9038,7 +10166,7 @@
    "unpriced": false,
    "reasons": [],
    "caveats": [],
-   "notes": "Stardust disk is billed on top of the instance rate"
+   "notes": "Stardust disk is billed on top of the instance rate; bursty 30-min starts bill 2.0x here (min 1 h)"
   },
   {
    "id": "scitix-agent-sandbox",
@@ -9054,6 +10182,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -9089,6 +10221,10 @@
     "m10h": 398.91,
     "m30": 398.91
    },
+   "burst": 398.91,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 176,
     "r10h": 176,
@@ -9122,6 +10258,10 @@
     "m10h": 500,
     "m30": null
    },
+   "burst": 500,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 178,
     "r10h": 178,
@@ -9155,6 +10295,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -9187,6 +10331,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -9219,6 +10367,10 @@
     "m10h": 70,
     "m30": 70
    },
+   "burst": 70,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 159,
     "r10h": 159,
@@ -9252,6 +10404,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -9301,6 +10457,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -9333,6 +10493,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -9365,6 +10529,10 @@
     "m10h": 219.456,
     "m30": 526.6944
    },
+   "burst": 219.456,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 132,
     "r10h": 136,
@@ -9397,6 +10565,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -9430,6 +10602,10 @@
     "m10h": 49,
     "m30": 104.6
    },
+   "burst": 49,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 140,
     "r10h": 138,
@@ -9460,6 +10636,10 @@
     "m10h": 6,
     "m30": 14.4
    },
+   "burst": 6,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 32,
     "r10h": 28,
@@ -9490,6 +10670,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -9522,6 +10706,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -9554,6 +10742,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -9586,6 +10778,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -9618,6 +10814,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -9650,6 +10850,10 @@
     "m10h": 25.32,
     "m30": 60.768
    },
+   "burst": 25.32,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 76,
     "r10h": 73,
@@ -9680,6 +10884,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -9712,6 +10920,10 @@
     "m10h": 200,
     "m30": 200
    },
+   "burst": 200,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 169,
     "r10h": 169,
@@ -9744,6 +10956,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -9776,6 +10992,10 @@
     "m10h": 24.7644,
     "m30": 59.4345
    },
+   "burst": 24.7644,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 75,
     "r10h": 72,
@@ -9806,6 +11026,10 @@
     "m10h": 15.3961,
     "m30": 36.9507
    },
+   "burst": 30.7923,
+   "burst_x": 2.0000064951513696,
+   "min_bill": "min 1 h",
+   "burst_bill": "min 1 h",
    "ranks": {
     "r1h": 57,
     "r10h": 53,
@@ -9820,7 +11044,7 @@
    "unpriced": false,
    "reasons": [],
    "caveats": [],
-   "notes": "egress unpublished"
+   "notes": "bursty 30-min starts bill 2.0x here (min 1 h); egress unpublished"
   },
   {
    "id": "starsling",
@@ -9836,6 +11060,10 @@
     "m10h": 72,
     "m30": 172.8
    },
+   "burst": 72,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 121,
     "r10h": 119,
@@ -9868,6 +11096,10 @@
     "m10h": 368.6,
     "m30": 466.0401
    },
+   "burst": 368.6003,
+   "burst_x": 1.000000813890396,
+   "min_bill": "$5e-07 per start",
+   "burst_bill": "$5e-07 per start",
    "ranks": {
     "r1h": 174,
     "r10h": 174,
@@ -9900,6 +11132,10 @@
     "m10h": 250,
     "m30": 250
    },
+   "burst": 250,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 172,
     "r10h": 172,
@@ -9933,6 +11169,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -9965,6 +11205,10 @@
     "m10h": 50.328,
     "m30": 120.7872
    },
+   "burst": 50.328,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 110,
     "r10h": 106,
@@ -9995,6 +11239,10 @@
     "m10h": 199,
     "m30": 199
    },
+   "burst": 199,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 168,
     "r10h": 168,
@@ -10028,6 +11276,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -10060,6 +11312,10 @@
     "m10h": 13.6236,
     "m30": 32.6966
    },
+   "burst": 13.6236,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 51,
     "r10h": 47,
@@ -10090,6 +11346,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -10122,6 +11382,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -10154,6 +11418,10 @@
     "m10h": 42.6362,
     "m30": 102.3269
    },
+   "burst": 42.6362,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 98,
     "r10h": 94,
@@ -10184,6 +11452,10 @@
     "m10h": 11.1765,
     "m30": 26.8237
    },
+   "burst": 11.1765,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 48,
     "r10h": 44,
@@ -10216,6 +11488,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -10249,6 +11525,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -10283,6 +11563,10 @@
     "m10h": 50.166,
     "m30": 120.3984
    },
+   "burst": 50.166,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 107,
     "r10h": 103,
@@ -10313,6 +11597,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -10348,6 +11636,10 @@
     "m10h": 250,
     "m30": 250
    },
+   "burst": 250,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 173,
     "r10h": 173,
@@ -10378,6 +11670,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -10410,6 +11706,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -10442,6 +11742,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -10474,6 +11778,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -10506,6 +11814,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -10538,6 +11850,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -10571,6 +11887,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -10604,6 +11924,10 @@
     "m10h": 9,
     "m30": 21.6
    },
+   "burst": 18,
+   "burst_x": 2.0,
+   "min_bill": "min 1 h",
+   "burst_bill": "min 1 h",
    "ranks": {
     "r1h": 41,
     "r10h": 37,
@@ -10620,7 +11944,7 @@
    "caveats": [
     "machine size per session not published"
    ],
-   "notes": "no machine size published, not shape-comparable; egress unpublished"
+   "notes": "bursty 30-min starts bill 2.0x here (min 1 h); no machine size published, not shape-comparable; egress unpublished"
   },
   {
    "id": "together-gpu",
@@ -10636,6 +11960,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -10673,6 +12001,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -10705,6 +12037,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -10737,6 +12073,10 @@
     "m10h": 9.36,
     "m30": 22.464
    },
+   "burst": 9.36,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 43,
     "r10h": 39,
@@ -10767,6 +12107,10 @@
     "m10h": 19.3128,
     "m30": 46.3507
    },
+   "burst": 19.3128,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 69,
     "r10h": 65,
@@ -10800,6 +12144,10 @@
     "m10h": 0,
     "m30": 0
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -10833,6 +12181,10 @@
     "m10h": 6.2503,
     "m30": 14
    },
+   "burst": 12.6563,
+   "burst_x": 2.0249108042813946,
+   "min_bill": "min 1 h",
+   "burst_bill": "min 1 h",
    "ranks": {
     "r1h": 33,
     "r10h": 29,
@@ -10847,7 +12199,7 @@
    "unpriced": false,
    "reasons": [],
    "caveats": [],
-   "notes": ""
+   "notes": "bursty 30-min starts bill 2.0x here (min 1 h)"
   },
   {
    "id": "upstash-box",
@@ -10863,6 +12215,10 @@
     "m10h": 8.8219,
     "m30": 9.9726
    },
+   "burst": 8.8219,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 87,
     "r10h": 83,
@@ -10895,6 +12251,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -10927,6 +12287,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -10986,6 +12350,10 @@
     "m10h": 63.84,
     "m30": 153.216
    },
+   "burst": 63.8404,
+   "burst_x": 1.0000062656641604,
+   "min_bill": "$6e-07 per start",
+   "burst_bill": "$6e-07 per start",
    "ranks": {
     "r1h": 154,
     "r10h": 152,
@@ -11016,6 +12384,10 @@
     "m10h": 16.0438,
     "m30": 38.5052
    },
+   "burst": 16.0438,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 61,
     "r10h": 57,
@@ -11046,6 +12418,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -11078,6 +12454,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -11110,6 +12490,10 @@
     "m10h": 19.6027,
     "m30": 47.0466
    },
+   "burst": 19.6027,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 70,
     "r10h": 66,
@@ -11140,6 +12524,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -11172,6 +12560,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -11225,6 +12617,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -11257,6 +12653,10 @@
     "m10h": 8.94,
     "m30": 20
    },
+   "burst": 17.88,
+   "burst_x": 2.0,
+   "min_bill": "min 1 h",
+   "burst_bill": "min 1 h",
    "ranks": {
     "r1h": 40,
     "r10h": 36,
@@ -11271,7 +12671,7 @@
    "unpriced": false,
    "reasons": [],
    "caveats": [],
-   "notes": ""
+   "notes": "bursty 30-min starts bill 2.0x here (min 1 h)"
   },
   {
    "id": "warpbuild",
@@ -11287,6 +12687,10 @@
     "m10h": 54,
     "m30": 129.6
    },
+   "burst": 54,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 114,
     "r10h": 110,
@@ -11317,6 +12721,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -11349,6 +12757,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -11381,6 +12793,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -11413,6 +12829,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -11447,6 +12867,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -11479,6 +12903,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -11514,6 +12942,10 @@
     "m10h": 16.5,
     "m30": 39.6
    },
+   "burst": 16.5,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 62,
     "r10h": 58,
@@ -11544,6 +12976,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -11576,6 +13012,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -11609,6 +13049,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -11641,6 +13085,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -11698,6 +13146,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -11730,6 +13182,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,
@@ -11762,6 +13218,10 @@
     "m10h": 4.11,
     "m30": 9.864
    },
+   "burst": 4.11,
+   "burst_x": 1.0,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": 28,
     "r10h": 24,
@@ -11792,6 +13252,10 @@
     "m10h": null,
     "m30": null
    },
+   "burst": null,
+   "burst_x": null,
+   "min_bill": null,
+   "burst_bill": null,
    "ranks": {
     "r1h": null,
     "r10h": null,

@@ -26,7 +26,11 @@ Full tables: [`data/usage.md`](data/usage.md) (human) and
   the provider bills cheaper). This is how a sandbox is actually used — stopped
   between calls — and it is why a provider with an 8 h session cap still
   appears; its note says restarts are needed. One uninterrupted run is not
-  what the price is for.
+  what the price is for. A second, deliberately pessimistic workload prices the
+  same 300 h as **600 starts of 30 minutes** (a tool call every half hour) in
+  the bursty table, where a minimum billable unit or a per-start fee applies to
+  every start; **21 of the 179 priceable providers are worse there**, led by
+  Azure Container Apps at 3.5x and the cheap hourly VPS class at 2x.
 - **It uses the engine's strict `priceCard`, not the site's `priceSoft`.** It is
   not the battleships ranking and must not be compared row for row.
 - **20 of 366 providers' own pages have been read and reconciled** across two
@@ -51,7 +55,7 @@ Full tables: [`data/usage.md`](data/usage.md) (human) and
   belongs to. Removing those credits prices Azure at $9.00 and Google at $9.58
   for 10 h/day, so the top five is softer than it looks. Details in
   `research/verification/2026-10-02.md`.
-- **Assume more claims are wrong than the thirteen listed at the end.**
+- **Assume more claims are wrong than the fifteen listed at the end.**
 
 ## Conditions
 
@@ -150,7 +154,10 @@ Standouts where the horizon changes the winner — see
 | 1 day | Anchor Browser $0, Azure $0, Blacksmith $0 | CircleCI $0, Freestyle $0, Agent 37 $0.204 |
 | 1 week | Azure $0, InsForge $0.038 | Google Cloud Run $0.144, Lightning AI $0.230, Hyperbeam $0.560 |
 | 10 h/d x30 | Lightning AI $0.411, Agent 37 $2.55 | Oracle $3.09, Hetzner $3.12, Azure $3.60 |
+| 10 h/d x30, bursty | Lightning AI $0.411, Agent 37 $2.55 | Oracle $3.09, **zipbox $4.11**, Google Cloud Run $4.36 |
 | 24/7 x30 | Lightning AI $0.986, netcup $5.03 | Agent 37 $6.12, Hetzner $6.49, Contabo $6.60 |
+
+The bursty row is the same 300 h delivered as 600 x 30-minute starts. Hetzner ($3.12 smooth) is the notable faller — its 1 h minimum makes it **$6.24**, so zipbox takes its place in the top four. Full table in [`data/usage.md`](data/usage.md).
 
 ## Findings
 
@@ -178,10 +185,12 @@ Standouts where the horizon changes the winner — see
    It is also the main caveat on the top of the table: the cheapest rows are
    cheapest *because they have a free tier*, not because their paid rate is
    low. Kedge is $5.68 with its $5 credit and $10.68 without it; Azure is $3.60
-   with its $5.40 credit and $9.00 without it. `data/derived.json` carries
-   `total_no_credit` per provider and horizon for exactly this question; the
-   published tables use the credit-applied figure because that is what a new
-   account actually pays first.
+   with its $5.40 credit and $9.00 without it. Precisely, **two of the top seven
+   are credit-driven** — Azure (#5 -> #24 without its credit) and Google Cloud
+   Run (#7 -> #28) — while the top four (Lightning AI, Agent 37, Oracle,
+   Hetzner) do not move. `data/derived.json` carries `total_no_credit` per
+   provider and horizon for exactly this question; the published tables use the
+   credit-applied figure because that is what a new account actually pays first.
 4. **Fixed pools look cheap hourly and expensive monthly.** Upstash Box is
    $0.103/h but $9.97 for 24/7 (a fixed $8/box). Read the whole row, not the
    first number.
@@ -254,6 +263,32 @@ Standouts where the horizon changes the winner — see
    **$9.00** and **$9.58** at 10 h/day (against $3.60 and $4.36 shown), which
    moves Azure out of the top five. The rows are kept as the corpus prices
    them; the notes name the mismatch now.
+14. **The headline rate is not what a bursty agent pays.** A published $/hour
+   hides the minimum billable unit, and an agent that starts a sandbox per tool
+   call pays the minimum every time. The same 300 h/month is priced twice: once
+   as one 10 h session a day (the `10 h/d x30` column) and once as **600 starts
+   of 30 minutes** — 20 a day — in the bursty table of
+   [`data/usage.md`](data/usage.md). **21 of the 179 priceable providers are
+   penalised**, and the worst are the cheapest-looking rows: Azure Container
+   Apps is **3.5x** ($3.60 -> $12.60, because the credit is fixed while the
+   billed hours double), Amazon WorkSpaces 2.05x, UpCloud 2.02x, and a cluster
+   at exactly 2x — Hetzner Cloud, Hetzner Dedicated, Civo, Scaleway, Vultr,
+   Linode, Paperspace, Together Code Sandbox and NAVER. Expo is 2.4x but for a
+   different reason: a **$1 per-start fee**, which a per-hour table cannot show.
+   The mechanism is in each note (`min 1 h`, `rounds to 1 h`, `$1 per start`),
+   and the row is the pessimistic bound — an agent that holds one box past the
+   minimum pays once.
+15. **Every surveyed provider is accounted for, including the ones that cannot
+   be priced.** All 366 are in exactly one ledger: **179** priceable at some
+   horizon, **2** with only a bandwidth/flat-pool meter (Bright Data, Unikraft),
+   **185** that fit no sized mode; the reasons are listed in `data/usage.md`.
+   The free-tier census separates the free tiers people mean from the ones they
+   do not: **13** publish a credit that recurs monthly (largest Modal, $30/mo),
+   **89** a one-time credit (the $300 hyperscaler grants are here, and do not
+   renew), and **71** sell a $0 plan with no credit, quota or cap — recorded as
+   unknown, not free. A trial-only $0 plan is never a ranked row: the engine
+   skips `trial_only` plans, so boat, vercel, codesandbox and rivet rank on
+   their paid plans.
 
 ## Negative results
 
@@ -287,6 +322,8 @@ python3 tools/rank.py                    # writes data/usage.md and data/usage.j
 - Corpus, commit, route, gaps: [`research/provenance.md`](research/provenance.md).
 - Independent checks and quotes: [`research/verification/2026-10-02.md`](research/verification/2026-10-02.md).
 - Reviews (door sweep, mutation test, claim audit): [`research/reviews.md`](research/reviews.md).
+- Deep reviews of this revision, with the port from the parallel implementation
+  and what was refused: [`research/deep-reviews.md`](research/deep-reviews.md).
 - Licence: [0BSD](LICENSE). Provider pages and the battleships corpus are not
   relicensed here; see [`NOTICE`](NOTICE).
 
@@ -297,6 +334,6 @@ python3 tools/rank.py                    # writes data/usage.md and data/usage.j
 | two minutes | this page's sandbox table and the horizon key |
 | ten minutes | "What this does NOT establish", then the findings |
 | to implement from it | `data/usage.json` (costs + ranks + features), then `tools/rank.py` |
-| a reason to distrust it | `research/verification/2026-10-02.md`, then `research/reviews.md` |
+| a reason to distrust it | `research/verification/2026-10-02.md`, then `research/reviews.md`, then `research/deep-reviews.md` |
 
 *We aim to provide the software that shapes the world of tomorrow.*
