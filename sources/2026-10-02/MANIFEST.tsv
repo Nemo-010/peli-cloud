@@ -1,0 +1,14 @@
+id	url	http	sha256	bytes	fetched
+agent-37	https://www.agent37.com/pricing	200	82e3e3d207e89e1b952efd4810f6fc206b3dd9c27281a94013fefdae0dc8a70e	83442	2026-10-02
+boat	https://docs.boat.dev/pricing	200	50dd7ce73244e6527c8c73a9fec498cb96921e1e566be9e60547bcfc3864d383	376266	2026-10-02
+contabo	https://contabo.com/en-us/pricing/	200	b6deabeed4b254a49bb383961ec07ad6e080d43b3f3d8389500e9c7ae2a356c3	1433554	2026-10-02
+freestyle	https://www.freestyle.sh/pricing	200	a082e751fb72d10e43abc4ae7413a20fd74966d6c2891ea1c7cbce36073c772c	59410	2026-10-02
+hetzner-cloud	https://www.hetzner.com/cloud/	200	85e5b99ddbf0082e41366cd2da5613838edc548b765903f3ffc471f184126d50	163688	2026-10-02
+lizard	https://lizard.build/pricing	200	43eca2e0df53a7632ff601c364e594db90d10537a518782faaecd9979bced0ee	303006	2026-10-02
+netcup-vps-lite		200	26b4a59f222843902bd3d7c7b9e1dbcf9cb2429117ed600f3eb0dbac74d2704c	618750	2026-10-02
+netcup	https://www.netcup.com/en/server/vps	200	7e07379b5ae9dfa9e9dae35a21e8335ee6fb1c8a1e7a5c5f56a64c60bd3fd784	729819	2026-10-02
+oracle-cloud	https://www.oracle.com/cloud/compute/pricing/	200	81f86aa7e135dffbb63ea20c522190be4c8031b44220e4a3b678525dfa73ff2f	1339	2026-10-02
+scaleway	https://www.scaleway.com/en/pricing/virtual-instances/	200	bd0e1584352b6de5c7bfbd730530fdc5a7a6373e280424044887e7084a5fc9f1	6782563	2026-10-02
+upcloud	https://upcloud.com/pricing/	200	4d2d059771d1fee733df6e076f213b727f0645395ea4deec394dfdf6bf67cb5e	541349	2026-10-02
+upstash-box	https://upstash.com/pricing/box	200	8f121fcbe9063dd072b266011ad7cb1093c53ebf8866743e214ed0f9c17b82e6	145163	2026-10-02
+zipbox	https://zipbox.ai/pricing	200	d01a9bc6691b3dd286ce3a7e4e5b2a18f147212f514c9fc2a5cf574f2825e1f2	39896	2026-10-02

@@ -1,0 +1,7 @@
+# Local, large, or third-party: not part of the published work.
+research/corpus/
+data/derived.json
+sources/**/*.html
+__pycache__/
+*.pyc
+.DS_Store
