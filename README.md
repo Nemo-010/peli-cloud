@@ -37,7 +37,15 @@ Full tables: [`data/usage.md`](data/usage.md) (human) and
   Unikraft). Free tiers are shown with the credit that produces them, and a
   free-tier product leads the list (Lightning AI) because the engine prices it
   honestly; its 4 h session cap is in the note.
-- **Assume more claims are wrong than the five listed at the end.**
+- **Recurring free *allowances* are not modelled, only dollar credits.** The
+  engine applies `monthly_credit` and `one_time_credit`; a resource allowance
+  (so many OCPU-hours or GB-hours a month) is carried as a note and prices at
+  list. This matters most for **Oracle**, whose Always Free Ampere A1 allowance
+  (1,500 OCPU-h + 9,000 GB-h/month) covers this whole shape **including 24/7**,
+  so a qualifying account pays **$0** against the $7.41 shown. GCP, AWS and
+  Azure free tiers are too small for a 4 GiB shape and do not change a row.
+  Details in `research/verification/2026-10-02.md`.
+- **Assume more claims are wrong than the ten listed at the end.**
 
 ## Conditions
 
@@ -109,7 +117,7 @@ Top 16 of 179 priceable. **All 366 rows** — every provider surveyed, including
 |---|---|---|---|---|---|---|---|---|---|
 | 1 | [Lightning AI](https://lightning.ai/pricing) | dev-env/vm | $0.0014 | $0.014 | $0.033 | $0.230 | **$0.411** | $0.986 | free CPU Studio stack: 4 h/session then it converts to paid; one at a time; egress unpublished; flat pool, billed whether used or not |
 | 2 | [Agent 37](https://www.agent37.com/pricing) | agent-sandbox/gvisor | $0.0085 | $0.085 | $0.204 | $1.43 | **$2.55** | $6.12 | egress unpublished |
-| 3 | [Oracle Cloud Infrastructure](https://www.oracle.com/cloud/compute/pricing/) | hyperscaler/vm | $0.010 | $0.103 | $0.247 | $1.73 | **$3.09** | $7.41 | unverified: pricing page returns 403 |
+| 3 | [Oracle Cloud Infrastructure](https://www.oracle.com/cloud/compute/pricing/) | hyperscaler/vm | $0.010 | $0.103 | $0.247 | $1.73 | **$3.09** | $7.41 | unverified: all oracle.com returns 403; Always Free A1 covers this shape ($0) |
 | 4 | [Hetzner Cloud](https://docs.hetzner.com/general/infrastructure-and-availability/price-adjustment/) | hyperscaler/vm | $0.010 | $0.104 | $0.250 | $1.75 | **$3.12** | $6.49 |  |
 | 5 | [Azure Container Apps (Consumption, Dedicated, Dynamic Sessions)](https://azure.microsoft.com/en-us/pricing/details/container-apps/) | hyperscaler/vm | $0 | $0 | $0 | $0 | **$3.60** | $16.20 | no machine size published, not shape-comparable; disk beyond 4 GiB: price unknown; $5.4/mo free credit |
 | 6 | [zipbox](https://zipbox.ai/pricing) | agent-sandbox/firecracker | $0.014 | $0.137 | $0.329 | $2.30 | **$4.11** | $9.86 | egress unpublished |
@@ -199,12 +207,23 @@ Standouts where the horizon changes the winner — see
    is a statement about their product model, not a missing price.
 9. **The tracker proposed Croft** (open PR #1): flat $24/$99 plans, no published
    shape. Recorded, not rankable.
+10. **Oracle's paid row is not what a qualifying account pays.** Its Always Free
+   Ampere A1 allowance is 1,500 OCPU-hours + 9,000 GiB-hours a month, and this
+   shape uses 1,440 + 2,880 even running 24/7 — so the 24/7 row is **$0** for an
+   account that qualifies, against the $7.41 the table shows. The allowance is
+   scoped to A1 only, capacity can be reclaimed, and the engine prices resource
+   allowances as list, so the table keeps the paid number and says so. This is
+   the largest single understatement in the catalogue.
 
 ## Negative results
 
 - **Generic web search is unusable here.** DuckDuckGo lite/html and Bing return
   JavaScript shells; discovery is corpus-led, which is a limit, not coverage.
-- **Oracle's pricing page returns 403** to a plain fetch. Its row is unverified.
+- **Oracle is blocked at the domain, not the page.** Every `oracle.com` URL,
+  `docs.oracle.com`, and the `apexapps` price-list API return the same
+  1,339-byte **export-control 403** from this host. Its row is unverified, and
+  its Always Free A1 allowance (which would price this shape at $0) is not
+  modelled.
 - **netcup's number is a lower bound, with the mechanism now known**: the
   comparison shape is $8.51/mo on a 1-month term. `research/reviews.md` pass 4.
 

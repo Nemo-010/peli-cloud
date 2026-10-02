@@ -4182,7 +4182,7 @@
    "unpriced": false,
    "reasons": [],
    "caveats": [],
-   "notes": ""
+   "notes": "free tier is a resource allowance, not modelled (see card)"
   },
   {
    "id": "gcp-windows",
@@ -4435,7 +4435,7 @@
     "machine size per session not published",
     "disk beyond 0 GiB: price unknown"
    ],
-   "notes": "no machine size published, not shape-comparable; disk beyond 0 GiB: price unknown"
+   "notes": "no machine size published, not shape-comparable; disk beyond 0 GiB: price unknown; free tier is a resource allowance, not modelled (see card)"
   },
   {
    "id": "google-agent-engine",
@@ -7588,7 +7588,7 @@
    "unpriced": false,
    "reasons": [],
    "caveats": [],
-   "notes": "unverified: pricing page returns 403"
+   "notes": "unverified: all oracle.com returns 403; Always Free A1 covers this shape ($0)"
   },
   {
    "id": "orgo",

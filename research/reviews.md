@@ -71,6 +71,8 @@ free plan.
 | free credits move rows (e.g. Kedge $0 for 1 h, $5.68 for the month) | `data/usage.md`, `data/usage.json` | backed |
 | Agent 37 is the cheapest paid sandbox over 10 h/day x30, at $2.55 | `data/usage.md` sandbox table | backed, but egress is unpublished |
 | netcup is #9 at the realistic month and #2 at 24/7, both $5.03 | `data/usage.md` | backed, but the number is **disputed** 7–11 % low |
+| Oracle is unverified | whole `oracle.com` domain (pricing, docs, price-list API) returns the same export-control 403 | backed (block page captured, ref id) |
+| Oracle's Always Free A1 allowance covers this shape at 24/7 | card's first-party quote of 1,500 OCPU-h + 9,000 GB-h; shape uses 1,440 + 2,880 | backed (card quote; not re-fetchable from here) |
 | "search was attempted and failed" | the negative-result paragraph; no artefact committed | **claim, not artefact** — reproducible only by retrying the same URLs |
 | "187 of 366 cannot be priced at the 2 vCPU/4 GiB shape" | `data/usage.json` `eligible` flags | backed |
 
@@ -81,8 +83,9 @@ free plan.
 2. `priceCard` strictness plus no `required`-feature pass means the ranking is
    a shape ranking, not a fit ranking (see pass 1).
 3. netcup's price is disputed and stated as a lower bound.
-4. Oracle Cloud is unverified (403) and its Always-Free ARM tier sits outside
-   the paid ranking entirely.
+4. Oracle Cloud is unverified (all `oracle.com` 403) and its Always-Free ARM
+   allowance is quantified but not applied, because the model only discounts
+   dollar credits, not resource allowances.
 5. The shape and the six horizons are chosen here, not by the operator; a
    different shape or horizon reorders the list, which is why six are published.
 6. **Each horizon is priced as the cheapest eligible split into sessions of at
@@ -103,7 +106,9 @@ free plan.
    but it means the 1 h and 10 h cells are the *monthly* price, not an hourly
    tariff. Rows that do this carry the caveat in `data/derived.json`.
 
-**Assume more claims remain wrong.** The next pass should attack: Oracle's
-current E4 and Always-Free values, whether Lizard's runtime honours Small,
-whether any provider hides an entry tier the way revision 1 wrongly believed
-Scaleway did, and the white-label Tailscale duplicate (see the findings).
+**Assume more claims remain wrong.** The next pass should attack: whether
+Hyperbeam's participant-minute model is the right one for a headless sandbox
+(the card itself says the machine size is unpublished), whether Lizard's
+runtime honours Small, whether any provider hides an entry tier the way
+revision 1 wrongly believed Scaleway did, and whether the two
+identical-rate cards (PPIO/UCloud) are one vendor.

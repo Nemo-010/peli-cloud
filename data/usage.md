@@ -14,7 +14,7 @@ Main table is ranked by **10 h/d x30** (the realistic agent month). A dash means
 |---|---|---|---|---|---|---|---|---|---|
 | 1 | [Lightning AI](https://lightning.ai/pricing) | dev-env/vm | $0.0014 | $0.014 | $0.033 | $0.230 | $0.411 | $0.986 | free CPU Studio stack: 4 h/session then it converts to paid; one at a time; egress unpublished; flat pool, billed whether used or not |
 | 2 | [Agent 37](https://www.agent37.com/pricing) | agent-sandbox/gvisor | $0.0085 | $0.085 | $0.204 | $1.43 | $2.55 | $6.12 | egress unpublished |
-| 3 | [Oracle Cloud Infrastructure](https://www.oracle.com/cloud/compute/pricing/) | hyperscaler/vm | $0.010 | $0.103 | $0.247 | $1.73 | $3.09 | $7.41 | unverified: pricing page returns 403 |
+| 3 | [Oracle Cloud Infrastructure](https://www.oracle.com/cloud/compute/pricing/) | hyperscaler/vm | $0.010 | $0.103 | $0.247 | $1.73 | $3.09 | $7.41 | unverified: all oracle.com returns 403; Always Free A1 covers this shape ($0) |
 | 4 | [Hetzner Cloud](https://docs.hetzner.com/general/infrastructure-and-availability/price-adjustment/) | hyperscaler/vm | $0.010 | $0.104 | $0.250 | $1.75 | $3.12 | $6.49 |  |
 | 5 | [Azure Container Apps (Consumption, Dedicated, Dynamic Sessions)](https://azure.microsoft.com/en-us/pricing/details/container-apps/) | hyperscaler/vm | $0 | $0 | $0 | $0 | $3.60 | $16.20 | no machine size published, not shape-comparable; disk beyond 4 GiB: price unknown; $5.4/mo free credit |
 | 6 | [zipbox](https://zipbox.ai/pricing) | agent-sandbox/firecracker | $0.014 | $0.137 | $0.329 | $2.30 | $4.11 | $9.86 | egress unpublished |
@@ -77,9 +77,9 @@ Main table is ranked by **10 h/d x30** (the realistic agent month). A dash means
 | 63 | [boat.dev](https://docs.boat.dev/pricing) | agent-sandbox/vm | $20.00 | $20.00 | $20.00 | $20.00 | $20.00 | $20.00 | disk beyond 12 GiB: price unknown; $20/mo minimum, fee is a usage credit |
 | 64 | [Notte](https://www.notte.cc/pricing) | browser/container | $20.00 | $20.00 | $20.00 | $20.00 | $20.00 | $20.00 | no machine size published, not shape-comparable; disk beyond 0 GiB: price unknown; $20/mo minimum, fee is a usage credit |
 | 65 | [OpenComputer](https://opencomputer.dev/sandboxes) | agent-sandbox/vm | $0.378 | $3.78 | $9.07 | $20.00 | $20.00 | $92.16 | disk beyond 16 GiB: price unknown; egress unpublished |
-| 66 | [Google Compute Engine (Linux VMs)](https://cloud.google.com/products/compute/pricing/general-purpose) | hyperscaler/vm | $0.070 | $0.698 | $1.67 | $11.72 | $20.93 | $50.22 |  |
+| 66 | [Google Compute Engine (Linux VMs)](https://cloud.google.com/products/compute/pricing/general-purpose) | hyperscaler/vm | $0.070 | $0.698 | $1.67 | $11.72 | $20.93 | $50.22 | free tier is a resource allowance, not modelled (see card) |
 | 67 | [GitHub Actions hosted runners](https://docs.github.com/en/billing/reference/actions-runner-pricing) | macos/vm | $0 | $0 | $0 | $21.00 | $21.00 | $21.00 | disk beyond 14 GiB: price unknown; session cap 6 h, needs restarts |
-| 68 | [Gologin Cloud Browser](https://gologin.com/cloud-browser/) | browser/container | $14.00 | $14.00 | $14.00 | $14.00 | $21.00 | $50.40 | no machine size published, not shape-comparable; disk beyond 0 GiB: price unknown |
+| 68 | [Gologin Cloud Browser](https://gologin.com/cloud-browser/) | browser/container | $14.00 | $14.00 | $14.00 | $14.00 | $21.00 | $50.40 | no machine size published, not shape-comparable; disk beyond 0 GiB: price unknown; free tier is a resource allowance, not modelled (see card) |
 | 69 | [Northflank Sandboxes](https://northflank.com/pricing) | agent-sandbox/vm | $0.071 | $0.706 | $1.69 | $11.86 | $21.18 | $50.84 |  |
 | 70 | [AWS CodeBuild](https://aws.amazon.com/codebuild/pricing/) | paas/container | $0.072 | $0.720 | $1.73 | $12.10 | $21.60 | $51.84 | egress unpublished |
 | 71 | [Freestyle](https://www.freestyle.sh/pricing) | agent-sandbox/bare-metal-vm | $0 | $0 | $0 | $4.13 | $21.81 | $78.07 | $18.38/mo free credit |
@@ -523,7 +523,7 @@ Main table is ranked by **10 h/d x30** (the realistic agent month). A dash means
 | 19 | [Sail Research (Sailboxes)](https://docs.sailresearch.com/pricing) | agent-sandbox/firecracker | $0 | $5/mo free credit; egress unpublished |
 | 20 | [Lightning AI](https://lightning.ai/pricing) | dev-env/vm | $0.014 | free CPU Studio stack: 4 h/session then it converts to paid; one at a time; egress unpublished; flat pool, billed whether used or not |
 | 21 | [Agent 37](https://www.agent37.com/pricing) | agent-sandbox/gvisor | $0.085 | egress unpublished |
-| 22 | [Oracle Cloud Infrastructure](https://www.oracle.com/cloud/compute/pricing/) | hyperscaler/vm | $0.103 | unverified: pricing page returns 403 |
+| 22 | [Oracle Cloud Infrastructure](https://www.oracle.com/cloud/compute/pricing/) | hyperscaler/vm | $0.103 | unverified: all oracle.com returns 403; Always Free A1 covers this shape ($0) |
 | 23 | [Hetzner Cloud](https://docs.hetzner.com/general/infrastructure-and-availability/price-adjustment/) | hyperscaler/vm | $0.104 |  |
 | 24 | [zipbox](https://zipbox.ai/pricing) | agent-sandbox/firecracker | $0.137 | egress unpublished |
 | 25 | [IONOS Cloud](https://docs.ionos.com/cloud/support/general-information/price-list/ionos-cloud-eur-en) | hyperscaler/vm | $0.148 |  |
@@ -550,7 +550,7 @@ Main table is ranked by **10 h/d x30** (the realistic agent month). A dash means
 | 16 | [Sail Research (Sailboxes)](https://docs.sailresearch.com/pricing) | agent-sandbox/firecracker | $0 | $5/mo free credit; egress unpublished |
 | 17 | [Lightning AI](https://lightning.ai/pricing) | dev-env/vm | $0.033 | free CPU Studio stack: 4 h/session then it converts to paid; one at a time; egress unpublished; flat pool, billed whether used or not |
 | 18 | [Agent 37](https://www.agent37.com/pricing) | agent-sandbox/gvisor | $0.204 | egress unpublished |
-| 19 | [Oracle Cloud Infrastructure](https://www.oracle.com/cloud/compute/pricing/) | hyperscaler/vm | $0.247 | unverified: pricing page returns 403 |
+| 19 | [Oracle Cloud Infrastructure](https://www.oracle.com/cloud/compute/pricing/) | hyperscaler/vm | $0.247 | unverified: all oracle.com returns 403; Always Free A1 covers this shape ($0) |
 | 20 | [Hetzner Cloud](https://docs.hetzner.com/general/infrastructure-and-availability/price-adjustment/) | hyperscaler/vm | $0.250 |  |
 | 21 | [zipbox](https://zipbox.ai/pricing) | agent-sandbox/firecracker | $0.329 | egress unpublished |
 | 22 | [IONOS Cloud](https://docs.ionos.com/cloud/support/general-information/price-list/ionos-cloud-eur-en) | hyperscaler/vm | $0.355 |  |
@@ -569,7 +569,7 @@ Main table is ranked by **10 h/d x30** (the realistic agent month). A dash means
 | 5 | [Hyperbeam](https://hyperbeam.com/) | browser/- | $0.560 | no machine size published, not shape-comparable; disk beyond 0 GiB: price unknown; egress unpublished |
 | 6 | [Kedge](https://kedge.dev/docs/billing) | agent-sandbox/vm | $0.984 | $5/mo free credit |
 | 7 | [Agent 37](https://www.agent37.com/pricing) | agent-sandbox/gvisor | $1.43 | egress unpublished |
-| 8 | [Oracle Cloud Infrastructure](https://www.oracle.com/cloud/compute/pricing/) | hyperscaler/vm | $1.73 | unverified: pricing page returns 403 |
+| 8 | [Oracle Cloud Infrastructure](https://www.oracle.com/cloud/compute/pricing/) | hyperscaler/vm | $1.73 | unverified: all oracle.com returns 403; Always Free A1 covers this shape ($0) |
 | 9 | [Hetzner Cloud](https://docs.hetzner.com/general/infrastructure-and-availability/price-adjustment/) | hyperscaler/vm | $1.75 |  |
 | 10 | [Modal](https://modal.com/pricing) | agent-sandbox/gvisor | $1.91 | $30/mo free credit |
 | 11 | [zipbox](https://zipbox.ai/pricing) | agent-sandbox/firecracker | $2.30 | egress unpublished |
@@ -594,7 +594,7 @@ Main table is ranked by **10 h/d x30** (the realistic agent month). A dash means
 |---|---|---|---|---|
 | 1 | [Lightning AI](https://lightning.ai/pricing) | dev-env/vm | $0.411 | free CPU Studio stack: 4 h/session then it converts to paid; one at a time; egress unpublished; flat pool, billed whether used or not |
 | 2 | [Agent 37](https://www.agent37.com/pricing) | agent-sandbox/gvisor | $2.55 | egress unpublished |
-| 3 | [Oracle Cloud Infrastructure](https://www.oracle.com/cloud/compute/pricing/) | hyperscaler/vm | $3.09 | unverified: pricing page returns 403 |
+| 3 | [Oracle Cloud Infrastructure](https://www.oracle.com/cloud/compute/pricing/) | hyperscaler/vm | $3.09 | unverified: all oracle.com returns 403; Always Free A1 covers this shape ($0) |
 | 4 | [Hetzner Cloud](https://docs.hetzner.com/general/infrastructure-and-availability/price-adjustment/) | hyperscaler/vm | $3.12 |  |
 | 5 | [Azure Container Apps (Consumption, Dedicated, Dynamic Sessions)](https://azure.microsoft.com/en-us/pricing/details/container-apps/) | hyperscaler/vm | $3.60 | no machine size published, not shape-comparable; disk beyond 4 GiB: price unknown; $5.4/mo free credit |
 | 6 | [zipbox](https://zipbox.ai/pricing) | agent-sandbox/firecracker | $4.11 | egress unpublished |
@@ -627,7 +627,7 @@ Main table is ranked by **10 h/d x30** (the realistic agent month). A dash means
 | 3 | [Agent 37](https://www.agent37.com/pricing) | agent-sandbox/gvisor | $6.12 | egress unpublished |
 | 4 | [Hetzner Cloud](https://docs.hetzner.com/general/infrastructure-and-availability/price-adjustment/) | hyperscaler/vm | $6.49 |  |
 | 5 | [Contabo](https://contabo.com/en-us/pricing/) | hyperscaler/vm | $6.60 | visible $4.40 is a 24-month intro, list is $6.60; price is one month's rent at every horizon |
-| 6 | [Oracle Cloud Infrastructure](https://www.oracle.com/cloud/compute/pricing/) | hyperscaler/vm | $7.41 | unverified: pricing page returns 403 |
+| 6 | [Oracle Cloud Infrastructure](https://www.oracle.com/cloud/compute/pricing/) | hyperscaler/vm | $7.41 | unverified: all oracle.com returns 403; Always Free A1 covers this shape ($0) |
 | 7 | [zipbox](https://zipbox.ai/pricing) | agent-sandbox/firecracker | $9.86 | egress unpublished |
 | 8 | [Upstash Box](https://upstash.com/pricing/box) | agent-sandbox/container | $9.97 | egress unpublished; flat pool, billed whether used or not |
 | 9 | [IONOS Cloud](https://docs.ionos.com/cloud/support/general-information/price-list/ionos-cloud-eur-en) | hyperscaler/vm | $10.65 |  |

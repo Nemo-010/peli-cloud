@@ -15,6 +15,7 @@ Exit 0 ran, 2 could not run.
 """
 import json
 import os
+import re
 import sys
 import datetime
 
@@ -88,7 +89,7 @@ def commit_terms(p):
 
 CORRECTIONS = {
     "netcup": "entry row is VPS Lite 1 (6-month min); VPS 500 is $8.51/mo",
-    "oracle-cloud": "unverified: pricing page returns 403",
+    "oracle-cloud": "unverified: all oracle.com returns 403; Always Free A1 covers this shape ($0)",
     "scaleway": "Stardust disk is billed on top of the instance rate",
     "contabo": "visible $4.40 is a 24-month intro, list is $6.60",
     "lizard": "Medium only: runtime fixes 4 vCPU / 4 GiB",
@@ -124,6 +125,9 @@ def notes_for(p, m10h):
             cv.append("no machine size published, not shape-comparable")
         elif "price unknown" in low:
             cv.append(x[:70])
+    free_note = (p.get("free") or {}).get("note") or ""
+    if re.search(r"always[ _-]?free|free allowance|resource allowance", free_note, re.I):
+        cv.append("free tier is a resource allowance, not modelled (see card)")
     f = p.get("free") or {}
     if f.get("monthly_credit"):
         cv.append(f"${f['monthly_credit']:g}/mo free credit")
