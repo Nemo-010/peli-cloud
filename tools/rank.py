@@ -87,7 +87,7 @@ def commit_terms(p):
 
 
 CORRECTIONS = {
-    "netcup": "disputed: provider page ~11% above the card",
+    "netcup": "entry row is VPS Lite 1 (6-month min); VPS 500 is $8.51/mo",
     "oracle-cloud": "unverified: pricing page returns 403",
     "scaleway": "Stardust disk is billed on top of the instance rate",
     "contabo": "visible $4.40 is a 24-month intro, list is $6.60",
@@ -109,6 +109,8 @@ def engine_caveats(p, wl):
             out.append("preview pricing")
         elif "flat pool" in low:
             out.append("flat pool, billed whether used or not")
+        elif "monthly cap" in low:
+            out.append("price is one month's rent at every horizon")
     return out
 
 
@@ -116,6 +118,12 @@ def notes_for(p, m10h):
     cv = []
     if p["id"] in CORRECTIONS:
         cv.append(CORRECTIONS[p["id"]])
+    for x in (p["cost"][m10h].get("caveats") or []):
+        low = x.lower()
+        if "machine size" in low:
+            cv.append("no machine size published, not shape-comparable")
+        elif "price unknown" in low:
+            cv.append(x[:70])
     f = p.get("free") or {}
     if f.get("monthly_credit"):
         cv.append(f"${f['monthly_credit']:g}/mo free credit")
@@ -167,6 +175,7 @@ def build_rows():
             "mode": p["cost"][PRIMARY].get("mode") or p["cost"]["r1h"].get("mode"),
             "plan": p["cost"][PRIMARY].get("plan"),
             "reasons": p["cost"][PRIMARY].get("reasons") or p["cost"]["r1h"].get("reasons") or [],
+            "caveats": p["cost"][PRIMARY].get("caveats") or [],
             "notes": notes,
         })
     return rows
@@ -239,7 +248,7 @@ for r in rows:
         "ranks": {h: rank_maps[h].get(r["id"]) for h in HORIZONS},
         "mode": r["mode"], "plan": r["plan"],
         "eligible": r["eligible"], "unpriced": r["unpriced"],
-        "reasons": r["reasons"], "notes": r["notes"],
+        "reasons": r["reasons"], "caveats": r["caveats"], "notes": r["notes"],
     })
 os.makedirs(OUT, exist_ok=True)
 with open(os.path.join(OUT, "usage.json"), "w") as fh:

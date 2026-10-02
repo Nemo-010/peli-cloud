@@ -27,6 +27,9 @@ fetch() {
   fetch upstash-box        "https://upstash.com/pricing/box"
   fetch upcloud            "https://upcloud.com/pricing/"
   fetch oracle-cloud       "https://www.oracle.com/cloud/compute/pricing/"
+  # re-checked 2026-10-02 for the netcup term reconciliation (see research/verification)
+  fetch netcup-vps-lite-recheck "https://www.netcup.com/en/server/vps-lite"
+  fetch netcup-vps-recheck      "https://www.netcup.com/en/server/vps"
 } > "$DEST/MANIFEST.tsv"
 echo "wrote $DEST/MANIFEST.tsv"
 cat "$DEST/MANIFEST.tsv"

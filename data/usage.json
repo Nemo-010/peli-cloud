@@ -67,6 +67,7 @@
    "reasons": [
     "Native product; see regime notes: needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Native product; see regime notes: needs opt-in (alt); egress unpublished"
   },
   {
@@ -96,6 +97,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": "egress unpublished"
   },
   {
@@ -127,6 +129,7 @@
    "reasons": [
     "Native product; see regime notes: needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Native product; see regime notes: needs opt-in (alt); egress unpublished"
   },
   {
@@ -156,6 +159,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": "egress unpublished"
   },
   {
@@ -188,6 +192,7 @@
     "On-demand: needs opt-in (sales)",
     "Dedicated reserved hosts: needs opt-in (sales)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: On-demand: needs opt-in (sales); Dedicated reserved hosts: needs opt-in (sales); egress unpublished"
   },
   {
@@ -219,6 +224,7 @@
    "reasons": [
     "no preset with \u22652 vCPU and \u22654 GiB"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: no preset with \u22652 vCPU and \u22654 GiB; egress unpublished"
   },
   {
@@ -251,6 +257,7 @@
     "ACK cluster runtime: needs opt-in (alt)",
     "ACK pods on virtual nodes (ECI), per vCPU/GiB: needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: ACK cluster runtime: needs opt-in (alt); ACK pods on virtual nodes (ECI), per vC; egress unpublished"
   },
   {
@@ -280,7 +287,11 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
-   "notes": ""
+   "caveats": [
+    "disk beyond 0 GiB: price unknown",
+    "outbound bandwidth capped at 10 Mbps"
+   ],
+   "notes": "disk beyond 0 GiB: price unknown"
   },
   {
    "id": "alibaba-agentrun",
@@ -309,6 +320,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": "egress unpublished"
   },
   {
@@ -338,6 +350,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": ""
   },
   {
@@ -367,6 +380,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": "egress unpublished"
   },
   {
@@ -398,6 +412,7 @@
    "reasons": [
     "Hosted orb compute, PAYG or subscription allowance: needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Hosted orb compute, PAYG or subscription allowance: needs opt-in (alt); egress unpublished"
   },
   {
@@ -427,7 +442,11 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
-   "notes": ""
+   "caveats": [
+    "machine size per session not published",
+    "disk beyond 0 GiB: price unknown"
+   ],
+   "notes": "no machine size published, not shape-comparable; disk beyond 0 GiB: price unknown"
   },
   {
    "id": "anka-build-cloud",
@@ -459,6 +478,7 @@
     "Anka Build licence on your own Macs (contact sales): needs opt-in (alt, sales)",
     "Anka Build AMI on AWS EC2 Mac (Marketplace hourly software fee): needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Anka Build licence on your own Macs (contact sales): needs opt-in (alt, sales); ; egress unpublished"
   },
   {
@@ -490,6 +510,7 @@
    "reasons": [
     "Native product; see regime notes: needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Native product; see regime notes: needs opt-in (alt); egress unpublished"
   },
   {
@@ -523,6 +544,7 @@
     "CPU-Optimized (C) container profile: needs opt-in (alt, burstable)",
     "Memory Optimized (R) container profile: needs opt-in (alt, burstable)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Native product; see regime notes: needs opt-in (alt, burstable); CPU-Optimized (; egress unpublished"
   },
   {
@@ -554,6 +576,7 @@
    "reasons": [
     "Native product; see regime notes: needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Native product; see regime notes: needs opt-in (alt); egress unpublished"
   },
   {
@@ -583,6 +606,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": "egress unpublished"
   },
   {
@@ -614,6 +638,7 @@
    "reasons": [
     "Native product; see regime notes: needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Native product; see regime notes: needs opt-in (alt); session cap 8 h, needs restarts; egress unpublished"
   },
   {
@@ -643,6 +668,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": "egress unpublished"
   },
   {
@@ -674,6 +700,7 @@
    "reasons": [
     "Test workers and Cloud platform: needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Test workers and Cloud platform: needs opt-in (alt); egress unpublished"
   },
   {
@@ -705,6 +732,7 @@
    "reasons": [
     "Native product; see regime notes: needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Native product; see regime notes: needs opt-in (alt); egress unpublished"
   },
   {
@@ -734,7 +762,10 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
-   "notes": "session cap 8 h, needs restarts"
+   "caveats": [
+    "disk beyond 10 GiB: price unknown"
+   ],
+   "notes": "disk beyond 10 GiB: price unknown; session cap 8 h, needs restarts"
   },
   {
    "id": "aws-codebuild",
@@ -763,6 +794,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": "egress unpublished"
   },
   {
@@ -795,6 +827,7 @@
     "no Linux",
     "Host split into 2 macOS VMs (Apple SLA cap), per-VM price: needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: no Linux; Host split into 2 macOS VMs (Apple SLA cap), per-VM price: needs opt-i"
   },
   {
@@ -827,6 +860,7 @@
     "no Linux",
     "spot: needs opt-in (spot)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: no Linux; spot: needs opt-in (spot)"
   },
   {
@@ -856,6 +890,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": ""
   },
   {
@@ -885,6 +920,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": ""
   },
   {
@@ -914,6 +950,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": "session cap 8 h, needs restarts"
   },
   {
@@ -945,6 +982,7 @@
    "reasons": [
     "Pay-as-you-go: sessions capped at 0.25 h"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Pay-as-you-go: sessions capped at 0.25 h; $6.87/mo free credit; session cap 0.25 h, needs restarts"
   },
   {
@@ -974,6 +1012,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": ""
   },
   {
@@ -1003,6 +1042,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": ""
   },
   {
@@ -1032,7 +1072,11 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
-   "notes": "$5.4/mo free credit"
+   "caveats": [
+    "machine size per session not published",
+    "disk beyond 4 GiB: price unknown"
+   ],
+   "notes": "no machine size published, not shape-comparable; disk beyond 4 GiB: price unknown; $5.4/mo free credit"
   },
   {
    "id": "azure-dev-box",
@@ -1063,6 +1107,7 @@
    "reasons": [
     "discontinued / closed to new customers"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: discontinued / closed to new customers; egress unpublished"
   },
   {
@@ -1095,6 +1140,7 @@
     "East US hosted agent compute: needs opt-in (alt)",
     "EU hosted agent compute (Sweden Central, France Central, UK South): needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: East US hosted agent compute: needs opt-in (alt); EU hosted agent compute (Swede; egress unpublished"
   },
   {
@@ -1130,6 +1176,7 @@
     "Standard_NC4as_T4_v3, spot (\u00d71): needs opt-in (spot)",
     "Standard_NC40ads_H100_v5, Spot (1x H100 NVL, eastus, snapshot): needs opt-in (spot)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Standard_NC24ads_A100_v4, spot (\u00d71): needs opt-in (spot); Standard_ND96amsr_A100"
   },
   {
@@ -1164,6 +1211,7 @@
     "GitHub-hosted agents (pay-as-you-go per minute, macOS arm64, preview): needs opt-in (alt)",
     "Managed DevOps Pools (your Azure VMs + $15 self-hosted parallel job): needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Microsoft-hosted parallel jobs ($40 each/month, unlimited minutes): needs opt-in; session cap 6 h, needs restarts; egress unpublished"
   },
   {
@@ -1193,6 +1241,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": ""
   },
   {
@@ -1225,6 +1274,7 @@
     "no Linux",
     "Azure Spot VM (representative East US): needs opt-in (spot)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: no Linux; Azure Spot VM (representative East US): needs opt-in (spot)"
   },
   {
@@ -1254,6 +1304,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": "session cap 1 h, needs restarts"
   },
   {
@@ -1294,6 +1345,7 @@
     "H100 MIG 40GB, serverless (\u00d71): needs opt-in (alt)",
     "CPU-only instance (dedicated deployment): needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: T4, serverless (\u00d71): needs opt-in (alt); L4, serverless (\u00d71): needs opt-in (alt); egress unpublished"
   },
   {
@@ -1323,7 +1375,10 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
-   "notes": ""
+   "caveats": [
+    "disk beyond 0 GiB: price unknown"
+   ],
+   "notes": "disk beyond 0 GiB: price unknown"
   },
   {
    "id": "bitbucket-pipelines",
@@ -1352,6 +1407,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": "session cap 12 h, needs restarts; egress unpublished"
   },
   {
@@ -1381,7 +1437,10 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
-   "notes": "session cap 3.5 h, needs restarts; egress unpublished"
+   "caveats": [
+    "monthly cap reached"
+   ],
+   "notes": "session cap 3.5 h, needs restarts; egress unpublished; price is one month's rent at every horizon"
   },
   {
    "id": "blacksmith",
@@ -1410,6 +1469,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": "$12/mo free credit; egress unpublished"
   },
   {
@@ -1439,6 +1499,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": ""
   },
   {
@@ -1468,7 +1529,10 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
-   "notes": "$20/mo minimum, fee is a usage credit"
+   "caveats": [
+    "disk beyond 12 GiB: price unknown"
+   ],
+   "notes": "disk beyond 12 GiB: price unknown; $20/mo minimum, fee is a usage credit"
   },
   {
    "id": "boxd",
@@ -1497,6 +1561,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": "egress unpublished"
   },
   {
@@ -1526,6 +1591,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": "egress unpublished"
   },
   {
@@ -1555,7 +1621,11 @@
    "eligible": true,
    "unpriced": true,
    "reasons": [],
-   "notes": "unpriced: no published compute rate; browser product, bandwidth-metered; $7.5/mo free credit; session cap 1 h, needs restarts"
+   "caveats": [
+    "machine size per session not published",
+    "disk beyond 0 GiB: price unknown"
+   ],
+   "notes": "unpriced: no published compute rate; browser product, bandwidth-metered; no machine size published, not shape-comparable; disk beyond 0 GiB: price unknown"
   },
   {
    "id": "brimble",
@@ -1586,6 +1656,7 @@
    "reasons": [
     "no published per-resource rate"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: no published per-resource rate; session cap 6 h, needs restarts; egress unpublished"
   },
   {
@@ -1615,7 +1686,11 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
-   "notes": "session cap 4 h, needs restarts"
+   "caveats": [
+    "machine size per session not published",
+    "disk beyond 0 GiB: price unknown"
+   ],
+   "notes": "no machine size published, not shape-comparable; disk beyond 0 GiB: price unknown; session cap 4 h, needs restarts"
   },
   {
    "id": "browseract",
@@ -1646,6 +1721,7 @@
    "reasons": [
     "no preset with \u22652 vCPU and \u22654 GiB"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: no preset with \u22652 vCPU and \u22654 GiB; egress unpublished"
   },
   {
@@ -1675,7 +1751,11 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
-   "notes": "session cap 6 h, needs restarts; egress unpublished"
+   "caveats": [
+    "machine size per session not published",
+    "disk beyond 0 GiB: price unknown"
+   ],
+   "notes": "no machine size published, not shape-comparable; disk beyond 0 GiB: price unknown; session cap 6 h, needs restarts"
   },
   {
    "id": "browsercloud",
@@ -1704,7 +1784,11 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
-   "notes": "$249/mo minimum, fee is a usage credit; egress unpublished"
+   "caveats": [
+    "machine size per session not published",
+    "disk beyond 0 GiB: price unknown"
+   ],
+   "notes": "no machine size published, not shape-comparable; disk beyond 0 GiB: price unknown; $249/mo minimum, fee is a usage credit"
   },
   {
    "id": "browserless",
@@ -1733,7 +1817,11 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
-   "notes": "session cap 1 h, needs restarts; egress unpublished"
+   "caveats": [
+    "machine size per session not published",
+    "disk beyond 0 GiB: price unknown"
+   ],
+   "notes": "no machine size published, not shape-comparable; disk beyond 0 GiB: price unknown; session cap 1 h, needs restarts"
   },
   {
    "id": "buddy",
@@ -1762,6 +1850,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": "egress unpublished"
   },
   {
@@ -1793,6 +1882,7 @@
    "reasons": [
     "discontinued / closed to new customers"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: discontinued / closed to new customers; egress unpublished"
   },
   {
@@ -1822,6 +1912,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": "session cap 8 h, needs restarts; egress unpublished"
   },
   {
@@ -1853,6 +1944,7 @@
    "reasons": [
     "Native product; see regime notes: needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Native product; see regime notes: needs opt-in (alt); egress unpublished"
   },
   {
@@ -1884,6 +1976,7 @@
    "reasons": [
     "Self-hosted open-source Docker desktop agent: needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Self-hosted open-source Docker desktop agent: needs opt-in (alt); egress unpublished"
   },
   {
@@ -1915,6 +2008,7 @@
    "reasons": [
     "Per-thread VM, billed hourly by size while awake: needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Per-thread VM, billed hourly by size while awake: needs opt-in (alt); egress unpublished"
   },
   {
@@ -1948,6 +2042,7 @@
     "Managed enclave in own AWS: needs opt-in (sales, alt)",
     "AGPL self-host: needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Fully managed enclave: needs opt-in (sales); Managed enclave in own AWS: needs o; egress unpublished"
   },
   {
@@ -1979,6 +2074,7 @@
    "reasons": [
     "Native product; see regime notes: needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Native product; see regime notes: needs opt-in (alt); egress unpublished"
   },
   {
@@ -2008,6 +2104,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": "egress unpublished"
   },
   {
@@ -2051,6 +2148,7 @@
     "T4, serverless: needs opt-in (spot)",
     "Guaranteed burst capacity (min spend): needs opt-in (sales)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Interruptible: needs opt-in (spot, alt); Protected compute: needs opt-in (alt); ; egress unpublished"
   },
   {
@@ -2082,6 +2180,7 @@
    "reasons": [
     "Native service: needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Native service: needs opt-in (alt); egress unpublished"
   },
   {
@@ -2111,6 +2210,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": "$15/mo minimum, fee is a usage credit; session cap 5 h, needs restarts"
   },
   {
@@ -2142,6 +2242,7 @@
    "reasons": [
     "discontinued / closed to new customers"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: discontinued / closed to new customers; egress unpublished"
   },
   {
@@ -2171,6 +2272,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": ""
   },
   {
@@ -2204,6 +2306,7 @@
     "Self-hosted sandbox environment (your infra, Anthropic orchestration): needs opt-in (alt)",
     "no preset with \u22652 vCPU and \u22654 GiB"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Cloud sandbox session runtime ($0.08 per running session-hour, flat): needs opt-; egress unpublished"
   },
   {
@@ -2235,6 +2338,7 @@
    "reasons": [
     "no preset with \u22652 vCPU and \u22654 GiB"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: no preset with \u22652 vCPU and \u22654 GiB; egress unpublished"
   },
   {
@@ -2264,7 +2368,10 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
-   "notes": "egress unpublished"
+   "caveats": [
+    "disk beyond 0 GiB: price unknown"
+   ],
+   "notes": "disk beyond 0 GiB: price unknown; egress unpublished"
   },
   {
    "id": "cloudaxis",
@@ -2295,6 +2402,7 @@
    "reasons": [
     "no preset with \u22652 vCPU and \u22654 GiB"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: no preset with \u22652 vCPU and \u22654 GiB; egress unpublished"
   },
   {
@@ -2326,6 +2434,7 @@
    "reasons": [
     "no preset with \u22652 vCPU and \u22654 GiB"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: no preset with \u22652 vCPU and \u22654 GiB; egress unpublished"
   },
   {
@@ -2355,7 +2464,11 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
-   "notes": "egress unpublished"
+   "caveats": [
+    "machine size per session not published",
+    "disk beyond 0 GiB: price unknown"
+   ],
+   "notes": "no machine size published, not shape-comparable; disk beyond 0 GiB: price unknown; egress unpublished"
   },
   {
    "id": "cloudflare-browser",
@@ -2384,7 +2497,11 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
-   "notes": ""
+   "caveats": [
+    "machine size per session not published",
+    "disk beyond 0 GiB: price unknown"
+   ],
+   "notes": "no machine size published, not shape-comparable; disk beyond 0 GiB: price unknown"
   },
   {
    "id": "cloudflare-sandbox",
@@ -2413,6 +2530,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": ""
   },
   {
@@ -2445,6 +2563,7 @@
     "needs 2 vCPU, largest option is 1",
     "max 1 vCPU per sandbox"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: needs 2 vCPU, largest option is 1; max 1 vCPU per sandbox"
   },
   {
@@ -2476,6 +2595,7 @@
    "reasons": [
     "discontinued / closed to new customers"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: discontinued / closed to new customers; egress unpublished"
   },
   {
@@ -2507,6 +2627,7 @@
    "reasons": [
     "On-demand: needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: On-demand: needs opt-in (alt); egress unpublished"
   },
   {
@@ -2536,7 +2657,11 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
-   "notes": "egress unpublished"
+   "caveats": [
+    "machine size per session not published",
+    "disk beyond 0 GiB: price unknown"
+   ],
+   "notes": "no machine size published, not shape-comparable; disk beyond 0 GiB: price unknown; egress unpublished"
   },
   {
    "id": "codemagic",
@@ -2565,7 +2690,11 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
-   "notes": "session cap 2 h, needs restarts; egress unpublished; flat pool, billed whether used or not"
+   "caveats": [
+    "flat pool: the tier is billed whether used or not",
+    "disk beyond 0 GiB: price unknown"
+   ],
+   "notes": "disk beyond 0 GiB: price unknown; session cap 2 h, needs restarts; egress unpublished"
   },
   {
    "id": "coder",
@@ -2596,6 +2725,7 @@
    "reasons": [
     "Self-hosted workspaces: needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Self-hosted workspaces: needs opt-in (alt); egress unpublished"
   },
   {
@@ -2625,6 +2755,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": "$5.944/mo free credit; egress unpublished"
   },
   {
@@ -2654,7 +2785,10 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
-   "notes": ""
+   "caveats": [
+    "disk beyond 0 GiB: price unknown"
+   ],
+   "notes": "disk beyond 0 GiB: price unknown"
   },
   {
    "id": "comfy-deploy",
@@ -2685,6 +2819,7 @@
    "reasons": [
     "discontinued / closed to new customers"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: discontinued / closed to new customers; egress unpublished"
   },
   {
@@ -2716,6 +2851,7 @@
    "reasons": [
     "discontinued / closed to new customers"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: discontinued / closed to new customers; egress unpublished"
   },
   {
@@ -2747,6 +2883,7 @@
    "reasons": [
     "no preset with \u22652 vCPU and \u22654 GiB"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: no preset with \u22652 vCPU and \u22654 GiB; egress unpublished"
   },
   {
@@ -2776,7 +2913,10 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
-   "notes": "visible $4.40 is a 24-month intro, list is $6.60"
+   "caveats": [
+    "monthly cap reached"
+   ],
+   "notes": "visible $4.40 is a 24-month intro, list is $6.60; price is one month's rent at every horizon"
   },
   {
    "id": "coreweave",
@@ -2822,6 +2962,7 @@
     "H200, spot (\u00d78 node, Europe): needs opt-in (spot)",
     "A100-80GB, spot (\u00d78 node, Europe): needs opt-in (spot)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: B300, spot (\u00d78 node): needs opt-in (spot); B200, spot (\u00d78 node): needs opt-in (s; egress unpublished"
   },
   {
@@ -2851,6 +2992,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": "$10/mo minimum, fee is a usage credit"
   },
   {
@@ -2880,6 +3022,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": ""
   },
   {
@@ -2912,6 +3055,7 @@
     "no Linux",
     "Cua Cloud macOS (separate product): needs opt-in (sales)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: no Linux; Cua Cloud macOS (separate product): needs opt-in (sales); egress unpublished"
   },
   {
@@ -2941,7 +3085,10 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
-   "notes": "egress unpublished"
+   "caveats": [
+    "disk beyond 0 GiB: price unknown"
+   ],
+   "notes": "disk beyond 0 GiB: price unknown; egress unpublished"
   },
   {
    "id": "cube",
@@ -2972,6 +3119,7 @@
    "reasons": [
     "Per-second VM sizes (50 GB disk): needs opt-in (promo)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Per-second VM sizes (50 GB disk): needs opt-in (promo); egress unpublished"
   },
   {
@@ -3003,6 +3151,7 @@
    "reasons": [
     "Native product; see regime notes: needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Native product; see regime notes: needs opt-in (alt); egress unpublished"
   },
   {
@@ -3035,6 +3184,7 @@
     "Native product; see regime notes: needs opt-in (alt)",
     "Cloud Engines (hosted, early access): needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Native product; see regime notes: needs opt-in (alt); Cloud Engines (hosted, ear; egress unpublished"
   },
   {
@@ -3066,6 +3216,7 @@
    "reasons": [
     "no preset with \u22652 vCPU and \u22654 GiB"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: no preset with \u22652 vCPU and \u22654 GiB; egress unpublished"
   },
   {
@@ -3097,6 +3248,7 @@
    "reasons": [
     "no Linux"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: no Linux; egress unpublished"
   },
   {
@@ -3126,6 +3278,9 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [
+    "plan \"Tier 3 ($500 top-up)\" needed for open internet: Tier 1 (email verified), Tier 2 (card + $25 top-up) reach only an allowlist (package registries, git, AI APIs)"
+   ],
    "notes": "egress unpublished"
   },
   {
@@ -3155,6 +3310,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": "egress unpublished"
   },
   {
@@ -3184,6 +3340,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": "egress unpublished"
   },
   {
@@ -3213,7 +3370,10 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
-   "notes": "session cap 0.5 h, needs restarts"
+   "caveats": [
+    "disk beyond 10 GiB: price unknown"
+   ],
+   "notes": "disk beyond 10 GiB: price unknown; session cap 0.5 h, needs restarts"
   },
   {
    "id": "depot",
@@ -3242,6 +3402,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": "egress unpublished"
   },
   {
@@ -3273,6 +3434,7 @@
    "reasons": [
     "Native product; see regime notes: needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Native product; see regime notes: needs opt-in (alt); egress unpublished"
   },
   {
@@ -3312,6 +3474,7 @@
     "MI355X, spot: needs opt-in (spot)",
     "MI350X, spot: needs opt-in (spot)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: B300, reserved: needs opt-in (sales, commit); H200, reserved: needs opt-in (sale"
   },
   {
@@ -3341,6 +3504,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": ""
   },
   {
@@ -3370,6 +3534,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": ""
   },
   {
@@ -3401,6 +3566,7 @@
    "reasons": [
     "Native service: needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Native service: needs opt-in (alt); egress unpublished"
   },
   {
@@ -3430,6 +3596,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": "egress unpublished"
   },
   {
@@ -3459,6 +3626,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": "egress unpublished"
   },
   {
@@ -3488,7 +3656,10 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
-   "notes": "session cap 1 h, needs restarts; egress unpublished"
+   "caveats": [
+    "disk beyond 0 GiB: price unknown"
+   ],
+   "notes": "disk beyond 0 GiB: price unknown; session cap 1 h, needs restarts; egress unpublished"
   },
   {
    "id": "eventual",
@@ -3520,6 +3691,7 @@
     "Daft open-source self-hosted engine: needs opt-in (alt)",
     "Eventual robotics data platform: needs opt-in (sales, alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Daft open-source self-hosted engine: needs opt-in (alt); Eventual robotics data ; egress unpublished"
   },
   {
@@ -3549,6 +3721,9 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [
+    "flat pool: the tier is billed whether used or not"
+   ],
    "notes": "$15/mo minimum, fee is a usage credit; flat pool, billed whether used or not"
   },
   {
@@ -3578,6 +3753,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": ""
   },
   {
@@ -3609,6 +3785,7 @@
    "reasons": [
     "Native product; see regime notes: needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Native product; see regime notes: needs opt-in (alt); egress unpublished"
   },
   {
@@ -3638,7 +3815,10 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
-   "notes": "session cap 2 h, needs restarts; egress unpublished"
+   "caveats": [
+    "disk beyond 0 GiB: price unknown"
+   ],
+   "notes": "disk beyond 0 GiB: price unknown; session cap 2 h, needs restarts; egress unpublished"
   },
   {
    "id": "fal",
@@ -3675,6 +3855,7 @@
     "H100 SXM, on-demand (\u00d71): needs opt-in (alt, sales)",
     "H100 SXM, on-demand (\u00d78 node): needs opt-in (alt, sales)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: B300, reserved: needs opt-in (sales); B200, reserved: needs opt-in (sales); H200; egress unpublished"
   },
   {
@@ -3706,6 +3887,7 @@
    "reasons": [
     "no preset with \u22652 vCPU and \u22654 GiB"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: no preset with \u22652 vCPU and \u22654 GiB; egress unpublished"
   },
   {
@@ -3735,7 +3917,11 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
-   "notes": "session cap 1 h, needs restarts; egress unpublished"
+   "caveats": [
+    "machine size per session not published",
+    "disk beyond 0 GiB: price unknown"
+   ],
+   "notes": "no machine size published, not shape-comparable; disk beyond 0 GiB: price unknown; session cap 1 h, needs restarts"
   },
   {
    "id": "flow-swiss-mac",
@@ -3768,6 +3954,7 @@
     "Mac split into 2 macOS VMs (Apple SLA cap), per-VM price: needs opt-in (alt)",
     "CI Engine (managed ephemeral macOS CI runners on M4 Pro), monthly per concurrent job: needs opt-in (alt, commit)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: no Linux; Mac split into 2 macOS VMs (Apple SLA cap), per-VM price: needs opt-in"
   },
   {
@@ -3799,6 +3986,7 @@
    "reasons": [
     "discontinued / closed to new customers"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: discontinued / closed to new customers; egress unpublished"
   },
   {
@@ -3833,6 +4021,7 @@
     "B200, reserved: needs opt-in (alt, sales)",
     "GB200, reserved: needs opt-in (alt, sales)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: H100, reserved: needs opt-in (alt, sales); H200, reserved: needs opt-in (alt, sa; egress unpublished"
   },
   {
@@ -3862,6 +4051,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": ""
   },
   {
@@ -3891,6 +4081,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": "$18.38/mo free credit"
   },
   {
@@ -3920,7 +4111,10 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
-   "notes": ""
+   "caveats": [
+    "disk beyond 0 GiB: price unknown"
+   ],
+   "notes": "disk beyond 0 GiB: price unknown"
   },
   {
    "id": "gcp-compute-gpu",
@@ -3957,6 +4151,7 @@
     "g2-standard-4, spot (\u00d71): needs opt-in (spot)",
     "size list not published"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: a2-highgpu-1g, spot (\u00d71): needs opt-in (spot); a2-ultragpu-1g, spot (\u00d71): needs ; egress unpublished"
   },
   {
@@ -3986,6 +4181,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": ""
   },
   {
@@ -4017,6 +4213,7 @@
    "reasons": [
     "no Linux"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: no Linux"
   },
   {
@@ -4048,6 +4245,7 @@
    "reasons": [
     "Built-in code execution tool (token-billed only): needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Built-in code execution tool (token-billed only): needs opt-in (alt); session cap 0.00833333 h, needs restarts; egress unpublished"
   },
   {
@@ -4077,7 +4275,10 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
-   "notes": "session cap 6 h, needs restarts"
+   "caveats": [
+    "disk beyond 14 GiB: price unknown"
+   ],
+   "notes": "disk beyond 14 GiB: price unknown; session cap 6 h, needs restarts"
   },
   {
    "id": "github-codespaces",
@@ -4106,6 +4307,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": ""
   },
   {
@@ -4137,6 +4339,7 @@
    "reasons": [
     "Cloud sandbox (copilot --cloud), per-second meters: needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Cloud sandbox (copilot --cloud), per-second meters: needs opt-in (alt); egress unpublished"
   },
   {
@@ -4166,6 +4369,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": "session cap 3 h, needs restarts; egress unpublished"
   },
   {
@@ -4195,7 +4399,10 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
-   "notes": "egress unpublished"
+   "caveats": [
+    "disk beyond 0 GiB: price unknown"
+   ],
+   "notes": "disk beyond 0 GiB: price unknown; egress unpublished"
   },
   {
    "id": "gologin",
@@ -4224,7 +4431,11 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
-   "notes": ""
+   "caveats": [
+    "machine size per session not published",
+    "disk beyond 0 GiB: price unknown"
+   ],
+   "notes": "no machine size published, not shape-comparable; disk beyond 0 GiB: price unknown"
   },
   {
    "id": "google-agent-engine",
@@ -4253,7 +4464,10 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
-   "notes": "egress unpublished"
+   "caveats": [
+    "disk beyond 0 GiB: price unknown"
+   ],
+   "notes": "disk beyond 0 GiB: price unknown; egress unpublished"
   },
   {
    "id": "google-cloud-build",
@@ -4282,6 +4496,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": "egress unpublished"
   },
   {
@@ -4311,6 +4526,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": "$5.22/mo free credit"
   },
   {
@@ -4343,6 +4559,7 @@
     "On-demand: needs opt-in (alt)",
     "Colab Enterprise (GCP, us-central1): needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: On-demand: needs opt-in (alt); Colab Enterprise (GCP, us-central1): needs opt-in; session cap 12 h, needs restarts; egress unpublished"
   },
   {
@@ -4374,6 +4591,7 @@
    "reasons": [
     "no Linux"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: no Linux"
   },
   {
@@ -4405,6 +4623,7 @@
    "reasons": [
     "no preset with \u22652 vCPU and \u22654 GiB"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: no preset with \u22652 vCPU and \u22654 GiB; egress unpublished"
   },
   {
@@ -4436,6 +4655,7 @@
    "reasons": [
     "Native product; see regime notes: needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Native product; see regime notes: needs opt-in (alt); egress unpublished"
   },
   {
@@ -4467,6 +4687,7 @@
    "reasons": [
     "Native product; see regime notes: needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Native product; see regime notes: needs opt-in (alt); egress unpublished"
   },
   {
@@ -4498,6 +4719,7 @@
    "reasons": [
     "Native product; see regime notes: needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Native product; see regime notes: needs opt-in (alt); egress unpublished"
   },
   {
@@ -4533,6 +4755,7 @@
     "Cedar Shield Private Space dynos (HIPAA/PCI): needs opt-in (alt)",
     "Fir (next-gen, Kubernetes) dynos; requires a Fir Private Space: needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Cedar Common Runtime dynos (Basic/Standard shared; Performance dedicated): needs; egress unpublished"
   },
   {
@@ -4562,6 +4785,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": ""
   },
   {
@@ -4591,6 +4815,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": ""
   },
   {
@@ -4624,6 +4849,7 @@
     "GEX131 Blackwell Max-Q 96GB, on-demand (\u00d71): needs opt-in (alt)",
     "no preset with \u22652 vCPU and \u22654 GiB"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: GEX45 Blackwell SFF 24GB, on-demand (\u00d71): needs opt-in (alt); GEX131 Blackwell M"
   },
   {
@@ -4655,6 +4881,7 @@
    "reasons": [
     "Native service: needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Native service: needs opt-in (alt); egress unpublished"
   },
   {
@@ -4684,6 +4911,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": "egress unpublished"
   },
   {
@@ -4713,7 +4941,10 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
-   "notes": ""
+   "caveats": [
+    "monthly cap reached"
+   ],
+   "notes": "price is one month's rent at every horizon"
   },
   {
    "id": "hostmyapple",
@@ -4744,6 +4975,7 @@
    "reasons": [
     "no Linux"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: no Linux"
   },
   {
@@ -4773,6 +5005,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": ""
   },
   {
@@ -4805,6 +5038,7 @@
     "Native service: needs opt-in (alt)",
     "HUD-hosted on Modal (CPU/GPU profiles): needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Native service: needs opt-in (alt); HUD-hosted on Modal (CPU/GPU profiles): need; egress unpublished"
   },
   {
@@ -4843,6 +5077,7 @@
     "GPU: Nvidia H200: needs opt-in (alt)",
     "GPU: Nvidia RTX PRO 6000: needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: On-demand: needs opt-in (alt); GPU: Nvidia T4: needs opt-in (alt); GPU: Nvidia L; egress unpublished"
   },
   {
@@ -4874,6 +5109,7 @@
    "reasons": [
     "Native product; see regime notes: needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Native product; see regime notes: needs opt-in (alt); egress unpublished"
   },
   {
@@ -4903,7 +5139,11 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
-   "notes": "egress unpublished"
+   "caveats": [
+    "machine size per session not published",
+    "disk beyond 0 GiB: price unknown"
+   ],
+   "notes": "no machine size published, not shape-comparable; disk beyond 0 GiB: price unknown; egress unpublished"
   },
   {
    "id": "hyperbolic",
@@ -4934,6 +5174,7 @@
    "reasons": [
     "Private Cloud (single-tenant, >1 year contract): needs opt-in (sales)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Private Cloud (single-tenant, >1 year contract): needs opt-in (sales)"
   },
   {
@@ -4963,7 +5204,11 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
-   "notes": "session cap 12 h, needs restarts; egress unpublished"
+   "caveats": [
+    "machine size per session not published",
+    "disk beyond 0 GiB: price unknown"
+   ],
+   "notes": "no machine size published, not shape-comparable; disk beyond 0 GiB: price unknown; session cap 12 h, needs restarts"
   },
   {
    "id": "hyperstack",
@@ -4992,6 +5237,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": ""
   },
   {
@@ -5023,6 +5269,7 @@
    "reasons": [
     "Native product; see regime notes: needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Native product; see regime notes: needs opt-in (alt); egress unpublished"
   },
   {
@@ -5052,6 +5299,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": ""
   },
   {
@@ -5081,6 +5329,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": "$10/mo free credit"
   },
   {
@@ -5110,6 +5359,9 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [
+    "plan \"Pro\" needed for open internet: Free reach only an allowlist (package registries, git, AI APIs)"
+   ],
    "notes": "egress unpublished"
   },
   {
@@ -5139,7 +5391,10 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
-   "notes": "session cap 6 h, needs restarts; egress unpublished"
+   "caveats": [
+    "disk beyond 0 GiB: price unknown"
+   ],
+   "notes": "disk beyond 0 GiB: price unknown; session cap 6 h, needs restarts; egress unpublished"
   },
   {
    "id": "ionos",
@@ -5168,6 +5423,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": ""
   },
   {
@@ -5199,6 +5455,7 @@
    "reasons": [
     "Native product meter; not a general-purpose 4-vCPU/8-GiB VM: needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Native product meter; not a general-purpose 4-vCPU/8-GiB VM: needs opt-in (alt); egress unpublished"
   },
   {
@@ -5228,6 +5485,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": "egress unpublished"
   },
   {
@@ -5257,6 +5515,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": ""
   },
   {
@@ -5288,6 +5547,7 @@
    "reasons": [
     "discontinued / closed to new customers"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: discontinued / closed to new customers; egress unpublished"
   },
   {
@@ -5317,6 +5577,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": ""
   },
   {
@@ -5348,6 +5609,7 @@
    "reasons": [
     "On-demand: needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: On-demand: needs opt-in (alt); session cap 12 h, needs restarts; egress unpublished"
   },
   {
@@ -5377,6 +5639,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": ""
   },
   {
@@ -5406,6 +5669,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": ""
   },
   {
@@ -5439,6 +5703,7 @@
     "Kasm-managed Workspaces as a Service (minimum 25 users): needs opt-in (sales)",
     "Kasm Cloud Personal (hosted disposable browser/desktop, flat monthly with hour cap): needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Self-hosted Workspaces licence (Starter: $10/user or $20/concurrent session): ne; egress unpublished"
   },
   {
@@ -5468,6 +5733,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": "$5/mo free credit"
   },
   {
@@ -5497,7 +5763,11 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
-   "notes": "egress unpublished"
+   "caveats": [
+    "machine size per session not published",
+    "disk beyond 0 GiB: price unknown"
+   ],
+   "notes": "no machine size published, not shape-comparable; disk beyond 0 GiB: price unknown; egress unpublished"
   },
   {
    "id": "koyeb",
@@ -5526,6 +5796,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": ""
   },
   {
@@ -5557,6 +5828,7 @@
    "reasons": [
     "discontinued / closed to new customers"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: discontinued / closed to new customers; egress unpublished"
   },
   {
@@ -5593,6 +5865,7 @@
     "B200, reserved (\u00d764 node): needs opt-in (alt, sales)",
     "B200, reserved (\u00d7256 node): needs opt-in (alt, sales)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: H100, reserved (\u00d716 node): needs opt-in (alt, sales); H100, reserved (\u00d764 node):"
   },
   {
@@ -5626,6 +5899,7 @@
     "Plus (one seat): reach only an allowlist (package registries, git, AI APIs)",
     "Enterprise: negotiated plan"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Developer: reach only an allowlist (package registries, git, AI APIs); Plus (one; egress unpublished"
   },
   {
@@ -5657,6 +5931,7 @@
    "reasons": [
     "Native product meter; not a general-purpose 4-vCPU/8-GiB VM: needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Native product meter; not a general-purpose 4-vCPU/8-GiB VM: needs opt-in (alt); egress unpublished"
   },
   {
@@ -5686,7 +5961,10 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
-   "notes": ""
+   "caveats": [
+    "monthly cap reached"
+   ],
+   "notes": "price is one month's rent at every horizon"
   },
   {
    "id": "leap0",
@@ -5715,7 +5993,10 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
-   "notes": "session cap 8 h, needs restarts; egress unpublished"
+   "caveats": [
+    "disk beyond 10 GiB: price unknown"
+   ],
+   "notes": "disk beyond 10 GiB: price unknown; session cap 8 h, needs restarts; egress unpublished"
   },
   {
    "id": "lightning-ai",
@@ -5744,6 +6025,9 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [
+    "flat pool: the tier is billed whether used or not"
+   ],
    "notes": "free CPU Studio stack: 4 h/session then it converts to paid; one at a time; egress unpublished; flat pool, billed whether used or not"
   },
   {
@@ -5773,7 +6057,11 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
-   "notes": "session cap 0.25 h, needs restarts; egress unpublished"
+   "caveats": [
+    "machine size per session not published",
+    "disk beyond 0 GiB: price unknown"
+   ],
+   "notes": "no machine size published, not shape-comparable; disk beyond 0 GiB: price unknown; session cap 0.25 h, needs restarts"
   },
   {
    "id": "limrun",
@@ -5804,6 +6092,7 @@
    "reasons": [
     "Native product; see regime notes: needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Native product; see regime notes: needs opt-in (alt); egress unpublished"
   },
   {
@@ -5833,6 +6122,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": ""
   },
   {
@@ -5862,6 +6152,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": "Medium only: runtime fixes 4 vCPU / 4 GiB"
   },
   {
@@ -5891,6 +6182,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": ""
   },
   {
@@ -5924,6 +6216,7 @@
     "Pay-as-You-Go by the day (shared managed Mac, no admin): needs opt-in (alt)",
     "Managed Server plan (shared managed Mac account), monthly: needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: no Linux; Pay-as-You-Go by the day (shared managed Mac, no admin): needs opt-in ; egress unpublished"
   },
   {
@@ -5957,6 +6250,7 @@
     "Orka macOS VM cluster (Mac Cloud Compute), contact sales: needs opt-in (sales)",
     "Orka Burst elastic nodes (add-on to an Orka cluster): needs opt-in (sales)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: no Linux; Orka macOS VM cluster (Mac Cloud Compute), contact sales: needs opt-in"
   },
   {
@@ -5988,6 +6282,7 @@
    "reasons": [
     "discontinued / closed to new customers"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: discontinued / closed to new customers; egress unpublished"
   },
   {
@@ -6019,6 +6314,7 @@
    "reasons": [
     "Native product; see regime notes: needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Native product; see regime notes: needs opt-in (alt)"
   },
   {
@@ -6050,6 +6346,7 @@
    "reasons": [
     "commit regime only covers always-on instances"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: commit regime only covers always-on instances; egress unpublished"
   },
   {
@@ -6081,6 +6378,7 @@
    "reasons": [
     "no preset with \u22652 vCPU and \u22654 GiB"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: no preset with \u22652 vCPU and \u22654 GiB; egress unpublished"
   },
   {
@@ -6115,6 +6413,7 @@
     "Mastra Platform Teams CPU-time meter: needs opt-in (alt)",
     "Persistent Server 24/7 uptime add-on: needs opt-in (addon)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Native product; see regime notes: needs opt-in (alt); Mastra Platform Starter CP"
   },
   {
@@ -6146,6 +6445,7 @@
    "reasons": [
     "Native service: needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Native service: needs opt-in (alt); egress unpublished"
   },
   {
@@ -6175,6 +6475,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": "egress unpublished"
   },
   {
@@ -6206,6 +6507,7 @@
    "reasons": [
     "Native product; see regime notes: needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Native product; see regime notes: needs opt-in (alt); egress unpublished"
   },
   {
@@ -6237,6 +6539,7 @@
    "reasons": [
     "Hosted agent environment quote/spec unverified: needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Hosted agent environment quote/spec unverified: needs opt-in (alt); egress unpublished"
   },
   {
@@ -6266,7 +6569,10 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
-   "notes": ""
+   "caveats": [
+    "disk beyond 10 GiB: price unknown"
+   ],
+   "notes": "disk beyond 10 GiB: price unknown"
   },
   {
    "id": "mistral-compute",
@@ -6297,6 +6603,7 @@
    "reasons": [
     "Dedicated AI capacity: needs opt-in (sales, commit)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Dedicated AI capacity: needs opt-in (sales, commit); egress unpublished"
   },
   {
@@ -6326,6 +6633,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": "$30/mo free credit"
   },
   {
@@ -6357,6 +6665,7 @@
    "reasons": [
     "App containers: needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: App containers: needs opt-in (alt); egress unpublished"
   },
   {
@@ -6388,6 +6697,7 @@
    "reasons": [
     "Hosted Agents 1C/1G sandbox: needs opt-in (alt, sales)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Hosted Agents 1C/1G sandbox: needs opt-in (alt, sales); egress unpublished"
   },
   {
@@ -6417,7 +6727,10 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
-   "notes": "egress unpublished"
+   "caveats": [
+    "disk beyond 16 GiB: price unknown"
+   ],
+   "notes": "disk beyond 16 GiB: price unknown; egress unpublished"
   },
   {
    "id": "mosaic",
@@ -6446,6 +6759,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": "egress unpublished"
   },
   {
@@ -6475,6 +6789,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": "egress unpublished"
   },
   {
@@ -6504,7 +6819,10 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
-   "notes": "egress unpublished"
+   "caveats": [
+    "disk beyond 0 GiB: price unknown"
+   ],
+   "notes": "disk beyond 0 GiB: price unknown; egress unpublished"
   },
   {
    "id": "nebius-contree",
@@ -6535,6 +6853,7 @@
    "reasons": [
     "no published per-resource rate"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: no published per-resource rate; session cap 1 h, needs restarts; egress unpublished"
   },
   {
@@ -6564,6 +6883,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": ""
   },
   {
@@ -6593,7 +6913,10 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
-   "notes": "disputed: provider page ~11% above the card"
+   "caveats": [
+    "monthly cap reached"
+   ],
+   "notes": "entry row is VPS Lite 1 (6-month min); VPS 500 is $8.51/mo; price is one month's rent at every horizon"
   },
   {
    "id": "nextmv",
@@ -6624,6 +6947,7 @@
    "reasons": [
     "Native product; see regime notes: needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Native product; see regime notes: needs opt-in (alt); session cap 0.25 h, needs restarts; egress unpublished"
   },
   {
@@ -6655,6 +6979,7 @@
    "reasons": [
     "no published per-resource rate"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: no published per-resource rate; egress unpublished"
   },
   {
@@ -6684,6 +7009,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": ""
   },
   {
@@ -6713,7 +7039,11 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
-   "notes": "$20/mo minimum, fee is a usage credit; egress unpublished"
+   "caveats": [
+    "machine size per session not published",
+    "disk beyond 0 GiB: price unknown"
+   ],
+   "notes": "no machine size published, not shape-comparable; disk beyond 0 GiB: price unknown; $20/mo minimum, fee is a usage credit"
   },
   {
    "id": "novita",
@@ -6742,6 +7072,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": "egress unpublished"
   },
   {
@@ -6774,6 +7105,7 @@
     "no Linux",
     "\"Try macOS for a week\" (M2, 8+ GB), one-off 7 days: needs opt-in (promo, stock)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: no Linux; \"Try macOS for a week\" (M2, 8+ GB), one-off 7 days: needs opt-in (prom"
   },
   {
@@ -6805,6 +7137,7 @@
    "reasons": [
     "Native product; see regime notes: needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Native product; see regime notes: needs opt-in (alt); egress unpublished"
   },
   {
@@ -6834,7 +7167,10 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
-   "notes": "egress unpublished"
+   "caveats": [
+    "disk beyond 0 GiB: price unknown"
+   ],
+   "notes": "disk beyond 0 GiB: price unknown; egress unpublished"
   },
   {
    "id": "omnirun",
@@ -6865,6 +7201,7 @@
    "reasons": [
     "no preset with \u22652 vCPU and \u22654 GiB"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: no preset with \u22652 vCPU and \u22654 GiB; egress unpublished"
   },
   {
@@ -6894,7 +7231,10 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
-   "notes": "$20/mo minimum, fee is a usage credit; egress unpublished"
+   "caveats": [
+    "disk beyond 0 GiB: price unknown"
+   ],
+   "notes": "disk beyond 0 GiB: price unknown; $20/mo minimum, fee is a usage credit; egress unpublished"
   },
   {
    "id": "onecli",
@@ -6925,6 +7265,7 @@
    "reasons": [
     "Native product; see regime notes: needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Native product; see regime notes: needs opt-in (alt); egress unpublished"
   },
   {
@@ -6954,6 +7295,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": ""
   },
   {
@@ -6985,6 +7327,7 @@
    "reasons": [
     "Bring your own computer: needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Bring your own computer: needs opt-in (alt); egress unpublished"
   },
   {
@@ -7020,6 +7363,7 @@
     "ChatGPT Business: regime not sold on this plan",
     "ChatGPT Enterprise/Edu: regime not sold on this plan"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: API pay as you go: reach only an allowlist (package registries, git, AI APIs); C; egress unpublished"
   },
   {
@@ -7049,7 +7393,10 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
-   "notes": "egress unpublished"
+   "caveats": [
+    "disk beyond 16 GiB: price unknown"
+   ],
+   "notes": "disk beyond 16 GiB: price unknown; egress unpublished"
   },
   {
    "id": "openhands-runtime",
@@ -7081,6 +7428,7 @@
     "Managed OpenHands Cloud: needs opt-in (alt)",
     "Remote agent server on own infrastructure: needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Managed OpenHands Cloud: needs opt-in (alt); Remote agent server on own infrastr; session cap 12 h, needs restarts; egress unpublished"
   },
   {
@@ -7110,7 +7458,10 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
-   "notes": "egress unpublished"
+   "caveats": [
+    "disk beyond 10 GiB: price unknown"
+   ],
+   "notes": "disk beyond 10 GiB: price unknown; egress unpublished"
   },
   {
    "id": "openreward",
@@ -7139,7 +7490,10 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
-   "notes": "egress unpublished"
+   "caveats": [
+    "disk beyond 0 GiB: price unknown"
+   ],
+   "notes": "disk beyond 0 GiB: price unknown; egress unpublished"
   },
   {
    "id": "openshift",
@@ -7168,7 +7522,10 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
-   "notes": "egress unpublished"
+   "caveats": [
+    "disk beyond 0 GiB: price unknown"
+   ],
+   "notes": "disk beyond 0 GiB: price unknown; egress unpublished"
   },
   {
    "id": "opensteer",
@@ -7197,7 +7554,11 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
-   "notes": "egress unpublished"
+   "caveats": [
+    "machine size per session not published",
+    "disk beyond 0 GiB: price unknown"
+   ],
+   "notes": "no machine size published, not shape-comparable; disk beyond 0 GiB: price unknown; egress unpublished"
   },
   {
    "id": "oracle-cloud",
@@ -7226,6 +7587,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": "unverified: pricing page returns 403"
   },
   {
@@ -7255,7 +7617,11 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
-   "notes": "egress unpublished; flat pool, billed whether used or not"
+   "caveats": [
+    "flat pool: the tier is billed whether used or not",
+    "disk beyond 0 GiB: price unknown"
+   ],
+   "notes": "disk beyond 0 GiB: price unknown; egress unpublished; flat pool, billed whether used or not"
   },
   {
    "id": "orkestr",
@@ -7284,7 +7650,11 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
-   "notes": "egress unpublished"
+   "caveats": [
+    "disk beyond 0 GiB: price unknown",
+    "plan \"Pay as you go\" needed for open internet: Free no internet access"
+   ],
+   "notes": "disk beyond 0 GiB: price unknown; egress unpublished"
   },
   {
    "id": "ovh-gpu",
@@ -7313,7 +7683,10 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
-   "notes": ""
+   "caveats": [
+    "machine size per session not published"
+   ],
+   "notes": "no machine size published, not shape-comparable"
   },
   {
    "id": "ovhcloud",
@@ -7342,6 +7715,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": ""
   },
   {
@@ -7371,6 +7745,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": ""
   },
   {
@@ -7402,6 +7777,7 @@
    "reasons": [
     "Native product meter; not a general-purpose 4-vCPU/8-GiB VM: needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Native product meter; not a general-purpose 4-vCPU/8-GiB VM: needs opt-in (alt); egress unpublished"
   },
   {
@@ -7431,6 +7807,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": ""
   },
   {
@@ -7462,6 +7839,7 @@
    "reasons": [
     "Native product; see regime notes: needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Native product; see regime notes: needs opt-in (alt); egress unpublished"
   },
   {
@@ -7493,6 +7871,7 @@
    "reasons": [
     "Native product; see regime notes: needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Native product; see regime notes: needs opt-in (alt); egress unpublished"
   },
   {
@@ -7524,6 +7903,7 @@
    "reasons": [
     "Native product; see regime notes: needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Native product; see regime notes: needs opt-in (alt); egress unpublished"
   },
   {
@@ -7555,6 +7935,7 @@
    "reasons": [
     "Native product; see regime notes: needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Native product; see regime notes: needs opt-in (alt); egress unpublished"
   },
   {
@@ -7586,6 +7967,7 @@
    "reasons": [
     "Native product; see regime notes: needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Native product; see regime notes: needs opt-in (alt); egress unpublished"
   },
   {
@@ -7617,6 +7999,7 @@
    "reasons": [
     "Native product; see regime notes: needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Native product; see regime notes: needs opt-in (alt); egress unpublished"
   },
   {
@@ -7649,6 +8032,7 @@
     "Native service: needs opt-in (alt)",
     "Porter Sandboxes (AWS, in your own account): needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Native service: needs opt-in (alt); Porter Sandboxes (AWS, in your own account):; egress unpublished"
   },
   {
@@ -7678,6 +8062,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": "session cap 1 h, needs restarts; egress unpublished"
   },
   {
@@ -7707,6 +8092,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": "egress unpublished"
   },
   {
@@ -7736,6 +8122,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": "$10/mo minimum, fee is a usage credit; egress unpublished"
   },
   {
@@ -7765,7 +8152,10 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
-   "notes": "$5/mo minimum, fee is a usage credit"
+   "caveats": [
+    "disk beyond 0 GiB: price unknown"
+   ],
+   "notes": "disk beyond 0 GiB: price unknown; $5/mo minimum, fee is a usage credit"
   },
   {
    "id": "reflex",
@@ -7796,6 +8186,7 @@
    "reasons": [
     "Hosted Python apps: needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Hosted Python apps: needs opt-in (alt); egress unpublished"
   },
   {
@@ -7827,6 +8218,7 @@
    "reasons": [
     "Native service: needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Native service: needs opt-in (alt); egress unpublished"
   },
   {
@@ -7858,6 +8250,7 @@
    "reasons": [
     "Enterprise BYOC: needs opt-in (sales, alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Enterprise BYOC: needs opt-in (sales, alt); egress unpublished"
   },
   {
@@ -7887,7 +8280,11 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
-   "notes": "egress unpublished"
+   "caveats": [
+    "machine size per session not published",
+    "disk beyond 0 GiB: price unknown"
+   ],
+   "notes": "no machine size published, not shape-comparable; disk beyond 0 GiB: price unknown; egress unpublished"
   },
   {
    "id": "render",
@@ -7916,6 +8313,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": ""
   },
   {
@@ -7947,6 +8345,7 @@
    "reasons": [
     "no Linux"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: no Linux"
   },
   {
@@ -7976,6 +8375,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": "egress unpublished"
   },
   {
@@ -8014,6 +8414,7 @@
     "2x L40S, serverless: needs opt-in (alt)",
     "Multi-GPU / H200 (committed spend): needs opt-in (alt, sales)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Private Cog CPU model: needs opt-in (alt); T4, serverless (\u00d71): needs opt-in (al; egress unpublished"
   },
   {
@@ -8046,6 +8447,7 @@
     "Autoscale / Scheduled deployment (compute units while serving or running): needs opt-in (alt)",
     "commit regime only covers always-on instances"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Autoscale / Scheduled deployment (compute units while serving or running): needs"
   },
   {
@@ -8078,6 +8480,7 @@
     "Native product; see regime notes: needs opt-in (alt)",
     "no published per-resource rate"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Native product; see regime notes: needs opt-in (alt); no published per-resource ; egress unpublished"
   },
   {
@@ -8109,6 +8512,7 @@
    "reasons": [
     "Native product; see regime notes: needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Native product; see regime notes: needs opt-in (alt); egress unpublished"
   },
   {
@@ -8138,6 +8542,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": ""
   },
   {
@@ -8169,6 +8574,7 @@
    "reasons": [
     "discontinued / closed to new customers"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: discontinued / closed to new customers; session cap 0.25 h, needs restarts"
   },
   {
@@ -8200,6 +8606,7 @@
    "reasons": [
     "discontinued / closed to new customers"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: discontinued / closed to new customers; $15/mo free credit; egress unpublished"
   },
   {
@@ -8231,6 +8638,7 @@
    "reasons": [
     "Wally hosted token-billed inference preview (not an arbitrary-code VM): needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Wally hosted token-billed inference preview (not an arbitrary-code VM): needs op; egress unpublished"
   },
   {
@@ -8262,6 +8670,7 @@
    "reasons": [
     "discontinued / closed to new customers"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: discontinued / closed to new customers; egress unpublished"
   },
   {
@@ -8291,6 +8700,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": "egress unpublished"
   },
   {
@@ -8320,6 +8730,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": ""
   },
   {
@@ -8349,6 +8760,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": "egress unpublished"
   },
   {
@@ -8378,6 +8790,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": "egress unpublished"
   },
   {
@@ -8407,6 +8820,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": "$5/mo free credit; egress unpublished"
   },
   {
@@ -8436,7 +8850,11 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
-   "notes": ""
+   "caveats": [
+    "monthly cap reached",
+    "outbound bandwidth capped at 100 Mbps"
+   ],
+   "notes": "price is one month's rent at every horizon"
   },
   {
    "id": "samsung-cloud",
@@ -8465,6 +8883,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": ""
   },
   {
@@ -8494,6 +8913,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": "egress unpublished"
   },
   {
@@ -8523,6 +8943,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": ""
   },
   {
@@ -8554,6 +8975,7 @@
    "reasons": [
     "no Linux"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: no Linux"
   },
   {
@@ -8585,6 +9007,7 @@
    "reasons": [
     "no priceable regime"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: no priceable regime"
   },
   {
@@ -8614,6 +9037,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": "Stardust disk is billed on top of the instance rate"
   },
   {
@@ -8648,6 +9072,7 @@
     "Self-hosted microVM backend: needs opt-in (alt)",
     "Pre-warmed pool capacity: needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Self-hosted runtime + externally billed clusters: needs opt-in (alt); Self-hoste; egress unpublished"
   },
   {
@@ -8677,7 +9102,11 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
-   "notes": "$0.09/mo free credit; $399/mo minimum, fee is a usage credit; session cap 0.25 h, needs restarts"
+   "caveats": [
+    "machine size per session not published",
+    "disk beyond 0 GiB: price unknown"
+   ],
+   "notes": "no machine size published, not shape-comparable; disk beyond 0 GiB: price unknown; $0.09/mo free credit"
   },
   {
    "id": "scrapfly",
@@ -8706,7 +9135,11 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
-   "notes": "session cap 0.5 h, needs restarts"
+   "caveats": [
+    "machine size per session not published",
+    "disk beyond 0 GiB: price unknown"
+   ],
+   "notes": "no machine size published, not shape-comparable; disk beyond 0 GiB: price unknown; session cap 0.5 h, needs restarts"
   },
   {
    "id": "scrapingbee",
@@ -8737,6 +9170,7 @@
    "reasons": [
     "Browser API request (not time-priced): needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Browser API request (not time-priced): needs opt-in (alt); session cap 0.039 h, needs restarts; egress unpublished"
   },
   {
@@ -8768,6 +9202,7 @@
    "reasons": [
     "no published per-resource rate"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: no published per-resource rate; egress unpublished"
   },
   {
@@ -8797,7 +9232,11 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
-   "notes": "egress unpublished; flat pool, billed whether used or not"
+   "caveats": [
+    "flat pool: the tier is billed whether used or not",
+    "disk beyond 0 GiB: price unknown"
+   ],
+   "notes": "disk beyond 0 GiB: price unknown; egress unpublished; flat pool, billed whether used or not"
   },
   {
    "id": "self-host-baremetal",
@@ -8845,6 +9284,7 @@
     "Latitude c3.small paid yearly / 70% occupancy: needs opt-in (alt, commit)",
     "Latitude m4.metal.medium paid yearly / 70% occupancy: needs opt-in (alt, commit)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Hetzner AX42 / 50% occupancy: needs opt-in (alt); Hetzner AX42 / 70% occupancy: ; egress unpublished"
   },
   {
@@ -8876,6 +9316,7 @@
    "reasons": [
     "Native product meter; not a general-purpose 4-vCPU/8-GiB VM: needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Native product meter; not a general-purpose 4-vCPU/8-GiB VM: needs opt-in (alt); egress unpublished"
   },
   {
@@ -8907,6 +9348,7 @@
    "reasons": [
     "Native product; see regime notes: needs opt-in (alt, sales)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Native product; see regime notes: needs opt-in (alt, sales); egress unpublished"
   },
   {
@@ -8936,7 +9378,10 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
-   "notes": ""
+   "caveats": [
+    "disk beyond 0 GiB: price unknown"
+   ],
+   "notes": "disk beyond 0 GiB: price unknown"
   },
   {
    "id": "shadeform",
@@ -8968,6 +9413,7 @@
     "Current applicable tariff unverified: price not published",
     "Reserved commitments: negotiated plan"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Current applicable tariff unverified: price not published; Reserved commitments:; egress unpublished"
   },
   {
@@ -8997,6 +9443,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": "egress unpublished"
   },
   {
@@ -9026,6 +9473,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": "egress unpublished"
   },
   {
@@ -9057,6 +9505,7 @@
    "reasons": [
     "discontinued / closed to new customers"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: discontinued / closed to new customers; egress unpublished"
   },
   {
@@ -9088,6 +9537,7 @@
    "reasons": [
     "discontinued / closed to new customers"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: discontinued / closed to new customers; egress unpublished"
   },
   {
@@ -9119,6 +9569,7 @@
    "reasons": [
     "Native product; see regime notes: needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Native product; see regime notes: needs opt-in (alt); egress unpublished"
   },
   {
@@ -9150,6 +9601,7 @@
    "reasons": [
     "Native service: needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Native service: needs opt-in (alt); egress unpublished"
   },
   {
@@ -9181,6 +9633,7 @@
    "reasons": [
     "no published per-resource rate"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: no published per-resource rate; session cap 6 h, needs restarts; egress unpublished"
   },
   {
@@ -9210,6 +9663,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": ""
   },
   {
@@ -9241,6 +9695,7 @@
    "reasons": [
     "no published per-resource rate"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: no published per-resource rate; egress unpublished"
   },
   {
@@ -9270,7 +9725,10 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
-   "notes": "egress unpublished"
+   "caveats": [
+    "disk beyond 4 GiB: price unknown"
+   ],
+   "notes": "disk beyond 4 GiB: price unknown; egress unpublished"
   },
   {
    "id": "specific",
@@ -9301,6 +9759,7 @@
    "reasons": [
     "Hosted services: needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Hosted services: needs opt-in (alt)"
   },
   {
@@ -9330,6 +9789,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": ""
   },
   {
@@ -9359,6 +9819,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": "egress unpublished"
   },
   {
@@ -9388,7 +9849,10 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
-   "notes": "session cap 6 h, needs restarts; egress unpublished"
+   "caveats": [
+    "disk beyond 0 GiB: price unknown"
+   ],
+   "notes": "disk beyond 0 GiB: price unknown; session cap 6 h, needs restarts; egress unpublished"
   },
   {
    "id": "stateset",
@@ -9417,7 +9881,10 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
-   "notes": "session cap 5 h, needs restarts"
+   "caveats": [
+    "disk beyond 0 GiB: price unknown"
+   ],
+   "notes": "disk beyond 0 GiB: price unknown; session cap 5 h, needs restarts"
   },
   {
    "id": "steel",
@@ -9446,7 +9913,11 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
-   "notes": ""
+   "caveats": [
+    "machine size per session not published",
+    "disk beyond 0 GiB: price unknown"
+   ],
+   "notes": "no machine size published, not shape-comparable; disk beyond 0 GiB: price unknown"
   },
   {
    "id": "strong-compute",
@@ -9477,6 +9948,7 @@
    "reasons": [
     "Native product; see regime notes: needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Native product; see regime notes: needs opt-in (alt)"
   },
   {
@@ -9506,6 +9978,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": "egress unpublished"
   },
   {
@@ -9535,7 +10008,11 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
-   "notes": "$199/mo minimum, fee is a usage credit"
+   "caveats": [
+    "machine size per session not published",
+    "disk beyond 0 GiB: price unknown"
+   ],
+   "notes": "no machine size published, not shape-comparable; disk beyond 0 GiB: price unknown; $199/mo minimum, fee is a usage credit"
   },
   {
    "id": "tabstack",
@@ -9566,6 +10043,7 @@
    "reasons": [
     "Native product meter; not a general-purpose 4-vCPU/8-GiB VM: needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Native product meter; not a general-purpose 4-vCPU/8-GiB VM: needs opt-in (alt); egress unpublished"
   },
   {
@@ -9595,6 +10073,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": "egress unpublished"
   },
   {
@@ -9626,6 +10105,7 @@
    "reasons": [
     "software licence only - bring your own Macs"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: software licence only - bring your own Macs; egress unpublished"
   },
   {
@@ -9657,6 +10137,7 @@
    "reasons": [
     "Native product; see regime notes: needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Native product; see regime notes: needs opt-in (alt); egress unpublished"
   },
   {
@@ -9686,6 +10167,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": "egress unpublished"
   },
   {
@@ -9715,7 +10197,10 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
-   "notes": "egress unpublished"
+   "caveats": [
+    "disk beyond 0 GiB: price unknown"
+   ],
+   "notes": "disk beyond 0 GiB: price unknown; egress unpublished"
   },
   {
    "id": "tencent-cubesandbox",
@@ -9747,6 +10232,7 @@
     "no published per-resource rate",
     "Self-hosted CubeSandbox (Apache-2.0): needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: no published per-resource rate; Self-hosted CubeSandbox (Apache-2.0): needs opt-; egress unpublished"
   },
   {
@@ -9780,6 +10266,7 @@
     "Web function: needs opt-in (alt)",
     "Provisioned concurrency (idle): needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Event function: needs opt-in (alt); Web function: needs opt-in (alt); Provisione"
   },
   {
@@ -9809,6 +10296,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": "egress unpublished"
   },
   {
@@ -9843,6 +10331,7 @@
     "RTX4090, spot: needs opt-in (spot)",
     "size list not published"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: H100, spot: needs opt-in (spot); A100, spot: needs opt-in (spot); RTX4090, spot:"
   },
   {
@@ -9872,6 +10361,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": "$250/mo minimum, fee is a usage credit"
   },
   {
@@ -9903,6 +10393,7 @@
    "reasons": [
     "discontinued / closed to new customers"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: discontinued / closed to new customers; egress unpublished"
   },
   {
@@ -9934,6 +10425,7 @@
    "reasons": [
     "Native product; see regime notes: needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Native product; see regime notes: needs opt-in (alt); egress unpublished"
   },
   {
@@ -9965,6 +10457,7 @@
    "reasons": [
     "Reserved clusters (8-512+ GPUs, fixed term): needs opt-in (sales)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Reserved clusters (8-512+ GPUs, fixed term): needs opt-in (sales)"
   },
   {
@@ -9996,6 +10489,7 @@
    "reasons": [
     "discontinued / closed to new customers"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: discontinued / closed to new customers; egress unpublished"
   },
   {
@@ -10027,6 +10521,7 @@
    "reasons": [
     "no published per-resource rate"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: no published per-resource rate; session cap 12 h, needs restarts; egress unpublished"
   },
   {
@@ -10059,6 +10554,7 @@
     "Native product; see regime notes: needs opt-in (alt)",
     "Confidential GPU enclave (monthly contract): needs opt-in (alt, sales)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Native product; see regime notes: needs opt-in (alt); Confidential GPU enclave (; egress unpublished"
   },
   {
@@ -10091,6 +10587,7 @@
     "Native product meter; not a general-purpose 4-vCPU/8-GiB VM: needs opt-in (alt)",
     "Monitor (Page/Topic change tracking): needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Native product meter; not a general-purpose 4-vCPU/8-GiB VM: needs opt-in (alt);; egress unpublished"
   },
   {
@@ -10120,7 +10617,10 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
-   "notes": "egress unpublished"
+   "caveats": [
+    "machine size per session not published"
+   ],
+   "notes": "no machine size published, not shape-comparable; egress unpublished"
   },
   {
    "id": "together-gpu",
@@ -10156,6 +10656,7 @@
     "H100, on-demand: needs opt-in (alt)",
     "B200, on-demand: needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: H100 HGX/SXM, spot (\u00d78 node): needs opt-in (spot); H200 HGX/SXM, spot (\u00d78 node):"
   },
   {
@@ -10187,6 +10688,7 @@
    "reasons": [
     "Native product; see regime notes: needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Native product; see regime notes: needs opt-in (alt); egress unpublished"
   },
   {
@@ -10218,6 +10720,7 @@
    "reasons": [
     "Managed tasks: needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Managed tasks: needs opt-in (alt); egress unpublished"
   },
   {
@@ -10247,6 +10750,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": ""
   },
   {
@@ -10276,7 +10780,11 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
-   "notes": "egress unpublished"
+   "caveats": [
+    "disk beyond 10 GiB: price unknown",
+    "outbound bandwidth capped at 40 Mbps"
+   ],
+   "notes": "disk beyond 10 GiB: price unknown; egress unpublished"
   },
   {
    "id": "unikraft-cloud",
@@ -10305,7 +10813,11 @@
    "eligible": true,
    "unpriced": true,
    "reasons": [],
-   "notes": "unpriced: no published compute rate; flat pool, no per-shape rate; egress unpublished; flat pool, billed whether used or not"
+   "caveats": [
+    "flat pool: the tier is billed whether used or not",
+    "disk beyond 0 GiB: price unknown"
+   ],
+   "notes": "unpriced: no published compute rate; flat pool, no per-shape rate; disk beyond 0 GiB: price unknown; egress unpublished"
   },
   {
    "id": "upcloud",
@@ -10334,6 +10846,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": ""
   },
   {
@@ -10363,6 +10876,9 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [
+    "flat pool: the tier is billed whether used or not"
+   ],
    "notes": "egress unpublished; flat pool, billed whether used or not"
   },
   {
@@ -10394,6 +10910,7 @@
    "reasons": [
     "no Linux"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: no Linux; egress unpublished"
   },
   {
@@ -10452,6 +10969,7 @@
     "H200, serverless: needs opt-in (alt)",
     "B200, serverless: needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: RTX4090, on-demand: needs opt-in (alt); RTX5090, on-demand: needs opt-in (alt); "
   },
   {
@@ -10481,6 +10999,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": "$20/mo minimum, fee is a usage credit"
   },
   {
@@ -10510,6 +11029,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": "egress unpublished"
   },
   {
@@ -10541,6 +11061,7 @@
    "reasons": [
     "Usage based: no internet access"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Usage based: no internet access; egress unpublished"
   },
   {
@@ -10572,6 +11093,7 @@
    "reasons": [
     "Native service: needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Native service: needs opt-in (alt); egress unpublished"
   },
   {
@@ -10601,6 +11123,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": ""
   },
   {
@@ -10632,6 +11155,7 @@
    "reasons": [
     "HGX H100 on-demand InfiniBand (8+ GPUs): needs opt-in (sales)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: HGX H100 on-demand InfiniBand (8+ GPUs): needs opt-in (sales)"
   },
   {
@@ -10684,6 +11208,7 @@
     "vbm-256c-3072gb-8-b200-gpu NVIDIA_B200, spot (\u00d78 node): needs opt-in (alt, spot)",
     "vbm-256c-3072gb-8-mi355x-gpu AMD_MI355X, spot (\u00d78 node): needs opt-in (alt, spot)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: vcg-a16-2c-8g-2vram, on-demand (\u00d71): needs opt-in (alt); vcg-a16-2c-16g-4vram, o; egress unpublished"
   },
   {
@@ -10715,6 +11240,7 @@
    "reasons": [
     "no Linux"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: no Linux"
   },
   {
@@ -10744,6 +11270,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": ""
   },
   {
@@ -10773,6 +11300,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": "egress unpublished"
   },
   {
@@ -10804,6 +11332,7 @@
    "reasons": [
     "WebAssembly Edge: needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: WebAssembly Edge: needs opt-in (alt)"
   },
   {
@@ -10835,6 +11364,7 @@
    "reasons": [
     "discontinued / closed to new customers"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: discontinued / closed to new customers; egress unpublished"
   },
   {
@@ -10866,6 +11396,7 @@
    "reasons": [
     "Browser-local runtime licence: needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Browser-local runtime licence: needs opt-in (alt); egress unpublished"
   },
   {
@@ -10899,6 +11430,7 @@
     "Dedicated Cloud Enterprise: needs opt-in (sales, alt)",
     "Self-hosted software: needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Cloud Team execution credits: needs opt-in (alt); Dedicated Cloud Enterprise: ne; egress unpublished"
   },
   {
@@ -10930,6 +11462,7 @@
    "reasons": [
     "no Linux"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: no Linux; egress unpublished"
   },
   {
@@ -10964,6 +11497,7 @@
     "Windows 365 Flex: needs opt-in (sales)",
     "Windows 365 Reserve: needs opt-in (sales)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: no Linux; Windows 365 Enterprise GPU Standard: needs opt-in (sales); Windows 365; egress unpublished"
   },
   {
@@ -10993,6 +11527,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": ""
   },
   {
@@ -11024,6 +11559,7 @@
    "reasons": [
     "Xcode Cloud compute hours (Xcode build/test only): needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Xcode Cloud compute hours (Xcode build/test only): needs opt-in (alt); egress unpublished"
   },
   {
@@ -11056,6 +11592,7 @@
     "Process execution on Starter (per-second Yeps): needs opt-in (alt)",
     "Process execution on Growth (per-second Yeps): needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Process execution on Starter (per-second Yeps): needs opt-in (alt); Process exec; session cap 12 h, needs restarts; egress unpublished"
   },
   {
@@ -11087,6 +11624,7 @@
    "reasons": [
     "Bring or buy server; compute separately billed: needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Bring or buy server; compute separately billed: needs opt-in (alt)"
   },
   {
@@ -11143,6 +11681,7 @@
     "Scale S2 (annual): regime not sold on this plan",
     "Scale S3 (annual): regime not sold on this plan"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Free: regime not sold on this plan; Build B1: regime not sold on this plan; Buil; session cap 0.25 h, needs restarts"
   },
   {
@@ -11174,6 +11713,7 @@
    "reasons": [
     "Managed Agent sandbox, temporary free runtime fee: needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Managed Agent sandbox, temporary free runtime fee: needs opt-in (alt); egress unpublished"
   },
   {
@@ -11205,6 +11745,7 @@
    "reasons": [
     "Native product; see regime notes: needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Native product; see regime notes: needs opt-in (alt); egress unpublished"
   },
   {
@@ -11234,6 +11775,7 @@
    "eligible": true,
    "unpriced": false,
    "reasons": [],
+   "caveats": [],
    "notes": "egress unpublished"
   },
   {
@@ -11268,6 +11810,7 @@
     "Zo Ultra subscription, one always-on computer (64 cores / 512 GB) - $200/mo: needs opt-in (alt)",
     "N Basic workspaces sized to peak concurrency (part-time use): needs opt-in (alt)"
    ],
+   "caveats": [],
    "notes": "not priceable at 10 h/d x30: Zo Basic subscription, one always-on computer (4 cores / 32 GB) - $18/mo: needs ; egress unpublished"
   }
  ]

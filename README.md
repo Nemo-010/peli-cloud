@@ -77,21 +77,21 @@ hyperscaler VMs are out. Ranked by **10 h/d x30**. Full list in
 | 4 | [shellbox](https://shellbox.dev/) | agent-sandbox/firecracker | $0.020 | $0.200 | $0.480 | $3.36 | **$6.00** | $14.40 | egress unpublished |
 | 5 | [Lizard](https://lizard.build/pricing) | agent-sandbox/container | $0.022 | $0.218 | $0.524 | $3.67 | **$6.55** | $15.72 | Medium only: runtime fixes 4 vCPU / 4 GiB |
 | 6 | [Upstash Box](https://upstash.com/pricing/box) | agent-sandbox/container | $0.103 | $1.03 | $2.47 | $8.46 | **$8.82** | $9.97 | egress unpublished; flat pool, billed whether used or not |
-| 7 | [Together Code Sandbox](https://www.together.ai/pricing) | agent-sandbox/firecracker | $0.030 | $0.300 | $0.720 | $5.04 | **$9.00** | $21.60 | egress unpublished |
+| 7 | [Together Code Sandbox](https://www.together.ai/pricing) | agent-sandbox/firecracker | $0.030 | $0.300 | $0.720 | $5.04 | **$9.00** | $21.60 | no machine size published, not shape-comparable; egress unpublished |
 | 8 | [Sail Research (Sailboxes)](https://docs.sailresearch.com/pricing) | agent-sandbox/firecracker | $0 | $0 | $0 | $5.09 | **$13.01** | $38.21 | $5/mo free credit; egress unpublished |
 | 9 | [tama](https://tama.computer/) | agent-sandbox/vm | $0.045 | $0.454 | $1.09 | $7.63 | **$13.62** | $32.70 | egress unpublished |
-| 10 | [Coasty](https://coasty.ai/pricing) | agent-sandbox/vm | $0.050 | $0.500 | $1.20 | $8.40 | **$15.00** | $30.00 | egress unpublished |
+| 10 | [Coasty](https://coasty.ai/pricing) | agent-sandbox/vm | $0.050 | $0.500 | $1.20 | $8.40 | **$15.00** | $30.00 | no machine size published, not shape-comparable; disk beyond 0 GiB: price unknown; egress unpublished |
 | 11 | [Mosaic Sandbox](https://sandbox.mosaicos.com/) | agent-sandbox/firecracker | $0.050 | $0.500 | $1.20 | $8.40 | **$15.00** | $36.00 | egress unpublished |
 | 12 | [machine0](https://machine0.io/) | agent-sandbox/vm | $0.052 | $0.520 | $1.25 | $8.74 | **$15.60** | $37.44 |  |
 | 13 | [Runtime (withruntime.com)](https://withruntime.com/pricing) | agent-sandbox/firecracker | $0.055 | $0.550 | $1.32 | $9.24 | **$16.50** | $39.60 |  |
-| 14 | [Railway](https://railway.com/pricing) | agent-sandbox/vm | $5.00 | $5.00 | $5.00 | $9.34 | **$16.68** | $40.02 | $5/mo minimum, fee is a usage credit |
+| 14 | [Railway](https://railway.com/pricing) | agent-sandbox/vm | $5.00 | $5.00 | $5.00 | $9.34 | **$16.68** | $40.02 | disk beyond 0 GiB: price unknown; $5/mo minimum, fee is a usage credit |
 | 15 | [Alibaba Cloud Agent Sandbox / FC / AgentRun](https://help.aliyun.com/zh/agent-sandbox/product-overview/billing-overview) | agent-sandbox/- | $0.056 | $0.562 | $1.35 | $9.44 | **$16.86** | $40.46 | egress unpublished |
 | 16 | [Celesto Cloud](https://celesto.ai/pricing) | agent-sandbox/vm | $0.060 | $0.600 | $1.44 | $10.08 | **$18.00** | $43.20 | egress unpublished |
 | 17 | [Sandbox0](https://sandbox0.ai/pricing) | agent-sandbox/gvisor | $0.060 | $0.606 | $1.45 | $10.17 | **$18.16** | $43.59 |  |
-| 18 | [UCloud Agent Sandbox](https://astraflow.ucloud.cn/docs/agent-sandbox) | agent-sandbox/firecracker | $0.064 | $0.644 | $1.54 | $10.82 | **$19.31** | $46.35 | egress unpublished |
+| 18 | [UCloud Agent Sandbox](https://astraflow.ucloud.cn/docs/agent-sandbox) | agent-sandbox/firecracker | $0.064 | $0.644 | $1.54 | $10.82 | **$19.31** | $46.35 | disk beyond 10 GiB: price unknown; egress unpublished |
 | 19 | [PPIO Agent Sandbox](https://ppio.com/docs/sandbox/pricing.md) | agent-sandbox/firecracker | $0.064 | $0.644 | $1.54 | $10.82 | **$19.31** | $46.35 | session cap 1 h, needs restarts; egress unpublished |
 | 20 | [Volcano Engine AgentKit / veFaaS sandbox](https://docs.volcengine.com/docs/agentkit/Billing_items?lang=zh) | agent-sandbox/vm | $0.065 | $0.653 | $1.57 | $10.98 | **$19.60** | $47.05 |  |
-| 21 | [boat.dev](https://docs.boat.dev/pricing) | agent-sandbox/vm | $20.00 | $20.00 | $20.00 | $20.00 | **$20.00** | $20.00 | $20/mo minimum, fee is a usage credit |
+| 21 | [boat.dev](https://docs.boat.dev/pricing) | agent-sandbox/vm | $20.00 | $20.00 | $20.00 | $20.00 | **$20.00** | $20.00 | disk beyond 12 GiB: price unknown; $20/mo minimum, fee is a usage credit |
 
 `boat.dev` is the clearest case for this whole exercise: **$20 for an hour and
 $20 for a month**, because the plan fee is a usage credit. Ranked hourly it is
@@ -111,18 +111,18 @@ Top 16 of 179 priceable. **All 366 rows** — every provider surveyed, including
 | 2 | [Agent 37](https://www.agent37.com/pricing) | agent-sandbox/gvisor | $0.0085 | $0.085 | $0.204 | $1.43 | **$2.55** | $6.12 | egress unpublished |
 | 3 | [Oracle Cloud Infrastructure](https://www.oracle.com/cloud/compute/pricing/) | hyperscaler/vm | $0.010 | $0.103 | $0.247 | $1.73 | **$3.09** | $7.41 | unverified: pricing page returns 403 |
 | 4 | [Hetzner Cloud](https://docs.hetzner.com/general/infrastructure-and-availability/price-adjustment/) | hyperscaler/vm | $0.010 | $0.104 | $0.250 | $1.75 | **$3.12** | $6.49 |  |
-| 5 | [Azure Container Apps (Consumption, Dedicated, Dynamic Sessions)](https://azure.microsoft.com/en-us/pricing/details/container-apps/) | hyperscaler/vm | $0 | $0 | $0 | $0 | **$3.60** | $16.20 | $5.4/mo free credit |
+| 5 | [Azure Container Apps (Consumption, Dedicated, Dynamic Sessions)](https://azure.microsoft.com/en-us/pricing/details/container-apps/) | hyperscaler/vm | $0 | $0 | $0 | $0 | **$3.60** | $16.20 | no machine size published, not shape-comparable; disk beyond 4 GiB: price unknown; $5.4/mo free credit |
 | 6 | [zipbox](https://zipbox.ai/pricing) | agent-sandbox/firecracker | $0.014 | $0.137 | $0.329 | $2.30 | **$4.11** | $9.86 | egress unpublished |
 | 7 | [Google Cloud Run](https://cloud.google.com/run/pricing) | hyperscaler/gvisor | $0 | $0 | $0 | $0.144 | **$4.36** | $17.77 | $5.22/mo free credit |
 | 8 | [IONOS Cloud](https://docs.ionos.com/cloud/support/general-information/price-list/ionos-cloud-eur-en) | hyperscaler/vm | $0.015 | $0.148 | $0.355 | $2.48 | **$4.44** | $10.65 |  |
-| 9 | [netcup VPS](https://www.netcup.com/en/server/vps) | hyperscaler/vm | $5.03 | $5.03 | $5.03 | $5.03 | **$5.03** | $5.03 | disputed: provider page ~11% above the card |
+| 9 | [netcup VPS](https://www.netcup.com/en/server/vps) | hyperscaler/vm | $5.03 | $5.03 | $5.03 | $5.03 | **$5.03** | $5.03 | entry row is VPS Lite 1 (6-month min); VPS 500 is $8.51/mo; price is one month's rent at every horizon |
 | 10 | [Kedge](https://kedge.dev/docs/billing) | agent-sandbox/vm | $0 | $0 | $0 | $0.984 | **$5.68** | $20.64 | $5/mo free credit |
-| 11 | [Gcore Cloud / Functions / GPU](https://gcore.com/cloud/virtual-machines) | hyperscaler/vm | $0.019 | $0.193 | $0.464 | $3.25 | **$5.80** | $13.92 |  |
-| 12 | [Browser Use Cloud](https://browser-use.com/pricing) | browser/- | $0.020 | $0.200 | $0.480 | $3.36 | **$6.00** | $14.40 | session cap 4 h, needs restarts |
+| 11 | [Gcore Cloud / Functions / GPU](https://gcore.com/cloud/virtual-machines) | hyperscaler/vm | $0.019 | $0.193 | $0.464 | $3.25 | **$5.80** | $13.92 | disk beyond 0 GiB: price unknown |
+| 12 | [Browser Use Cloud](https://browser-use.com/pricing) | browser/- | $0.020 | $0.200 | $0.480 | $3.36 | **$6.00** | $14.40 | no machine size published, not shape-comparable; disk beyond 0 GiB: price unknown; session cap 4 h, needs restarts |
 | 13 | [shellbox](https://shellbox.dev/) | agent-sandbox/firecracker | $0.020 | $0.200 | $0.480 | $3.36 | **$6.00** | $14.40 | egress unpublished |
 | 14 | [UpCloud](https://upcloud.com/pricing/) | hyperscaler/vm | $0.021 | $0.209 | $0.500 | $3.50 | **$6.25** | $14.00 |  |
 | 15 | [Lizard](https://lizard.build/pricing) | agent-sandbox/container | $0.022 | $0.218 | $0.524 | $3.67 | **$6.55** | $15.72 | Medium only: runtime fixes 4 vCPU / 4 GiB |
-| 16 | [Contabo](https://contabo.com/en-us/pricing/) | hyperscaler/vm | $6.60 | $6.60 | $6.60 | $6.60 | **$6.60** | $6.60 | visible $4.40 is a 24-month intro, list is $6.60 |
+| 16 | [Contabo](https://contabo.com/en-us/pricing/) | hyperscaler/vm | $6.60 | $6.60 | $6.60 | $6.60 | **$6.60** | $6.60 | visible $4.40 is a 24-month intro, list is $6.60; price is one month's rent at every horizon |
 
 ## Cheapest at each horizon (all providers)
 
@@ -143,10 +143,10 @@ Standouts where the horizon changes the winner — see
 1. **Horizon changes the ranking, which is the point.** Lightning AI is first
    at the month horizons ($0.411) because its free CPU Studio is a real free
    tier and the engine prices it that way; netcup costs $5.03 whether you run
-   an hour or a month (a monthly VPS), so it is nowhere near the 1 h lead and
-   near the top of the 24/7 list; Agent 37 is the cheapest paid sandbox at
-   10 h/day ($2.55) and second at 24/7 ($6.12); boat.dev is $20 at every
-   horizon because of its floor.
+   an hour or a month (a monthly VPS, so the 1 h cell is a month's rent — the
+   note now says so); Agent 37 is the cheapest paid sandbox at 10 h/day ($2.55)
+   and second at 24/7 ($6.12); boat.dev is $20 at every horizon because of its
+   floor.
 2. **The operator's named edge cases are all covered.** lizard.build and
    freestyle.sh rank directly. Scaleway's Stardust tier is in the corpus card at
    €0.0006/h; at this 2 vCPU/4 GiB shape the engine selects Scaleway's larger
@@ -171,13 +171,33 @@ Standouts where the horizon changes the winner — see
 4. **Fixed pools look cheap hourly and expensive monthly.** Upstash Box is
    $0.103/h but $9.97 for 24/7 (a fixed $8/box). Read the whole row, not the
    first number.
-5. **netcup's number is disputed**: its page is 7–11 % above the card.
+5. **netcup's entry row was wrong, and is now named.** The $5.03 is *VPS Lite 1
+   G12.5s* on a 6-month minimum, not the VPS 500 G12.5 the page lists first for
+   "No preference Europe" ($8.51/mo on a 1-month term, $7.33 on 12 months,
+   both before the $0.57 IPv4). Revision 1 compared the card to the wrong Lite
+   plan and called a 7–11 % gap the wrong way round; the real card gap is 2–10 %
+   low and closes as the term shortens. If you want the VPS 500 the page shows
+   first, the honest 24/7 column is **$8.51**, which drops netcup below Hetzner.
+   See `research/verification/2026-10-02.md`.
 6. **A second company may have changed its name.** PPIO and UCloud quote the
    same CNY rates to six significant figures ($0.016094/vCPU-h) with the same
    published limits, but they are separate cards in the corpus, so both are
    ranked. They appear as two adjacent rows at $19.31 each. Recorded as a
    duplicate candidate, not silently merged.
-7. **The tracker proposed Croft** (open PR #1): flat $24/$99 plans, no published
+7. **Hyperbeam's weekly $0.56 is not a rate.** Its `HD participant-hour` size
+   is $0.42/h with **10,000 free participant-minutes a month** ($70 of the base
+   rate), so every horizon shorter than a week prices at $0 and the week shows
+   $0.56. The card's own regime notes come first in `data/derived.json` under
+   `caveats` ("machine size per session not published") and its regime file
+   warns the size is not a 4 vCPU / 8 GiB equivalent. A row that says $0 for
+   an hour and $0.56 for a week, with no machine size, is not comparable to a
+   priced sandbox; it carries the caveat rather than being dropped.
+8. **A monthly cap shows up as a flat row.** netcup and Contabo are the same
+   number in every column because the engine clamps to one month's rent; that is
+   right for a VPS and the note says "price is one month's rent at every
+   horizon". It is also why they cannot compete in the 1 h column at all, which
+   is a statement about their product model, not a missing price.
+9. **The tracker proposed Croft** (open PR #1): flat $24/$99 plans, no published
    shape. Recorded, not rankable.
 
 ## Negative results
@@ -185,9 +205,8 @@ Standouts where the horizon changes the winner — see
 - **Generic web search is unusable here.** DuckDuckGo lite/html and Bing return
   JavaScript shells; discovery is corpus-led, which is a limit, not coverage.
 - **Oracle's pricing page returns 403** to a plain fetch. Its row is unverified.
-- **A `$0` ranking was reverted.** Before the `unpriced` guard, Bright Data
-  and Unikraft ranked first on every horizon. The fix is mutation-tested in
-  `research/reviews.md`.
+- **netcup's number is a lower bound, with the mechanism now known**: the
+  comparison shape is $8.51/mo on a 1-month term. `research/reviews.md` pass 4.
 
 ## Reproduce
 

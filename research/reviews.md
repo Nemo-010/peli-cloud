@@ -91,8 +91,19 @@ free plan.
    uninterrupted run, this understates the cost; for a provider with a session
    cap it is the only way it can serve the horizon at all. Both readings are
    shown, because the note says when restarts are needed.
+7. **The netcup reconciliation was wrong in revision 1 and is now corrected.**
+   Revision 1 compared the card to a Lite plan it was not on and reported a gap
+   running the wrong way. The real gap is 2–10 % low on the Lite line, and the
+   entry row the catalogue publishes is *VPS Lite 1 G12.5s* (6-month minimum),
+   not the VPS 500 G12.5 ("No preference Europe", $8.51 on a 1-month term)
+   that the same page shows first. See `research/verification/2026-10-02.md`.
+8. **A monthly cap is silently applied at the long horizons.** For netcup the
+   engine clamps the total to one monthly rent and emits the caveat "monthly cap
+   reached"; the 1 h column is the same number. That is deliberate for a VPS,
+   but it means the 1 h and 10 h cells are the *monthly* price, not an hourly
+   tariff. Rows that do this carry the caveat in `data/derived.json`.
 
-**Assume more claims remain wrong.** The first four the next pass should
-attack: the exact netcup reconciliation, Oracle's current E4 and free-tier
-values, whether Lizard's runtime honours Small, and whether any provider hides
-an entry tier the way this pass's first draft wrongly believed Scaleway did.
+**Assume more claims remain wrong.** The next pass should attack: Oracle's
+current E4 and Always-Free values, whether Lizard's runtime honours Small,
+whether any provider hides an entry tier the way revision 1 wrongly believed
+Scaleway did, and the white-label Tailscale duplicate (see the findings).
